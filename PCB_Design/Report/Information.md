@@ -6,3 +6,10 @@
   - For a spike, a low capacitance capacitor is better (faster)
   - For a longer dip, a high capacitance capacitor is better (can hold more charge)
   
+## Polygon Pores
+
+- Needed because copper is a good conductor of heat and it will help solder connections easier (little spokes)
+
+## Gerber Files
+
+- Text files that explain everything about the board
