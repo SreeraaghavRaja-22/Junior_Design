@@ -83,6 +83,10 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=WWJLACLB
 
+[GeneratedDocument1]
+DocumentPath=Project Outputs for PCB_Design\Design Rule Check - PCB_Design.html
+DItemRevisionGUID=
+
 [Configuration1]
 Name=Sources
 ParameterCount=0
