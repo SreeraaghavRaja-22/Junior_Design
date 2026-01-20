@@ -1,7 +1,7 @@
 Protel Design System Design Rule Check
 PCB File : C:\Users\sreer\School\Spring_2026\Junior_Design\Junior_Design\PCB_Design\Alt\PCB_Design\PCB_Design.PcbDoc
 Date     : 1/20/2026
-Time     : 12:22:10 PM
+Time     : 2:57:50 PM
 
 Processing Rule : Clearance Constraint (Gap=10mil) (All),(All)
 Rule Violations :0
@@ -10,7 +10,8 @@ Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
 Rule Violations :0
 
 Processing Rule : Un-Routed Net Constraint ( (All) )
-Rule Violations :0
+   Violation between Un-Routed Net Constraint: Polygon  (NONET_L02_P002) on Bottom Layer Dead Copper - Net Not Assigned.
+Rule Violations :1
 
 Processing Rule : Modified Polygon (Allow modified: No), (Allow shelved: No)
 Rule Violations :0
@@ -64,6 +65,6 @@ Processing Rule : Height Constraint (Min=0mil) (Max=1000mil) (Prefered=500mil) (
 Rule Violations :0
 
 
-Violations Detected : 12
+Violations Detected : 13
 Waived Violations : 0
 Time Elapsed        : 00:00:00
