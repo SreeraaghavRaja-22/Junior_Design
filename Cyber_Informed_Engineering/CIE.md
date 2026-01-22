@@ -245,8 +245,83 @@
 
 #### Emerging Attacks
 
-- Hardware Trojan
+- **Hardware Trojan**
   - Kill Switch: can cause denial of service
   - Infiltrate Communcation Lines: can corrupt or delay signals
-- Piracy or Counterfeiting
+- **Piracy or Counterfeiting**
   - Cloning PCBs can be really bad especially if it can bankrupt honest companies
+  - This **biggest issue** with hardware attacks is not the loss of hardware, but the loss of information
+    - Hardware can be recovered, infromation cannot
+  
+### Possible Ways to Counter It
+
+- 2 pressing questions:
+  - Is it possible to detect a hardware attack before it occurs?
+  - Is there a way to protect the security of the PCB supply chain in the future
+  - New solution is **visual inspection**
+  
+#### In-Circuit Testing (ICT)
+
+- ICT involves the use of electric probes to check resistance, capcitance, and other electrical qualities
+  - Bed-of-nails test fixture
+  - Flying probe setup
+- **Advantages**
+  - can effectively detect solders, short circuits, open connections, and missing components
+- **Disadvantages**
+  - difficult to perform on densely populated, multi-layered board because it's very expensive
+  - only tests assembly and not functionality of the board
+
+#### Functional Testing
+
+- Performed later in the PCB manufacturing cycle as a final check
+- It's like a hardware version of a testbench with electrical input put into PCB and the outputs being tested
+- **Advantages**
+  - can identify functional defects, measure the PCB power consumption during operation, and uncover problems within the analog and digital circuitry
+- **Disadvantages**
+  - the functional testing setup is different for different boards
+  - requires a lot of time and resources
+  - relies on connectors which are prone to reliability issues
+  - testing scope, simulated inputs, and "acceptable output" are all arbitrary
+  - ineffective at testing Trojans that don't affect a test board's functionality
+
+#### JTAG Boundary Scan Testing
+
+- Involves testing a PCB's integrated circuits and wire lines through JTAG test access port
+- Does not test all nodes
+- **Advantages**
+  - JTAG allows the resuse of test patterns from system-level to board-level and from board-level to chip-level
+  - Since boundary scan testing is fixtureless and does not test all nodes
+    - Less expensive and faster than ICT
+- **Disadvantages**
+  - Including a JTAG access port increases the cost of the PCB and introduces area overhead
+  - ineffective for detecting hardware Trojans that don't affect nodes
+
+#### Bare-Board Testing
+
+- Involves checking if circuit connections appear as noted on a bare circuit board
+- Process requires a netlist and a multimeter to perform a continuity test
+- Determine short circuits and open circuits by "charging" a net and then probing each net to measure the induced capacity
+- **Advantages**
+  - Inexpensive aand easier to perform than other techniques
+- **Disadvantages**
+  - neither function nor assembly is evaluated since only bare PCB iis tested
+  - cannot be used to detect faults or malicious parts
+  - unpopulated versions of boards and netlists may not be available
+
+#### Automated Visual Inspection
+
+- Visual inspection uses imaging modalities
+- usually conducted by subject matter experts (SMEs)
+- Relies on human factors, so manual visual inspection is tedious and error prone
+- **Advantages**
+  - Higher speed, persistence, and objectivity compared to manual inspection
+  - versatile in detecting malicious implants especially when **golden netlist/CAD** is given
+- **Disadvantages**
+  - visual inspection cannot verify functionality
+  - ask about the order of the testing!
+
+### My Response
+
+- Thoughts: The general takeway that I have for CIE is that it's mandatory for a PCB design or any engineering design that involves any form of electrical constructs. Hardware being susceptible to hacking is fairly new in the history of hacking since software is much more accessible. However, the article and videos definitely highlighted the importance of factoring in the principles of CIE in the development cycle of an engineering project. Moreover, PCB designs have a lot of components in their design cycle that people with malicious intentions could take advantage of, so it is vitally important that engineers read articles about CIE and employ those techniques into their companies especially if they have the surplus to employ them. I hope to see automatic visual inspection is implemented into more companies as it seems like an ingenious way to verify a design.
+
+- Question: If companies did employ automated visual testing in the PCB design process, then steps would it have to replace (if it could replace any) in the design process (e.g. JTAG testing, Bare-Board Testing, etc.).
