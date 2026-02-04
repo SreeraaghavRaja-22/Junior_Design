@@ -14,9 +14,10 @@ pico_sdk_init()
 
 add_executable(mic_basics
     src/main.c
+    src/uart_setup.c
 )
 pico_enable_stdio_usb(mic_basics 1)
-pico_enable_stdio_uart(mic_basics 1)
+pico_enable_stdio_uart(mic_basics 0) # turn off uart driver
 pico_add_extra_outputs(mic_basics)
 target_link_libraries(mic_basics 
     pico_stdlib

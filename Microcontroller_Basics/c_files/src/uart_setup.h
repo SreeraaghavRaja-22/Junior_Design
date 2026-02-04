@@ -6,11 +6,6 @@
 #include "hardware/uart.h"
 #include "hardware/gpio.h"
 
-
-#define LED_PIN 0
-#define PIEZO_PIN 1
-#define SWITCH_PIN 7
-
 #define UART_0_BASE _u(0x40070000)
 #define UART_1_BASE _u(0x40078000)
 

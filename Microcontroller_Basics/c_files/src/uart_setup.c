@@ -1,11 +1,12 @@
 #include "uart_setup.h"
+#include "hardware/clocks.h"
 
 
 uint8_t uart_init(my_uart_hw_t *uart, uint baudrate)
 {
     // set up baud rate for UART and include an error statement too
     // default clock speed is 150MHz (assumption because of the peripheral clock speed)
-    uint32_t uart_clk = 150000000;
+    uint32_t uart_clk = clock_get_hz(clk_peri);
 
     // baud_div = uart_clk / (16 * baudrate) 
     // multiply by 8 for better precision on dividers

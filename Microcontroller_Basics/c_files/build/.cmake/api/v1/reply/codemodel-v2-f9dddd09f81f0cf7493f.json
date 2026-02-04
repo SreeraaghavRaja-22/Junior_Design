@@ -1385,7 +1385,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "mic_basics::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-mic_basics-Debug-1e5ab43a6fe0c83f7494.json",
+					"jsonFile" : "target-mic_basics-Debug-b039a1051d2a609cf91b.json",
 					"name" : "mic_basics",
 					"projectIndex" : 0
 				},
@@ -1399,14 +1399,14 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "picotoolBuild::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-picotoolBuild-Debug-ead089f5ee65a6c24569.json",
+					"jsonFile" : "target-picotoolBuild-Debug-e60c8129071e1ee098b1.json",
 					"name" : "picotoolBuild",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "picotoolForceReconfigure::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-picotoolForceReconfigure-Debug-2e167aad02c5a80c2da2.json",
+					"jsonFile" : "target-picotoolForceReconfigure-Debug-778c4cc46833c82d596e.json",
 					"name" : "picotoolForceReconfigure",
 					"projectIndex" : 0
 				},
