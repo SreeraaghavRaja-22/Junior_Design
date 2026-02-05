@@ -2,7 +2,7 @@
 #include "hardware/clocks.h"
 
 
-uint8_t uart_init(my_uart_hw_t *uart, uint baudrate)
+uint8_t my_uart_init(my_uart_hw_t *uart, uint baudrate)
 {
     // set up baud rate for UART and include an error statement too
     // default clock speed is 150MHz (assumption because of the peripheral clock speed)
@@ -35,14 +35,14 @@ uint8_t uart_init(my_uart_hw_t *uart, uint baudrate)
     return 0;
 }
 
-void uart_put_c(my_uart_hw_t *uart, char c)
+void my_uart_put_c(my_uart_hw_t *uart, char c)
 {
     // while the transmit fifo is full don't send data
     while(uart->FR & (0x01 << 5));
     uart->DR = c;
 }
 
-char uart_get_c(my_uart_hw_t *uart)
+char my_uart_get_c(my_uart_hw_t *uart)
 {
     char c;
     // wait until the receive fifo is not empty to collect data
@@ -51,10 +51,10 @@ char uart_get_c(my_uart_hw_t *uart)
     return (c);
 }
 
-void uart_put_string(my_uart_hw_t *uart, const char *string)
+void my_uart_put_string(my_uart_hw_t *uart, const char *string)
 {
     // i'm sorry but I straight up got this from claude
     while(*string){
-        uart_put_c(uart, *string++);
+        my_uart_put_c(uart, *string++);
     }
 }

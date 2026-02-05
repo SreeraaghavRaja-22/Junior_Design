@@ -8,6 +8,7 @@
 
 #define UART_0_BASE _u(0x40070000)
 #define UART_1_BASE _u(0x40078000)
+#define UART_RX 
 
 #define BAUDRATE 115200
 
@@ -33,12 +34,12 @@ typedef struct my_uart_hw_t{
 
 } my_uart_hw_t;
 
-#define uart0_hw (my_uart_hw_t *) UART_0_BASE
-#define uart1_hw (my_uart_hw_t *) UART_1_BASE
+#define my_uart0_hw ((my_uart_hw_t *) UART_0_BASE)
+#define my_uart1_hw ((my_uart_hw_t *) UART_1_BASE)
 
-uint8_t uart_init(my_uart_hw_t *uart, uint baudrate);
-void uart_put_c(my_uart_hw_t *uart, char c);
-char uart_get_c(my_uart_hw_t *uart);
-void uart_put_string(my_uart_hw_t *uart, const char *string);
+uint8_t my_uart_init(my_uart_hw_t *uart, uint baudrate);
+void my_uart_put_c(my_uart_hw_t *uart, char c);
+char my_uart_get_c(my_uart_hw_t *uart);
+void my_uart_put_string(my_uart_hw_t *uart, const char *string);
 
 #endif /*UART_SETUP_H*/

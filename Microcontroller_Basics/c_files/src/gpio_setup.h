@@ -71,12 +71,12 @@ typedef struct my_sio_hw_t{
 #define PADS_BANK0_SCHMITT 1
 #define PADS_BANK0_SLEWR   0
 
-void gpio_set_function(uint8_t gpio_pin, uint8_t function);
-void gpio_set_dir_out(uint8_t gpio_pin);
-void gpio_set_dir_in(uint8_t gpio_pin);
-bool gpio_get_val(uint8_t gpio_pin);
-void gpio_set_val(uint8_t gpio_pin, bool value);
-void gpio_toggle(uint8_t gpio_pin);
+void my_gpio_set_function(uint8_t gpio_pin, uint8_t function);
+void my_gpio_set_dir_out(uint8_t gpio_pin);
+void my_gpio_set_dir_in(uint8_t gpio_pin);
+bool my_gpio_get_val(uint8_t gpio_pin);
+void my_gpio_set_val(uint8_t gpio_pin, bool value);
+void my_gpio_toggle(uint8_t gpio_pin);
 
 
 #endif /*_GPIO_SETUP_H_*/
