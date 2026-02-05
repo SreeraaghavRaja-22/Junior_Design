@@ -5,17 +5,16 @@
 #include "uart_setup.h"
 
 #define LED_PIN 25
-#define UART_TX 0
-#define UART_RX 1
+#define UART_TX_PIN 0
+#define UART_RX_PIN 1
 
 int main(void){
-
     // initialize uart0 
     my_uart_init(my_uart0_hw, BAUDRATE);
 
     // Configure GPIO Pins for UART0
-    my_gpio_set_function(0, GPIO_FUNC_UART);
-    my_gpio_set_function(1, GPIO_FUNC_UART);
+    my_gpio_set_function(UART_TX_PIN, GPIO_FUNC_UART);
+    my_gpio_set_function(UART_RX_PIN, GPIO_FUNC_UART);
 
     // set up LED for blinking 
     my_gpio_set_function(LED_PIN, GPIO_FUNC_SIO);
@@ -34,9 +33,9 @@ int main(void){
         my_gpio_toggle(LED_PIN);
 
         // check for an enter (carriage return = CR)
-        if(c == '/r'){
+        if(c == '\r'){
             // add a newline (LF)
-            my_uart_put_c(my_uart0_hw, '/n');
+            my_uart_put_c(my_uart0_hw, '\n');
         }
     }
 

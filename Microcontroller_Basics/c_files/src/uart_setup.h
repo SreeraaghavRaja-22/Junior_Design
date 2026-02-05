@@ -8,7 +8,6 @@
 
 #define UART_0_BASE _u(0x40070000)
 #define UART_1_BASE _u(0x40078000)
-#define UART_RX 
 
 #define BAUDRATE 115200
 

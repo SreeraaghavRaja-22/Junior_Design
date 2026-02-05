@@ -13,7 +13,7 @@
 #define GPIO_LOW 0
 #define GPIO_HIGH 1
 
-#define LED_PIN 0
+#define DIODE_PIN 0
 #define PIEZO_PIN 1
 #define SWITCH_PIN 7
 
@@ -36,32 +36,31 @@ typedef struct my_gpio_pad_t{
 } my_gpio_pad_t;
 
 typedef struct my_sio_hw_t{
-    volatile uint32_t CPUID; 
-    volatile uint32_t GPIO_IN;
-    volatile uint32_t GPIO_HI_IN;
-    volatile uint32_t _reserved0;
-    volatile uint32_t GPIO_OUT; 
-    volatile uint32_t GPIO_HI_OUT; 
-    volatile uint32_t GPIO_OUT_SET;
-    volatile uint32_t GPIO_HI_OUT_SET;
-    volatile uint32_t GPIO_OUT_CLR;
-    volatile uint32_t GPIO_HI_OUT_CLR;
-    volatile uint32_t GPIO_OUT_XOR; 
-    volatile uint32_t GPIO_HI_OUT_XOR;
-    volatile uint32_t GPIO_OE;
-    volatile uint32_t GPIO_HI_OE; 
-    volatile uint32_t GPIO_OE_SET;
-    volatile uint32_t GPIO_HI_OE_SET; 
-    volatile uint32_t GPIO_OE_CLR; 
-    volatile uint32_t GPIO_HI_OE_CLR; 
-    volatile uint32_t GPIO_OE_XOR; 
-    volatile uint32_t GPIO_HI_OE_XOR; 
-
+    volatile uint32_t CPUID;            // 0x000
+    volatile uint32_t GPIO_IN;          // 0x004
+    volatile uint32_t GPIO_HI_IN;       // 0x008
+    volatile uint32_t _reserved0;       // 0x00C
+    volatile uint32_t GPIO_OUT;         // 0x010
+    volatile uint32_t GPIO_HI_OUT;      // 0x014
+    volatile uint32_t GPIO_OUT_SET;     // 0x018
+    volatile uint32_t GPIO_HI_OUT_SET;  // 0x01C
+    volatile uint32_t GPIO_OUT_CLR;     // 0x020
+    volatile uint32_t GPIO_HI_OUT_CLR;  // 0x024
+    volatile uint32_t GPIO_OUT_XOR;     // 0x028
+    volatile uint32_t GPIO_HI_OUT_XOR;  // 0x02C
+    volatile uint32_t GPIO_OE;          // 0x030
+    volatile uint32_t GPIO_HI_OE;       // 0x034
+    volatile uint32_t GPIO_OE_SET;      // 0x038
+    volatile uint32_t GPIO_HI_OE_SET;   // 0x03C
+    volatile uint32_t GPIO_OE_CLR;      // 0x040
+    volatile uint32_t GPIO_HI_OE_CLR;   // 0x044
+    volatile uint32_t GPIO_OE_XOR;      // 0x048
+    volatile uint32_t GPIO_HI_OE_XOR;   // 0x04C
 } my_sio_hw_t;
 
-#define gpio_hw ((my_gpio_hw_t*) IO_BANK0_BASE)
-#define pads_hw ((my_gpio_pad_t*) PADS_BANK0_BASE)
-#define sio_hw  ((my_sio_hw_t*) SIO_BASE)
+#define my_gpio_hw ((my_gpio_hw_t*) IO_BANK0_BASE)
+#define my_pads_hw ((my_gpio_pad_t*) PADS_BANK0_BASE)
+#define my_sio_hw  ((my_sio_hw_t*) SIO_BASE)
 
 #define PADS_BANK0_OD      7
 #define PADS_BANK0_IE      6
