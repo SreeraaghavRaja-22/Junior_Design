@@ -1,0 +1,2 @@
+usbipd attach --wsl --busid <YOUR_BUSID> --auto-attach
+usbipd detach --busid <YOUR_BUSID>
