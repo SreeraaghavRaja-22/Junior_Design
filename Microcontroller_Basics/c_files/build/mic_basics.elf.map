@@ -3577,7 +3577,7 @@ LOAD /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v8-m.mai
 .flash_begin    0x10000000        0x0
                 0x10000000                        __flash_binary_start = .
 
-.text           0x10000000     0x156c
+.text           0x10000000     0x157c
                 0x10000000                        __logical_binary_start = .
  *(.vectors)
  .vectors       0x10000000      0x124 CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_crt0/crt0.S.o
@@ -3669,186 +3669,187 @@ LOAD /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v8-m.mai
  *(EXCLUDE_FILE(*libm.a: *libc.a:*lib_a-mem*.o *libgcc.a:) .text*)
  .text          0x100001e8       0x8c /usr/lib/gcc/arm-none-eabi/13.2.1/thumb/v8-m.main+fp/softfp/crtbegin.o
  .text.startup.main
-                0x10000274       0x60 CMakeFiles/mic_basics.dir/src/main.c.o
+                0x10000274       0x6c CMakeFiles/mic_basics.dir/src/main.c.o
                 0x10000274                main
  .text.my_uart_init
-                0x100002d4       0x34 CMakeFiles/mic_basics.dir/src/uart_setup.c.o
-                0x100002d4                my_uart_init
+                0x100002e0       0x34 CMakeFiles/mic_basics.dir/src/uart_setup.c.o
+                0x100002e0                my_uart_init
  .text.my_uart_put_c
-                0x10000308        0xc CMakeFiles/mic_basics.dir/src/uart_setup.c.o
-                0x10000308                my_uart_put_c
- .text.my_uart_get_c
                 0x10000314        0xc CMakeFiles/mic_basics.dir/src/uart_setup.c.o
-                0x10000314                my_uart_get_c
+                0x10000314                my_uart_put_c
+ .text.my_uart_get_c
+                0x10000320        0xc CMakeFiles/mic_basics.dir/src/uart_setup.c.o
+                0x10000320                my_uart_get_c
  .text.my_uart_put_string
-                0x10000320       0x18 CMakeFiles/mic_basics.dir/src/uart_setup.c.o
-                0x10000320                my_uart_put_string
+                0x1000032c       0x18 CMakeFiles/mic_basics.dir/src/uart_setup.c.o
+                0x1000032c                my_uart_put_string
  .text.my_gpio_set_function
-                0x10000338       0x20 CMakeFiles/mic_basics.dir/src/gpio_setup.c.o
-                0x10000338                my_gpio_set_function
+                0x10000344       0x20 CMakeFiles/mic_basics.dir/src/gpio_setup.c.o
+                0x10000344                my_gpio_set_function
  .text.my_gpio_set_dir_out
-                0x10000358       0x1c CMakeFiles/mic_basics.dir/src/gpio_setup.c.o
-                0x10000358                my_gpio_set_dir_out
+                0x10000364       0x1c CMakeFiles/mic_basics.dir/src/gpio_setup.c.o
+                0x10000364                my_gpio_set_dir_out
  .text.my_gpio_toggle
-                0x10000374       0x1c CMakeFiles/mic_basics.dir/src/gpio_setup.c.o
-                0x10000374                my_gpio_toggle
- .text.panic    0x10000390       0x30 CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.o
-                0x10000390                panic
+                0x10000380       0x1c CMakeFiles/mic_basics.dir/src/gpio_setup.c.o
+                0x10000380                my_gpio_toggle
+ .text.panic    0x1000039c       0x30 CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.o
+                0x1000039c                panic
  .text.hw_claim_or_assert
-                0x100003c0       0x58 CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/common/hardware_claim/claim.c.o
-                0x100003c0                hw_claim_or_assert
+                0x100003cc       0x58 CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/common/hardware_claim/claim.c.o
+                0x100003cc                hw_claim_or_assert
  .text.next_striped_spin_lock_num
-                0x10000418       0x18 CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.o
-                0x10000418                next_striped_spin_lock_num
+                0x10000424       0x18 CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.o
+                0x10000424                next_striped_spin_lock_num
  .text.spinlock_set_extexclall
-                0x10000430       0x10 CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.o
+                0x1000043c       0x10 CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.o
  .text.spin_locks_reset
-                0x10000440       0x18 CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.o
-                0x10000440                spin_locks_reset
+                0x1000044c       0x18 CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.o
+                0x1000044c                spin_locks_reset
  .text.runtime_init_per_core_irq_priorities
-                0x10000458       0x40 CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.o
-                0x10000458                runtime_init_per_core_irq_priorities
+                0x10000464       0x40 CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.o
+                0x10000464                runtime_init_per_core_irq_priorities
  .text.irq_set_enabled
-                0x10000498       0x2c CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.o
-                0x10000498                irq_set_enabled
+                0x100004a4       0x2c CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.o
+                0x100004a4                irq_set_enabled
  .text.irq_set_exclusive_handler
-                0x100004c4       0x60 CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.o
-                0x100004c4                irq_set_exclusive_handler
+                0x100004d0       0x60 CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.o
+                0x100004d0                irq_set_exclusive_handler
  .text.lock_init
-                0x10000524        0xc CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/common/pico_sync/lock_core.c.o
-                0x10000524                lock_init
+                0x10000530        0xc CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/common/pico_sync/lock_core.c.o
+                0x10000530                lock_init
  .text.runtime_init_mutex
-                0x10000530       0x4c CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/common/pico_sync/mutex.c.o
-                0x10000530                runtime_init_mutex
+                0x1000053c       0x4c CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/common/pico_sync/mutex.c.o
+                0x1000053c                runtime_init_mutex
  .text.sleep_until_callback
-                0x1000057c       0x3c CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/common/pico_time/time.c.o
+                0x10000588       0x3c CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/common/pico_time/time.c.o
+ *fill*         0x100005c4        0x4 
  .text.alarm_pool_irq_handler
-                0x100005b8      0x2f0 CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/common/pico_time/time.c.o
+                0x100005c8      0x2f0 CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/common/pico_time/time.c.o
  .text.runtime_init_default_alarm_pool
-                0x100008a8      0x100 CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/common/pico_time/time.c.o
-                0x100008a8                runtime_init_default_alarm_pool
+                0x100008b8      0x100 CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/common/pico_time/time.c.o
+                0x100008b8                runtime_init_default_alarm_pool
  .text.alarm_pool_add_alarm_at_force_in_context
-                0x100009a8       0xc8 CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/common/pico_time/time.c.o
-                0x100009a8                alarm_pool_add_alarm_at_force_in_context
+                0x100009b8       0xc8 CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/common/pico_time/time.c.o
+                0x100009b8                alarm_pool_add_alarm_at_force_in_context
  .text.alarm_pool_cancel_alarm
-                0x10000a70       0x80 CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/common/pico_time/time.c.o
-                0x10000a70                alarm_pool_cancel_alarm
+                0x10000a80       0x80 CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/common/pico_time/time.c.o
+                0x10000a80                alarm_pool_cancel_alarm
  .text.best_effort_wfe_or_timeout
-                0x10000af0       0xbc CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/common/pico_time/time.c.o
-                0x10000af0                best_effort_wfe_or_timeout
+                0x10000b00       0xbc CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/common/pico_time/time.c.o
+                0x10000b00                best_effort_wfe_or_timeout
  .text.timer_hardware_alarm_claim
-                0x10000bac       0x24 CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.o
-                0x10000bac                timer_hardware_alarm_claim
+                0x10000bbc       0x24 CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.o
+                0x10000bbc                timer_hardware_alarm_claim
  .text.timer_time_us_64
-                0x10000bd0       0x10 CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.o
-                0x10000bd0                timer_time_us_64
+                0x10000be0       0x10 CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.o
+                0x10000be0                timer_time_us_64
  .text.time_us_64
-                0x10000be0       0x14 CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.o
-                0x10000be0                time_us_64
+                0x10000bf0       0x14 CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.o
+                0x10000bf0                time_us_64
  .text.clock_configure_undivided
-                0x10000bf4       0xd0 CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.o
-                0x10000bf4                clock_configure_undivided
+                0x10000c04       0xd0 CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.o
+                0x10000c04                clock_configure_undivided
  .text.clock_get_hz
-                0x10000cc4        0xc CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.o
-                0x10000cc4                clock_get_hz
+                0x10000cd4        0xc CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.o
+                0x10000cd4                clock_get_hz
  .text.pll_init
-                0x10000cd0       0x8c CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.o
-                0x10000cd0                pll_init
+                0x10000ce0       0x8c CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.o
+                0x10000ce0                pll_init
  .text.tick_start
-                0x10000d5c       0x18 CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.o
-                0x10000d5c                tick_start
+                0x10000d6c       0x18 CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.o
+                0x10000d6c                tick_start
  .text.rom_func_lookup
-                0x10000d74       0x18 CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.o
-                0x10000d74                rom_func_lookup
+                0x10000d84       0x18 CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.o
+                0x10000d84                rom_func_lookup
  .text.runtime_init_bootrom_locking_enable
-                0x10000d8c       0x14 CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.o
-                0x10000d8c                runtime_init_bootrom_locking_enable
+                0x10000d9c       0x14 CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.o
+                0x10000d9c                runtime_init_bootrom_locking_enable
  .text.runtime_init_boot_locks_reset
-                0x10000da0       0x1c CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.o
-                0x10000da0                runtime_init_boot_locks_reset
+                0x10000db0       0x1c CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.o
+                0x10000db0                runtime_init_boot_locks_reset
  .text.xosc_init
-                0x10000dbc       0x30 CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.o
-                0x10000dbc                xosc_init
+                0x10000dcc       0x30 CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.o
+                0x10000dcc                xosc_init
  .text.first_per_core_initializer
-                0x10000dec        0x4 CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.o
+                0x10000dfc        0x4 CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.o
  .text.hard_assertion_failure
-                0x10000df0        0xc CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.o
-                0x10000df0                hard_assertion_failure
+                0x10000e00        0xc CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.o
+                0x10000e00                hard_assertion_failure
  .text.runtime_run_initializers
-                0x10000dfc       0x20 CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.o
-                0x10000dfc                runtime_run_initializers
+                0x10000e0c       0x20 CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.o
+                0x10000e0c                runtime_run_initializers
  .text.runtime_init_early_resets
-                0x10000e1c       0x34 CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o
-                0x10000e1c                runtime_init_early_resets
+                0x10000e2c       0x34 CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o
+                0x10000e2c                runtime_init_early_resets
  .text.runtime_init_usb_power_down
-                0x10000e50       0x1c CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o
-                0x10000e50                runtime_init_usb_power_down
+                0x10000e60       0x1c CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o
+                0x10000e60                runtime_init_usb_power_down
  .text.runtime_init_per_core_enable_coprocessors
-                0x10000e6c       0x1c CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o
-                0x10000e6c                runtime_init_per_core_enable_coprocessors
+                0x10000e7c       0x1c CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o
+                0x10000e7c                runtime_init_per_core_enable_coprocessors
  .text.runtime_init_post_clock_resets
-                0x10000e88       0x20 CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o
-                0x10000e88                runtime_init_post_clock_resets
+                0x10000e98       0x20 CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o
+                0x10000e98                runtime_init_post_clock_resets
  .text.runtime_init_bootrom_reset
-                0x10000ea8       0x14 CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o
-                0x10000ea8                runtime_init_bootrom_reset
+                0x10000eb8       0x14 CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o
+                0x10000eb8                runtime_init_bootrom_reset
  .text.runtime_init_per_core_bootrom_reset
-                0x10000ebc       0x14 CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o
-                0x10000ebc                runtime_init_per_core_bootrom_reset
+                0x10000ecc       0x14 CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o
+                0x10000ecc                runtime_init_per_core_bootrom_reset
  .text.runtime_init_spin_locks_reset
-                0x10000ed0        0x4 CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o
-                0x10000ed0                runtime_init_spin_locks_reset
+                0x10000ee0        0x4 CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o
+                0x10000ee0                runtime_init_spin_locks_reset
  .text.runtime_init_install_ram_vector_table
-                0x10000ed4       0x68 CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o
-                0x10000ed4                runtime_init_install_ram_vector_table
+                0x10000ee4       0x68 CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o
+                0x10000ee4                runtime_init_install_ram_vector_table
  .text.runtime_init_clocks
-                0x10000f3c       0xdc CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.o
-                0x10000f3c                runtime_init_clocks
+                0x10000f4c       0xdc CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.o
+                0x10000f4c                runtime_init_clocks
  .text._out_char
-                0x10001018        0x8 CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.o
+                0x10001028        0x8 CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.o
  .text.weak_raw_vprintf
-                0x10001020       0x30 CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.o
-                0x10001020                weak_raw_vprintf
- .text._exit    0x10001050        0x4 CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.o
-                0x10001050                _exit
- .text.exit     0x10001054        0x8 CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.o
-                0x10001054                exit
+                0x10001030       0x30 CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.o
+                0x10001030                weak_raw_vprintf
+ .text._exit    0x10001060        0x4 CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.o
+                0x10001060                _exit
+ .text.exit     0x10001064        0x8 CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.o
+                0x10001064                exit
  .text.runtime_init
-                0x1000105c       0x24 CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.o
-                0x1000105c                runtime_init
+                0x1000106c       0x24 CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.o
+                0x1000106c                runtime_init
  .text.stdio_out_chars_no_crlf
-                0x10001080        0x8 CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o
+                0x10001090        0x8 CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o
  .text.stdio_out_chars_crlf
-                0x10001088       0xac CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o
+                0x10001098       0xac CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o
  .text.stdio_put_string
-                0x10001134       0xf0 CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o
-                0x10001134                stdio_put_string
+                0x10001144       0xf0 CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o
+                0x10001144                stdio_put_string
  .text.__wrap_putchar
-                0x10001224       0x84 CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o
-                0x10001224                stdio_putchar
-                0x10001224                __wrap_putchar
+                0x10001234       0x84 CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o
+                0x10001234                stdio_putchar
+                0x10001234                __wrap_putchar
  .text.__wrap_puts
-                0x100012a8       0x3c CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o
-                0x100012a8                __wrap_puts
-                0x100012a8                stdio_puts
+                0x100012b8       0x3c CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o
+                0x100012b8                __wrap_puts
+                0x100012b8                stdio_puts
  .text.startup._retrieve_unique_id_on_boot
-                0x100012e4       0x30 CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.o
- .text          0x10001314       0xec /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v8-m.main+fp/softfp/libg.a(libc_a-memcpy.o)
-                0x10001314                memcpy
- .text          0x10001400        0xc /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v8-m.main+fp/softfp/libg.a(libc_a-atexit.o)
-                0x10001400                atexit
- .text          0x1000140c       0x5c /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v8-m.main+fp/softfp/libg.a(libc_a-strlen-stub.o)
-                0x1000140c                strlen
- .text          0x10001468       0x28 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v8-m.main+fp/softfp/libg.a(libc_a-fini.o)
-                0x10001468                __libc_fini_array
- .text          0x10001490       0x64 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v8-m.main+fp/softfp/libg.a(libc_a-__atexit.o)
-                0x10001490                __register_exitproc
- .text.startup  0x100014f4       0x14 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v8-m.main+fp/softfp/libg.a(libc_a-__call_atexit.o)
+                0x100012f4       0x30 CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.o
+ .text          0x10001324       0xec /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v8-m.main+fp/softfp/libg.a(libc_a-memcpy.o)
+                0x10001324                memcpy
+ .text          0x10001410        0xc /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v8-m.main+fp/softfp/libg.a(libc_a-atexit.o)
+                0x10001410                atexit
+ .text          0x1000141c       0x5c /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v8-m.main+fp/softfp/libg.a(libc_a-strlen-stub.o)
+                0x1000141c                strlen
+ .text          0x10001478       0x28 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v8-m.main+fp/softfp/libg.a(libc_a-fini.o)
+                0x10001478                __libc_fini_array
+ .text          0x100014a0       0x64 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v8-m.main+fp/softfp/libg.a(libc_a-__atexit.o)
+                0x100014a0                __register_exitproc
+ .text.startup  0x10001504       0x14 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v8-m.main+fp/softfp/libg.a(libc_a-__call_atexit.o)
  *(.fini)
- .fini          0x10001508        0x4 /usr/lib/gcc/arm-none-eabi/13.2.1/thumb/v8-m.main+fp/softfp/crti.o
-                0x10001508                _fini
- *fill*         0x1000150c        0x4 
- .fini.__stub   0x10001510       0x10 linker stubs
+ .fini          0x10001518        0x4 /usr/lib/gcc/arm-none-eabi/13.2.1/thumb/v8-m.main+fp/softfp/crti.o
+                0x10001518                _fini
+ *fill*         0x1000151c        0x4 
+ .fini.__stub   0x10001520       0x10 linker stubs
  *crtbegin.o(.ctors)
  *crtbegin?.o(.ctors)
  *(EXCLUDE_FILE(*crtend.o *crtend?.o) .ctors)
@@ -3859,164 +3860,164 @@ LOAD /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v8-m.mai
  *(EXCLUDE_FILE(*crtend.o *crtend?.o) .dtors)
  *(SORT_BY_NAME(.dtors.*))
  *(.dtors)
-                0x10001520                        . = ALIGN (0x4)
-                0x10001520                        PROVIDE (__preinit_array_start = .)
+                0x10001530                        . = ALIGN (0x4)
+                0x10001530                        PROVIDE (__preinit_array_start = .)
  *(SORT_BY_NAME(.preinit_array.*))
  .preinit_array.00050
-                0x10001520        0x4 CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o
-                0x10001520                __pre_init_runtime_init_bootrom_reset
- .preinit_array.00100
-                0x10001524        0x4 CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o
-                0x10001524                __pre_init_runtime_init_early_resets
- .preinit_array.00101
-                0x10001528        0x4 CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o
-                0x10001528                __pre_init_runtime_init_usb_power_down
- .preinit_array.00500
-                0x1000152c        0x4 CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o
-                0x1000152c                __pre_init_runtime_init_clocks
- .preinit_array.00600
                 0x10001530        0x4 CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o
-                0x10001530                __pre_init_runtime_init_post_clock_resets
- .preinit_array.01000
-                0x10001534        0x4 CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.o
-                0x10001534                __pre_init_runtime_init_boot_locks_reset
- .preinit_array.01000
+                0x10001530                __pre_init_runtime_init_bootrom_reset
+ .preinit_array.00100
+                0x10001534        0x4 CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o
+                0x10001534                __pre_init_runtime_init_early_resets
+ .preinit_array.00101
                 0x10001538        0x4 CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o
-                0x10001538                __pre_init_runtime_init_spin_locks_reset
+                0x10001538                __pre_init_runtime_init_usb_power_down
+ .preinit_array.00500
+                0x1000153c        0x4 CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o
+                0x1000153c                __pre_init_runtime_init_clocks
+ .preinit_array.00600
+                0x10001540        0x4 CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o
+                0x10001540                __pre_init_runtime_init_post_clock_resets
+ .preinit_array.01000
+                0x10001544        0x4 CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.o
+                0x10001544                __pre_init_runtime_init_boot_locks_reset
+ .preinit_array.01000
+                0x10001548        0x4 CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o
+                0x10001548                __pre_init_runtime_init_spin_locks_reset
  .preinit_array.01010
-                0x1000153c        0x4 CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.o
-                0x1000153c                __pre_init_runtime_init_bootrom_locking_enable
+                0x1000154c        0x4 CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.o
+                0x1000154c                __pre_init_runtime_init_bootrom_locking_enable
  .preinit_array.01100
-                0x10001540        0x4 CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/common/pico_sync/mutex.c.o
-                0x10001540                __pre_init_runtime_init_mutex
+                0x10001550        0x4 CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/common/pico_sync/mutex.c.o
+                0x10001550                __pre_init_runtime_init_mutex
  .preinit_array.10080
-                0x10001544        0x4 CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o
-                0x10001544                __pre_init_runtime_init_install_ram_vector_table
- .preinit_array.11000
-                0x10001548        0x4 CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/common/pico_time/time.c.o
-                0x10001548                __pre_init_runtime_init_default_alarm_pool
- .preinit_array.YYYYY
-                0x1000154c        0x4 CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.o
-                0x1000154c                __pre_init_first_per_core_initializer
- .preinit_array.ZZZZZ.00051
-                0x10001550        0x4 CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o
-                0x10001550                __pre_init_runtime_init_per_core_bootrom_reset
- .preinit_array.ZZZZZ.00200
                 0x10001554        0x4 CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o
-                0x10001554                __pre_init_runtime_init_per_core_enable_coprocessors
+                0x10001554                __pre_init_runtime_init_install_ram_vector_table
+ .preinit_array.11000
+                0x10001558        0x4 CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/common/pico_time/time.c.o
+                0x10001558                __pre_init_runtime_init_default_alarm_pool
+ .preinit_array.YYYYY
+                0x1000155c        0x4 CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.o
+                0x1000155c                __pre_init_first_per_core_initializer
+ .preinit_array.ZZZZZ.00051
+                0x10001560        0x4 CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o
+                0x10001560                __pre_init_runtime_init_per_core_bootrom_reset
+ .preinit_array.ZZZZZ.00200
+                0x10001564        0x4 CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o
+                0x10001564                __pre_init_runtime_init_per_core_enable_coprocessors
  .preinit_array.ZZZZZ.01000
-                0x10001558        0x4 CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.o
-                0x10001558                __pre_init_spinlock_set_extexclall
+                0x10001568        0x4 CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.o
+                0x10001568                __pre_init_spinlock_set_extexclall
  .preinit_array.ZZZZZ.01200
-                0x1000155c        0x4 CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.o
-                0x1000155c                __pre_init_runtime_init_per_core_irq_priorities
+                0x1000156c        0x4 CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.o
+                0x1000156c                __pre_init_runtime_init_per_core_irq_priorities
  *(.preinit_array)
-                0x10001560                        PROVIDE (__preinit_array_end = .)
-                0x10001560                        . = ALIGN (0x4)
-                0x10001560                        PROVIDE (__init_array_start = .)
+                0x10001570                        PROVIDE (__preinit_array_end = .)
+                0x10001570                        . = ALIGN (0x4)
+                0x10001570                        PROVIDE (__init_array_start = .)
  *(SORT_BY_NAME(.init_array.*))
  .init_array.00000
-                0x10001560        0x4 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v8-m.main+fp/softfp/libg.a(libc_a-__call_atexit.o)
+                0x10001570        0x4 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v8-m.main+fp/softfp/libg.a(libc_a-__call_atexit.o)
  .init_array.01000
-                0x10001564        0x4 CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.o
+                0x10001574        0x4 CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.o
  *(.init_array)
- .init_array    0x10001568        0x4 /usr/lib/gcc/arm-none-eabi/13.2.1/thumb/v8-m.main+fp/softfp/crtbegin.o
-                0x1000156c                        PROVIDE (__init_array_end = .)
-                0x1000156c                        . = ALIGN (0x4)
-                0x1000156c                        PROVIDE (__fini_array_start = .)
+ .init_array    0x10001578        0x4 /usr/lib/gcc/arm-none-eabi/13.2.1/thumb/v8-m.main+fp/softfp/crtbegin.o
+                0x1000157c                        PROVIDE (__init_array_end = .)
+                0x1000157c                        . = ALIGN (0x4)
+                0x1000157c                        PROVIDE (__fini_array_start = .)
  *(SORT_BY_NAME(.fini_array.*))
  *(.fini_array)
-                0x1000156c                        PROVIDE (__fini_array_end = .)
+                0x1000157c                        PROVIDE (__fini_array_end = .)
  *(.eh_frame*)
- .eh_frame      0x1000156c        0x0 /usr/lib/gcc/arm-none-eabi/13.2.1/thumb/v8-m.main+fp/softfp/crtbegin.o
-                0x1000156c                        . = ALIGN (0x4)
+ .eh_frame      0x1000157c        0x0 /usr/lib/gcc/arm-none-eabi/13.2.1/thumb/v8-m.main+fp/softfp/crtbegin.o
+                0x1000157c                        . = ALIGN (0x4)
 
-.glue_7         0x1000156c        0x0
- .glue_7        0x1000156c        0x0 linker stubs
+.glue_7         0x1000157c        0x0
+ .glue_7        0x1000157c        0x0 linker stubs
 
-.glue_7t        0x1000156c        0x0
- .glue_7t       0x1000156c        0x0 linker stubs
+.glue_7t        0x1000157c        0x0
+ .glue_7t       0x1000157c        0x0 linker stubs
 
-.vfp11_veneer   0x1000156c        0x0
- .vfp11_veneer  0x1000156c        0x0 linker stubs
+.vfp11_veneer   0x1000157c        0x0
+ .vfp11_veneer  0x1000157c        0x0 linker stubs
 
-.v4_bx          0x1000156c        0x0
- .v4_bx         0x1000156c        0x0 linker stubs
+.v4_bx          0x1000157c        0x0
+ .v4_bx         0x1000157c        0x0 linker stubs
 
-.iplt           0x1000156c        0x0
- .iplt          0x1000156c        0x0 /usr/lib/gcc/arm-none-eabi/13.2.1/thumb/v8-m.main+fp/softfp/crtbegin.o
+.iplt           0x1000157c        0x0
+ .iplt          0x1000157c        0x0 /usr/lib/gcc/arm-none-eabi/13.2.1/thumb/v8-m.main+fp/softfp/crtbegin.o
 
-.boot2          0x1000156c        0x0
-                0x1000156c                        __boot2_start__ = .
+.boot2          0x1000157c        0x0
+                0x1000157c                        __boot2_start__ = .
  *(.boot2)
-                0x1000156c                        __boot2_end__ = .
+                0x1000157c                        __boot2_end__ = .
                 0x00000001                        ASSERT (((__boot2_end__ - __boot2_start__) <= 0x100), ERROR: Pico second stage bootloader must be no more than 256 bytes in size)
 
-.rodata         0x1000156c      0x110
+.rodata         0x1000157c      0x110
  *(EXCLUDE_FILE(*libm.a: *libc.a:*lib_a-mem*.o *libgcc.a:) .rodata*)
  .rodata.main.str1.4
-                0x1000156c       0xb8 CMakeFiles/mic_basics.dir/src/main.c.o
+                0x1000157c       0xb8 CMakeFiles/mic_basics.dir/src/main.c.o
                                  0x2e (size before relaxing)
  .rodata.panic.str1.4
-                0x10001624       0x12 CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.o
+                0x10001634       0x12 CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.o
  .rodata.timer_hardware_alarm_claim.str1.4
-                0x10001624       0x22 CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.o
+                0x10001634       0x22 CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.o
  .rodata.hard_assertion_failure.str1.4
-                0x10001624        0xc CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.o
+                0x10001634        0xc CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.o
  .rodata.str1.4
-                0x10001624       0x40 CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o
+                0x10001634       0x40 CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o
  .rodata.__bi_84
-                0x10001624        0xc CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o
+                0x10001634        0xc CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o
  .rodata.__bi_78
-                0x10001630        0xc CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o
+                0x10001640        0xc CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o
  .rodata.__bi_54
-                0x1000163c        0xc CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o
+                0x1000164c        0xc CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o
  .rodata.__bi_48
-                0x10001648        0xc CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o
+                0x10001658        0xc CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o
  .rodata.__bi_42
-                0x10001654        0xc CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o
+                0x10001664        0xc CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o
  .rodata.__bi_34
-                0x10001660        0xc CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o
+                0x10001670        0xc CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o
  .rodata.__bi_26
-                0x1000166c        0xc CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o
+                0x1000167c        0xc CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o
  .rodata.crlf_str.0
-                0x10001678        0x2 CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o
+                0x10001688        0x2 CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o
  *(.srodata*)
-                0x1000167c                        . = ALIGN (0x4)
- *fill*         0x1000167a        0x2 
+                0x1000168c                        . = ALIGN (0x4)
+ *fill*         0x1000168a        0x2 
  *(SORT_BY_ALIGNMENT(SORT_BY_NAME(.flashdata*)))
-                0x1000167c                        . = ALIGN (0x4)
+                0x1000168c                        . = ALIGN (0x4)
 
 .ARM.extab
  *(.ARM.extab* .gnu.linkonce.armextab.*)
-                0x1000167c                        __exidx_start = .
+                0x1000168c                        __exidx_start = .
 
-.ARM.exidx      0x1000167c        0x8
+.ARM.exidx      0x1000168c        0x8
  *(.ARM.exidx* .gnu.linkonce.armexidx.*)
- .ARM.exidx     0x1000167c        0x8 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v8-m.main+fp/softfp/libg.a(libc_a-memcpy.o)
-                0x10001684                        __exidx_end = .
-                0x10001684                        . = ALIGN (0x4)
-                0x10001684                        __binary_info_start = .
+ .ARM.exidx     0x1000168c        0x8 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v8-m.main+fp/softfp/libg.a(libc_a-memcpy.o)
+                0x10001694                        __exidx_end = .
+                0x10001694                        . = ALIGN (0x4)
+                0x10001694                        __binary_info_start = .
 
-.binary_info    0x10001684       0x1c
+.binary_info    0x10001694       0x1c
  *(.binary_info.keep.*)
  .binary_info.keep.__bi_ptr84
-                0x10001684        0x4 CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o
- .binary_info.keep.__bi_ptr78
-                0x10001688        0x4 CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o
- .binary_info.keep.__bi_ptr54
-                0x1000168c        0x4 CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o
- .binary_info.keep.__bi_ptr48
-                0x10001690        0x4 CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o
- .binary_info.keep.__bi_ptr42
                 0x10001694        0x4 CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o
- .binary_info.keep.__bi_ptr34
+ .binary_info.keep.__bi_ptr78
                 0x10001698        0x4 CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o
- .binary_info.keep.__bi_ptr26
+ .binary_info.keep.__bi_ptr54
                 0x1000169c        0x4 CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o
+ .binary_info.keep.__bi_ptr48
+                0x100016a0        0x4 CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o
+ .binary_info.keep.__bi_ptr42
+                0x100016a4        0x4 CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o
+ .binary_info.keep.__bi_ptr34
+                0x100016a8        0x4 CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o
+ .binary_info.keep.__bi_ptr26
+                0x100016ac        0x4 CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o
  *(.binary_info.*)
-                0x100016a0                        __binary_info_end = .
-                0x100016a0                        . = ALIGN (0x4)
+                0x100016b0                        __binary_info_end = .
+                0x100016b0                        . = ALIGN (0x4)
 
 .ram_vector_table
                 0x20000000      0x110
@@ -4030,7 +4031,7 @@ LOAD /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v8-m.mai
                 0x20000110                        . = ALIGN (0x4)
  *(.uninitialized_data*)
 
-.data           0x20000110      0x144 load address 0x100016a0
+.data           0x20000110      0x144 load address 0x100016b0
                 0x20000110                        __data_start__ = .
  *(vtable)
  *(.time_critical*)
@@ -4068,23 +4069,23 @@ LOAD /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v8-m.mai
                 0x20000254                        . = ALIGN (0x4)
 
 .tm_clone_table
-                0x20000254        0x0 load address 0x100017e4
+                0x20000254        0x0 load address 0x100017f4
  .tm_clone_table
                 0x20000254        0x0 /usr/lib/gcc/arm-none-eabi/13.2.1/thumb/v8-m.main+fp/softfp/crtbegin.o
  .tm_clone_table
                 0x20000254        0x0 /usr/lib/gcc/arm-none-eabi/13.2.1/thumb/v8-m.main+fp/softfp/crtend.o
 
-.igot.plt       0x20000254        0x0 load address 0x100017e4
+.igot.plt       0x20000254        0x0 load address 0x100017f4
  .igot.plt      0x20000254        0x0 /usr/lib/gcc/arm-none-eabi/13.2.1/thumb/v8-m.main+fp/softfp/crtbegin.o
 
-.tdata          0x20000254        0x0 load address 0x100017e4
+.tdata          0x20000254        0x0 load address 0x100017f4
                 0x20000254                        . = ALIGN (0x4)
  *(.tdata .tdata.* .gnu.linkonce.td.*)
                 0x20000254                        __tdata_end = .
                 0x20000254                        PROVIDE (__data_end__ = .)
-                0x100016a0                        __etext = LOADADDR (.data)
+                0x100016b0                        __etext = LOADADDR (.data)
 
-.tbss           0x20000254        0x0 load address 0x100017e4
+.tbss           0x20000254        0x0 load address 0x100017f4
                 0x20000254                        . = ALIGN (0x4)
                 0x20000254                        __bss_start__ = .
                 0x20000254                        __tls_base = .
@@ -4092,7 +4093,7 @@ LOAD /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v8-m.mai
  *(.tcommon)
                 0x20000254                        __tls_end = .
 
-.bss            0x20000258      0x3b4 load address 0x100017e4
+.bss            0x20000258      0x3b4 load address 0x100017f4
                 0x20000258                        . = ALIGN (0x4)
                 0x20000258                        __tbss_end = .
  *(SORT_BY_ALIGNMENT(SORT_BY_NAME(.bss*)))
@@ -4125,26 +4126,26 @@ LOAD /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v8-m.mai
                 0x2000060c                        . = ALIGN (0x4)
                 0x2000060c                        __bss_end__ = .
 
-.heap           0x2000060c      0x800 load address 0x100017e4
+.heap           0x2000060c      0x800 load address 0x100017f4
                 0x2000060c                        __end__ = .
                 0x2000060c                        end = __end__
  *(.heap*)
  .heap          0x2000060c      0x800 CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_crt0/crt0.S.o
                 0x20080000                        __HeapLimit = (ORIGIN (RAM) + LENGTH (RAM))
 
-.scratch_x      0x20080000        0x0 load address 0x100017e4
+.scratch_x      0x20080000        0x0 load address 0x100017f4
                 0x20080000                        __scratch_x_start__ = .
  *(.scratch_x.*)
                 0x20080000                        . = ALIGN (0x4)
                 0x20080000                        __scratch_x_end__ = .
-                0x100017e4                        __scratch_x_source__ = LOADADDR (.scratch_x)
+                0x100017f4                        __scratch_x_source__ = LOADADDR (.scratch_x)
 
-.scratch_y      0x20081000        0x0 load address 0x100017e4
+.scratch_y      0x20081000        0x0 load address 0x100017f4
                 0x20081000                        __scratch_y_start__ = .
  *(.scratch_y.*)
                 0x20081000                        . = ALIGN (0x4)
                 0x20081000                        __scratch_y_end__ = .
-                0x100017e4                        __scratch_y_source__ = LOADADDR (.scratch_y)
+                0x100017f4                        __scratch_y_source__ = LOADADDR (.scratch_y)
 
 .stack1_dummy
  *(.stack1*)
@@ -4153,11 +4154,11 @@ LOAD /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v8-m.mai
  *(.stack*)
  .stack         0x20081000      0x800 CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_crt0/crt0.S.o
 
-.flash_end      0x100017e4       0x14
+.flash_end      0x100017f4       0x14
  *(.embedded_end_block*)
  .embedded_end_block
-                0x100017e4       0x14 CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_crt0/crt0.S.o
-                0x100017f8                        PROVIDE (__flash_binary_end = .)
+                0x100017f4       0x14 CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_crt0/crt0.S.o
+                0x10001808                        PROVIDE (__flash_binary_end = .)
                 0x20080000                        __StackLimit = (ORIGIN (RAM) + LENGTH (RAM))
                 0x20081000                        __StackOneTop = (ORIGIN (SCRATCH_X) + LENGTH (SCRATCH_X))
                 0x20082000                        __StackTop = (ORIGIN (SCRATCH_Y) + LENGTH (SCRATCH_Y))
@@ -4275,8 +4276,8 @@ LOAD /usr/lib/gcc/arm-none-eabi/13.2.1/thumb/v8-m.main+fp/softfp/crtn.o
 OUTPUT(mic_basics.elf elf32-littlearm)
 LOAD linker stubs
 
-.rel.dyn        0x100017f8        0x0
- .rel.iplt      0x100017f8        0x0 /usr/lib/gcc/arm-none-eabi/13.2.1/thumb/v8-m.main+fp/softfp/crtbegin.o
+.rel.dyn        0x10001808        0x0
+ .rel.iplt      0x10001808        0x0 /usr/lib/gcc/arm-none-eabi/13.2.1/thumb/v8-m.main+fp/softfp/crtbegin.o
 
 .ARM.attributes
                 0x00000000       0x34
@@ -4392,41 +4393,41 @@ LOAD linker stubs
  .comment       0x00000026       0x27 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v8-m.main+fp/softfp/libg.a(libc_a-__call_atexit.o)
  .comment       0x00000026       0x27 /usr/lib/gcc/arm-none-eabi/13.2.1/thumb/v8-m.main+fp/softfp/crtend.o
 
-.debug_info     0x00000000    0x1b3f2
- .debug_info    0x00000000      0x3ba CMakeFiles/mic_basics.dir/src/main.c.o
- .debug_info    0x000003ba      0x396 CMakeFiles/mic_basics.dir/src/uart_setup.c.o
- .debug_info    0x00000750      0x34f CMakeFiles/mic_basics.dir/src/gpio_setup.c.o
- .debug_info    0x00000a9f      0x1be CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.o
- .debug_info    0x00000c5d      0xb64 CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/common/hardware_claim/claim.c.o
- .debug_info    0x000017c1      0x44d CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.o
- .debug_info    0x00001c0e     0x143a CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.o
- .debug_info    0x00003048     0x25e3 CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.o
- .debug_info    0x0000562b      0x17b CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/common/pico_sync/lock_core.c.o
- .debug_info    0x000057a6     0x1e27 CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/common/pico_sync/mutex.c.o
- .debug_info    0x000075cd     0x4c04 CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/common/pico_time/time.c.o
- .debug_info    0x0000c1d1     0x3082 CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.o
- .debug_info    0x0000f253     0x2891 CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.o
- .debug_info    0x00011ae4      0x4ef CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.o
- .debug_info    0x00011fd3      0x254 CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.o
- .debug_info    0x00012227     0x1077 CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.o
- .debug_info    0x0001329e      0x1ac CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.o
- .debug_info    0x0001344a      0x2fe CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.o
- .debug_info    0x00013748      0x199 CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.o
- .debug_info    0x000138e1      0x20e CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.o
- .debug_info    0x00013aef     0x1c1c CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o
- .debug_info    0x0001570b      0x7b0 CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.o
- .debug_info    0x00015ebb      0x288 CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o
- .debug_info    0x00016143     0x2075 CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.o
- .debug_info    0x000181b8       0x23 CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_crt0/crt0.S.o
- .debug_info    0x000181db      0xc25 CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.o
- .debug_info    0x00018e00     0x1bcd CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o
- .debug_info    0x0001a9cd      0x29f CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.o
- .debug_info    0x0001ac6c       0x33 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v8-m.main+fp/softfp/libg.a(libc_a-memcpy.o)
- .debug_info    0x0001ac9f      0x11e /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v8-m.main+fp/softfp/libg.a(libc_a-atexit.o)
- .debug_info    0x0001adbd       0xbd /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v8-m.main+fp/softfp/libg.a(libc_a-strlen-stub.o)
- .debug_info    0x0001ae7a       0xf7 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v8-m.main+fp/softfp/libg.a(libc_a-fini.o)
- .debug_info    0x0001af71      0x1fd /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v8-m.main+fp/softfp/libg.a(libc_a-__atexit.o)
- .debug_info    0x0001b16e      0x284 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v8-m.main+fp/softfp/libg.a(libc_a-__call_atexit.o)
+.debug_info     0x00000000    0x1b411
+ .debug_info    0x00000000      0x3d9 CMakeFiles/mic_basics.dir/src/main.c.o
+ .debug_info    0x000003d9      0x396 CMakeFiles/mic_basics.dir/src/uart_setup.c.o
+ .debug_info    0x0000076f      0x34f CMakeFiles/mic_basics.dir/src/gpio_setup.c.o
+ .debug_info    0x00000abe      0x1be CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.o
+ .debug_info    0x00000c7c      0xb64 CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/common/hardware_claim/claim.c.o
+ .debug_info    0x000017e0      0x44d CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.o
+ .debug_info    0x00001c2d     0x143a CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.o
+ .debug_info    0x00003067     0x25e3 CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.o
+ .debug_info    0x0000564a      0x17b CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/common/pico_sync/lock_core.c.o
+ .debug_info    0x000057c5     0x1e27 CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/common/pico_sync/mutex.c.o
+ .debug_info    0x000075ec     0x4c04 CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/common/pico_time/time.c.o
+ .debug_info    0x0000c1f0     0x3082 CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.o
+ .debug_info    0x0000f272     0x2891 CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.o
+ .debug_info    0x00011b03      0x4ef CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.o
+ .debug_info    0x00011ff2      0x254 CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.o
+ .debug_info    0x00012246     0x1077 CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.o
+ .debug_info    0x000132bd      0x1ac CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.o
+ .debug_info    0x00013469      0x2fe CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.o
+ .debug_info    0x00013767      0x199 CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.o
+ .debug_info    0x00013900      0x20e CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.o
+ .debug_info    0x00013b0e     0x1c1c CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o
+ .debug_info    0x0001572a      0x7b0 CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.o
+ .debug_info    0x00015eda      0x288 CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o
+ .debug_info    0x00016162     0x2075 CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.o
+ .debug_info    0x000181d7       0x23 CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_crt0/crt0.S.o
+ .debug_info    0x000181fa      0xc25 CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.o
+ .debug_info    0x00018e1f     0x1bcd CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o
+ .debug_info    0x0001a9ec      0x29f CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.o
+ .debug_info    0x0001ac8b       0x33 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v8-m.main+fp/softfp/libg.a(libc_a-memcpy.o)
+ .debug_info    0x0001acbe      0x11e /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v8-m.main+fp/softfp/libg.a(libc_a-atexit.o)
+ .debug_info    0x0001addc       0xbd /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v8-m.main+fp/softfp/libg.a(libc_a-strlen-stub.o)
+ .debug_info    0x0001ae99       0xf7 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v8-m.main+fp/softfp/libg.a(libc_a-fini.o)
+ .debug_info    0x0001af90      0x1fd /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v8-m.main+fp/softfp/libg.a(libc_a-__atexit.o)
+ .debug_info    0x0001b18d      0x284 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v8-m.main+fp/softfp/libg.a(libc_a-__call_atexit.o)
 
 .debug_abbrev   0x00000000     0x5280
  .debug_abbrev  0x00000000      0x141 CMakeFiles/mic_basics.dir/src/main.c.o
@@ -4658,41 +4659,41 @@ LOAD linker stubs
  .debug_rnglists
                 0x00002595       0x3a /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v8-m.main+fp/softfp/libg.a(libc_a-__call_atexit.o)
 
-.debug_line     0x00000000    0x113f1
- .debug_line    0x00000000      0x1a2 CMakeFiles/mic_basics.dir/src/main.c.o
- .debug_line    0x000001a2      0x2ca CMakeFiles/mic_basics.dir/src/uart_setup.c.o
- .debug_line    0x0000046c      0x240 CMakeFiles/mic_basics.dir/src/gpio_setup.c.o
- .debug_line    0x000006ac      0x1e4 CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.o
- .debug_line    0x00000890      0x79a CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/common/hardware_claim/claim.c.o
- .debug_line    0x0000102a      0x36d CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.o
- .debug_line    0x00001397      0x2fa CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.o
- .debug_line    0x00001691     0x169e CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.o
- .debug_line    0x00002d2f      0x1cf CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/common/pico_sync/lock_core.c.o
- .debug_line    0x00002efe     0x11a5 CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/common/pico_sync/mutex.c.o
- .debug_line    0x000040a3     0x2cf4 CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/common/pico_time/time.c.o
- .debug_line    0x00006d97     0x1d33 CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.o
- .debug_line    0x00008aca     0x1daf CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.o
- .debug_line    0x0000a879      0x42f CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.o
- .debug_line    0x0000aca8      0x290 CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.o
- .debug_line    0x0000af38      0xa41 CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.o
- .debug_line    0x0000b979      0x303 CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.o
- .debug_line    0x0000bc7c      0x37d CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.o
- .debug_line    0x0000bff9      0x2c4 CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.o
- .debug_line    0x0000c2bd      0x278 CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.o
- .debug_line    0x0000c535      0x611 CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o
- .debug_line    0x0000cb46      0x4bb CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.o
- .debug_line    0x0000d001      0x15d CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o
- .debug_line    0x0000d15e     0x1942 CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.o
- .debug_line    0x0000eaa0       0x9e CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_crt0/crt0.S.o
- .debug_line    0x0000eb3e      0x7a2 CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.o
- .debug_line    0x0000f2e0     0x13ad CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o
- .debug_line    0x0001068d      0x64b CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.o
- .debug_line    0x00010cd8       0xbd /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v8-m.main+fp/softfp/libg.a(libc_a-memcpy.o)
- .debug_line    0x00010d95       0xc3 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v8-m.main+fp/softfp/libg.a(libc_a-atexit.o)
- .debug_line    0x00010e58       0xf4 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v8-m.main+fp/softfp/libg.a(libc_a-strlen-stub.o)
- .debug_line    0x00010f4c       0xd2 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v8-m.main+fp/softfp/libg.a(libc_a-fini.o)
- .debug_line    0x0001101e      0x154 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v8-m.main+fp/softfp/libg.a(libc_a-__atexit.o)
- .debug_line    0x00011172      0x27f /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v8-m.main+fp/softfp/libg.a(libc_a-__call_atexit.o)
+.debug_line     0x00000000    0x113f5
+ .debug_line    0x00000000      0x1a6 CMakeFiles/mic_basics.dir/src/main.c.o
+ .debug_line    0x000001a6      0x2ca CMakeFiles/mic_basics.dir/src/uart_setup.c.o
+ .debug_line    0x00000470      0x240 CMakeFiles/mic_basics.dir/src/gpio_setup.c.o
+ .debug_line    0x000006b0      0x1e4 CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.o
+ .debug_line    0x00000894      0x79a CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/common/hardware_claim/claim.c.o
+ .debug_line    0x0000102e      0x36d CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.o
+ .debug_line    0x0000139b      0x2fa CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.o
+ .debug_line    0x00001695     0x169e CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.o
+ .debug_line    0x00002d33      0x1cf CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/common/pico_sync/lock_core.c.o
+ .debug_line    0x00002f02     0x11a5 CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/common/pico_sync/mutex.c.o
+ .debug_line    0x000040a7     0x2cf4 CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/common/pico_time/time.c.o
+ .debug_line    0x00006d9b     0x1d33 CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.o
+ .debug_line    0x00008ace     0x1daf CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.o
+ .debug_line    0x0000a87d      0x42f CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.o
+ .debug_line    0x0000acac      0x290 CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.o
+ .debug_line    0x0000af3c      0xa41 CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.o
+ .debug_line    0x0000b97d      0x303 CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.o
+ .debug_line    0x0000bc80      0x37d CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.o
+ .debug_line    0x0000bffd      0x2c4 CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.o
+ .debug_line    0x0000c2c1      0x278 CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.o
+ .debug_line    0x0000c539      0x611 CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o
+ .debug_line    0x0000cb4a      0x4bb CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.o
+ .debug_line    0x0000d005      0x15d CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o
+ .debug_line    0x0000d162     0x1942 CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.o
+ .debug_line    0x0000eaa4       0x9e CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_crt0/crt0.S.o
+ .debug_line    0x0000eb42      0x7a2 CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.o
+ .debug_line    0x0000f2e4     0x13ad CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o
+ .debug_line    0x00010691      0x64b CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.o
+ .debug_line    0x00010cdc       0xbd /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v8-m.main+fp/softfp/libg.a(libc_a-memcpy.o)
+ .debug_line    0x00010d99       0xc3 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v8-m.main+fp/softfp/libg.a(libc_a-atexit.o)
+ .debug_line    0x00010e5c       0xf4 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v8-m.main+fp/softfp/libg.a(libc_a-strlen-stub.o)
+ .debug_line    0x00010f50       0xd2 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v8-m.main+fp/softfp/libg.a(libc_a-fini.o)
+ .debug_line    0x00011022      0x154 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v8-m.main+fp/softfp/libg.a(libc_a-__atexit.o)
+ .debug_line    0x00011176      0x27f /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v8-m.main+fp/softfp/libg.a(libc_a-__call_atexit.o)
 
 .debug_str      0x00000000     0x4ba2
  .debug_str     0x00000000     0x4ba2 CMakeFiles/mic_basics.dir/src/main.c.o
@@ -4731,38 +4732,38 @@ LOAD linker stubs
  .debug_str     0x00004ba2      0x24a /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v8-m.main+fp/softfp/libg.a(libc_a-__atexit.o)
  .debug_str     0x00004ba2      0x26c /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v8-m.main+fp/softfp/libg.a(libc_a-__call_atexit.o)
 
-.debug_frame    0x00000000     0x1ad8
- .debug_frame   0x00000000       0x28 CMakeFiles/mic_basics.dir/src/main.c.o
- .debug_frame   0x00000028       0x5c CMakeFiles/mic_basics.dir/src/uart_setup.c.o
- .debug_frame   0x00000084       0x70 CMakeFiles/mic_basics.dir/src/gpio_setup.c.o
- .debug_frame   0x000000f4       0x4c CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.o
- .debug_frame   0x00000140       0x94 CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/common/hardware_claim/claim.c.o
- .debug_frame   0x000001d4       0x98 CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.o
- .debug_frame   0x0000026c       0x40 CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.o
- .debug_frame   0x000002ac      0x1cc CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.o
- .debug_frame   0x00000478       0x20 CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/common/pico_sync/lock_core.c.o
- .debug_frame   0x00000498      0x1d0 CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/common/pico_sync/mutex.c.o
- .debug_frame   0x00000668      0x358 CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/common/pico_time/time.c.o
- .debug_frame   0x000009c0      0x2d4 CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.o
- .debug_frame   0x00000c94      0x1f0 CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.o
- .debug_frame   0x00000e84       0x44 CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.o
- .debug_frame   0x00000ec8       0x40 CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.o
- .debug_frame   0x00000f08      0x12c CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.o
- .debug_frame   0x00001034       0x20 CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.o
- .debug_frame   0x00001054       0x40 CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.o
- .debug_frame   0x00001094       0x4c CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.o
- .debug_frame   0x000010e0       0x70 CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.o
- .debug_frame   0x00001150       0xc0 CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o
- .debug_frame   0x00001210       0x34 CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.o
- .debug_frame   0x00001244      0x2d4 CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.o
- .debug_frame   0x00001518      0x190 CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.o
- .debug_frame   0x000016a8      0x2e8 CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o
- .debug_frame   0x00001990       0x4c CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.o
- .debug_frame   0x000019dc       0x20 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v8-m.main+fp/softfp/libg.a(libc_a-atexit.o)
- .debug_frame   0x000019fc       0x20 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v8-m.main+fp/softfp/libg.a(libc_a-strlen-stub.o)
- .debug_frame   0x00001a1c       0x34 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v8-m.main+fp/softfp/libg.a(libc_a-fini.o)
- .debug_frame   0x00001a50       0x34 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v8-m.main+fp/softfp/libg.a(libc_a-__atexit.o)
- .debug_frame   0x00001a84       0x54 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v8-m.main+fp/softfp/libg.a(libc_a-__call_atexit.o)
+.debug_frame    0x00000000     0x1adc
+ .debug_frame   0x00000000       0x2c CMakeFiles/mic_basics.dir/src/main.c.o
+ .debug_frame   0x0000002c       0x5c CMakeFiles/mic_basics.dir/src/uart_setup.c.o
+ .debug_frame   0x00000088       0x70 CMakeFiles/mic_basics.dir/src/gpio_setup.c.o
+ .debug_frame   0x000000f8       0x4c CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.o
+ .debug_frame   0x00000144       0x94 CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/common/hardware_claim/claim.c.o
+ .debug_frame   0x000001d8       0x98 CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.o
+ .debug_frame   0x00000270       0x40 CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.o
+ .debug_frame   0x000002b0      0x1cc CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.o
+ .debug_frame   0x0000047c       0x20 CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/common/pico_sync/lock_core.c.o
+ .debug_frame   0x0000049c      0x1d0 CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/common/pico_sync/mutex.c.o
+ .debug_frame   0x0000066c      0x358 CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/common/pico_time/time.c.o
+ .debug_frame   0x000009c4      0x2d4 CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.o
+ .debug_frame   0x00000c98      0x1f0 CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.o
+ .debug_frame   0x00000e88       0x44 CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.o
+ .debug_frame   0x00000ecc       0x40 CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.o
+ .debug_frame   0x00000f0c      0x12c CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.o
+ .debug_frame   0x00001038       0x20 CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.o
+ .debug_frame   0x00001058       0x40 CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.o
+ .debug_frame   0x00001098       0x4c CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.o
+ .debug_frame   0x000010e4       0x70 CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.o
+ .debug_frame   0x00001154       0xc0 CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o
+ .debug_frame   0x00001214       0x34 CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.o
+ .debug_frame   0x00001248      0x2d4 CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.o
+ .debug_frame   0x0000151c      0x190 CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.o
+ .debug_frame   0x000016ac      0x2e8 CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o
+ .debug_frame   0x00001994       0x4c CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.o
+ .debug_frame   0x000019e0       0x20 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v8-m.main+fp/softfp/libg.a(libc_a-atexit.o)
+ .debug_frame   0x00001a00       0x20 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v8-m.main+fp/softfp/libg.a(libc_a-strlen-stub.o)
+ .debug_frame   0x00001a20       0x34 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v8-m.main+fp/softfp/libg.a(libc_a-fini.o)
+ .debug_frame   0x00001a54       0x34 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v8-m.main+fp/softfp/libg.a(libc_a-__atexit.o)
+ .debug_frame   0x00001a88       0x54 /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v8-m.main+fp/softfp/libg.a(libc_a-__call_atexit.o)
 
 .debug_line_str
                 0x00000000      0x113

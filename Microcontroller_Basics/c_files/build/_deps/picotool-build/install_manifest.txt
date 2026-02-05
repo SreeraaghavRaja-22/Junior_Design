@@ -1,7 +1,0 @@
-/home/sreer/Junior_Design/Microcontroller_Basics/c_files/build/_deps/picotool/picotool
-/home/sreer/Junior_Design/Microcontroller_Basics/c_files/build/_deps/picotool/picotoolTargets.cmake
-/home/sreer/Junior_Design/Microcontroller_Basics/c_files/build/_deps/picotool/picotoolTargets-release.cmake
-/home/sreer/Junior_Design/Microcontroller_Basics/c_files/build/_deps/picotool/picotoolConfig.cmake
-/home/sreer/Junior_Design/Microcontroller_Basics/c_files/build/_deps/picotool/picotoolConfigVersion.cmake
-/home/sreer/Junior_Design/Microcontroller_Basics/c_files/build/_deps/picotool/enc_bootloader.elf
-/home/sreer/Junior_Design/Microcontroller_Basics/c_files/build/_deps/picotool/enc_bootloader_mbedtls.elf
