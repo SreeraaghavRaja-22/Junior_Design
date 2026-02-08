@@ -1,0 +1,3 @@
+# Ignore stupid large ltspice files
+*.raw
+*.log
