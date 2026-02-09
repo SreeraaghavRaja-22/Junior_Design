@@ -219,9 +219,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/sreer/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c" "CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.o" "gcc" "CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.o.d"
   "/home/sreer/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c" "CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.o" "gcc" "CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.o.d"
   "/home/sreer/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c" "CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.o" "gcc" "CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.o.d"
-  "/home/sreer/Junior_Design/Microcontroller_Basics/c_files/src/gpio_setup.c" "CMakeFiles/mic_basics.dir/src/gpio_setup.c.o" "gcc" "CMakeFiles/mic_basics.dir/src/gpio_setup.c.o.d"
   "/home/sreer/Junior_Design/Microcontroller_Basics/c_files/src/main.c" "CMakeFiles/mic_basics.dir/src/main.c.o" "gcc" "CMakeFiles/mic_basics.dir/src/main.c.o.d"
-  "/home/sreer/Junior_Design/Microcontroller_Basics/c_files/src/uart_setup.c" "CMakeFiles/mic_basics.dir/src/uart_setup.c.o" "gcc" "CMakeFiles/mic_basics.dir/src/uart_setup.c.o.d"
   "/home/sreer/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp" "CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.o" "gcc" "CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.o.d"
   )
 

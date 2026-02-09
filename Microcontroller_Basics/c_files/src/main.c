@@ -1,55 +1,46 @@
 #include <stdio.h>
 #include <stdbool.h>
 #include "pico/stdlib.h"
-#include "gpio_setup.h"
-#include "uart_setup.h"
+#include "hardware/uart.h"
+#include "hardware/timer.h"
+#include "pico/time.h"
 
-#define LED_PIN 25
-#define UART_TX_PIN 0
-#define UART_RX_PIN 1
+#define DIODE_PIN 25
+#define PIEZO_PIN 1
+#define SWITCH_PIN 7
+
+#define HZ_2_IN_MS -250 // timer has to toggle every 250 ms
+#define KHZ_2_IN_MS -250 // timer has to toggle every 250 us
+
+// #define LED_PIN 25
+// #define UART_TX_PIN 0
+// #define UART_RX_PIN 1
+// #define BAUDRATE 115200
+
+volatile bool led_state = false, piezo_state = false; 
+
+bool toggle_diode(__unused struct repeating_timer *t){
+    led_state ^= 1; 
+    gpio_put(DIODE_PIN, led_state);
+    return true; 
+}
+
+bool toggle_piezo(__unused struct repeating_timer *t){
+    gpio_xor_mask64(1u << PIEZO_PIN);
+    return true;
+}
 
 int main(void){
-    stdio_init_all();
-    printf("1");
+    stdio_init_all();   
+    gpio_init(DIODE_PIN);
+    gpio_set_dir(DIODE_PIN, GPIO_OUT);
+    
+    struct repeating_timer diode_timer, piezo_timer; 
 
-    // initialize uart0 
-    my_uart_init(my_uart0_hw, BAUDRATE);
-    printf("2");
-
-    // Configure GPIO Pins for UART0
-    my_gpio_set_function(UART_TX_PIN, GPIO_FUNC_UART);
-    my_gpio_set_function(UART_RX_PIN, GPIO_FUNC_UART);
-    printf("3");
-
-    // set up LED for blinking 
-    my_gpio_set_function(LED_PIN, GPIO_FUNC_SIO);
-    my_gpio_set_dir_out(LED_PIN);
-    printf("4");
-
-    // send message through uart
-    my_uart_put_string(my_uart0_hw, "hi there, how are you?");
-    my_uart_put_string(my_uart0_hw, "Send a response back!");
-    printf("5");
-
-    while(1){
-        // get char from keyboard
-        char c = my_uart_get_c(my_uart0_hw);
-        my_uart_put_c(my_uart0_hw, c);
-        printf("6");
-
-        // toggle led pin
-        my_gpio_toggle(LED_PIN);
-        printf("6");
-
-        // check for an enter (carriage return = CR)
-        if(c == '\r'){
-            // add a newline (LF)
-            my_uart_put_c(my_uart0_hw, '\n');
-            printf("7");
-        }
-
-        printf("Hi");
-    }
+    add_repeating_timer_ms(-250, toggle_diode, NULL, &diode_timer);
+    add_repeating_timer_us(-250, toggle_piezo, NULL, &piezo_timer);
+    
+    for(;;){} 
 
     return 0;
 }
