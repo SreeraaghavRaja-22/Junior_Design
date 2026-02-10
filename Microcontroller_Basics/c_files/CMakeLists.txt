@@ -28,4 +28,5 @@ target_link_libraries(mic_basics
     hardware_gpio
     hardware_timer
     pico_time
+    hardware_irq
 )
