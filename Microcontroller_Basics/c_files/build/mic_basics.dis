@@ -41,19 +41,19 @@ Idx Name          Size      VMA       LMA       File off  Algn
                   CONTENTS, READONLY, DEBUGGING, OCTETS
  18 .debug_abbrev 0000935c  00000000  00000000  0003b1b8  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 19 .debug_loclists 00018a8f  00000000  00000000  00044514  2**0
+ 19 .debug_loclists 00018a92  00000000  00000000  00044514  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
  20 .debug_aranges 000012a0  00000000  00000000  0005cfa8  2**3
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 21 .debug_rnglists 00004563  00000000  00000000  0005e248  2**0
+ 21 .debug_rnglists 00004566  00000000  00000000  0005e248  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 22 .debug_line   0001ebdd  00000000  00000000  000627ab  2**0
+ 22 .debug_line   0001ebe9  00000000  00000000  000627ae  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 23 .debug_str    000092ab  00000000  00000000  00081388  2**0
+ 23 .debug_str    000092ab  00000000  00000000  00081397  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 24 .debug_frame  000031bc  00000000  00000000  0008a634  2**2
+ 24 .debug_frame  000031bc  00000000  00000000  0008a644  2**2
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 25 .debug_line_str 00000113  00000000  00000000  0008d7f0  2**0
+ 25 .debug_line_str 00000113  00000000  00000000  0008d800  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
 
 /home/sreer/Junior_Design/Microcontroller_Basics/c_files/build/mic_basics.elf:     file format elf32-littlearm
@@ -351,20 +351,21 @@ Disassembly of section .text:
 100002b8:	2007      	movs	r0, #7
 100002ba:	f000 f98d 	bl	100005d8 <gpio_set_irq_enabled>
 100002be:	2101      	movs	r1, #1
-100002c0:	4b12      	ldr	r3, [pc, #72]	@ (1000030c <gpio_irq_callback+0x5c>)
-100002c2:	4a13      	ldr	r2, [pc, #76]	@ (10000310 <gpio_irq_callback+0x60>)
+100002c0:	4b11      	ldr	r3, [pc, #68]	@ (10000308 <gpio_irq_callback+0x58>)
+100002c2:	4a12      	ldr	r2, [pc, #72]	@ (1000030c <gpio_irq_callback+0x5c>)
 100002c4:	7019      	strb	r1, [r3, #0]
 100002c6:	7813      	ldrb	r3, [r2, #0]
-100002c8:	4d12      	ldr	r5, [pc, #72]	@ (10000314 <gpio_irq_callback+0x64>)
+100002c8:	4d11      	ldr	r5, [pc, #68]	@ (10000310 <gpio_irq_callback+0x60>)
 100002ca:	404b      	eors	r3, r1
 100002cc:	7013      	strb	r3, [r2, #0]
 100002ce:	f001 f80f 	bl	100012f0 <alarm_pool_get_default>
 100002d2:	4604      	mov	r4, r0
 100002d4:	f001 fa7a 	bl	100017cc <time_us_64>
-100002d8:	f242 7310 	movw	r3, #10000	@ 0x2710
-100002dc:	f04f 3eff 	mov.w	lr, #4294967295	@ 0xffffffff
-100002e0:	f06f 4c00 	mvn.w	ip, #2147483648	@ 0x80000000
-100002e4:	18c2      	adds	r2, r0, r3
+100002d8:	f04f 3eff 	mov.w	lr, #4294967295	@ 0xffffffff
+100002dc:	f06f 4c00 	mvn.w	ip, #2147483648	@ 0x80000000
+100002e0:	4a0c      	ldr	r2, [pc, #48]	@ (10000314 <gpio_irq_callback+0x64>)
+100002e2:	9500      	str	r5, [sp, #0]
+100002e4:	1882      	adds	r2, r0, r2
 100002e6:	f141 0300 	adc.w	r3, r1, #0
 100002ea:	4596      	cmp	lr, r2
 100002ec:	eb7c 0103 	sbcs.w	r1, ip, r3
@@ -374,14 +375,13 @@ Disassembly of section .text:
 100002f8:	4663      	movcc	r3, ip
 100002fa:	4620      	mov	r0, r4
 100002fc:	e9cd 1101 	strd	r1, r1, [sp, #4]
-10000300:	9500      	str	r5, [sp, #0]
-10000302:	f000 fff9 	bl	100012f8 <alarm_pool_add_alarm_at>
-10000306:	b005      	add	sp, #20
-10000308:	bd30      	pop	{r4, r5, pc}
-1000030a:	bf00      	nop
-1000030c:	20000e00 	.word	0x20000e00
-10000310:	20001c70 	.word	0x20001c70
-10000314:	1000029d 	.word	0x1000029d
+10000300:	f000 fffa 	bl	100012f8 <alarm_pool_add_alarm_at>
+10000304:	b005      	add	sp, #20
+10000306:	bd30      	pop	{r4, r5, pc}
+10000308:	20000e00 	.word	0x20000e00
+1000030c:	20001c70 	.word	0x20001c70
+10000310:	1000029d 	.word	0x1000029d
+10000314:	000186a0 	.word	0x000186a0
 
 10000318 <main>:
 10000318:	e92d 4880 	stmdb	sp!, {r7, fp, lr}

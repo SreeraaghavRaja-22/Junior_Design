@@ -13,8 +13,8 @@
 
 #define HZ_2_IN_MS -250 // timer has to toggle every 250 ms
 #define KHZ_2_IN_MS -250 // timer has to toggle every 250 us
-#define DEBOUNCE_TIME 10 // typical debounce time is 10 ms
-// #define LED_PIN 25
+#define DEBOUNCE_TIME 100 // typical debounce time is 10 ms
+// #define LED_PIN 25>
 // #define UART_TX_PIN 0
 // #define UART_RX_PIN 1
 // #define BAUDRATE 115200
@@ -71,7 +71,7 @@ int main(void){
     // initialize the struct for the diode and piezo timers
     struct repeating_timer active_timer; 
 
-    // add a repeating timemr with callback for the diode and piezo
+    // add a repeating timer with callback for the diode and piezo
     add_repeating_timer_ms(-250, toggle_diode, NULL, &active_timer);
 
     // enable the falling edge interrupt for the switch pin (enable the interrupt)
