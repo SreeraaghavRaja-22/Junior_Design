@@ -1967,30 +1967,6 @@ home/sreer/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/mic_basics.dir/build.make CMakeFiles/mic_basics.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s
 .PHONY : home/sreer/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s
 
-src/gpio_setup.o: src/gpio_setup.c.o
-.PHONY : src/gpio_setup.o
-
-# target to build an object file
-src/gpio_setup.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/mic_basics.dir/build.make CMakeFiles/mic_basics.dir/src/gpio_setup.c.o
-.PHONY : src/gpio_setup.c.o
-
-src/gpio_setup.i: src/gpio_setup.c.i
-.PHONY : src/gpio_setup.i
-
-# target to preprocess a source file
-src/gpio_setup.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/mic_basics.dir/build.make CMakeFiles/mic_basics.dir/src/gpio_setup.c.i
-.PHONY : src/gpio_setup.c.i
-
-src/gpio_setup.s: src/gpio_setup.c.s
-.PHONY : src/gpio_setup.s
-
-# target to generate assembly for a file
-src/gpio_setup.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/mic_basics.dir/build.make CMakeFiles/mic_basics.dir/src/gpio_setup.c.s
-.PHONY : src/gpio_setup.c.s
-
 src/main.o: src/main.c.o
 .PHONY : src/main.o
 
@@ -2014,30 +1990,6 @@ src/main.s: src/main.c.s
 src/main.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/mic_basics.dir/build.make CMakeFiles/mic_basics.dir/src/main.c.s
 .PHONY : src/main.c.s
-
-src/uart_setup.o: src/uart_setup.c.o
-.PHONY : src/uart_setup.o
-
-# target to build an object file
-src/uart_setup.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/mic_basics.dir/build.make CMakeFiles/mic_basics.dir/src/uart_setup.c.o
-.PHONY : src/uart_setup.c.o
-
-src/uart_setup.i: src/uart_setup.c.i
-.PHONY : src/uart_setup.i
-
-# target to preprocess a source file
-src/uart_setup.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/mic_basics.dir/build.make CMakeFiles/mic_basics.dir/src/uart_setup.c.i
-.PHONY : src/uart_setup.c.i
-
-src/uart_setup.s: src/uart_setup.c.s
-.PHONY : src/uart_setup.s
-
-# target to generate assembly for a file
-src/uart_setup.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/mic_basics.dir/build.make CMakeFiles/mic_basics.dir/src/uart_setup.c.s
-.PHONY : src/uart_setup.c.s
 
 # Help Target
 help:
@@ -2274,15 +2226,9 @@ help:
 	@echo "... home/sreer/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.o"
 	@echo "... home/sreer/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.i"
 	@echo "... home/sreer/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.s"
-	@echo "... src/gpio_setup.o"
-	@echo "... src/gpio_setup.i"
-	@echo "... src/gpio_setup.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
-	@echo "... src/uart_setup.o"
-	@echo "... src/uart_setup.i"
-	@echo "... src/uart_setup.s"
 .PHONY : help
 
 

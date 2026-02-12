@@ -62,6 +62,4 @@ CMakeFiles/mic_basics.dir/src/main.c.o: \
  /home/sreer/pico/pico-sdk/src/rp2_common/hardware_resets/include/hardware/resets.h \
  /home/sreer/pico/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/resets.h \
  /home/sreer/pico/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/resets.h \
- /home/sreer/pico/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h \
- /home/sreer/Junior_Design/Microcontroller_Basics/c_files/src/gpio_setup.h \
- /home/sreer/Junior_Design/Microcontroller_Basics/c_files/src/uart_setup.h
+ /home/sreer/pico/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h
