@@ -35,12 +35,17 @@ while True:
     # r2 = round(r2,3)
     
     ## convert the value using linearized equation (used exponential)
-    # r2_out = 8913*e^(2.57) * 10^(-6)(r2)
-    r2_out = -2500 + 0.0512 * (r2) + 5.02e-8 * (r2)**2
-    r2_out = round(r2_out)
-    
+    r2_out = 15477 * 0.821 * (r2)
+    if (r2 < 1e6):
+       r2_out = -16.263 + 0.9866 * (r2) - 2e-7 * (r2)**2
+    else:
+       r2_out = 0.821 * r2 + 15.477e3
+       
+    r2_out = round(r2_out, 3)
+       
+        
     # output the adc value to LCD display
-    out_string = "R = " + str(r2) + chr(0xf4)
+    out_string = "R = " + str(r2_out) + chr(0xf4)
     
     # clear before printing
     lcd.clear()
