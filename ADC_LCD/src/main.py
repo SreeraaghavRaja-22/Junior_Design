@@ -24,28 +24,53 @@ conversion_factor = 3.3 / 65535
 # resistor 1 value
 r1 = 32978
 # linearization equation
-lin_eq = 8913 * math.exp(2.57) * 10**(-6) 
+lin_eq = 8913 * math.exp(2.57) * 10**(-6)
+
+# Rolling Average Filter
+data = []
+WIN_SIZE = 50
+prev_filtered_resistance = 0
+THRESHOLD = 0.05
 
 while True:
     # read the voltage and convert to adc value
     voltage_read = voltage_adc.read_u16() * conversion_factor
     # find r2 value
-    r2 = r1 * ((voltage_read) / (3.3 - voltage_read))
-    # round to 3 decimal places
-    # r2 = round(r2,3)
     
-    ## convert the value using linearized equation (used exponential)
-    r2_out = 15477 * 0.821 * (r2)
-    if (r2 < 1e6):
+    if(3.3 - voltage_read <= 0):
+        r2 = 1e7
+    else: 
+        r2 = r1 * ((voltage_read) / (3.3 - voltage_read))
+    
+    ## convert the value using linearized equation (used exponential) for normal values and 
+    if (r2 < 650e3):
        r2_out = -16.263 + 0.9866 * (r2) - 2e-7 * (r2)**2
     else:
        r2_out = 0.821 * r2 + 15.477e3
        
-    r2_out = round(r2_out, 3)
+    if prev_filtered_resistance > 0:
+        
+        diff = abs(r2_out - prev_filtered_resistance) / prev_filtered_resistance
+        
+        if diff > THRESHOLD:
+            data.clear()
+            print("Resistance Changed!")
+    
+       
+    data.append(r2_out)
+    
+    if len(data) > WIN_SIZE:
+        # remove the oldest sample if the length of the array is greater than the window size
+        data.pop(0) 
+    
+    # take the mean of the data values and the length
+    r2_out_filter = sum(data) / len(data)
+    r2_out_t = round(r2_out_filter, 3)
+    prev_filtered_resistance = r2_out_filter
        
         
     # output the adc value to LCD display
-    out_string = "R = " + str(r2_out) + chr(0xf4)
+    out_string = "R = " + str(r2_out_t) + chr(0xf4)
     
     # clear before printing
     lcd.clear()
@@ -59,6 +84,6 @@ while True:
     # print out resistance value
     print(out_string)
     
-    sleep(1)
+    sleep(0.5)
     
     
