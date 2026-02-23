@@ -43,7 +43,7 @@ while True:
         r2 = r1 * ((voltage_read) / (3.3 - voltage_read))
     
     ## convert the value using linearized equation (used exponential) for normal values and 
-    if (r2 < 650e3):
+    if(r2 < 650e3):
        r2_out = -16.263 + 0.9866 * (r2) - 2e-7 * (r2)**2
     else:
        r2_out = 0.821 * r2 + 15.477e3
@@ -75,11 +75,11 @@ while True:
     # clear before printing
     lcd.clear()
     
-    # print out to lcd
-    # if(r2 < 1000 or r2 > 1e6):
-        # lcd.print("Out of Range")
-    # else:
-    lcd.print(out_string)
+
+    if (r2_out_t < 1e3 or r2_out_t > 1e6):
+        lcd.print("Out of Range")
+    else:
+        lcd.print(out_string)
         
     # print out resistance value
     print(out_string)
