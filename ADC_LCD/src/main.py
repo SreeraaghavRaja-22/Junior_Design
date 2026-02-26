@@ -9,10 +9,8 @@ from LCD import LCD
 
 # GPIO 
 lcd = LCD(enable_pin=18,           # Enable Pin, int
-         reg_select_pin=16,        # Register Select, int
-         data_pins=[19, 20, 21, 22]   # Data Pin numbers for the upper nibble. list[int]
-         )
-
+         reg_select_pin=16,        # Register Select, intt
+         data_pins=[19, 20, 21, 22]   # Data Pin numbers for the upper nibble. list[in]  
 lcd.init()
 lcd.clear()
 
