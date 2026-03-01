@@ -1,6 +1,7 @@
-from machine import SPI, ADC, Pin
+from machine import SPI, ADC, Pin, Timer
 from time import sleep
 import utime
+
 
 # ----------------------- LUTs ----------------------- #
 sine_lookup_table = (
@@ -41,27 +42,86 @@ sawtooth_lookup_table = (
 
 # ----------------------- LUTs ----------------------- #
 
-
-# spi = SPI.init(1, baudrate=400000)
-
-# cs = Pin(4, mode=Pin.OUT, value=1)
-
-# try:
-#    cs(0)                        # select peripheral 
-#    spi.write(b"12345678")       # Write 8 bytes, and dont' care about receiving data
-# finally:
-#    cs(1)                        # Deselect peripheral
+LUT_LENGTH = 64 
+CONTROL_WORD = 0xF # this loads new data into input reg A and sends that to the 
 
 freq_pot = ADC(27)        # connect to ADC1
 conversion_factor = 3.3 / (65535)
-count : int = 0
+conversion_factor_norm = conversion_factor / 3.3
 
-while True:
-    freq_reading = freq_pot.read_u16() * conversion_factor    
-    print(freq_reading)
-    print(sine_lookup_table[count])
-    count = count + 1
-    if count >= 1024:
-        count = 0
-    sleep(0.5)
+count : int = 0
+index : int = 0
+
+# ----------------------- INITIALIZATION ----------------------- #
+# initialize SPI module
+spi = SPI(1, baudrate = 400000, polarity = 0, phase = 0, bits = 8, firstbit = SPI.MSB)
+# set chip select separately to toggle and set it as an output pin with default value high (Active-Low CS)
+cs = Pin(13, Pin.OUT, value = 1)
+# initialize timer
+tim = Timer()
+# initialize 16-bit array to store data that we're sending - 2 bytes
+send = bytearray(2)
+# choose wave_type
+wave = sine_lookup_table
+# timer 2 for the freq pot
+tim2 = Timer()
+# initialize the dac update timer
+samp_freq = 100
+dac_update_freq = samp_freq * 64
+tolerance = 1
+# ----------------------- INITIALIZATION ----------------------- #
+
+def pack_data(data):
+    # pack data and bottom two bits are don't cares, so don't matter
+    return ((CONTROL_WORD << 12) | ((data & 0x3FF) << 2)) 
+
+
+def update_dac(timer):
+    global index
+    
+    packet = pack_data(wave[index])
+    
+    send[0] = (packet >> 8) & 0xFF
+    send[1] = packet & 0xFF
+    
+    # choose DAC as device
+    cs.low()
+    spi.write(send)
+    utime.sleep_us(1)
+    cs.high()
+    
+    index = (index + 1) % 64
+    
+def update_freq(timer):
+    global dac_update_freq
+    global samp_freq
+    
+    freq_reading = round(freq_pot.read_u16() * conversion_factor_norm * 90 + 10)
+    if abs(samp_freq - freq_reading) > tolerance:
+        samp_freq = round(freq_reading)
+        dac_update_freq = samp_freq * 64
+        tim.init(mode = Timer.PERIODIC, freq = dac_update_freq, callback = update_dac)
+    
+
+def main():
+   
+   
+    # initialize callback timers
+    tim.init(mode = Timer.PERIODIC, freq = dac_update_freq, callback = update_dac)
+    tim2.init(mode = Timer.PERIODIC, freq = 20, callback = update_freq)
+   
+    while True:
+        pass
+        
+        
+    # print(freq_reading)
+    # print(sine_lookup_table[count])
+    # count = count + 1
+    # if count > 63:
+        # count = 0
+    # sleep(0.5)
+
+main()
+    
+        
 
