@@ -57,18 +57,34 @@ index : int = 0
 spi = SPI(1, baudrate = 400000, polarity = 0, phase = 0, bits = 8, firstbit = SPI.MSB)
 # set chip select separately to toggle and set it as an output pin with default value high (Active-Low CS)
 cs = Pin(13, Pin.OUT, value = 1)
-# initialize timer
+
+# initialize timers
 tim = Timer()
+# timer 2 for the freq pot
+tim2 = Timer()
+
 # initialize 16-bit array to store data that we're sending - 2 bytes
 send = bytearray(2)
 # choose wave_type
 wave = sine_lookup_table
-# timer 2 for the freq pot
-tim2 = Timer()
+
+
 # initialize the dac update timer
 samp_freq = 100
 dac_update_freq = samp_freq * 64
 tolerance = 1
+
+# initialize Pins for switches
+sw1 = Pin(28, mode=Pin.IN, pull=Pin.PULL_UP)
+sw0 = Pin(22, mode = Pin.IN, pull=Pin.PULL_UP)
+# switch flag
+sw_state = [0,0]
+change_state = [False,False]
+
+# initialize 2 one-shot timer objects
+tim3 = Timer()
+tim4 = Timer()
+
 # ----------------------- INITIALIZATION ----------------------- #
 
 def pack_data(data):
@@ -101,25 +117,59 @@ def update_freq(timer):
         samp_freq = round(freq_reading)
         dac_update_freq = samp_freq * 64
         tim.init(mode = Timer.PERIODIC, freq = dac_update_freq, callback = update_dac)
+
+def sw0_irq_handler(Pin):
+    sw0.irq(handler=None)
+    sw_state[0] = sw_state[0] ^ 1
+    change_state[0] = True
+    # start a one shot timer
+    tim3.init(mode=Timer.ONE_SHOT, period=100, callback=sw0_callback)
     
+def sw1_irq_handler(Pin):
+    sw1.irq(handler=None)
+    sw_state[1] = sw_state[1] ^ 1
+    change_state[1] = True
+    # start a one shot timer
+    tim4.init(mode=Timer.ONE_SHOT, period=100, callback=sw1_callback)
+    
+def sw0_callback(timer):
+    # re-enable the interrupt
+    sw0.irq(handler=sw0_irq_handler, trigger=Pin.IRQ_FALLING)
+           
+def sw1_callback(timer):
+    # re-enable the interrupt
+    sw1.irq(handler=sw1_irq_handler, trigger=Pin.IRQ_FALLING)
 
 def main():
-   
-   
     # initialize callback timers
     tim.init(mode = Timer.PERIODIC, freq = dac_update_freq, callback = update_dac)
     tim2.init(mode = Timer.PERIODIC, freq = 20, callback = update_freq)
+    
+    # enable the switch interrupts
+    sw0.irq(handler=sw0_irq_handler, trigger=Pin.IRQ_FALLING)
+    sw1.irq(handler=sw1_irq_handler, trigger=Pin.IRQ_FALLING)
    
     while True:
-        pass
+        global index, wave
+        if change_state[0] or change_state[1]:
+            sw0_active = sw_state[0]
+            sw1_active = sw_state[1]
+            change_state[0] = False
+            change_state[1] = False
+            
+            if sw0_active and sw1_active:
+                wave = sawtooth_lookup_table
+            elif sw1_active:
+                wave = triangle_lookup_table
+            elif sw0_active:
+                wave = square_lookup_table
+            else:
+                wave = sine_lookup_table
+                
+            index = 0
+        print(f"SW0: {sw_state[0]}, SW1: {sw_state[1]}")
         
-        
-    # print(freq_reading)
-    # print(sine_lookup_table[count])
-    # count = count + 1
-    # if count > 63:
-        # count = 0
-    # sleep(0.5)
+        utime.sleep_ms(100)     
 
 main()
     
