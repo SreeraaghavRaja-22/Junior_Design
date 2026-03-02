@@ -49,6 +49,7 @@ freq_pot = ADC(27)        # connect to ADC1
 conversion_factor = 3.3 / (65535)
 conversion_factor_norm = conversion_factor / 3.3
 
+
 count : int = 0
 index : int = 0
 
