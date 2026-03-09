@@ -104,7 +104,6 @@ def update_dac(timer):
     # choose DAC as device
     cs.low()
     spi.write(send)
-    utime.sleep_us(1)
     cs.high()
     
     index = (index + 1) % 64
@@ -124,14 +123,14 @@ def sw0_irq_handler(Pin):
     sw_state[0] = sw_state[0] ^ 1
     change_state[0] = True
     # start a one shot timer
-    tim3.init(mode=Timer.ONE_SHOT, period=100, callback=sw0_callback)
+    tim3.init(mode=Timer.ONE_SHOT, period=300, callback=sw0_callback)
     
 def sw1_irq_handler(Pin):
     sw1.irq(handler=None)
     sw_state[1] = sw_state[1] ^ 1
     change_state[1] = True
     # start a one shot timer
-    tim4.init(mode=Timer.ONE_SHOT, period=100, callback=sw1_callback)
+    tim4.init(mode=Timer.ONE_SHOT, period=300, callback=sw1_callback)
     
 def sw0_callback(timer):
     # re-enable the interrupt
