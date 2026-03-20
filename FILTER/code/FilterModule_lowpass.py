@@ -92,7 +92,7 @@ plt.legend(['original','filtered-Butterworth','filtered-Bessel','filtered-Chebys
 plt.xlabel('time (s)')
 plt.ylabel('Voltage (V)')
 
-plt.legend(['Butterworth', 'Bessel', 'Chebyshev'])
+# plt.legend(['Butterworth', 'Bessel', 'Chebyshev'])
 plt.show()
 
 #-----------Plot the frequency-domain filtered signal------
