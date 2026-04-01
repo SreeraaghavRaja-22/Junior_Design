@@ -29,6 +29,8 @@ target_link_libraries(final_project
     hardware_irq
     hardware_i2c
     hardware_spi
+    hardware_dma,
+    hardware_pwm,
     hardware_adc
     pico_cyw43_arch_threadsafe_background
 )
