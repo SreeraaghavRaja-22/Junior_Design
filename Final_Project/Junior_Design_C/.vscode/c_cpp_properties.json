@@ -1,0 +1,21 @@
+{
+    "configurations": [
+        {
+            "name": "PICO 2",
+            "includePath": [
+                "${workspaceFolder}/**", 
+                "/home/sreer/pico/pico-sdk/src/**"
+            ],
+            "defines": [
+                "PICO_BOARD = pico2_w",
+                "PICO_CYW43_SUPPORTED=1"
+            ],
+            "compilerPath": "/usr/bin/arm-none-eabi-gcc",
+            "cStandard": "c17",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "linux-gcc-arm",
+            "configurationProvider": "ms-vscode.cmake-tools"
+        }
+    ],
+    "version": 4
+}
