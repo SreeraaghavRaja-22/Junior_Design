@@ -24,15 +24,19 @@ target_link_libraries(final_project
     pico_stdlib
     hardware_uart
     hardware_gpio
-    hardware_time
-    pico_time,
+    pico_time
     hardware_irq
     hardware_i2c
     hardware_spi
-    hardware_dma,
-    hardware_pwm,
+    hardware_dma
+    hardware_pwm
     hardware_adc
-    pico_cyw43_arch_threadsafe_background
+    pico_cyw43_arch_lwip_threadsafe_background
+    pico_lwip_nosys
 )
 
-pico_cyw43_arch_init()
+target_include_directories(final_project PRIVATE
+    "/home/sreer/Junior_Design/Final_Project/Junior_Design_C/src"
+    "${PICO_SDK_PATH}/src/rp2_common/pico_lwip/include"
+    "${PICO_SDK_PATH}/lib/lwip/src/include"
+)

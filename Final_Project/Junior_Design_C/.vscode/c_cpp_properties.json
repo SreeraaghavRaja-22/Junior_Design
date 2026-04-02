@@ -3,8 +3,8 @@
         {
             "name": "PICO 2",
             "includePath": [
-                "${workspaceFolder}/**", 
-                "/home/sreer/pico/pico-sdk/src/**"
+                "${workspaceFolder}/**",
+                "/home/sreer/pico/**"
             ],
             "defines": [
                 "PICO_BOARD = pico2_w",
