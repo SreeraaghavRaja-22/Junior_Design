@@ -1,6 +1,8 @@
 #ifndef _COMPONENTS_H
 #define _COMPONENTS_H
 
+#include <pico/stdlib.h>
+
 #define SWITCH_PIN1 0
 #define SWITCH_PIN2 1
 #define SWITCH_PIN3 2
@@ -42,8 +44,6 @@ void toggle_leds(void){
     gpio_xor_mask64(1u << LED4_PIN);
     gpio_xor_mask64(1u << LED5_PIN);
 }
-
-
 
 
 #endif /*_COMPONENTS_H*/
