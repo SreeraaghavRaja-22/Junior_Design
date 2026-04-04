@@ -3,33 +3,30 @@
 #include "FreeRTOSConfig.h"
 #include "FreeRTOS.h"
 #include "task.h"
+#include "semphr.h"
 #include "includes/main_init.h"
+#include "includes/semaphores.h"
 #include "math.h"
-
-
-void Heartbeat_Task(void *pvParameters) {
-    for(;;) {
-        uint16_t raw = adc_read(); 
-        printf("Raw Value: 0x%03x, voltage = %f V\n", raw, raw * ADC_CONV_FACTOR);
-        float voltage_adc = raw * ADC_CONV_FACTOR;
-        float threshold = voltage_adc / 3.3f;
-        int leds_on = (int)roundf(threshold * 5);
-
-        for(int i = LED1_PIN; i < LED1_PIN + 5; i++){
-            if((i - LED1_PIN) < leds_on){gpio_put(i, 1);}
-            else{gpio_put(i, 0);}
-        }
-        vTaskDelay(pdMS_TO_TICKS(100));
-    }
-}
+#include "includes/tasks.h"
 
 int main(void) {
     stdio_init_all();
     // Temporarily removed cyw43_arch_init() to eliminate driver conflicts
     main_init();
-    
+
+    // initialize semaphore
+    xButtonSemaphore = xSemaphoreCreateBinary();
+    xLedMutex = xSemaphoreCreateMutex();
+
+    gpio_set_irq_enabled_with_callback(BUTTON_PIN, GPIO_IRQ_EDGE_FALL, true, &button_isr);
+
+    // initialize threads
     xTaskCreate(Heartbeat_Task, "HB", 512, NULL, 1, NULL);
-    vTaskStartScheduler();
+    xTaskCreate(Button_Task, "BUTT", 512, NULL, 2, NULL);
+    xTaskCreate(Switch_Task, "SWI", 512, NULL, 2, NULL);
+
+    // start RTOS
+    vTaskStartScheduler(); // creates the idle thread, so no worries
 
     for(;;); // Should never get here
 }

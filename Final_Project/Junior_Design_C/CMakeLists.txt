@@ -12,11 +12,17 @@ pico_sdk_init()
 
 add_executable(final_project
     src/main.c
+    src/includes/src/components.c
+    src/includes/src/adc_init.c
+    src/includes/src/main_init.c
+    src/includes/src/semaphores.c
+    src/includes/src/tasks.c
 )
 
 target_link_libraries(final_project
     pico_stdlib
     hardware_adc
+    hardware_i2c
     FreeRTOS-Kernel
     FreeRTOS-Kernel-Heap4
 )
