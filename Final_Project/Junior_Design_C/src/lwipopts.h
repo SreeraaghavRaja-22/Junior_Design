@@ -2,12 +2,13 @@
 #define _LWIPOPTS_H
 
 // Common Settings for the PICO2
-#define NO_SYS                      1 
+#define NO_SYS                      0
 #define LWIP_SOCKET                 0
 #define LWIP_NETCONN                0
+#define LWIP_ERRNO_INCLUDE          <errno.h>
 #define MEM_LIBC_MALLOC             0
 #define MEM_ALIGNMENT               4
-#define MEM_SIZE                    4000
+#define MEM_SIZE                    16000
 #define MEMP_NUM_TCP_SEG            32
 #define LWIP_ARP                    1
 #define LWIP_ETHERNET               1

@@ -843,122 +843,52 @@ CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_stdio/
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/sreer/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c -o CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s
 
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.o: CMakeFiles/final_project.dir/flags.make
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.o: /home/sreer/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.o: CMakeFiles/final_project.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sreer/Junior_Design/Final_Project/Junior_Design_C/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.o"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.o -MF CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.o.d -o CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.o -c /home/sreer/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c
+CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.o: CMakeFiles/final_project.dir/flags.make
+CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.o: /home/sreer/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c
+CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.o: CMakeFiles/final_project.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sreer/Junior_Design/Final_Project/Junior_Design_C/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.o -MF CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.o.d -o CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.o -c /home/sreer/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c
 
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/sreer/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c > CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i
+CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/sreer/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c > CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.i
 
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/sreer/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c -o CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s
+CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/sreer/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c -o CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.s
 
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.o: CMakeFiles/final_project.dir/flags.make
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.o: /home/sreer/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.o: CMakeFiles/final_project.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sreer/Junior_Design/Final_Project/Junior_Design_C/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.o"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.o -MF CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.o.d -o CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.o -c /home/sreer/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c
+CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.o: CMakeFiles/final_project.dir/flags.make
+CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.o: /home/sreer/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c
+CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.o: CMakeFiles/final_project.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sreer/Junior_Design/Final_Project/Junior_Design_C/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.o -MF CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.o.d -o CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.o -c /home/sreer/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c
 
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/sreer/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c > CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.i
+CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/sreer/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c > CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.i
 
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/sreer/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c -o CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.s
+CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/sreer/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c -o CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.s
 
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.o: CMakeFiles/final_project.dir/flags.make
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.o: /home/sreer/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.o: CMakeFiles/final_project.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sreer/Junior_Design/Final_Project/Junior_Design_C/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building C object CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.o"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.o -MF CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.o.d -o CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.o -c /home/sreer/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c
+CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.o: CMakeFiles/final_project.dir/flags.make
+CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.o: /home/sreer/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c
+CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.o: CMakeFiles/final_project.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sreer/Junior_Design/Final_Project/Junior_Design_C/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building C object CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.o -MF CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.o.d -o CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.o -c /home/sreer/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c
 
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/sreer/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c > CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.i
+CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/sreer/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c > CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.i
 
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/sreer/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c -o CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.s
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.o: CMakeFiles/final_project.dir/flags.make
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.o: /home/sreer/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.o: CMakeFiles/final_project.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sreer/Junior_Design/Final_Project/Junior_Design_C/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building C object CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.o"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.o -MF CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.o.d -o CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.o -c /home/sreer/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/sreer/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c > CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.i
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/sreer/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c -o CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.s
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.o: CMakeFiles/final_project.dir/flags.make
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.o: /home/sreer/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.o: CMakeFiles/final_project.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sreer/Junior_Design/Final_Project/Junior_Design_C/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building C object CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.o"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.o -MF CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.o.d -o CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.o -c /home/sreer/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/sreer/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c > CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.i
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/sreer/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c -o CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.s
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.o: CMakeFiles/final_project.dir/flags.make
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.o: /home/sreer/pico/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.o: CMakeFiles/final_project.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sreer/Junior_Design/Final_Project/Junior_Design_C/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building C object CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.o"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.o -MF CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.o.d -o CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.o -c /home/sreer/pico/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/sreer/pico/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c > CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.i
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/sreer/pico/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c -o CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.s
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.o: CMakeFiles/final_project.dir/flags.make
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.o: /home/sreer/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.o: CMakeFiles/final_project.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sreer/Junior_Design/Final_Project/Junior_Design_C/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building C object CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.o"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.o -MF CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.o.d -o CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.o -c /home/sreer/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/sreer/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c > CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.i
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/sreer/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c -o CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.s
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_rand/rand.c.o: CMakeFiles/final_project.dir/flags.make
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_rand/rand.c.o: /home/sreer/pico/pico-sdk/src/rp2_common/pico_rand/rand.c
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_rand/rand.c.o: CMakeFiles/final_project.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sreer/Junior_Design/Final_Project/Junior_Design_C/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building C object CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_rand/rand.c.o"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_rand/rand.c.o -MF CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_rand/rand.c.o.d -o CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_rand/rand.c.o -c /home/sreer/pico/pico-sdk/src/rp2_common/pico_rand/rand.c
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_rand/rand.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_rand/rand.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/sreer/pico/pico-sdk/src/rp2_common/pico_rand/rand.c > CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_rand/rand.c.i
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_rand/rand.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_rand/rand.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/sreer/pico/pico-sdk/src/rp2_common/pico_rand/rand.c -o CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_rand/rand.c.s
+CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/sreer/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c -o CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.s
 
 CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.o: CMakeFiles/final_project.dir/flags.make
 CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.o: /home/sreer/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c
 CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.o: CMakeFiles/final_project.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sreer/Junior_Design/Final_Project/Junior_Design_C/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building C object CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sreer/Junior_Design/Final_Project/Junior_Design_C/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building C object CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.o -MF CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.o.d -o CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.o -c /home/sreer/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c
 
 CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.i: cmake_force
@@ -972,7 +902,7 @@ CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_unique
 CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.o: CMakeFiles/final_project.dir/flags.make
 CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.o: /home/sreer/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c
 CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.o: CMakeFiles/final_project.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sreer/Junior_Design/Final_Project/Junior_Design_C/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building C object CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sreer/Junior_Design/Final_Project/Junior_Design_C/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building C object CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.o -MF CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.o.d -o CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.o -c /home/sreer/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c
 
 CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.i: cmake_force
@@ -986,7 +916,7 @@ CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_fl
 CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.o: CMakeFiles/final_project.dir/flags.make
 CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.o: /home/sreer/pico/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c
 CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.o: CMakeFiles/final_project.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sreer/Junior_Design/Final_Project/Junior_Design_C/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building C object CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sreer/Junior_Design/Final_Project/Junior_Design_C/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building C object CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.o -MF CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.o.d -o CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.o -c /home/sreer/pico/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c
 
 CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.i: cmake_force
@@ -997,1368 +927,416 @@ CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_xi
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.s"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/sreer/pico/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c -o CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.s
 
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/init.c.o: CMakeFiles/final_project.dir/flags.make
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/init.c.o: /home/sreer/pico/pico-sdk/lib/lwip/src/core/init.c
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/init.c.o: CMakeFiles/final_project.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sreer/Junior_Design/Final_Project/Junior_Design_C/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building C object CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/init.c.o"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/init.c.o -MF CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/init.c.o.d -o CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/init.c.o -c /home/sreer/pico/pico-sdk/lib/lwip/src/core/init.c
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/init.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/init.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/sreer/pico/pico-sdk/lib/lwip/src/core/init.c > CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/init.c.i
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/init.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/init.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/sreer/pico/pico-sdk/lib/lwip/src/core/init.c -o CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/init.c.s
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/def.c.o: CMakeFiles/final_project.dir/flags.make
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/def.c.o: /home/sreer/pico/pico-sdk/lib/lwip/src/core/def.c
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/def.c.o: CMakeFiles/final_project.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sreer/Junior_Design/Final_Project/Junior_Design_C/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building C object CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/def.c.o"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/def.c.o -MF CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/def.c.o.d -o CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/def.c.o -c /home/sreer/pico/pico-sdk/lib/lwip/src/core/def.c
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/def.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/def.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/sreer/pico/pico-sdk/lib/lwip/src/core/def.c > CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/def.c.i
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/def.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/def.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/sreer/pico/pico-sdk/lib/lwip/src/core/def.c -o CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/def.c.s
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/dns.c.o: CMakeFiles/final_project.dir/flags.make
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/dns.c.o: /home/sreer/pico/pico-sdk/lib/lwip/src/core/dns.c
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/dns.c.o: CMakeFiles/final_project.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sreer/Junior_Design/Final_Project/Junior_Design_C/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building C object CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/dns.c.o"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/dns.c.o -MF CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/dns.c.o.d -o CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/dns.c.o -c /home/sreer/pico/pico-sdk/lib/lwip/src/core/dns.c
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/dns.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/dns.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/sreer/pico/pico-sdk/lib/lwip/src/core/dns.c > CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/dns.c.i
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/dns.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/dns.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/sreer/pico/pico-sdk/lib/lwip/src/core/dns.c -o CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/dns.c.s
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/inet_chksum.c.o: CMakeFiles/final_project.dir/flags.make
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/inet_chksum.c.o: /home/sreer/pico/pico-sdk/lib/lwip/src/core/inet_chksum.c
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/inet_chksum.c.o: CMakeFiles/final_project.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sreer/Junior_Design/Final_Project/Junior_Design_C/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building C object CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/inet_chksum.c.o"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/inet_chksum.c.o -MF CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/inet_chksum.c.o.d -o CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/inet_chksum.c.o -c /home/sreer/pico/pico-sdk/lib/lwip/src/core/inet_chksum.c
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/inet_chksum.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/inet_chksum.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/sreer/pico/pico-sdk/lib/lwip/src/core/inet_chksum.c > CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/inet_chksum.c.i
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/inet_chksum.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/inet_chksum.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/sreer/pico/pico-sdk/lib/lwip/src/core/inet_chksum.c -o CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/inet_chksum.c.s
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ip.c.o: CMakeFiles/final_project.dir/flags.make
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ip.c.o: /home/sreer/pico/pico-sdk/lib/lwip/src/core/ip.c
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ip.c.o: CMakeFiles/final_project.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sreer/Junior_Design/Final_Project/Junior_Design_C/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building C object CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ip.c.o"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ip.c.o -MF CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ip.c.o.d -o CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ip.c.o -c /home/sreer/pico/pico-sdk/lib/lwip/src/core/ip.c
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ip.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ip.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/sreer/pico/pico-sdk/lib/lwip/src/core/ip.c > CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ip.c.i
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ip.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ip.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/sreer/pico/pico-sdk/lib/lwip/src/core/ip.c -o CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ip.c.s
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/mem.c.o: CMakeFiles/final_project.dir/flags.make
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/mem.c.o: /home/sreer/pico/pico-sdk/lib/lwip/src/core/mem.c
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/mem.c.o: CMakeFiles/final_project.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sreer/Junior_Design/Final_Project/Junior_Design_C/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building C object CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/mem.c.o"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/mem.c.o -MF CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/mem.c.o.d -o CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/mem.c.o -c /home/sreer/pico/pico-sdk/lib/lwip/src/core/mem.c
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/mem.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/mem.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/sreer/pico/pico-sdk/lib/lwip/src/core/mem.c > CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/mem.c.i
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/mem.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/mem.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/sreer/pico/pico-sdk/lib/lwip/src/core/mem.c -o CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/mem.c.s
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/memp.c.o: CMakeFiles/final_project.dir/flags.make
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/memp.c.o: /home/sreer/pico/pico-sdk/lib/lwip/src/core/memp.c
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/memp.c.o: CMakeFiles/final_project.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sreer/Junior_Design/Final_Project/Junior_Design_C/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building C object CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/memp.c.o"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/memp.c.o -MF CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/memp.c.o.d -o CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/memp.c.o -c /home/sreer/pico/pico-sdk/lib/lwip/src/core/memp.c
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/memp.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/memp.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/sreer/pico/pico-sdk/lib/lwip/src/core/memp.c > CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/memp.c.i
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/memp.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/memp.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/sreer/pico/pico-sdk/lib/lwip/src/core/memp.c -o CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/memp.c.s
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/netif.c.o: CMakeFiles/final_project.dir/flags.make
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/netif.c.o: /home/sreer/pico/pico-sdk/lib/lwip/src/core/netif.c
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/netif.c.o: CMakeFiles/final_project.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sreer/Junior_Design/Final_Project/Junior_Design_C/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building C object CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/netif.c.o"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/netif.c.o -MF CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/netif.c.o.d -o CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/netif.c.o -c /home/sreer/pico/pico-sdk/lib/lwip/src/core/netif.c
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/netif.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/netif.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/sreer/pico/pico-sdk/lib/lwip/src/core/netif.c > CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/netif.c.i
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/netif.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/netif.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/sreer/pico/pico-sdk/lib/lwip/src/core/netif.c -o CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/netif.c.s
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/pbuf.c.o: CMakeFiles/final_project.dir/flags.make
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/pbuf.c.o: /home/sreer/pico/pico-sdk/lib/lwip/src/core/pbuf.c
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/pbuf.c.o: CMakeFiles/final_project.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sreer/Junior_Design/Final_Project/Junior_Design_C/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building C object CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/pbuf.c.o"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/pbuf.c.o -MF CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/pbuf.c.o.d -o CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/pbuf.c.o -c /home/sreer/pico/pico-sdk/lib/lwip/src/core/pbuf.c
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/pbuf.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/pbuf.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/sreer/pico/pico-sdk/lib/lwip/src/core/pbuf.c > CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/pbuf.c.i
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/pbuf.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/pbuf.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/sreer/pico/pico-sdk/lib/lwip/src/core/pbuf.c -o CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/pbuf.c.s
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/raw.c.o: CMakeFiles/final_project.dir/flags.make
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/raw.c.o: /home/sreer/pico/pico-sdk/lib/lwip/src/core/raw.c
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/raw.c.o: CMakeFiles/final_project.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sreer/Junior_Design/Final_Project/Junior_Design_C/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building C object CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/raw.c.o"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/raw.c.o -MF CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/raw.c.o.d -o CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/raw.c.o -c /home/sreer/pico/pico-sdk/lib/lwip/src/core/raw.c
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/raw.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/raw.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/sreer/pico/pico-sdk/lib/lwip/src/core/raw.c > CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/raw.c.i
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/raw.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/raw.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/sreer/pico/pico-sdk/lib/lwip/src/core/raw.c -o CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/raw.c.s
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/stats.c.o: CMakeFiles/final_project.dir/flags.make
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/stats.c.o: /home/sreer/pico/pico-sdk/lib/lwip/src/core/stats.c
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/stats.c.o: CMakeFiles/final_project.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sreer/Junior_Design/Final_Project/Junior_Design_C/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building C object CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/stats.c.o"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/stats.c.o -MF CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/stats.c.o.d -o CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/stats.c.o -c /home/sreer/pico/pico-sdk/lib/lwip/src/core/stats.c
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/stats.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/stats.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/sreer/pico/pico-sdk/lib/lwip/src/core/stats.c > CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/stats.c.i
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/stats.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/stats.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/sreer/pico/pico-sdk/lib/lwip/src/core/stats.c -o CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/stats.c.s
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/sys.c.o: CMakeFiles/final_project.dir/flags.make
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/sys.c.o: /home/sreer/pico/pico-sdk/lib/lwip/src/core/sys.c
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/sys.c.o: CMakeFiles/final_project.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sreer/Junior_Design/Final_Project/Junior_Design_C/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Building C object CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/sys.c.o"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/sys.c.o -MF CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/sys.c.o.d -o CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/sys.c.o -c /home/sreer/pico/pico-sdk/lib/lwip/src/core/sys.c
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/sys.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/sys.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/sreer/pico/pico-sdk/lib/lwip/src/core/sys.c > CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/sys.c.i
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/sys.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/sys.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/sreer/pico/pico-sdk/lib/lwip/src/core/sys.c -o CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/sys.c.s
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/altcp.c.o: CMakeFiles/final_project.dir/flags.make
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/altcp.c.o: /home/sreer/pico/pico-sdk/lib/lwip/src/core/altcp.c
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/altcp.c.o: CMakeFiles/final_project.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sreer/Junior_Design/Final_Project/Junior_Design_C/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Building C object CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/altcp.c.o"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/altcp.c.o -MF CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/altcp.c.o.d -o CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/altcp.c.o -c /home/sreer/pico/pico-sdk/lib/lwip/src/core/altcp.c
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/altcp.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/altcp.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/sreer/pico/pico-sdk/lib/lwip/src/core/altcp.c > CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/altcp.c.i
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/altcp.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/altcp.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/sreer/pico/pico-sdk/lib/lwip/src/core/altcp.c -o CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/altcp.c.s
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/altcp_alloc.c.o: CMakeFiles/final_project.dir/flags.make
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/altcp_alloc.c.o: /home/sreer/pico/pico-sdk/lib/lwip/src/core/altcp_alloc.c
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/altcp_alloc.c.o: CMakeFiles/final_project.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sreer/Junior_Design/Final_Project/Junior_Design_C/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_81) "Building C object CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/altcp_alloc.c.o"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/altcp_alloc.c.o -MF CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/altcp_alloc.c.o.d -o CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/altcp_alloc.c.o -c /home/sreer/pico/pico-sdk/lib/lwip/src/core/altcp_alloc.c
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/altcp_alloc.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/altcp_alloc.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/sreer/pico/pico-sdk/lib/lwip/src/core/altcp_alloc.c > CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/altcp_alloc.c.i
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/altcp_alloc.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/altcp_alloc.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/sreer/pico/pico-sdk/lib/lwip/src/core/altcp_alloc.c -o CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/altcp_alloc.c.s
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/altcp_tcp.c.o: CMakeFiles/final_project.dir/flags.make
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/altcp_tcp.c.o: /home/sreer/pico/pico-sdk/lib/lwip/src/core/altcp_tcp.c
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/altcp_tcp.c.o: CMakeFiles/final_project.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sreer/Junior_Design/Final_Project/Junior_Design_C/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_82) "Building C object CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/altcp_tcp.c.o"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/altcp_tcp.c.o -MF CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/altcp_tcp.c.o.d -o CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/altcp_tcp.c.o -c /home/sreer/pico/pico-sdk/lib/lwip/src/core/altcp_tcp.c
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/altcp_tcp.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/altcp_tcp.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/sreer/pico/pico-sdk/lib/lwip/src/core/altcp_tcp.c > CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/altcp_tcp.c.i
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/altcp_tcp.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/altcp_tcp.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/sreer/pico/pico-sdk/lib/lwip/src/core/altcp_tcp.c -o CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/altcp_tcp.c.s
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/tcp.c.o: CMakeFiles/final_project.dir/flags.make
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/tcp.c.o: /home/sreer/pico/pico-sdk/lib/lwip/src/core/tcp.c
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/tcp.c.o: CMakeFiles/final_project.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sreer/Junior_Design/Final_Project/Junior_Design_C/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_83) "Building C object CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/tcp.c.o"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/tcp.c.o -MF CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/tcp.c.o.d -o CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/tcp.c.o -c /home/sreer/pico/pico-sdk/lib/lwip/src/core/tcp.c
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/tcp.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/tcp.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/sreer/pico/pico-sdk/lib/lwip/src/core/tcp.c > CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/tcp.c.i
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/tcp.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/tcp.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/sreer/pico/pico-sdk/lib/lwip/src/core/tcp.c -o CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/tcp.c.s
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/tcp_in.c.o: CMakeFiles/final_project.dir/flags.make
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/tcp_in.c.o: /home/sreer/pico/pico-sdk/lib/lwip/src/core/tcp_in.c
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/tcp_in.c.o: CMakeFiles/final_project.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sreer/Junior_Design/Final_Project/Junior_Design_C/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_84) "Building C object CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/tcp_in.c.o"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/tcp_in.c.o -MF CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/tcp_in.c.o.d -o CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/tcp_in.c.o -c /home/sreer/pico/pico-sdk/lib/lwip/src/core/tcp_in.c
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/tcp_in.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/tcp_in.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/sreer/pico/pico-sdk/lib/lwip/src/core/tcp_in.c > CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/tcp_in.c.i
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/tcp_in.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/tcp_in.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/sreer/pico/pico-sdk/lib/lwip/src/core/tcp_in.c -o CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/tcp_in.c.s
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/tcp_out.c.o: CMakeFiles/final_project.dir/flags.make
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/tcp_out.c.o: /home/sreer/pico/pico-sdk/lib/lwip/src/core/tcp_out.c
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/tcp_out.c.o: CMakeFiles/final_project.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sreer/Junior_Design/Final_Project/Junior_Design_C/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_85) "Building C object CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/tcp_out.c.o"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/tcp_out.c.o -MF CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/tcp_out.c.o.d -o CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/tcp_out.c.o -c /home/sreer/pico/pico-sdk/lib/lwip/src/core/tcp_out.c
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/tcp_out.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/tcp_out.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/sreer/pico/pico-sdk/lib/lwip/src/core/tcp_out.c > CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/tcp_out.c.i
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/tcp_out.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/tcp_out.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/sreer/pico/pico-sdk/lib/lwip/src/core/tcp_out.c -o CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/tcp_out.c.s
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/timeouts.c.o: CMakeFiles/final_project.dir/flags.make
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/timeouts.c.o: /home/sreer/pico/pico-sdk/lib/lwip/src/core/timeouts.c
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/timeouts.c.o: CMakeFiles/final_project.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sreer/Junior_Design/Final_Project/Junior_Design_C/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_86) "Building C object CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/timeouts.c.o"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/timeouts.c.o -MF CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/timeouts.c.o.d -o CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/timeouts.c.o -c /home/sreer/pico/pico-sdk/lib/lwip/src/core/timeouts.c
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/timeouts.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/timeouts.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/sreer/pico/pico-sdk/lib/lwip/src/core/timeouts.c > CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/timeouts.c.i
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/timeouts.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/timeouts.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/sreer/pico/pico-sdk/lib/lwip/src/core/timeouts.c -o CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/timeouts.c.s
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/udp.c.o: CMakeFiles/final_project.dir/flags.make
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/udp.c.o: /home/sreer/pico/pico-sdk/lib/lwip/src/core/udp.c
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/udp.c.o: CMakeFiles/final_project.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sreer/Junior_Design/Final_Project/Junior_Design_C/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_87) "Building C object CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/udp.c.o"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/udp.c.o -MF CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/udp.c.o.d -o CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/udp.c.o -c /home/sreer/pico/pico-sdk/lib/lwip/src/core/udp.c
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/udp.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/udp.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/sreer/pico/pico-sdk/lib/lwip/src/core/udp.c > CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/udp.c.i
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/udp.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/udp.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/sreer/pico/pico-sdk/lib/lwip/src/core/udp.c -o CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/udp.c.s
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.o: CMakeFiles/final_project.dir/flags.make
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.o: /home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/autoip.c
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.o: CMakeFiles/final_project.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sreer/Junior_Design/Final_Project/Junior_Design_C/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_88) "Building C object CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.o"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.o -MF CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.o.d -o CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.o -c /home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/autoip.c
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/autoip.c > CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.i
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/autoip.c -o CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.s
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.o: CMakeFiles/final_project.dir/flags.make
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.o: /home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.o: CMakeFiles/final_project.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sreer/Junior_Design/Final_Project/Junior_Design_C/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_89) "Building C object CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.o"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.o -MF CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.o.d -o CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.o -c /home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c > CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.i
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c -o CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.s
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.o: CMakeFiles/final_project.dir/flags.make
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.o: /home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/etharp.c
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.o: CMakeFiles/final_project.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sreer/Junior_Design/Final_Project/Junior_Design_C/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_90) "Building C object CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.o"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.o -MF CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.o.d -o CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.o -c /home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/etharp.c
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/etharp.c > CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.i
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/etharp.c -o CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.s
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.o: CMakeFiles/final_project.dir/flags.make
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.o: /home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/icmp.c
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.o: CMakeFiles/final_project.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sreer/Junior_Design/Final_Project/Junior_Design_C/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_91) "Building C object CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.o"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.o -MF CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.o.d -o CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.o -c /home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/icmp.c
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/icmp.c > CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.i
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/icmp.c -o CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.s
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.o: CMakeFiles/final_project.dir/flags.make
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.o: /home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/igmp.c
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.o: CMakeFiles/final_project.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sreer/Junior_Design/Final_Project/Junior_Design_C/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_92) "Building C object CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.o"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.o -MF CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.o.d -o CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.o -c /home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/igmp.c
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/igmp.c > CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.i
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/igmp.c -o CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.s
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.o: CMakeFiles/final_project.dir/flags.make
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.o: /home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.o: CMakeFiles/final_project.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sreer/Junior_Design/Final_Project/Junior_Design_C/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_93) "Building C object CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.o"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.o -MF CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.o.d -o CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.o -c /home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c > CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.i
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c -o CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.s
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.o: CMakeFiles/final_project.dir/flags.make
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.o: /home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4.c
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.o: CMakeFiles/final_project.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sreer/Junior_Design/Final_Project/Junior_Design_C/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_94) "Building C object CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.o"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.o -MF CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.o.d -o CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.o -c /home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4.c
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4.c > CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.i
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4.c -o CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.s
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.o: CMakeFiles/final_project.dir/flags.make
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.o: /home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.o: CMakeFiles/final_project.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sreer/Junior_Design/Final_Project/Junior_Design_C/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_95) "Building C object CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.o"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.o -MF CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.o.d -o CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.o -c /home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c > CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.i
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c -o CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.s
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/acd.c.o: CMakeFiles/final_project.dir/flags.make
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/acd.c.o: /home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/acd.c
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/acd.c.o: CMakeFiles/final_project.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sreer/Junior_Design/Final_Project/Junior_Design_C/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_96) "Building C object CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/acd.c.o"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/acd.c.o -MF CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/acd.c.o.d -o CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/acd.c.o -c /home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/acd.c
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/acd.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/acd.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/acd.c > CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/acd.c.i
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/acd.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/acd.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/acd.c -o CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/acd.c.s
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.o: CMakeFiles/final_project.dir/flags.make
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.o: /home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.o: CMakeFiles/final_project.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sreer/Junior_Design/Final_Project/Junior_Design_C/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_97) "Building C object CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.o"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.o -MF CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.o.d -o CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.o -c /home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c > CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.i
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c -o CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.s
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.o: CMakeFiles/final_project.dir/flags.make
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.o: /home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.o: CMakeFiles/final_project.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sreer/Junior_Design/Final_Project/Junior_Design_C/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_98) "Building C object CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.o"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.o -MF CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.o.d -o CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.o -c /home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c > CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.i
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c -o CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.s
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.o: CMakeFiles/final_project.dir/flags.make
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.o: /home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.o: CMakeFiles/final_project.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sreer/Junior_Design/Final_Project/Junior_Design_C/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_99) "Building C object CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.o"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.o -MF CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.o.d -o CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.o -c /home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c > CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.i
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c -o CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.s
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.o: CMakeFiles/final_project.dir/flags.make
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.o: /home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/inet6.c
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.o: CMakeFiles/final_project.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sreer/Junior_Design/Final_Project/Junior_Design_C/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_100) "Building C object CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.o"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.o -MF CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.o.d -o CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.o -c /home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/inet6.c
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/inet6.c > CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.i
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/inet6.c -o CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.s
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.o: CMakeFiles/final_project.dir/flags.make
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.o: /home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6.c
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.o: CMakeFiles/final_project.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sreer/Junior_Design/Final_Project/Junior_Design_C/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_101) "Building C object CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.o"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.o -MF CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.o.d -o CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.o -c /home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6.c
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6.c > CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.i
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6.c -o CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.s
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.o: CMakeFiles/final_project.dir/flags.make
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.o: /home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.o: CMakeFiles/final_project.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sreer/Junior_Design/Final_Project/Junior_Design_C/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_102) "Building C object CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.o"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.o -MF CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.o.d -o CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.o -c /home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c > CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.i
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c -o CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.s
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.o: CMakeFiles/final_project.dir/flags.make
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.o: /home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.o: CMakeFiles/final_project.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sreer/Junior_Design/Final_Project/Junior_Design_C/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_103) "Building C object CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.o"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.o -MF CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.o.d -o CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.o -c /home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c > CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.i
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c -o CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.s
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.o: CMakeFiles/final_project.dir/flags.make
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.o: /home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/mld6.c
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.o: CMakeFiles/final_project.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sreer/Junior_Design/Final_Project/Junior_Design_C/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_104) "Building C object CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.o"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.o -MF CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.o.d -o CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.o -c /home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/mld6.c
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/mld6.c > CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.i
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/mld6.c -o CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.s
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.o: CMakeFiles/final_project.dir/flags.make
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.o: /home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/nd6.c
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.o: CMakeFiles/final_project.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sreer/Junior_Design/Final_Project/Junior_Design_C/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_105) "Building C object CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.o"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.o -MF CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.o.d -o CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.o -c /home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/nd6.c
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/nd6.c > CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.i
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/nd6.c -o CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.s
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/api/api_lib.c.o: CMakeFiles/final_project.dir/flags.make
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/api/api_lib.c.o: /home/sreer/pico/pico-sdk/lib/lwip/src/api/api_lib.c
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/api/api_lib.c.o: CMakeFiles/final_project.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sreer/Junior_Design/Final_Project/Junior_Design_C/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_106) "Building C object CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/api/api_lib.c.o"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/api/api_lib.c.o -MF CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/api/api_lib.c.o.d -o CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/api/api_lib.c.o -c /home/sreer/pico/pico-sdk/lib/lwip/src/api/api_lib.c
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/api/api_lib.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/api/api_lib.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/sreer/pico/pico-sdk/lib/lwip/src/api/api_lib.c > CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/api/api_lib.c.i
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/api/api_lib.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/api/api_lib.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/sreer/pico/pico-sdk/lib/lwip/src/api/api_lib.c -o CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/api/api_lib.c.s
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/api/api_msg.c.o: CMakeFiles/final_project.dir/flags.make
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/api/api_msg.c.o: /home/sreer/pico/pico-sdk/lib/lwip/src/api/api_msg.c
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/api/api_msg.c.o: CMakeFiles/final_project.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sreer/Junior_Design/Final_Project/Junior_Design_C/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_107) "Building C object CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/api/api_msg.c.o"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/api/api_msg.c.o -MF CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/api/api_msg.c.o.d -o CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/api/api_msg.c.o -c /home/sreer/pico/pico-sdk/lib/lwip/src/api/api_msg.c
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/api/api_msg.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/api/api_msg.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/sreer/pico/pico-sdk/lib/lwip/src/api/api_msg.c > CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/api/api_msg.c.i
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/api/api_msg.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/api/api_msg.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/sreer/pico/pico-sdk/lib/lwip/src/api/api_msg.c -o CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/api/api_msg.c.s
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/api/err.c.o: CMakeFiles/final_project.dir/flags.make
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/api/err.c.o: /home/sreer/pico/pico-sdk/lib/lwip/src/api/err.c
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/api/err.c.o: CMakeFiles/final_project.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sreer/Junior_Design/Final_Project/Junior_Design_C/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_108) "Building C object CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/api/err.c.o"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/api/err.c.o -MF CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/api/err.c.o.d -o CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/api/err.c.o -c /home/sreer/pico/pico-sdk/lib/lwip/src/api/err.c
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/api/err.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/api/err.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/sreer/pico/pico-sdk/lib/lwip/src/api/err.c > CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/api/err.c.i
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/api/err.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/api/err.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/sreer/pico/pico-sdk/lib/lwip/src/api/err.c -o CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/api/err.c.s
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/api/if_api.c.o: CMakeFiles/final_project.dir/flags.make
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/api/if_api.c.o: /home/sreer/pico/pico-sdk/lib/lwip/src/api/if_api.c
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/api/if_api.c.o: CMakeFiles/final_project.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sreer/Junior_Design/Final_Project/Junior_Design_C/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_109) "Building C object CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/api/if_api.c.o"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/api/if_api.c.o -MF CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/api/if_api.c.o.d -o CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/api/if_api.c.o -c /home/sreer/pico/pico-sdk/lib/lwip/src/api/if_api.c
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/api/if_api.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/api/if_api.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/sreer/pico/pico-sdk/lib/lwip/src/api/if_api.c > CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/api/if_api.c.i
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/api/if_api.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/api/if_api.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/sreer/pico/pico-sdk/lib/lwip/src/api/if_api.c -o CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/api/if_api.c.s
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/api/netbuf.c.o: CMakeFiles/final_project.dir/flags.make
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/api/netbuf.c.o: /home/sreer/pico/pico-sdk/lib/lwip/src/api/netbuf.c
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/api/netbuf.c.o: CMakeFiles/final_project.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sreer/Junior_Design/Final_Project/Junior_Design_C/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_110) "Building C object CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/api/netbuf.c.o"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/api/netbuf.c.o -MF CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/api/netbuf.c.o.d -o CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/api/netbuf.c.o -c /home/sreer/pico/pico-sdk/lib/lwip/src/api/netbuf.c
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/api/netbuf.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/api/netbuf.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/sreer/pico/pico-sdk/lib/lwip/src/api/netbuf.c > CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/api/netbuf.c.i
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/api/netbuf.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/api/netbuf.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/sreer/pico/pico-sdk/lib/lwip/src/api/netbuf.c -o CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/api/netbuf.c.s
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/api/netdb.c.o: CMakeFiles/final_project.dir/flags.make
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/api/netdb.c.o: /home/sreer/pico/pico-sdk/lib/lwip/src/api/netdb.c
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/api/netdb.c.o: CMakeFiles/final_project.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sreer/Junior_Design/Final_Project/Junior_Design_C/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_111) "Building C object CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/api/netdb.c.o"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/api/netdb.c.o -MF CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/api/netdb.c.o.d -o CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/api/netdb.c.o -c /home/sreer/pico/pico-sdk/lib/lwip/src/api/netdb.c
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/api/netdb.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/api/netdb.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/sreer/pico/pico-sdk/lib/lwip/src/api/netdb.c > CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/api/netdb.c.i
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/api/netdb.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/api/netdb.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/sreer/pico/pico-sdk/lib/lwip/src/api/netdb.c -o CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/api/netdb.c.s
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/api/netifapi.c.o: CMakeFiles/final_project.dir/flags.make
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/api/netifapi.c.o: /home/sreer/pico/pico-sdk/lib/lwip/src/api/netifapi.c
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/api/netifapi.c.o: CMakeFiles/final_project.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sreer/Junior_Design/Final_Project/Junior_Design_C/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_112) "Building C object CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/api/netifapi.c.o"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/api/netifapi.c.o -MF CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/api/netifapi.c.o.d -o CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/api/netifapi.c.o -c /home/sreer/pico/pico-sdk/lib/lwip/src/api/netifapi.c
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/api/netifapi.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/api/netifapi.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/sreer/pico/pico-sdk/lib/lwip/src/api/netifapi.c > CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/api/netifapi.c.i
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/api/netifapi.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/api/netifapi.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/sreer/pico/pico-sdk/lib/lwip/src/api/netifapi.c -o CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/api/netifapi.c.s
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/api/sockets.c.o: CMakeFiles/final_project.dir/flags.make
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/api/sockets.c.o: /home/sreer/pico/pico-sdk/lib/lwip/src/api/sockets.c
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/api/sockets.c.o: CMakeFiles/final_project.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sreer/Junior_Design/Final_Project/Junior_Design_C/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_113) "Building C object CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/api/sockets.c.o"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/api/sockets.c.o -MF CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/api/sockets.c.o.d -o CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/api/sockets.c.o -c /home/sreer/pico/pico-sdk/lib/lwip/src/api/sockets.c
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/api/sockets.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/api/sockets.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/sreer/pico/pico-sdk/lib/lwip/src/api/sockets.c > CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/api/sockets.c.i
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/api/sockets.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/api/sockets.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/sreer/pico/pico-sdk/lib/lwip/src/api/sockets.c -o CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/api/sockets.c.s
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/api/tcpip.c.o: CMakeFiles/final_project.dir/flags.make
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/api/tcpip.c.o: /home/sreer/pico/pico-sdk/lib/lwip/src/api/tcpip.c
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/api/tcpip.c.o: CMakeFiles/final_project.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sreer/Junior_Design/Final_Project/Junior_Design_C/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_114) "Building C object CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/api/tcpip.c.o"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/api/tcpip.c.o -MF CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/api/tcpip.c.o.d -o CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/api/tcpip.c.o -c /home/sreer/pico/pico-sdk/lib/lwip/src/api/tcpip.c
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/api/tcpip.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/api/tcpip.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/sreer/pico/pico-sdk/lib/lwip/src/api/tcpip.c > CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/api/tcpip.c.i
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/api/tcpip.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/api/tcpip.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/sreer/pico/pico-sdk/lib/lwip/src/api/tcpip.c -o CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/api/tcpip.c.s
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ethernet.c.o: CMakeFiles/final_project.dir/flags.make
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ethernet.c.o: /home/sreer/pico/pico-sdk/lib/lwip/src/netif/ethernet.c
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ethernet.c.o: CMakeFiles/final_project.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sreer/Junior_Design/Final_Project/Junior_Design_C/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_115) "Building C object CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ethernet.c.o"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ethernet.c.o -MF CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ethernet.c.o.d -o CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ethernet.c.o -c /home/sreer/pico/pico-sdk/lib/lwip/src/netif/ethernet.c
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ethernet.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ethernet.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/sreer/pico/pico-sdk/lib/lwip/src/netif/ethernet.c > CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ethernet.c.i
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ethernet.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ethernet.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/sreer/pico/pico-sdk/lib/lwip/src/netif/ethernet.c -o CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ethernet.c.s
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/bridgeif.c.o: CMakeFiles/final_project.dir/flags.make
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/bridgeif.c.o: /home/sreer/pico/pico-sdk/lib/lwip/src/netif/bridgeif.c
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/bridgeif.c.o: CMakeFiles/final_project.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sreer/Junior_Design/Final_Project/Junior_Design_C/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_116) "Building C object CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/bridgeif.c.o"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/bridgeif.c.o -MF CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/bridgeif.c.o.d -o CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/bridgeif.c.o -c /home/sreer/pico/pico-sdk/lib/lwip/src/netif/bridgeif.c
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/bridgeif.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/bridgeif.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/sreer/pico/pico-sdk/lib/lwip/src/netif/bridgeif.c > CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/bridgeif.c.i
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/bridgeif.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/bridgeif.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/sreer/pico/pico-sdk/lib/lwip/src/netif/bridgeif.c -o CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/bridgeif.c.s
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.o: CMakeFiles/final_project.dir/flags.make
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.o: /home/sreer/pico/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.o: CMakeFiles/final_project.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sreer/Junior_Design/Final_Project/Junior_Design_C/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_117) "Building C object CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.o"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.o -MF CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.o.d -o CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.o -c /home/sreer/pico/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/sreer/pico/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c > CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.i
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/sreer/pico/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c -o CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.s
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/slipif.c.o: CMakeFiles/final_project.dir/flags.make
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/slipif.c.o: /home/sreer/pico/pico-sdk/lib/lwip/src/netif/slipif.c
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/slipif.c.o: CMakeFiles/final_project.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sreer/Junior_Design/Final_Project/Junior_Design_C/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_118) "Building C object CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/slipif.c.o"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/slipif.c.o -MF CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/slipif.c.o.d -o CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/slipif.c.o -c /home/sreer/pico/pico-sdk/lib/lwip/src/netif/slipif.c
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/slipif.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/slipif.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/sreer/pico/pico-sdk/lib/lwip/src/netif/slipif.c > CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/slipif.c.i
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/slipif.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/slipif.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/sreer/pico/pico-sdk/lib/lwip/src/netif/slipif.c -o CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/slipif.c.s
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.o: CMakeFiles/final_project.dir/flags.make
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.o: /home/sreer/pico/pico-sdk/lib/lwip/src/netif/lowpan6_common.c
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.o: CMakeFiles/final_project.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sreer/Junior_Design/Final_Project/Junior_Design_C/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_119) "Building C object CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.o"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.o -MF CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.o.d -o CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.o -c /home/sreer/pico/pico-sdk/lib/lwip/src/netif/lowpan6_common.c
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/sreer/pico/pico-sdk/lib/lwip/src/netif/lowpan6_common.c > CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.i
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/sreer/pico/pico-sdk/lib/lwip/src/netif/lowpan6_common.c -o CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.s
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/lowpan6.c.o: CMakeFiles/final_project.dir/flags.make
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/lowpan6.c.o: /home/sreer/pico/pico-sdk/lib/lwip/src/netif/lowpan6.c
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/lowpan6.c.o: CMakeFiles/final_project.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sreer/Junior_Design/Final_Project/Junior_Design_C/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_120) "Building C object CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/lowpan6.c.o"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/lowpan6.c.o -MF CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/lowpan6.c.o.d -o CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/lowpan6.c.o -c /home/sreer/pico/pico-sdk/lib/lwip/src/netif/lowpan6.c
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/lowpan6.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/lowpan6.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/sreer/pico/pico-sdk/lib/lwip/src/netif/lowpan6.c > CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/lowpan6.c.i
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/lowpan6.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/lowpan6.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/sreer/pico/pico-sdk/lib/lwip/src/netif/lowpan6.c -o CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/lowpan6.c.s
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.o: CMakeFiles/final_project.dir/flags.make
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.o: /home/sreer/pico/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.o: CMakeFiles/final_project.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sreer/Junior_Design/Final_Project/Junior_Design_C/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_121) "Building C object CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.o"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.o -MF CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.o.d -o CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.o -c /home/sreer/pico/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/sreer/pico/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c > CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.i
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/sreer/pico/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c -o CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.s
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/zepif.c.o: CMakeFiles/final_project.dir/flags.make
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/zepif.c.o: /home/sreer/pico/pico-sdk/lib/lwip/src/netif/zepif.c
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/zepif.c.o: CMakeFiles/final_project.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sreer/Junior_Design/Final_Project/Junior_Design_C/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_122) "Building C object CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/zepif.c.o"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/zepif.c.o -MF CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/zepif.c.o.d -o CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/zepif.c.o -c /home/sreer/pico/pico-sdk/lib/lwip/src/netif/zepif.c
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/zepif.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/zepif.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/sreer/pico/pico-sdk/lib/lwip/src/netif/zepif.c > CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/zepif.c.i
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/zepif.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/zepif.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/sreer/pico/pico-sdk/lib/lwip/src/netif/zepif.c -o CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/zepif.c.s
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/auth.c.o: CMakeFiles/final_project.dir/flags.make
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/auth.c.o: /home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/auth.c
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/auth.c.o: CMakeFiles/final_project.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sreer/Junior_Design/Final_Project/Junior_Design_C/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_123) "Building C object CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/auth.c.o"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/auth.c.o -MF CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/auth.c.o.d -o CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/auth.c.o -c /home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/auth.c
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/auth.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/auth.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/auth.c > CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/auth.c.i
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/auth.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/auth.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/auth.c -o CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/auth.c.s
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.o: CMakeFiles/final_project.dir/flags.make
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.o: /home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/ccp.c
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.o: CMakeFiles/final_project.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sreer/Junior_Design/Final_Project/Junior_Design_C/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_124) "Building C object CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.o"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.o -MF CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.o.d -o CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.o -c /home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/ccp.c
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/ccp.c > CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.i
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/ccp.c -o CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.s
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.o: CMakeFiles/final_project.dir/flags.make
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.o: /home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.o: CMakeFiles/final_project.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sreer/Junior_Design/Final_Project/Junior_Design_C/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_125) "Building C object CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.o"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.o -MF CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.o.d -o CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.o -c /home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c > CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.i
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c -o CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.s
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.o: CMakeFiles/final_project.dir/flags.make
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.o: /home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.o: CMakeFiles/final_project.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sreer/Junior_Design/Final_Project/Junior_Design_C/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_126) "Building C object CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.o"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.o -MF CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.o.d -o CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.o -c /home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c > CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.i
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c -o CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.s
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.o: CMakeFiles/final_project.dir/flags.make
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.o: /home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.o: CMakeFiles/final_project.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sreer/Junior_Design/Final_Project/Junior_Design_C/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_127) "Building C object CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.o"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.o -MF CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.o.d -o CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.o -c /home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c > CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.i
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c -o CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.s
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/demand.c.o: CMakeFiles/final_project.dir/flags.make
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/demand.c.o: /home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/demand.c
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/demand.c.o: CMakeFiles/final_project.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sreer/Junior_Design/Final_Project/Junior_Design_C/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_128) "Building C object CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/demand.c.o"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/demand.c.o -MF CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/demand.c.o.d -o CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/demand.c.o -c /home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/demand.c
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/demand.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/demand.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/demand.c > CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/demand.c.i
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/demand.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/demand.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/demand.c -o CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/demand.c.s
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/eap.c.o: CMakeFiles/final_project.dir/flags.make
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/eap.c.o: /home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/eap.c
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/eap.c.o: CMakeFiles/final_project.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sreer/Junior_Design/Final_Project/Junior_Design_C/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_129) "Building C object CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/eap.c.o"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/eap.c.o -MF CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/eap.c.o.d -o CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/eap.c.o -c /home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/eap.c
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/eap.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/eap.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/eap.c > CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/eap.c.i
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/eap.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/eap.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/eap.c -o CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/eap.c.s
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.o: CMakeFiles/final_project.dir/flags.make
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.o: /home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/ecp.c
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.o: CMakeFiles/final_project.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sreer/Junior_Design/Final_Project/Junior_Design_C/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_130) "Building C object CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.o"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.o -MF CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.o.d -o CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.o -c /home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/ecp.c
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/ecp.c > CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.i
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/ecp.c -o CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.s
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.o: CMakeFiles/final_project.dir/flags.make
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.o: /home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/eui64.c
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.o: CMakeFiles/final_project.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sreer/Junior_Design/Final_Project/Junior_Design_C/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_131) "Building C object CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.o"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.o -MF CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.o.d -o CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.o -c /home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/eui64.c
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/eui64.c > CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.i
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/eui64.c -o CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.s
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.o: CMakeFiles/final_project.dir/flags.make
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.o: /home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/fsm.c
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.o: CMakeFiles/final_project.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sreer/Junior_Design/Final_Project/Junior_Design_C/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_132) "Building C object CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.o"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.o -MF CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.o.d -o CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.o -c /home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/fsm.c
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/fsm.c > CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.i
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/fsm.c -o CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.s
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.o: CMakeFiles/final_project.dir/flags.make
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.o: /home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.o: CMakeFiles/final_project.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sreer/Junior_Design/Final_Project/Junior_Design_C/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_133) "Building C object CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.o"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.o -MF CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.o.d -o CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.o -c /home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c > CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.i
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c -o CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.s
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.o: CMakeFiles/final_project.dir/flags.make
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.o: /home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.o: CMakeFiles/final_project.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sreer/Junior_Design/Final_Project/Junior_Design_C/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_134) "Building C object CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.o"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.o -MF CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.o.d -o CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.o -c /home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c > CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.i
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c -o CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.s
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.o: CMakeFiles/final_project.dir/flags.make
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.o: /home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/lcp.c
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.o: CMakeFiles/final_project.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sreer/Junior_Design/Final_Project/Junior_Design_C/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_135) "Building C object CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.o"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.o -MF CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.o.d -o CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.o -c /home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/lcp.c
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/lcp.c > CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.i
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/lcp.c -o CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.s
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/magic.c.o: CMakeFiles/final_project.dir/flags.make
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/magic.c.o: /home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/magic.c
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/magic.c.o: CMakeFiles/final_project.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sreer/Junior_Design/Final_Project/Junior_Design_C/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_136) "Building C object CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/magic.c.o"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/magic.c.o -MF CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/magic.c.o.d -o CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/magic.c.o -c /home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/magic.c
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/magic.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/magic.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/magic.c > CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/magic.c.i
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/magic.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/magic.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/magic.c -o CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/magic.c.s
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.o: CMakeFiles/final_project.dir/flags.make
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.o: /home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/mppe.c
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.o: CMakeFiles/final_project.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sreer/Junior_Design/Final_Project/Junior_Design_C/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_137) "Building C object CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.o"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.o -MF CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.o.d -o CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.o -c /home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/mppe.c
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/mppe.c > CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.i
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/mppe.c -o CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.s
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.o: CMakeFiles/final_project.dir/flags.make
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.o: /home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/multilink.c
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.o: CMakeFiles/final_project.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sreer/Junior_Design/Final_Project/Junior_Design_C/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_138) "Building C object CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.o"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.o -MF CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.o.d -o CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.o -c /home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/multilink.c
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/multilink.c > CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.i
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/multilink.c -o CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.s
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.o: CMakeFiles/final_project.dir/flags.make
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.o: /home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/ppp.c
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.o: CMakeFiles/final_project.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sreer/Junior_Design/Final_Project/Junior_Design_C/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_139) "Building C object CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.o"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.o -MF CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.o.d -o CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.o -c /home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/ppp.c
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/ppp.c > CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.i
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/ppp.c -o CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.s
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.o: CMakeFiles/final_project.dir/flags.make
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.o: /home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.o: CMakeFiles/final_project.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sreer/Junior_Design/Final_Project/Junior_Design_C/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_140) "Building C object CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.o"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.o -MF CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.o.d -o CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.o -c /home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c > CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.i
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c -o CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.s
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.o: CMakeFiles/final_project.dir/flags.make
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.o: /home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.o: CMakeFiles/final_project.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sreer/Junior_Design/Final_Project/Junior_Design_C/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_141) "Building C object CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.o"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.o -MF CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.o.d -o CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.o -c /home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c > CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.i
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c -o CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.s
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.o: CMakeFiles/final_project.dir/flags.make
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.o: /home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.o: CMakeFiles/final_project.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sreer/Junior_Design/Final_Project/Junior_Design_C/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_142) "Building C object CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.o"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.o -MF CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.o.d -o CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.o -c /home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c > CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.i
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c -o CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.s
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.o: CMakeFiles/final_project.dir/flags.make
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.o: /home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.o: CMakeFiles/final_project.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sreer/Junior_Design/Final_Project/Junior_Design_C/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_143) "Building C object CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.o"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.o -MF CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.o.d -o CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.o -c /home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c > CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.i
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c -o CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.s
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.o: CMakeFiles/final_project.dir/flags.make
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.o: /home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/pppos.c
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.o: CMakeFiles/final_project.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sreer/Junior_Design/Final_Project/Junior_Design_C/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_144) "Building C object CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.o"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.o -MF CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.o.d -o CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.o -c /home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/pppos.c
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/pppos.c > CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.i
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/pppos.c -o CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.s
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/upap.c.o: CMakeFiles/final_project.dir/flags.make
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/upap.c.o: /home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/upap.c
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/upap.c.o: CMakeFiles/final_project.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sreer/Junior_Design/Final_Project/Junior_Design_C/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_145) "Building C object CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/upap.c.o"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/upap.c.o -MF CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/upap.c.o.d -o CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/upap.c.o -c /home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/upap.c
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/upap.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/upap.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/upap.c > CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/upap.c.i
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/upap.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/upap.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/upap.c -o CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/upap.c.s
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/utils.c.o: CMakeFiles/final_project.dir/flags.make
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/utils.c.o: /home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/utils.c
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/utils.c.o: CMakeFiles/final_project.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sreer/Junior_Design/Final_Project/Junior_Design_C/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_146) "Building C object CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/utils.c.o"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/utils.c.o -MF CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/utils.c.o.d -o CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/utils.c.o -c /home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/utils.c
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/utils.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/utils.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/utils.c > CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/utils.c.i
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/utils.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/utils.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/utils.c -o CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/utils.c.s
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/vj.c.o: CMakeFiles/final_project.dir/flags.make
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/vj.c.o: /home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/vj.c
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/vj.c.o: CMakeFiles/final_project.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sreer/Junior_Design/Final_Project/Junior_Design_C/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_147) "Building C object CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/vj.c.o"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/vj.c.o -MF CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/vj.c.o.d -o CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/vj.c.o -c /home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/vj.c
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/vj.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/vj.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/vj.c > CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/vj.c.i
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/vj.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/vj.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/vj.c -o CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/vj.c.s
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.o: CMakeFiles/final_project.dir/flags.make
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.o: /home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.o: CMakeFiles/final_project.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sreer/Junior_Design/Final_Project/Junior_Design_C/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_148) "Building C object CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.o"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.o -MF CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.o.d -o CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.o -c /home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c > CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.i
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c -o CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.s
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.o: CMakeFiles/final_project.dir/flags.make
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.o: /home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.o: CMakeFiles/final_project.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sreer/Junior_Design/Final_Project/Junior_Design_C/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_149) "Building C object CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.o"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.o -MF CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.o.d -o CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.o -c /home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c > CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.i
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c -o CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.s
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.o: CMakeFiles/final_project.dir/flags.make
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.o: /home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.o: CMakeFiles/final_project.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sreer/Junior_Design/Final_Project/Junior_Design_C/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_150) "Building C object CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.o"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.o -MF CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.o.d -o CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.o -c /home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c > CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.i
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c -o CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.s
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.o: CMakeFiles/final_project.dir/flags.make
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.o: /home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.o: CMakeFiles/final_project.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sreer/Junior_Design/Final_Project/Junior_Design_C/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_151) "Building C object CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.o"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.o -MF CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.o.d -o CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.o -c /home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c > CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.i
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c -o CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.s
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.o: CMakeFiles/final_project.dir/flags.make
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.o: /home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.o: CMakeFiles/final_project.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sreer/Junior_Design/Final_Project/Junior_Design_C/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_152) "Building C object CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.o"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.o -MF CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.o.d -o CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.o -c /home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c > CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.i
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c -o CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.s
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.o: CMakeFiles/final_project.dir/flags.make
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.o: /home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.o: CMakeFiles/final_project.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sreer/Junior_Design/Final_Project/Junior_Design_C/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_153) "Building C object CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.o"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.o -MF CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.o.d -o CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.o -c /home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c > CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.i
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c -o CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.s
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.o: CMakeFiles/final_project.dir/flags.make
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.o: /home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.o: CMakeFiles/final_project.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sreer/Junior_Design/Final_Project/Junior_Design_C/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_154) "Building C object CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.o"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.o -MF CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.o.d -o CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.o -c /home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c > CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.i
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c -o CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.s
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.o: CMakeFiles/final_project.dir/flags.make
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.o: /home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.o: CMakeFiles/final_project.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sreer/Junior_Design/Final_Project/Junior_Design_C/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_155) "Building C object CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.o"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.o -MF CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.o.d -o CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.o -c /home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c > CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.i
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c -o CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.s
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.o: CMakeFiles/final_project.dir/flags.make
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.o: /home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.o: CMakeFiles/final_project.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sreer/Junior_Design/Final_Project/Junior_Design_C/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_156) "Building C object CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.o"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.o -MF CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.o.d -o CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.o -c /home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c > CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.i
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c -o CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.s
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.o: CMakeFiles/final_project.dir/flags.make
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.o: /home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.o: CMakeFiles/final_project.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sreer/Junior_Design/Final_Project/Junior_Design_C/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_157) "Building C object CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.o"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.o -MF CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.o.d -o CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.o -c /home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c > CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.i
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c -o CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.s
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.o: CMakeFiles/final_project.dir/flags.make
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.o: /home/sreer/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.o: CMakeFiles/final_project.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sreer/Junior_Design/Final_Project/Junior_Design_C/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_158) "Building C object CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.o"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.o -MF CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.o.d -o CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.o -c /home/sreer/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/sreer/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c > CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.i
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/sreer/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c -o CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.s
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.o: CMakeFiles/final_project.dir/flags.make
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.o: /home/sreer/pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.o: CMakeFiles/final_project.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sreer/Junior_Design/Final_Project/Junior_Design_C/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_159) "Building C object CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.o"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.o -MF CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.o.d -o CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.o -c /home/sreer/pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/sreer/pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c > CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.i
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/sreer/pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c -o CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.s
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.o: CMakeFiles/final_project.dir/flags.make
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.o: /home/sreer/pico/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.o: CMakeFiles/final_project.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sreer/Junior_Design/Final_Project/Junior_Design_C/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_160) "Building C object CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.o"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.o -MF CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.o.d -o CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.o -c /home/sreer/pico/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/sreer/pico/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c > CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.i
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/sreer/pico/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c -o CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.s
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.o: CMakeFiles/final_project.dir/flags.make
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.o: /home/sreer/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.o: CMakeFiles/final_project.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sreer/Junior_Design/Final_Project/Junior_Design_C/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_161) "Building C object CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.o"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.o -MF CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.o.d -o CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.o -c /home/sreer/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/sreer/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c > CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.i
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/sreer/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c -o CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.s
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.o: CMakeFiles/final_project.dir/flags.make
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.o: /home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.o: CMakeFiles/final_project.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sreer/Junior_Design/Final_Project/Junior_Design_C/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_162) "Building C object CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.o"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.o -MF CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.o.d -o CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.o -c /home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c > CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.i
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c -o CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.s
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.o: CMakeFiles/final_project.dir/flags.make
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.o: /home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.o: CMakeFiles/final_project.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sreer/Junior_Design/Final_Project/Junior_Design_C/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_163) "Building C object CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.o"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.o -MF CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.o.d -o CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.o -c /home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c > CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.i
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c -o CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.s
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.o: CMakeFiles/final_project.dir/flags.make
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.o: /home/sreer/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.o: CMakeFiles/final_project.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sreer/Junior_Design/Final_Project/Junior_Design_C/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_164) "Building C object CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.o"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.o -MF CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.o.d -o CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.o -c /home/sreer/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/sreer/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c > CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.i
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/sreer/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c -o CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.s
+CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.o: CMakeFiles/final_project.dir/flags.make
+CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.o: /home/sreer/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c
+CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.o: CMakeFiles/final_project.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sreer/Junior_Design/Final_Project/Junior_Design_C/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building C object CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.o -MF CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.o.d -o CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.o -c /home/sreer/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c
+
+CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/sreer/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c > CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i
+
+CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/sreer/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c -o CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.s
+
+CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.o: CMakeFiles/final_project.dir/flags.make
+CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.o: /home/sreer/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c
+CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.o: CMakeFiles/final_project.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sreer/Junior_Design/Final_Project/Junior_Design_C/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building C object CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.o -MF CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.o.d -o CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.o -c /home/sreer/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c
+
+CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/sreer/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c > CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i
+
+CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/sreer/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c -o CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.s
+
+CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.o: CMakeFiles/final_project.dir/flags.make
+CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.o: /home/sreer/pico/pico-sdk/lib/tinyusb/src/device/usbd.c
+CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.o: CMakeFiles/final_project.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sreer/Junior_Design/Final_Project/Junior_Design_C/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building C object CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.o -MF CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.o.d -o CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.o -c /home/sreer/pico/pico-sdk/lib/tinyusb/src/device/usbd.c
+
+CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/sreer/pico/pico-sdk/lib/tinyusb/src/device/usbd.c > CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.i
+
+CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/sreer/pico/pico-sdk/lib/tinyusb/src/device/usbd.c -o CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.s
+
+CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.o: CMakeFiles/final_project.dir/flags.make
+CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.o: /home/sreer/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c
+CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.o: CMakeFiles/final_project.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sreer/Junior_Design/Final_Project/Junior_Design_C/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building C object CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.o -MF CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.o.d -o CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.o -c /home/sreer/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c
+
+CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/sreer/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c > CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.i
+
+CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/sreer/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c -o CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.s
+
+CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.o: CMakeFiles/final_project.dir/flags.make
+CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.o: /home/sreer/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c
+CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.o: CMakeFiles/final_project.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sreer/Junior_Design/Final_Project/Junior_Design_C/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building C object CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.o -MF CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.o.d -o CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.o -c /home/sreer/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c
+
+CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/sreer/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c > CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.i
+
+CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/sreer/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c -o CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.s
+
+CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.o: CMakeFiles/final_project.dir/flags.make
+CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.o: /home/sreer/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c
+CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.o: CMakeFiles/final_project.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sreer/Junior_Design/Final_Project/Junior_Design_C/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building C object CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.o -MF CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.o.d -o CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.o -c /home/sreer/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c
+
+CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/sreer/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c > CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.i
+
+CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/sreer/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c -o CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.s
+
+CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.o: CMakeFiles/final_project.dir/flags.make
+CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.o: /home/sreer/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c
+CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.o: CMakeFiles/final_project.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sreer/Junior_Design/Final_Project/Junior_Design_C/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building C object CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.o -MF CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.o.d -o CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.o -c /home/sreer/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c
+
+CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/sreer/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c > CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.i
+
+CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/sreer/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c -o CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.s
+
+CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.o: CMakeFiles/final_project.dir/flags.make
+CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.o: /home/sreer/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c
+CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.o: CMakeFiles/final_project.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sreer/Junior_Design/Final_Project/Junior_Design_C/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building C object CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.o -MF CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.o.d -o CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.o -c /home/sreer/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c
+
+CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/sreer/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c > CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i
+
+CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/sreer/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c -o CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.s
+
+CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.o: CMakeFiles/final_project.dir/flags.make
+CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.o: /home/sreer/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c
+CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.o: CMakeFiles/final_project.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sreer/Junior_Design/Final_Project/Junior_Design_C/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building C object CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.o -MF CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.o.d -o CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.o -c /home/sreer/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c
+
+CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/sreer/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c > CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.i
+
+CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/sreer/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c -o CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.s
+
+CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.o: CMakeFiles/final_project.dir/flags.make
+CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.o: /home/sreer/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c
+CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.o: CMakeFiles/final_project.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sreer/Junior_Design/Final_Project/Junior_Design_C/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building C object CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.o -MF CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.o.d -o CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.o -c /home/sreer/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c
+
+CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/sreer/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c > CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.i
+
+CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/sreer/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c -o CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.s
+
+CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.o: CMakeFiles/final_project.dir/flags.make
+CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.o: /home/sreer/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c
+CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.o: CMakeFiles/final_project.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sreer/Junior_Design/Final_Project/Junior_Design_C/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building C object CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.o -MF CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.o.d -o CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.o -c /home/sreer/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c
+
+CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/sreer/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c > CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.i
+
+CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/sreer/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c -o CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.s
+
+CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.o: CMakeFiles/final_project.dir/flags.make
+CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.o: /home/sreer/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c
+CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.o: CMakeFiles/final_project.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sreer/Junior_Design/Final_Project/Junior_Design_C/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building C object CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.o -MF CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.o.d -o CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.o -c /home/sreer/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c
+
+CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/sreer/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c > CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.i
+
+CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/sreer/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c -o CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.s
+
+CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.o: CMakeFiles/final_project.dir/flags.make
+CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.o: /home/sreer/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c
+CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.o: CMakeFiles/final_project.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sreer/Junior_Design/Final_Project/Junior_Design_C/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building C object CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.o -MF CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.o.d -o CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.o -c /home/sreer/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c
+
+CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/sreer/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c > CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.i
+
+CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/sreer/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c -o CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.s
+
+CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.o: CMakeFiles/final_project.dir/flags.make
+CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.o: /home/sreer/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c
+CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.o: CMakeFiles/final_project.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sreer/Junior_Design/Final_Project/Junior_Design_C/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building C object CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.o -MF CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.o.d -o CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.o -c /home/sreer/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c
+
+CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/sreer/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c > CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i
+
+CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/sreer/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c -o CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.s
+
+CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.o: CMakeFiles/final_project.dir/flags.make
+CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.o: /home/sreer/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c
+CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.o: CMakeFiles/final_project.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sreer/Junior_Design/Final_Project/Junior_Design_C/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building C object CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.o -MF CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.o.d -o CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.o -c /home/sreer/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c
+
+CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/sreer/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c > CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.i
+
+CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/sreer/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c -o CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.s
+
+CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.o: CMakeFiles/final_project.dir/flags.make
+CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.o: /home/sreer/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c
+CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.o: CMakeFiles/final_project.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sreer/Junior_Design/Final_Project/Junior_Design_C/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building C object CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.o -MF CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.o.d -o CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.o -c /home/sreer/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c
+
+CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/sreer/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c > CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.i
+
+CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/sreer/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c -o CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.s
+
+CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/tusb.c.o: CMakeFiles/final_project.dir/flags.make
+CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/tusb.c.o: /home/sreer/pico/pico-sdk/lib/tinyusb/src/tusb.c
+CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/tusb.c.o: CMakeFiles/final_project.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sreer/Junior_Design/Final_Project/Junior_Design_C/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Building C object CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/tusb.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/tusb.c.o -MF CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/tusb.c.o.d -o CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/tusb.c.o -c /home/sreer/pico/pico-sdk/lib/tinyusb/src/tusb.c
+
+CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/tusb.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/tusb.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/sreer/pico/pico-sdk/lib/tinyusb/src/tusb.c > CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/tusb.c.i
+
+CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/tusb.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/tusb.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/sreer/pico/pico-sdk/lib/tinyusb/src/tusb.c -o CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/tusb.c.s
+
+CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.o: CMakeFiles/final_project.dir/flags.make
+CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.o: /home/sreer/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c
+CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.o: CMakeFiles/final_project.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sreer/Junior_Design/Final_Project/Junior_Design_C/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Building C object CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.o -MF CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.o.d -o CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.o -c /home/sreer/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c
+
+CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/sreer/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c > CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.i
+
+CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/sreer/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c -o CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.s
+
+CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.o: CMakeFiles/final_project.dir/flags.make
+CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.o: /home/sreer/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c
+CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.o: CMakeFiles/final_project.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sreer/Junior_Design/Final_Project/Junior_Design_C/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_81) "Building C object CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.o -MF CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.o.d -o CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.o -c /home/sreer/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c
+
+CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/sreer/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c > CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i
+
+CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/sreer/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c -o CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s
+
+CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.o: CMakeFiles/final_project.dir/flags.make
+CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.o: /home/sreer/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c
+CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.o: CMakeFiles/final_project.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sreer/Junior_Design/Final_Project/Junior_Design_C/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_82) "Building C object CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.o -MF CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.o.d -o CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.o -c /home/sreer/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c
+
+CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/sreer/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c > CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.i
+
+CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/sreer/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c -o CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.s
+
+CMakeFiles/final_project.dir/home/sreer/pico/FreeRTOS-Kernel/portable/ThirdParty/Community-Supported-Ports/GCC/RP2350_ARM_NTZ/non_secure/port.c.o: CMakeFiles/final_project.dir/flags.make
+CMakeFiles/final_project.dir/home/sreer/pico/FreeRTOS-Kernel/portable/ThirdParty/Community-Supported-Ports/GCC/RP2350_ARM_NTZ/non_secure/port.c.o: /home/sreer/pico/FreeRTOS-Kernel/portable/ThirdParty/Community-Supported-Ports/GCC/RP2350_ARM_NTZ/non_secure/port.c
+CMakeFiles/final_project.dir/home/sreer/pico/FreeRTOS-Kernel/portable/ThirdParty/Community-Supported-Ports/GCC/RP2350_ARM_NTZ/non_secure/port.c.o: CMakeFiles/final_project.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sreer/Junior_Design/Final_Project/Junior_Design_C/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_83) "Building C object CMakeFiles/final_project.dir/home/sreer/pico/FreeRTOS-Kernel/portable/ThirdParty/Community-Supported-Ports/GCC/RP2350_ARM_NTZ/non_secure/port.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/final_project.dir/home/sreer/pico/FreeRTOS-Kernel/portable/ThirdParty/Community-Supported-Ports/GCC/RP2350_ARM_NTZ/non_secure/port.c.o -MF CMakeFiles/final_project.dir/home/sreer/pico/FreeRTOS-Kernel/portable/ThirdParty/Community-Supported-Ports/GCC/RP2350_ARM_NTZ/non_secure/port.c.o.d -o CMakeFiles/final_project.dir/home/sreer/pico/FreeRTOS-Kernel/portable/ThirdParty/Community-Supported-Ports/GCC/RP2350_ARM_NTZ/non_secure/port.c.o -c /home/sreer/pico/FreeRTOS-Kernel/portable/ThirdParty/Community-Supported-Ports/GCC/RP2350_ARM_NTZ/non_secure/port.c
+
+CMakeFiles/final_project.dir/home/sreer/pico/FreeRTOS-Kernel/portable/ThirdParty/Community-Supported-Ports/GCC/RP2350_ARM_NTZ/non_secure/port.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/final_project.dir/home/sreer/pico/FreeRTOS-Kernel/portable/ThirdParty/Community-Supported-Ports/GCC/RP2350_ARM_NTZ/non_secure/port.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/sreer/pico/FreeRTOS-Kernel/portable/ThirdParty/Community-Supported-Ports/GCC/RP2350_ARM_NTZ/non_secure/port.c > CMakeFiles/final_project.dir/home/sreer/pico/FreeRTOS-Kernel/portable/ThirdParty/Community-Supported-Ports/GCC/RP2350_ARM_NTZ/non_secure/port.c.i
+
+CMakeFiles/final_project.dir/home/sreer/pico/FreeRTOS-Kernel/portable/ThirdParty/Community-Supported-Ports/GCC/RP2350_ARM_NTZ/non_secure/port.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/final_project.dir/home/sreer/pico/FreeRTOS-Kernel/portable/ThirdParty/Community-Supported-Ports/GCC/RP2350_ARM_NTZ/non_secure/port.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/sreer/pico/FreeRTOS-Kernel/portable/ThirdParty/Community-Supported-Ports/GCC/RP2350_ARM_NTZ/non_secure/port.c -o CMakeFiles/final_project.dir/home/sreer/pico/FreeRTOS-Kernel/portable/ThirdParty/Community-Supported-Ports/GCC/RP2350_ARM_NTZ/non_secure/port.c.s
+
+CMakeFiles/final_project.dir/home/sreer/pico/FreeRTOS-Kernel/portable/ThirdParty/Community-Supported-Ports/GCC/RP2350_ARM_NTZ/non_secure/portasm.c.o: CMakeFiles/final_project.dir/flags.make
+CMakeFiles/final_project.dir/home/sreer/pico/FreeRTOS-Kernel/portable/ThirdParty/Community-Supported-Ports/GCC/RP2350_ARM_NTZ/non_secure/portasm.c.o: /home/sreer/pico/FreeRTOS-Kernel/portable/ThirdParty/Community-Supported-Ports/GCC/RP2350_ARM_NTZ/non_secure/portasm.c
+CMakeFiles/final_project.dir/home/sreer/pico/FreeRTOS-Kernel/portable/ThirdParty/Community-Supported-Ports/GCC/RP2350_ARM_NTZ/non_secure/portasm.c.o: CMakeFiles/final_project.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sreer/Junior_Design/Final_Project/Junior_Design_C/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_84) "Building C object CMakeFiles/final_project.dir/home/sreer/pico/FreeRTOS-Kernel/portable/ThirdParty/Community-Supported-Ports/GCC/RP2350_ARM_NTZ/non_secure/portasm.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/final_project.dir/home/sreer/pico/FreeRTOS-Kernel/portable/ThirdParty/Community-Supported-Ports/GCC/RP2350_ARM_NTZ/non_secure/portasm.c.o -MF CMakeFiles/final_project.dir/home/sreer/pico/FreeRTOS-Kernel/portable/ThirdParty/Community-Supported-Ports/GCC/RP2350_ARM_NTZ/non_secure/portasm.c.o.d -o CMakeFiles/final_project.dir/home/sreer/pico/FreeRTOS-Kernel/portable/ThirdParty/Community-Supported-Ports/GCC/RP2350_ARM_NTZ/non_secure/portasm.c.o -c /home/sreer/pico/FreeRTOS-Kernel/portable/ThirdParty/Community-Supported-Ports/GCC/RP2350_ARM_NTZ/non_secure/portasm.c
+
+CMakeFiles/final_project.dir/home/sreer/pico/FreeRTOS-Kernel/portable/ThirdParty/Community-Supported-Ports/GCC/RP2350_ARM_NTZ/non_secure/portasm.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/final_project.dir/home/sreer/pico/FreeRTOS-Kernel/portable/ThirdParty/Community-Supported-Ports/GCC/RP2350_ARM_NTZ/non_secure/portasm.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/sreer/pico/FreeRTOS-Kernel/portable/ThirdParty/Community-Supported-Ports/GCC/RP2350_ARM_NTZ/non_secure/portasm.c > CMakeFiles/final_project.dir/home/sreer/pico/FreeRTOS-Kernel/portable/ThirdParty/Community-Supported-Ports/GCC/RP2350_ARM_NTZ/non_secure/portasm.c.i
+
+CMakeFiles/final_project.dir/home/sreer/pico/FreeRTOS-Kernel/portable/ThirdParty/Community-Supported-Ports/GCC/RP2350_ARM_NTZ/non_secure/portasm.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/final_project.dir/home/sreer/pico/FreeRTOS-Kernel/portable/ThirdParty/Community-Supported-Ports/GCC/RP2350_ARM_NTZ/non_secure/portasm.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/sreer/pico/FreeRTOS-Kernel/portable/ThirdParty/Community-Supported-Ports/GCC/RP2350_ARM_NTZ/non_secure/portasm.c -o CMakeFiles/final_project.dir/home/sreer/pico/FreeRTOS-Kernel/portable/ThirdParty/Community-Supported-Ports/GCC/RP2350_ARM_NTZ/non_secure/portasm.c.s
+
+CMakeFiles/final_project.dir/home/sreer/pico/FreeRTOS-Kernel/croutine.c.o: CMakeFiles/final_project.dir/flags.make
+CMakeFiles/final_project.dir/home/sreer/pico/FreeRTOS-Kernel/croutine.c.o: /home/sreer/pico/FreeRTOS-Kernel/croutine.c
+CMakeFiles/final_project.dir/home/sreer/pico/FreeRTOS-Kernel/croutine.c.o: CMakeFiles/final_project.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sreer/Junior_Design/Final_Project/Junior_Design_C/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_85) "Building C object CMakeFiles/final_project.dir/home/sreer/pico/FreeRTOS-Kernel/croutine.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/final_project.dir/home/sreer/pico/FreeRTOS-Kernel/croutine.c.o -MF CMakeFiles/final_project.dir/home/sreer/pico/FreeRTOS-Kernel/croutine.c.o.d -o CMakeFiles/final_project.dir/home/sreer/pico/FreeRTOS-Kernel/croutine.c.o -c /home/sreer/pico/FreeRTOS-Kernel/croutine.c
+
+CMakeFiles/final_project.dir/home/sreer/pico/FreeRTOS-Kernel/croutine.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/final_project.dir/home/sreer/pico/FreeRTOS-Kernel/croutine.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/sreer/pico/FreeRTOS-Kernel/croutine.c > CMakeFiles/final_project.dir/home/sreer/pico/FreeRTOS-Kernel/croutine.c.i
+
+CMakeFiles/final_project.dir/home/sreer/pico/FreeRTOS-Kernel/croutine.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/final_project.dir/home/sreer/pico/FreeRTOS-Kernel/croutine.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/sreer/pico/FreeRTOS-Kernel/croutine.c -o CMakeFiles/final_project.dir/home/sreer/pico/FreeRTOS-Kernel/croutine.c.s
+
+CMakeFiles/final_project.dir/home/sreer/pico/FreeRTOS-Kernel/event_groups.c.o: CMakeFiles/final_project.dir/flags.make
+CMakeFiles/final_project.dir/home/sreer/pico/FreeRTOS-Kernel/event_groups.c.o: /home/sreer/pico/FreeRTOS-Kernel/event_groups.c
+CMakeFiles/final_project.dir/home/sreer/pico/FreeRTOS-Kernel/event_groups.c.o: CMakeFiles/final_project.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sreer/Junior_Design/Final_Project/Junior_Design_C/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_86) "Building C object CMakeFiles/final_project.dir/home/sreer/pico/FreeRTOS-Kernel/event_groups.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/final_project.dir/home/sreer/pico/FreeRTOS-Kernel/event_groups.c.o -MF CMakeFiles/final_project.dir/home/sreer/pico/FreeRTOS-Kernel/event_groups.c.o.d -o CMakeFiles/final_project.dir/home/sreer/pico/FreeRTOS-Kernel/event_groups.c.o -c /home/sreer/pico/FreeRTOS-Kernel/event_groups.c
+
+CMakeFiles/final_project.dir/home/sreer/pico/FreeRTOS-Kernel/event_groups.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/final_project.dir/home/sreer/pico/FreeRTOS-Kernel/event_groups.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/sreer/pico/FreeRTOS-Kernel/event_groups.c > CMakeFiles/final_project.dir/home/sreer/pico/FreeRTOS-Kernel/event_groups.c.i
+
+CMakeFiles/final_project.dir/home/sreer/pico/FreeRTOS-Kernel/event_groups.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/final_project.dir/home/sreer/pico/FreeRTOS-Kernel/event_groups.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/sreer/pico/FreeRTOS-Kernel/event_groups.c -o CMakeFiles/final_project.dir/home/sreer/pico/FreeRTOS-Kernel/event_groups.c.s
+
+CMakeFiles/final_project.dir/home/sreer/pico/FreeRTOS-Kernel/list.c.o: CMakeFiles/final_project.dir/flags.make
+CMakeFiles/final_project.dir/home/sreer/pico/FreeRTOS-Kernel/list.c.o: /home/sreer/pico/FreeRTOS-Kernel/list.c
+CMakeFiles/final_project.dir/home/sreer/pico/FreeRTOS-Kernel/list.c.o: CMakeFiles/final_project.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sreer/Junior_Design/Final_Project/Junior_Design_C/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_87) "Building C object CMakeFiles/final_project.dir/home/sreer/pico/FreeRTOS-Kernel/list.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/final_project.dir/home/sreer/pico/FreeRTOS-Kernel/list.c.o -MF CMakeFiles/final_project.dir/home/sreer/pico/FreeRTOS-Kernel/list.c.o.d -o CMakeFiles/final_project.dir/home/sreer/pico/FreeRTOS-Kernel/list.c.o -c /home/sreer/pico/FreeRTOS-Kernel/list.c
+
+CMakeFiles/final_project.dir/home/sreer/pico/FreeRTOS-Kernel/list.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/final_project.dir/home/sreer/pico/FreeRTOS-Kernel/list.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/sreer/pico/FreeRTOS-Kernel/list.c > CMakeFiles/final_project.dir/home/sreer/pico/FreeRTOS-Kernel/list.c.i
+
+CMakeFiles/final_project.dir/home/sreer/pico/FreeRTOS-Kernel/list.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/final_project.dir/home/sreer/pico/FreeRTOS-Kernel/list.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/sreer/pico/FreeRTOS-Kernel/list.c -o CMakeFiles/final_project.dir/home/sreer/pico/FreeRTOS-Kernel/list.c.s
+
+CMakeFiles/final_project.dir/home/sreer/pico/FreeRTOS-Kernel/queue.c.o: CMakeFiles/final_project.dir/flags.make
+CMakeFiles/final_project.dir/home/sreer/pico/FreeRTOS-Kernel/queue.c.o: /home/sreer/pico/FreeRTOS-Kernel/queue.c
+CMakeFiles/final_project.dir/home/sreer/pico/FreeRTOS-Kernel/queue.c.o: CMakeFiles/final_project.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sreer/Junior_Design/Final_Project/Junior_Design_C/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_88) "Building C object CMakeFiles/final_project.dir/home/sreer/pico/FreeRTOS-Kernel/queue.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/final_project.dir/home/sreer/pico/FreeRTOS-Kernel/queue.c.o -MF CMakeFiles/final_project.dir/home/sreer/pico/FreeRTOS-Kernel/queue.c.o.d -o CMakeFiles/final_project.dir/home/sreer/pico/FreeRTOS-Kernel/queue.c.o -c /home/sreer/pico/FreeRTOS-Kernel/queue.c
+
+CMakeFiles/final_project.dir/home/sreer/pico/FreeRTOS-Kernel/queue.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/final_project.dir/home/sreer/pico/FreeRTOS-Kernel/queue.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/sreer/pico/FreeRTOS-Kernel/queue.c > CMakeFiles/final_project.dir/home/sreer/pico/FreeRTOS-Kernel/queue.c.i
+
+CMakeFiles/final_project.dir/home/sreer/pico/FreeRTOS-Kernel/queue.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/final_project.dir/home/sreer/pico/FreeRTOS-Kernel/queue.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/sreer/pico/FreeRTOS-Kernel/queue.c -o CMakeFiles/final_project.dir/home/sreer/pico/FreeRTOS-Kernel/queue.c.s
+
+CMakeFiles/final_project.dir/home/sreer/pico/FreeRTOS-Kernel/stream_buffer.c.o: CMakeFiles/final_project.dir/flags.make
+CMakeFiles/final_project.dir/home/sreer/pico/FreeRTOS-Kernel/stream_buffer.c.o: /home/sreer/pico/FreeRTOS-Kernel/stream_buffer.c
+CMakeFiles/final_project.dir/home/sreer/pico/FreeRTOS-Kernel/stream_buffer.c.o: CMakeFiles/final_project.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sreer/Junior_Design/Final_Project/Junior_Design_C/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_89) "Building C object CMakeFiles/final_project.dir/home/sreer/pico/FreeRTOS-Kernel/stream_buffer.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/final_project.dir/home/sreer/pico/FreeRTOS-Kernel/stream_buffer.c.o -MF CMakeFiles/final_project.dir/home/sreer/pico/FreeRTOS-Kernel/stream_buffer.c.o.d -o CMakeFiles/final_project.dir/home/sreer/pico/FreeRTOS-Kernel/stream_buffer.c.o -c /home/sreer/pico/FreeRTOS-Kernel/stream_buffer.c
+
+CMakeFiles/final_project.dir/home/sreer/pico/FreeRTOS-Kernel/stream_buffer.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/final_project.dir/home/sreer/pico/FreeRTOS-Kernel/stream_buffer.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/sreer/pico/FreeRTOS-Kernel/stream_buffer.c > CMakeFiles/final_project.dir/home/sreer/pico/FreeRTOS-Kernel/stream_buffer.c.i
+
+CMakeFiles/final_project.dir/home/sreer/pico/FreeRTOS-Kernel/stream_buffer.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/final_project.dir/home/sreer/pico/FreeRTOS-Kernel/stream_buffer.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/sreer/pico/FreeRTOS-Kernel/stream_buffer.c -o CMakeFiles/final_project.dir/home/sreer/pico/FreeRTOS-Kernel/stream_buffer.c.s
+
+CMakeFiles/final_project.dir/home/sreer/pico/FreeRTOS-Kernel/tasks.c.o: CMakeFiles/final_project.dir/flags.make
+CMakeFiles/final_project.dir/home/sreer/pico/FreeRTOS-Kernel/tasks.c.o: /home/sreer/pico/FreeRTOS-Kernel/tasks.c
+CMakeFiles/final_project.dir/home/sreer/pico/FreeRTOS-Kernel/tasks.c.o: CMakeFiles/final_project.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sreer/Junior_Design/Final_Project/Junior_Design_C/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_90) "Building C object CMakeFiles/final_project.dir/home/sreer/pico/FreeRTOS-Kernel/tasks.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/final_project.dir/home/sreer/pico/FreeRTOS-Kernel/tasks.c.o -MF CMakeFiles/final_project.dir/home/sreer/pico/FreeRTOS-Kernel/tasks.c.o.d -o CMakeFiles/final_project.dir/home/sreer/pico/FreeRTOS-Kernel/tasks.c.o -c /home/sreer/pico/FreeRTOS-Kernel/tasks.c
+
+CMakeFiles/final_project.dir/home/sreer/pico/FreeRTOS-Kernel/tasks.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/final_project.dir/home/sreer/pico/FreeRTOS-Kernel/tasks.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/sreer/pico/FreeRTOS-Kernel/tasks.c > CMakeFiles/final_project.dir/home/sreer/pico/FreeRTOS-Kernel/tasks.c.i
+
+CMakeFiles/final_project.dir/home/sreer/pico/FreeRTOS-Kernel/tasks.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/final_project.dir/home/sreer/pico/FreeRTOS-Kernel/tasks.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/sreer/pico/FreeRTOS-Kernel/tasks.c -o CMakeFiles/final_project.dir/home/sreer/pico/FreeRTOS-Kernel/tasks.c.s
+
+CMakeFiles/final_project.dir/home/sreer/pico/FreeRTOS-Kernel/timers.c.o: CMakeFiles/final_project.dir/flags.make
+CMakeFiles/final_project.dir/home/sreer/pico/FreeRTOS-Kernel/timers.c.o: /home/sreer/pico/FreeRTOS-Kernel/timers.c
+CMakeFiles/final_project.dir/home/sreer/pico/FreeRTOS-Kernel/timers.c.o: CMakeFiles/final_project.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sreer/Junior_Design/Final_Project/Junior_Design_C/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_91) "Building C object CMakeFiles/final_project.dir/home/sreer/pico/FreeRTOS-Kernel/timers.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/final_project.dir/home/sreer/pico/FreeRTOS-Kernel/timers.c.o -MF CMakeFiles/final_project.dir/home/sreer/pico/FreeRTOS-Kernel/timers.c.o.d -o CMakeFiles/final_project.dir/home/sreer/pico/FreeRTOS-Kernel/timers.c.o -c /home/sreer/pico/FreeRTOS-Kernel/timers.c
+
+CMakeFiles/final_project.dir/home/sreer/pico/FreeRTOS-Kernel/timers.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/final_project.dir/home/sreer/pico/FreeRTOS-Kernel/timers.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/sreer/pico/FreeRTOS-Kernel/timers.c > CMakeFiles/final_project.dir/home/sreer/pico/FreeRTOS-Kernel/timers.c.i
+
+CMakeFiles/final_project.dir/home/sreer/pico/FreeRTOS-Kernel/timers.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/final_project.dir/home/sreer/pico/FreeRTOS-Kernel/timers.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/sreer/pico/FreeRTOS-Kernel/timers.c -o CMakeFiles/final_project.dir/home/sreer/pico/FreeRTOS-Kernel/timers.c.s
 
 CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_exception/exception.c.o: CMakeFiles/final_project.dir/flags.make
 CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_exception/exception.c.o: /home/sreer/pico/pico-sdk/src/rp2_common/hardware_exception/exception.c
 CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_exception/exception.c.o: CMakeFiles/final_project.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sreer/Junior_Design/Final_Project/Junior_Design_C/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_165) "Building C object CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_exception/exception.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sreer/Junior_Design/Final_Project/Junior_Design_C/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_92) "Building C object CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_exception/exception.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_exception/exception.c.o -MF CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_exception/exception.c.o.d -o CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_exception/exception.c.o -c /home/sreer/pico/pico-sdk/src/rp2_common/hardware_exception/exception.c
 
 CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_exception/exception.c.i: cmake_force
@@ -2369,33 +1347,33 @@ CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_ex
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_exception/exception.c.s"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/sreer/pico/pico-sdk/src/rp2_common/hardware_exception/exception.c -o CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_exception/exception.c.s
 
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.o: CMakeFiles/final_project.dir/flags.make
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.o: /home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.o: CMakeFiles/final_project.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sreer/Junior_Design/Final_Project/Junior_Design_C/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_166) "Building C object CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.o"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.o -MF CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.o.d -o CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.o -c /home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c
+CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.o: CMakeFiles/final_project.dir/flags.make
+CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.o: /home/sreer/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c
+CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.o: CMakeFiles/final_project.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sreer/Junior_Design/Final_Project/Junior_Design_C/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_93) "Building C object CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.o -MF CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.o.d -o CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.o -c /home/sreer/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c
 
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c > CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.i
+CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/sreer/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c > CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.i
 
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c -o CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.s
+CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/sreer/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c -o CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.s
 
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.o: CMakeFiles/final_project.dir/flags.make
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.o: /home/sreer/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.o: CMakeFiles/final_project.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sreer/Junior_Design/Final_Project/Junior_Design_C/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_167) "Building C object CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.o"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.o -MF CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.o.d -o CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.o -c /home/sreer/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c
+CMakeFiles/final_project.dir/home/sreer/pico/FreeRTOS-Kernel/portable/MemMang/heap_4.c.o: CMakeFiles/final_project.dir/flags.make
+CMakeFiles/final_project.dir/home/sreer/pico/FreeRTOS-Kernel/portable/MemMang/heap_4.c.o: /home/sreer/pico/FreeRTOS-Kernel/portable/MemMang/heap_4.c
+CMakeFiles/final_project.dir/home/sreer/pico/FreeRTOS-Kernel/portable/MemMang/heap_4.c.o: CMakeFiles/final_project.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sreer/Junior_Design/Final_Project/Junior_Design_C/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_94) "Building C object CMakeFiles/final_project.dir/home/sreer/pico/FreeRTOS-Kernel/portable/MemMang/heap_4.c.o"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/final_project.dir/home/sreer/pico/FreeRTOS-Kernel/portable/MemMang/heap_4.c.o -MF CMakeFiles/final_project.dir/home/sreer/pico/FreeRTOS-Kernel/portable/MemMang/heap_4.c.o.d -o CMakeFiles/final_project.dir/home/sreer/pico/FreeRTOS-Kernel/portable/MemMang/heap_4.c.o -c /home/sreer/pico/FreeRTOS-Kernel/portable/MemMang/heap_4.c
 
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/sreer/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c > CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.i
+CMakeFiles/final_project.dir/home/sreer/pico/FreeRTOS-Kernel/portable/MemMang/heap_4.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/final_project.dir/home/sreer/pico/FreeRTOS-Kernel/portable/MemMang/heap_4.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/sreer/pico/FreeRTOS-Kernel/portable/MemMang/heap_4.c > CMakeFiles/final_project.dir/home/sreer/pico/FreeRTOS-Kernel/portable/MemMang/heap_4.c.i
 
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/sreer/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c -o CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.s
+CMakeFiles/final_project.dir/home/sreer/pico/FreeRTOS-Kernel/portable/MemMang/heap_4.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/final_project.dir/home/sreer/pico/FreeRTOS-Kernel/portable/MemMang/heap_4.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/sreer/pico/FreeRTOS-Kernel/portable/MemMang/heap_4.c -o CMakeFiles/final_project.dir/home/sreer/pico/FreeRTOS-Kernel/portable/MemMang/heap_4.c.s
 
 # Object files for target final_project
 final_project_OBJECTS = \
@@ -2455,117 +1433,44 @@ final_project_OBJECTS = \
 "CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_crt0/crt0.S.o" \
 "CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.o" \
 "CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o" \
-"CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.o" \
-"CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.o" \
-"CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.o" \
-"CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.o" \
-"CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.o" \
-"CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.o" \
-"CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.o" \
-"CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_rand/rand.c.o" \
+"CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.o" \
+"CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.o" \
+"CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.o" \
 "CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.o" \
 "CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.o" \
 "CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.o" \
-"CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/init.c.o" \
-"CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/def.c.o" \
-"CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/dns.c.o" \
-"CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/inet_chksum.c.o" \
-"CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ip.c.o" \
-"CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/mem.c.o" \
-"CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/memp.c.o" \
-"CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/netif.c.o" \
-"CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/pbuf.c.o" \
-"CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/raw.c.o" \
-"CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/stats.c.o" \
-"CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/sys.c.o" \
-"CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/altcp.c.o" \
-"CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/altcp_alloc.c.o" \
-"CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/altcp_tcp.c.o" \
-"CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/tcp.c.o" \
-"CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/tcp_in.c.o" \
-"CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/tcp_out.c.o" \
-"CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/timeouts.c.o" \
-"CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/udp.c.o" \
-"CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.o" \
-"CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.o" \
-"CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.o" \
-"CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.o" \
-"CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.o" \
-"CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.o" \
-"CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.o" \
-"CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.o" \
-"CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/acd.c.o" \
-"CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.o" \
-"CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.o" \
-"CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.o" \
-"CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.o" \
-"CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.o" \
-"CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.o" \
-"CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.o" \
-"CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.o" \
-"CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.o" \
-"CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/api/api_lib.c.o" \
-"CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/api/api_msg.c.o" \
-"CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/api/err.c.o" \
-"CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/api/if_api.c.o" \
-"CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/api/netbuf.c.o" \
-"CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/api/netdb.c.o" \
-"CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/api/netifapi.c.o" \
-"CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/api/sockets.c.o" \
-"CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/api/tcpip.c.o" \
-"CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ethernet.c.o" \
-"CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/bridgeif.c.o" \
-"CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.o" \
-"CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/slipif.c.o" \
-"CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.o" \
-"CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/lowpan6.c.o" \
-"CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.o" \
-"CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/zepif.c.o" \
-"CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/auth.c.o" \
-"CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.o" \
-"CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.o" \
-"CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.o" \
-"CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.o" \
-"CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/demand.c.o" \
-"CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/eap.c.o" \
-"CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.o" \
-"CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.o" \
-"CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.o" \
-"CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.o" \
-"CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.o" \
-"CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.o" \
-"CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/magic.c.o" \
-"CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.o" \
-"CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.o" \
-"CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.o" \
-"CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.o" \
-"CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.o" \
-"CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.o" \
-"CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.o" \
-"CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.o" \
-"CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/upap.c.o" \
-"CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/utils.c.o" \
-"CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/vj.c.o" \
-"CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.o" \
-"CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.o" \
-"CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.o" \
-"CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.o" \
-"CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.o" \
-"CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.o" \
-"CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.o" \
-"CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.o" \
-"CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.o" \
-"CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.o" \
-"CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.o" \
-"CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.o" \
-"CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.o" \
-"CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.o" \
-"CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.o" \
-"CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.o" \
-"CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.o" \
+"CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.o" \
+"CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.o" \
+"CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.o" \
+"CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.o" \
+"CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.o" \
+"CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.o" \
+"CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.o" \
+"CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.o" \
+"CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.o" \
+"CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.o" \
+"CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.o" \
+"CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.o" \
+"CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.o" \
+"CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.o" \
+"CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.o" \
+"CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.o" \
+"CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/tusb.c.o" \
+"CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.o" \
+"CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.o" \
+"CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.o" \
+"CMakeFiles/final_project.dir/home/sreer/pico/FreeRTOS-Kernel/portable/ThirdParty/Community-Supported-Ports/GCC/RP2350_ARM_NTZ/non_secure/port.c.o" \
+"CMakeFiles/final_project.dir/home/sreer/pico/FreeRTOS-Kernel/portable/ThirdParty/Community-Supported-Ports/GCC/RP2350_ARM_NTZ/non_secure/portasm.c.o" \
+"CMakeFiles/final_project.dir/home/sreer/pico/FreeRTOS-Kernel/croutine.c.o" \
+"CMakeFiles/final_project.dir/home/sreer/pico/FreeRTOS-Kernel/event_groups.c.o" \
+"CMakeFiles/final_project.dir/home/sreer/pico/FreeRTOS-Kernel/list.c.o" \
+"CMakeFiles/final_project.dir/home/sreer/pico/FreeRTOS-Kernel/queue.c.o" \
+"CMakeFiles/final_project.dir/home/sreer/pico/FreeRTOS-Kernel/stream_buffer.c.o" \
+"CMakeFiles/final_project.dir/home/sreer/pico/FreeRTOS-Kernel/tasks.c.o" \
+"CMakeFiles/final_project.dir/home/sreer/pico/FreeRTOS-Kernel/timers.c.o" \
 "CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_exception/exception.c.o" \
-"CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.o" \
-"CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.o"
+"CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.o" \
+"CMakeFiles/final_project.dir/home/sreer/pico/FreeRTOS-Kernel/portable/MemMang/heap_4.c.o"
 
 # External object files for target final_project
 final_project_EXTERNAL_OBJECTS =
@@ -2626,122 +1531,49 @@ final_project.elf: CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2
 final_project.elf: CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_crt0/crt0.S.o
 final_project.elf: CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.o
 final_project.elf: CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o
-final_project.elf: CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.o
-final_project.elf: CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.o
-final_project.elf: CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.o
-final_project.elf: CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.o
-final_project.elf: CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.o
-final_project.elf: CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.o
-final_project.elf: CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.o
-final_project.elf: CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_rand/rand.c.o
+final_project.elf: CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.o
+final_project.elf: CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.o
+final_project.elf: CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.o
 final_project.elf: CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.o
 final_project.elf: CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.o
 final_project.elf: CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.o
-final_project.elf: CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/init.c.o
-final_project.elf: CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/def.c.o
-final_project.elf: CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/dns.c.o
-final_project.elf: CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/inet_chksum.c.o
-final_project.elf: CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ip.c.o
-final_project.elf: CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/mem.c.o
-final_project.elf: CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/memp.c.o
-final_project.elf: CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/netif.c.o
-final_project.elf: CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/pbuf.c.o
-final_project.elf: CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/raw.c.o
-final_project.elf: CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/stats.c.o
-final_project.elf: CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/sys.c.o
-final_project.elf: CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/altcp.c.o
-final_project.elf: CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/altcp_alloc.c.o
-final_project.elf: CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/altcp_tcp.c.o
-final_project.elf: CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/tcp.c.o
-final_project.elf: CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/tcp_in.c.o
-final_project.elf: CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/tcp_out.c.o
-final_project.elf: CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/timeouts.c.o
-final_project.elf: CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/udp.c.o
-final_project.elf: CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.o
-final_project.elf: CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.o
-final_project.elf: CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.o
-final_project.elf: CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.o
-final_project.elf: CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.o
-final_project.elf: CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.o
-final_project.elf: CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.o
-final_project.elf: CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.o
-final_project.elf: CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/acd.c.o
-final_project.elf: CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.o
-final_project.elf: CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.o
-final_project.elf: CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.o
-final_project.elf: CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.o
-final_project.elf: CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.o
-final_project.elf: CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.o
-final_project.elf: CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.o
-final_project.elf: CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.o
-final_project.elf: CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.o
-final_project.elf: CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/api/api_lib.c.o
-final_project.elf: CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/api/api_msg.c.o
-final_project.elf: CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/api/err.c.o
-final_project.elf: CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/api/if_api.c.o
-final_project.elf: CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/api/netbuf.c.o
-final_project.elf: CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/api/netdb.c.o
-final_project.elf: CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/api/netifapi.c.o
-final_project.elf: CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/api/sockets.c.o
-final_project.elf: CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/api/tcpip.c.o
-final_project.elf: CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ethernet.c.o
-final_project.elf: CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/bridgeif.c.o
-final_project.elf: CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.o
-final_project.elf: CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/slipif.c.o
-final_project.elf: CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.o
-final_project.elf: CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/lowpan6.c.o
-final_project.elf: CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.o
-final_project.elf: CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/zepif.c.o
-final_project.elf: CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/auth.c.o
-final_project.elf: CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.o
-final_project.elf: CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.o
-final_project.elf: CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.o
-final_project.elf: CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.o
-final_project.elf: CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/demand.c.o
-final_project.elf: CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/eap.c.o
-final_project.elf: CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.o
-final_project.elf: CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.o
-final_project.elf: CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.o
-final_project.elf: CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.o
-final_project.elf: CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.o
-final_project.elf: CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.o
-final_project.elf: CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/magic.c.o
-final_project.elf: CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.o
-final_project.elf: CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.o
-final_project.elf: CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.o
-final_project.elf: CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.o
-final_project.elf: CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.o
-final_project.elf: CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.o
-final_project.elf: CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.o
-final_project.elf: CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.o
-final_project.elf: CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/upap.c.o
-final_project.elf: CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/utils.c.o
-final_project.elf: CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/vj.c.o
-final_project.elf: CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.o
-final_project.elf: CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.o
-final_project.elf: CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.o
-final_project.elf: CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.o
-final_project.elf: CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.o
-final_project.elf: CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.o
-final_project.elf: CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.o
-final_project.elf: CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.o
-final_project.elf: CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.o
-final_project.elf: CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.o
-final_project.elf: CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.o
-final_project.elf: CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.o
-final_project.elf: CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.o
-final_project.elf: CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.o
-final_project.elf: CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.o
-final_project.elf: CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.o
-final_project.elf: CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.o
+final_project.elf: CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.o
+final_project.elf: CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.o
+final_project.elf: CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.o
+final_project.elf: CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.o
+final_project.elf: CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.o
+final_project.elf: CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.o
+final_project.elf: CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.o
+final_project.elf: CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.o
+final_project.elf: CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.o
+final_project.elf: CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.o
+final_project.elf: CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.o
+final_project.elf: CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.o
+final_project.elf: CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.o
+final_project.elf: CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.o
+final_project.elf: CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.o
+final_project.elf: CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.o
+final_project.elf: CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/tusb.c.o
+final_project.elf: CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.o
+final_project.elf: CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.o
+final_project.elf: CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.o
+final_project.elf: CMakeFiles/final_project.dir/home/sreer/pico/FreeRTOS-Kernel/portable/ThirdParty/Community-Supported-Ports/GCC/RP2350_ARM_NTZ/non_secure/port.c.o
+final_project.elf: CMakeFiles/final_project.dir/home/sreer/pico/FreeRTOS-Kernel/portable/ThirdParty/Community-Supported-Ports/GCC/RP2350_ARM_NTZ/non_secure/portasm.c.o
+final_project.elf: CMakeFiles/final_project.dir/home/sreer/pico/FreeRTOS-Kernel/croutine.c.o
+final_project.elf: CMakeFiles/final_project.dir/home/sreer/pico/FreeRTOS-Kernel/event_groups.c.o
+final_project.elf: CMakeFiles/final_project.dir/home/sreer/pico/FreeRTOS-Kernel/list.c.o
+final_project.elf: CMakeFiles/final_project.dir/home/sreer/pico/FreeRTOS-Kernel/queue.c.o
+final_project.elf: CMakeFiles/final_project.dir/home/sreer/pico/FreeRTOS-Kernel/stream_buffer.c.o
+final_project.elf: CMakeFiles/final_project.dir/home/sreer/pico/FreeRTOS-Kernel/tasks.c.o
+final_project.elf: CMakeFiles/final_project.dir/home/sreer/pico/FreeRTOS-Kernel/timers.c.o
 final_project.elf: CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_exception/exception.c.o
-final_project.elf: CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.o
-final_project.elf: CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.o
+final_project.elf: CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.o
+final_project.elf: CMakeFiles/final_project.dir/home/sreer/pico/FreeRTOS-Kernel/portable/MemMang/heap_4.c.o
 final_project.elf: CMakeFiles/final_project.dir/build.make
 final_project.elf: pico-sdk/src/rp2350/boot_stage2/CMakeFiles/bs2_default_library.dir/bs2_default_padded_checksummed.S.o
 final_project.elf: /home/sreer/pico/pico-sdk/src/rp2_common/pico_crt0/rp2350/memmap_default.ld
 final_project.elf: CMakeFiles/final_project.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/sreer/Junior_Design/Final_Project/Junior_Design_C/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_168) "Linking CXX executable final_project.elf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/sreer/Junior_Design/Final_Project/Junior_Design_C/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_95) "Linking CXX executable final_project.elf"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/final_project.dir/link.txt --verbose=$(VERBOSE)
 	/usr/bin/arm-none-eabi-objdump -h /home/sreer/Junior_Design/Final_Project/Junior_Design_C/build/final_project.elf > final_project.dis
 	/usr/bin/arm-none-eabi-objdump -d /home/sreer/Junior_Design/Final_Project/Junior_Design_C/build/final_project.elf >> final_project.dis

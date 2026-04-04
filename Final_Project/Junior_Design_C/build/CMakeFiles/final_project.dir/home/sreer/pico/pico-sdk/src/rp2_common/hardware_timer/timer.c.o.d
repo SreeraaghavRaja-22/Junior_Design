@@ -16,6 +16,9 @@ CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_ti
  /home/sreer/Junior_Design/Final_Project/Junior_Design_C/build/generated/pico_base/pico/config_autogen.h \
  /home/sreer/pico/pico-sdk/src/boards/include/boards/pico2_w.h \
  /home/sreer/pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+ /home/sreer/pico/FreeRTOS-Kernel/portable/ThirdParty/Community-Supported-Ports/GCC/RP2350_ARM_NTZ/non_secure/freertos_sdk_config.h \
+ /home/sreer/Junior_Design/Final_Project/Junior_Design_C/src/FreeRTOSConfig.h \
+ /home/sreer/pico/FreeRTOS-Kernel/portable/ThirdParty/Community-Supported-Ports/GCC/RP2350_ARM_NTZ/non_secure/rp2040_config.h \
  /home/sreer/pico/pico-sdk/src/rp2350/pico_platform/include/pico/platform.h \
  /home/sreer/pico/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
  /home/sreer/pico/pico-sdk/src/rp2350/hardware_regs/include/hardware/platform_defs.h \

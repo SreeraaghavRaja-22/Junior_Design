@@ -1,5 +1,0 @@
-/home/sreer/Junior_Design/Final_Project/Junior_Design_C/build/pioasm-install/pioasm/pioasm
-/home/sreer/Junior_Design/Final_Project/Junior_Design_C/build/pioasm-install/pioasm/pioasmTargets.cmake
-/home/sreer/Junior_Design/Final_Project/Junior_Design_C/build/pioasm-install/pioasm/pioasmTargets-release.cmake
-/home/sreer/Junior_Design/Final_Project/Junior_Design_C/build/pioasm-install/pioasm/pioasmConfig.cmake
-/home/sreer/Junior_Design/Final_Project/Junior_Design_C/build/pioasm-install/pioasm/pioasmConfigVersion.cmake

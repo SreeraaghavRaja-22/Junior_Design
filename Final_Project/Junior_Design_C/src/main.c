@@ -1,28 +1,35 @@
 #include <stdio.h>
-#include <stdbool.h>
-
 #include "pico/stdlib.h"
-#include "pico/time.h"
-#include "pico/cyw43_arch.h"
+#include "FreeRTOSConfig.h"
+#include "FreeRTOS.h"
+#include "task.h"
+#include "includes/main_init.h"
+#include "math.h"
 
-#include "hardware/adc.h"
-#include "components.h"
 
-int main(void){
-    stdio_init_all(); 
+void Heartbeat_Task(void *pvParameters) {
+    for(;;) {
+        uint16_t raw = adc_read(); 
+        printf("Raw Value: 0x%03x, voltage = %f V\n", raw, raw * ADC_CONV_FACTOR);
+        float voltage_adc = raw * ADC_CONV_FACTOR;
+        float threshold = voltage_adc / 3.3f;
+        int leds_on = (int)roundf(threshold * 5);
 
-    // ensure that wifi can be initialized
-    if(cyw43_arch_init()) {
-        printf("WIFI FAILED!");
-        return -1;
+        for(int i = LED1_PIN; i < LED1_PIN + 5; i++){
+            if((i - LED1_PIN) < leds_on){gpio_put(i, 1);}
+            else{gpio_put(i, 0);}
+        }
+        vTaskDelay(pdMS_TO_TICKS(100));
     }
+}
 
-    // initialize LEDS from the component library
-    initialize_leds();
+int main(void) {
+    stdio_init_all();
+    // Temporarily removed cyw43_arch_init() to eliminate driver conflicts
+    main_init();
     
-    for(;;){
-        // toggle all the leds
-        toggle_leds();
-        sleep_ms(1000);
-    }
+    xTaskCreate(Heartbeat_Task, "HB", 512, NULL, 1, NULL);
+    vTaskStartScheduler();
+
+    for(;;); // Should never get here
 }

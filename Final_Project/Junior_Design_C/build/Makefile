@@ -169,6 +169,19 @@ bs2_default_library/fast:
 .PHONY : bs2_default_library/fast
 
 #=============================================================================
+# Target rules for targets named pioasmBuild
+
+# Build rule for target.
+pioasmBuild: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pioasmBuild
+.PHONY : pioasmBuild
+
+# fast build rule for target.
+pioasmBuild/fast:
+	$(MAKE) $(MAKESILENT) -f pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/pioasmBuild.dir/build.make pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/pioasmBuild.dir/build
+.PHONY : pioasmBuild/fast
+
+#=============================================================================
 # Target rules for targets named cyw43_driver_picow_cyw43_bus_pio_spi_pio_h
 
 # Build rule for target.
@@ -194,2141 +207,677 @@ pico_status_led_ws2812_pio_h/fast:
 	$(MAKE) $(MAKESILENT) -f pico-sdk/src/rp2_common/pico_status_led/CMakeFiles/pico_status_led_ws2812_pio_h.dir/build.make pico-sdk/src/rp2_common/pico_status_led/CMakeFiles/pico_status_led_ws2812_pio_h.dir/build
 .PHONY : pico_status_led_ws2812_pio_h/fast
 
-home/sreer/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.o: home/sreer/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.o
-.PHONY : home/sreer/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.o
+home/sreer/pico/FreeRTOS-Kernel/croutine.o: home/sreer/pico/FreeRTOS-Kernel/croutine.c.o
+.PHONY : home/sreer/pico/FreeRTOS-Kernel/croutine.o
 
 # target to build an object file
-home/sreer/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.o
-.PHONY : home/sreer/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.o
+home/sreer/pico/FreeRTOS-Kernel/croutine.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/FreeRTOS-Kernel/croutine.c.o
+.PHONY : home/sreer/pico/FreeRTOS-Kernel/croutine.c.o
 
-home/sreer/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.i: home/sreer/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.i
-.PHONY : home/sreer/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.i
+home/sreer/pico/FreeRTOS-Kernel/croutine.i: home/sreer/pico/FreeRTOS-Kernel/croutine.c.i
+.PHONY : home/sreer/pico/FreeRTOS-Kernel/croutine.i
 
 # target to preprocess a source file
-home/sreer/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.i
-.PHONY : home/sreer/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.i
+home/sreer/pico/FreeRTOS-Kernel/croutine.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/FreeRTOS-Kernel/croutine.c.i
+.PHONY : home/sreer/pico/FreeRTOS-Kernel/croutine.c.i
 
-home/sreer/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.s: home/sreer/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.s
-.PHONY : home/sreer/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.s
+home/sreer/pico/FreeRTOS-Kernel/croutine.s: home/sreer/pico/FreeRTOS-Kernel/croutine.c.s
+.PHONY : home/sreer/pico/FreeRTOS-Kernel/croutine.s
 
 # target to generate assembly for a file
-home/sreer/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.s
-.PHONY : home/sreer/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.s
+home/sreer/pico/FreeRTOS-Kernel/croutine.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/FreeRTOS-Kernel/croutine.c.s
+.PHONY : home/sreer/pico/FreeRTOS-Kernel/croutine.c.s
 
-home/sreer/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.o: home/sreer/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.o
-.PHONY : home/sreer/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.o
+home/sreer/pico/FreeRTOS-Kernel/event_groups.o: home/sreer/pico/FreeRTOS-Kernel/event_groups.c.o
+.PHONY : home/sreer/pico/FreeRTOS-Kernel/event_groups.o
 
 # target to build an object file
-home/sreer/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.o
-.PHONY : home/sreer/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.o
+home/sreer/pico/FreeRTOS-Kernel/event_groups.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/FreeRTOS-Kernel/event_groups.c.o
+.PHONY : home/sreer/pico/FreeRTOS-Kernel/event_groups.c.o
 
-home/sreer/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.i: home/sreer/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.i
-.PHONY : home/sreer/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.i
+home/sreer/pico/FreeRTOS-Kernel/event_groups.i: home/sreer/pico/FreeRTOS-Kernel/event_groups.c.i
+.PHONY : home/sreer/pico/FreeRTOS-Kernel/event_groups.i
 
 # target to preprocess a source file
-home/sreer/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.i
-.PHONY : home/sreer/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.i
+home/sreer/pico/FreeRTOS-Kernel/event_groups.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/FreeRTOS-Kernel/event_groups.c.i
+.PHONY : home/sreer/pico/FreeRTOS-Kernel/event_groups.c.i
 
-home/sreer/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.s: home/sreer/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.s
-.PHONY : home/sreer/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.s
+home/sreer/pico/FreeRTOS-Kernel/event_groups.s: home/sreer/pico/FreeRTOS-Kernel/event_groups.c.s
+.PHONY : home/sreer/pico/FreeRTOS-Kernel/event_groups.s
 
 # target to generate assembly for a file
-home/sreer/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.s
-.PHONY : home/sreer/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.s
+home/sreer/pico/FreeRTOS-Kernel/event_groups.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/FreeRTOS-Kernel/event_groups.c.s
+.PHONY : home/sreer/pico/FreeRTOS-Kernel/event_groups.c.s
 
-home/sreer/pico/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.o: home/sreer/pico/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.o
-.PHONY : home/sreer/pico/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.o
+home/sreer/pico/FreeRTOS-Kernel/list.o: home/sreer/pico/FreeRTOS-Kernel/list.c.o
+.PHONY : home/sreer/pico/FreeRTOS-Kernel/list.o
 
 # target to build an object file
-home/sreer/pico/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.o
-.PHONY : home/sreer/pico/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.o
+home/sreer/pico/FreeRTOS-Kernel/list.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/FreeRTOS-Kernel/list.c.o
+.PHONY : home/sreer/pico/FreeRTOS-Kernel/list.c.o
 
-home/sreer/pico/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.i: home/sreer/pico/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.i
-.PHONY : home/sreer/pico/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.i
+home/sreer/pico/FreeRTOS-Kernel/list.i: home/sreer/pico/FreeRTOS-Kernel/list.c.i
+.PHONY : home/sreer/pico/FreeRTOS-Kernel/list.i
 
 # target to preprocess a source file
-home/sreer/pico/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.i
-.PHONY : home/sreer/pico/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.i
+home/sreer/pico/FreeRTOS-Kernel/list.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/FreeRTOS-Kernel/list.c.i
+.PHONY : home/sreer/pico/FreeRTOS-Kernel/list.c.i
 
-home/sreer/pico/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.s: home/sreer/pico/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.s
-.PHONY : home/sreer/pico/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.s
+home/sreer/pico/FreeRTOS-Kernel/list.s: home/sreer/pico/FreeRTOS-Kernel/list.c.s
+.PHONY : home/sreer/pico/FreeRTOS-Kernel/list.s
 
 # target to generate assembly for a file
-home/sreer/pico/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.s
-.PHONY : home/sreer/pico/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.s
+home/sreer/pico/FreeRTOS-Kernel/list.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/FreeRTOS-Kernel/list.c.s
+.PHONY : home/sreer/pico/FreeRTOS-Kernel/list.c.s
 
-home/sreer/pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.o: home/sreer/pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.o
-.PHONY : home/sreer/pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.o
+home/sreer/pico/FreeRTOS-Kernel/portable/MemMang/heap_4.o: home/sreer/pico/FreeRTOS-Kernel/portable/MemMang/heap_4.c.o
+.PHONY : home/sreer/pico/FreeRTOS-Kernel/portable/MemMang/heap_4.o
 
 # target to build an object file
-home/sreer/pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.o
-.PHONY : home/sreer/pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.o
+home/sreer/pico/FreeRTOS-Kernel/portable/MemMang/heap_4.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/FreeRTOS-Kernel/portable/MemMang/heap_4.c.o
+.PHONY : home/sreer/pico/FreeRTOS-Kernel/portable/MemMang/heap_4.c.o
 
-home/sreer/pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.i: home/sreer/pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.i
-.PHONY : home/sreer/pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.i
+home/sreer/pico/FreeRTOS-Kernel/portable/MemMang/heap_4.i: home/sreer/pico/FreeRTOS-Kernel/portable/MemMang/heap_4.c.i
+.PHONY : home/sreer/pico/FreeRTOS-Kernel/portable/MemMang/heap_4.i
 
 # target to preprocess a source file
-home/sreer/pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.i
-.PHONY : home/sreer/pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.i
+home/sreer/pico/FreeRTOS-Kernel/portable/MemMang/heap_4.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/FreeRTOS-Kernel/portable/MemMang/heap_4.c.i
+.PHONY : home/sreer/pico/FreeRTOS-Kernel/portable/MemMang/heap_4.c.i
 
-home/sreer/pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.s: home/sreer/pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.s
-.PHONY : home/sreer/pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.s
+home/sreer/pico/FreeRTOS-Kernel/portable/MemMang/heap_4.s: home/sreer/pico/FreeRTOS-Kernel/portable/MemMang/heap_4.c.s
+.PHONY : home/sreer/pico/FreeRTOS-Kernel/portable/MemMang/heap_4.s
 
 # target to generate assembly for a file
-home/sreer/pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.s
-.PHONY : home/sreer/pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.s
+home/sreer/pico/FreeRTOS-Kernel/portable/MemMang/heap_4.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/FreeRTOS-Kernel/portable/MemMang/heap_4.c.s
+.PHONY : home/sreer/pico/FreeRTOS-Kernel/portable/MemMang/heap_4.c.s
 
-home/sreer/pico/pico-sdk/lib/lwip/src/api/api_lib.o: home/sreer/pico/pico-sdk/lib/lwip/src/api/api_lib.c.o
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/api/api_lib.o
+home/sreer/pico/FreeRTOS-Kernel/portable/ThirdParty/Community-Supported-Ports/GCC/RP2350_ARM_NTZ/non_secure/port.o: home/sreer/pico/FreeRTOS-Kernel/portable/ThirdParty/Community-Supported-Ports/GCC/RP2350_ARM_NTZ/non_secure/port.c.o
+.PHONY : home/sreer/pico/FreeRTOS-Kernel/portable/ThirdParty/Community-Supported-Ports/GCC/RP2350_ARM_NTZ/non_secure/port.o
 
 # target to build an object file
-home/sreer/pico/pico-sdk/lib/lwip/src/api/api_lib.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/api/api_lib.c.o
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/api/api_lib.c.o
+home/sreer/pico/FreeRTOS-Kernel/portable/ThirdParty/Community-Supported-Ports/GCC/RP2350_ARM_NTZ/non_secure/port.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/FreeRTOS-Kernel/portable/ThirdParty/Community-Supported-Ports/GCC/RP2350_ARM_NTZ/non_secure/port.c.o
+.PHONY : home/sreer/pico/FreeRTOS-Kernel/portable/ThirdParty/Community-Supported-Ports/GCC/RP2350_ARM_NTZ/non_secure/port.c.o
 
-home/sreer/pico/pico-sdk/lib/lwip/src/api/api_lib.i: home/sreer/pico/pico-sdk/lib/lwip/src/api/api_lib.c.i
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/api/api_lib.i
+home/sreer/pico/FreeRTOS-Kernel/portable/ThirdParty/Community-Supported-Ports/GCC/RP2350_ARM_NTZ/non_secure/port.i: home/sreer/pico/FreeRTOS-Kernel/portable/ThirdParty/Community-Supported-Ports/GCC/RP2350_ARM_NTZ/non_secure/port.c.i
+.PHONY : home/sreer/pico/FreeRTOS-Kernel/portable/ThirdParty/Community-Supported-Ports/GCC/RP2350_ARM_NTZ/non_secure/port.i
 
 # target to preprocess a source file
-home/sreer/pico/pico-sdk/lib/lwip/src/api/api_lib.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/api/api_lib.c.i
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/api/api_lib.c.i
+home/sreer/pico/FreeRTOS-Kernel/portable/ThirdParty/Community-Supported-Ports/GCC/RP2350_ARM_NTZ/non_secure/port.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/FreeRTOS-Kernel/portable/ThirdParty/Community-Supported-Ports/GCC/RP2350_ARM_NTZ/non_secure/port.c.i
+.PHONY : home/sreer/pico/FreeRTOS-Kernel/portable/ThirdParty/Community-Supported-Ports/GCC/RP2350_ARM_NTZ/non_secure/port.c.i
 
-home/sreer/pico/pico-sdk/lib/lwip/src/api/api_lib.s: home/sreer/pico/pico-sdk/lib/lwip/src/api/api_lib.c.s
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/api/api_lib.s
+home/sreer/pico/FreeRTOS-Kernel/portable/ThirdParty/Community-Supported-Ports/GCC/RP2350_ARM_NTZ/non_secure/port.s: home/sreer/pico/FreeRTOS-Kernel/portable/ThirdParty/Community-Supported-Ports/GCC/RP2350_ARM_NTZ/non_secure/port.c.s
+.PHONY : home/sreer/pico/FreeRTOS-Kernel/portable/ThirdParty/Community-Supported-Ports/GCC/RP2350_ARM_NTZ/non_secure/port.s
 
 # target to generate assembly for a file
-home/sreer/pico/pico-sdk/lib/lwip/src/api/api_lib.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/api/api_lib.c.s
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/api/api_lib.c.s
+home/sreer/pico/FreeRTOS-Kernel/portable/ThirdParty/Community-Supported-Ports/GCC/RP2350_ARM_NTZ/non_secure/port.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/FreeRTOS-Kernel/portable/ThirdParty/Community-Supported-Ports/GCC/RP2350_ARM_NTZ/non_secure/port.c.s
+.PHONY : home/sreer/pico/FreeRTOS-Kernel/portable/ThirdParty/Community-Supported-Ports/GCC/RP2350_ARM_NTZ/non_secure/port.c.s
 
-home/sreer/pico/pico-sdk/lib/lwip/src/api/api_msg.o: home/sreer/pico/pico-sdk/lib/lwip/src/api/api_msg.c.o
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/api/api_msg.o
+home/sreer/pico/FreeRTOS-Kernel/portable/ThirdParty/Community-Supported-Ports/GCC/RP2350_ARM_NTZ/non_secure/portasm.o: home/sreer/pico/FreeRTOS-Kernel/portable/ThirdParty/Community-Supported-Ports/GCC/RP2350_ARM_NTZ/non_secure/portasm.c.o
+.PHONY : home/sreer/pico/FreeRTOS-Kernel/portable/ThirdParty/Community-Supported-Ports/GCC/RP2350_ARM_NTZ/non_secure/portasm.o
 
 # target to build an object file
-home/sreer/pico/pico-sdk/lib/lwip/src/api/api_msg.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/api/api_msg.c.o
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/api/api_msg.c.o
+home/sreer/pico/FreeRTOS-Kernel/portable/ThirdParty/Community-Supported-Ports/GCC/RP2350_ARM_NTZ/non_secure/portasm.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/FreeRTOS-Kernel/portable/ThirdParty/Community-Supported-Ports/GCC/RP2350_ARM_NTZ/non_secure/portasm.c.o
+.PHONY : home/sreer/pico/FreeRTOS-Kernel/portable/ThirdParty/Community-Supported-Ports/GCC/RP2350_ARM_NTZ/non_secure/portasm.c.o
 
-home/sreer/pico/pico-sdk/lib/lwip/src/api/api_msg.i: home/sreer/pico/pico-sdk/lib/lwip/src/api/api_msg.c.i
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/api/api_msg.i
+home/sreer/pico/FreeRTOS-Kernel/portable/ThirdParty/Community-Supported-Ports/GCC/RP2350_ARM_NTZ/non_secure/portasm.i: home/sreer/pico/FreeRTOS-Kernel/portable/ThirdParty/Community-Supported-Ports/GCC/RP2350_ARM_NTZ/non_secure/portasm.c.i
+.PHONY : home/sreer/pico/FreeRTOS-Kernel/portable/ThirdParty/Community-Supported-Ports/GCC/RP2350_ARM_NTZ/non_secure/portasm.i
 
 # target to preprocess a source file
-home/sreer/pico/pico-sdk/lib/lwip/src/api/api_msg.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/api/api_msg.c.i
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/api/api_msg.c.i
+home/sreer/pico/FreeRTOS-Kernel/portable/ThirdParty/Community-Supported-Ports/GCC/RP2350_ARM_NTZ/non_secure/portasm.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/FreeRTOS-Kernel/portable/ThirdParty/Community-Supported-Ports/GCC/RP2350_ARM_NTZ/non_secure/portasm.c.i
+.PHONY : home/sreer/pico/FreeRTOS-Kernel/portable/ThirdParty/Community-Supported-Ports/GCC/RP2350_ARM_NTZ/non_secure/portasm.c.i
 
-home/sreer/pico/pico-sdk/lib/lwip/src/api/api_msg.s: home/sreer/pico/pico-sdk/lib/lwip/src/api/api_msg.c.s
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/api/api_msg.s
+home/sreer/pico/FreeRTOS-Kernel/portable/ThirdParty/Community-Supported-Ports/GCC/RP2350_ARM_NTZ/non_secure/portasm.s: home/sreer/pico/FreeRTOS-Kernel/portable/ThirdParty/Community-Supported-Ports/GCC/RP2350_ARM_NTZ/non_secure/portasm.c.s
+.PHONY : home/sreer/pico/FreeRTOS-Kernel/portable/ThirdParty/Community-Supported-Ports/GCC/RP2350_ARM_NTZ/non_secure/portasm.s
 
 # target to generate assembly for a file
-home/sreer/pico/pico-sdk/lib/lwip/src/api/api_msg.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/api/api_msg.c.s
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/api/api_msg.c.s
+home/sreer/pico/FreeRTOS-Kernel/portable/ThirdParty/Community-Supported-Ports/GCC/RP2350_ARM_NTZ/non_secure/portasm.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/FreeRTOS-Kernel/portable/ThirdParty/Community-Supported-Ports/GCC/RP2350_ARM_NTZ/non_secure/portasm.c.s
+.PHONY : home/sreer/pico/FreeRTOS-Kernel/portable/ThirdParty/Community-Supported-Ports/GCC/RP2350_ARM_NTZ/non_secure/portasm.c.s
 
-home/sreer/pico/pico-sdk/lib/lwip/src/api/err.o: home/sreer/pico/pico-sdk/lib/lwip/src/api/err.c.o
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/api/err.o
+home/sreer/pico/FreeRTOS-Kernel/queue.o: home/sreer/pico/FreeRTOS-Kernel/queue.c.o
+.PHONY : home/sreer/pico/FreeRTOS-Kernel/queue.o
 
 # target to build an object file
-home/sreer/pico/pico-sdk/lib/lwip/src/api/err.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/api/err.c.o
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/api/err.c.o
+home/sreer/pico/FreeRTOS-Kernel/queue.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/FreeRTOS-Kernel/queue.c.o
+.PHONY : home/sreer/pico/FreeRTOS-Kernel/queue.c.o
 
-home/sreer/pico/pico-sdk/lib/lwip/src/api/err.i: home/sreer/pico/pico-sdk/lib/lwip/src/api/err.c.i
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/api/err.i
+home/sreer/pico/FreeRTOS-Kernel/queue.i: home/sreer/pico/FreeRTOS-Kernel/queue.c.i
+.PHONY : home/sreer/pico/FreeRTOS-Kernel/queue.i
 
 # target to preprocess a source file
-home/sreer/pico/pico-sdk/lib/lwip/src/api/err.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/api/err.c.i
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/api/err.c.i
+home/sreer/pico/FreeRTOS-Kernel/queue.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/FreeRTOS-Kernel/queue.c.i
+.PHONY : home/sreer/pico/FreeRTOS-Kernel/queue.c.i
 
-home/sreer/pico/pico-sdk/lib/lwip/src/api/err.s: home/sreer/pico/pico-sdk/lib/lwip/src/api/err.c.s
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/api/err.s
+home/sreer/pico/FreeRTOS-Kernel/queue.s: home/sreer/pico/FreeRTOS-Kernel/queue.c.s
+.PHONY : home/sreer/pico/FreeRTOS-Kernel/queue.s
 
 # target to generate assembly for a file
-home/sreer/pico/pico-sdk/lib/lwip/src/api/err.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/api/err.c.s
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/api/err.c.s
+home/sreer/pico/FreeRTOS-Kernel/queue.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/FreeRTOS-Kernel/queue.c.s
+.PHONY : home/sreer/pico/FreeRTOS-Kernel/queue.c.s
 
-home/sreer/pico/pico-sdk/lib/lwip/src/api/if_api.o: home/sreer/pico/pico-sdk/lib/lwip/src/api/if_api.c.o
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/api/if_api.o
+home/sreer/pico/FreeRTOS-Kernel/stream_buffer.o: home/sreer/pico/FreeRTOS-Kernel/stream_buffer.c.o
+.PHONY : home/sreer/pico/FreeRTOS-Kernel/stream_buffer.o
 
 # target to build an object file
-home/sreer/pico/pico-sdk/lib/lwip/src/api/if_api.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/api/if_api.c.o
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/api/if_api.c.o
+home/sreer/pico/FreeRTOS-Kernel/stream_buffer.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/FreeRTOS-Kernel/stream_buffer.c.o
+.PHONY : home/sreer/pico/FreeRTOS-Kernel/stream_buffer.c.o
 
-home/sreer/pico/pico-sdk/lib/lwip/src/api/if_api.i: home/sreer/pico/pico-sdk/lib/lwip/src/api/if_api.c.i
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/api/if_api.i
+home/sreer/pico/FreeRTOS-Kernel/stream_buffer.i: home/sreer/pico/FreeRTOS-Kernel/stream_buffer.c.i
+.PHONY : home/sreer/pico/FreeRTOS-Kernel/stream_buffer.i
 
 # target to preprocess a source file
-home/sreer/pico/pico-sdk/lib/lwip/src/api/if_api.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/api/if_api.c.i
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/api/if_api.c.i
+home/sreer/pico/FreeRTOS-Kernel/stream_buffer.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/FreeRTOS-Kernel/stream_buffer.c.i
+.PHONY : home/sreer/pico/FreeRTOS-Kernel/stream_buffer.c.i
 
-home/sreer/pico/pico-sdk/lib/lwip/src/api/if_api.s: home/sreer/pico/pico-sdk/lib/lwip/src/api/if_api.c.s
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/api/if_api.s
+home/sreer/pico/FreeRTOS-Kernel/stream_buffer.s: home/sreer/pico/FreeRTOS-Kernel/stream_buffer.c.s
+.PHONY : home/sreer/pico/FreeRTOS-Kernel/stream_buffer.s
 
 # target to generate assembly for a file
-home/sreer/pico/pico-sdk/lib/lwip/src/api/if_api.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/api/if_api.c.s
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/api/if_api.c.s
+home/sreer/pico/FreeRTOS-Kernel/stream_buffer.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/FreeRTOS-Kernel/stream_buffer.c.s
+.PHONY : home/sreer/pico/FreeRTOS-Kernel/stream_buffer.c.s
 
-home/sreer/pico/pico-sdk/lib/lwip/src/api/netbuf.o: home/sreer/pico/pico-sdk/lib/lwip/src/api/netbuf.c.o
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/api/netbuf.o
+home/sreer/pico/FreeRTOS-Kernel/tasks.o: home/sreer/pico/FreeRTOS-Kernel/tasks.c.o
+.PHONY : home/sreer/pico/FreeRTOS-Kernel/tasks.o
 
 # target to build an object file
-home/sreer/pico/pico-sdk/lib/lwip/src/api/netbuf.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/api/netbuf.c.o
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/api/netbuf.c.o
+home/sreer/pico/FreeRTOS-Kernel/tasks.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/FreeRTOS-Kernel/tasks.c.o
+.PHONY : home/sreer/pico/FreeRTOS-Kernel/tasks.c.o
 
-home/sreer/pico/pico-sdk/lib/lwip/src/api/netbuf.i: home/sreer/pico/pico-sdk/lib/lwip/src/api/netbuf.c.i
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/api/netbuf.i
+home/sreer/pico/FreeRTOS-Kernel/tasks.i: home/sreer/pico/FreeRTOS-Kernel/tasks.c.i
+.PHONY : home/sreer/pico/FreeRTOS-Kernel/tasks.i
 
 # target to preprocess a source file
-home/sreer/pico/pico-sdk/lib/lwip/src/api/netbuf.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/api/netbuf.c.i
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/api/netbuf.c.i
+home/sreer/pico/FreeRTOS-Kernel/tasks.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/FreeRTOS-Kernel/tasks.c.i
+.PHONY : home/sreer/pico/FreeRTOS-Kernel/tasks.c.i
 
-home/sreer/pico/pico-sdk/lib/lwip/src/api/netbuf.s: home/sreer/pico/pico-sdk/lib/lwip/src/api/netbuf.c.s
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/api/netbuf.s
+home/sreer/pico/FreeRTOS-Kernel/tasks.s: home/sreer/pico/FreeRTOS-Kernel/tasks.c.s
+.PHONY : home/sreer/pico/FreeRTOS-Kernel/tasks.s
 
 # target to generate assembly for a file
-home/sreer/pico/pico-sdk/lib/lwip/src/api/netbuf.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/api/netbuf.c.s
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/api/netbuf.c.s
+home/sreer/pico/FreeRTOS-Kernel/tasks.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/FreeRTOS-Kernel/tasks.c.s
+.PHONY : home/sreer/pico/FreeRTOS-Kernel/tasks.c.s
 
-home/sreer/pico/pico-sdk/lib/lwip/src/api/netdb.o: home/sreer/pico/pico-sdk/lib/lwip/src/api/netdb.c.o
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/api/netdb.o
+home/sreer/pico/FreeRTOS-Kernel/timers.o: home/sreer/pico/FreeRTOS-Kernel/timers.c.o
+.PHONY : home/sreer/pico/FreeRTOS-Kernel/timers.o
 
 # target to build an object file
-home/sreer/pico/pico-sdk/lib/lwip/src/api/netdb.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/api/netdb.c.o
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/api/netdb.c.o
+home/sreer/pico/FreeRTOS-Kernel/timers.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/FreeRTOS-Kernel/timers.c.o
+.PHONY : home/sreer/pico/FreeRTOS-Kernel/timers.c.o
 
-home/sreer/pico/pico-sdk/lib/lwip/src/api/netdb.i: home/sreer/pico/pico-sdk/lib/lwip/src/api/netdb.c.i
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/api/netdb.i
+home/sreer/pico/FreeRTOS-Kernel/timers.i: home/sreer/pico/FreeRTOS-Kernel/timers.c.i
+.PHONY : home/sreer/pico/FreeRTOS-Kernel/timers.i
 
 # target to preprocess a source file
-home/sreer/pico/pico-sdk/lib/lwip/src/api/netdb.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/api/netdb.c.i
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/api/netdb.c.i
+home/sreer/pico/FreeRTOS-Kernel/timers.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/FreeRTOS-Kernel/timers.c.i
+.PHONY : home/sreer/pico/FreeRTOS-Kernel/timers.c.i
 
-home/sreer/pico/pico-sdk/lib/lwip/src/api/netdb.s: home/sreer/pico/pico-sdk/lib/lwip/src/api/netdb.c.s
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/api/netdb.s
+home/sreer/pico/FreeRTOS-Kernel/timers.s: home/sreer/pico/FreeRTOS-Kernel/timers.c.s
+.PHONY : home/sreer/pico/FreeRTOS-Kernel/timers.s
 
 # target to generate assembly for a file
-home/sreer/pico/pico-sdk/lib/lwip/src/api/netdb.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/api/netdb.c.s
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/api/netdb.c.s
+home/sreer/pico/FreeRTOS-Kernel/timers.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/FreeRTOS-Kernel/timers.c.s
+.PHONY : home/sreer/pico/FreeRTOS-Kernel/timers.c.s
 
-home/sreer/pico/pico-sdk/lib/lwip/src/api/netifapi.o: home/sreer/pico/pico-sdk/lib/lwip/src/api/netifapi.c.o
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/api/netifapi.o
+home/sreer/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.o: home/sreer/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.o
+.PHONY : home/sreer/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.o
 
 # target to build an object file
-home/sreer/pico/pico-sdk/lib/lwip/src/api/netifapi.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/api/netifapi.c.o
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/api/netifapi.c.o
+home/sreer/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.o
+.PHONY : home/sreer/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.o
 
-home/sreer/pico/pico-sdk/lib/lwip/src/api/netifapi.i: home/sreer/pico/pico-sdk/lib/lwip/src/api/netifapi.c.i
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/api/netifapi.i
+home/sreer/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.i: home/sreer/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.i
+.PHONY : home/sreer/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.i
 
 # target to preprocess a source file
-home/sreer/pico/pico-sdk/lib/lwip/src/api/netifapi.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/api/netifapi.c.i
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/api/netifapi.c.i
+home/sreer/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.i
+.PHONY : home/sreer/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.i
 
-home/sreer/pico/pico-sdk/lib/lwip/src/api/netifapi.s: home/sreer/pico/pico-sdk/lib/lwip/src/api/netifapi.c.s
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/api/netifapi.s
+home/sreer/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.s: home/sreer/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.s
+.PHONY : home/sreer/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.s
 
 # target to generate assembly for a file
-home/sreer/pico/pico-sdk/lib/lwip/src/api/netifapi.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/api/netifapi.c.s
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/api/netifapi.c.s
+home/sreer/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.s
+.PHONY : home/sreer/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.s
 
-home/sreer/pico/pico-sdk/lib/lwip/src/api/sockets.o: home/sreer/pico/pico-sdk/lib/lwip/src/api/sockets.c.o
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/api/sockets.o
+home/sreer/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.o: home/sreer/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.o
+.PHONY : home/sreer/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.o
 
 # target to build an object file
-home/sreer/pico/pico-sdk/lib/lwip/src/api/sockets.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/api/sockets.c.o
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/api/sockets.c.o
+home/sreer/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.o
+.PHONY : home/sreer/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.o
 
-home/sreer/pico/pico-sdk/lib/lwip/src/api/sockets.i: home/sreer/pico/pico-sdk/lib/lwip/src/api/sockets.c.i
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/api/sockets.i
+home/sreer/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.i: home/sreer/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.i
+.PHONY : home/sreer/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.i
 
 # target to preprocess a source file
-home/sreer/pico/pico-sdk/lib/lwip/src/api/sockets.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/api/sockets.c.i
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/api/sockets.c.i
+home/sreer/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.i
+.PHONY : home/sreer/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.i
 
-home/sreer/pico/pico-sdk/lib/lwip/src/api/sockets.s: home/sreer/pico/pico-sdk/lib/lwip/src/api/sockets.c.s
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/api/sockets.s
+home/sreer/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.s: home/sreer/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.s
+.PHONY : home/sreer/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.s
 
 # target to generate assembly for a file
-home/sreer/pico/pico-sdk/lib/lwip/src/api/sockets.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/api/sockets.c.s
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/api/sockets.c.s
+home/sreer/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.s
+.PHONY : home/sreer/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.s
 
-home/sreer/pico/pico-sdk/lib/lwip/src/api/tcpip.o: home/sreer/pico/pico-sdk/lib/lwip/src/api/tcpip.c.o
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/api/tcpip.o
+home/sreer/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.o: home/sreer/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.o
+.PHONY : home/sreer/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.o
 
 # target to build an object file
-home/sreer/pico/pico-sdk/lib/lwip/src/api/tcpip.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/api/tcpip.c.o
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/api/tcpip.c.o
+home/sreer/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.o
+.PHONY : home/sreer/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.o
 
-home/sreer/pico/pico-sdk/lib/lwip/src/api/tcpip.i: home/sreer/pico/pico-sdk/lib/lwip/src/api/tcpip.c.i
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/api/tcpip.i
+home/sreer/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.i: home/sreer/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.i
+.PHONY : home/sreer/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.i
 
 # target to preprocess a source file
-home/sreer/pico/pico-sdk/lib/lwip/src/api/tcpip.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/api/tcpip.c.i
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/api/tcpip.c.i
+home/sreer/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.i
+.PHONY : home/sreer/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.i
 
-home/sreer/pico/pico-sdk/lib/lwip/src/api/tcpip.s: home/sreer/pico/pico-sdk/lib/lwip/src/api/tcpip.c.s
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/api/tcpip.s
+home/sreer/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.s: home/sreer/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.s
+.PHONY : home/sreer/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.s
 
 # target to generate assembly for a file
-home/sreer/pico/pico-sdk/lib/lwip/src/api/tcpip.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/api/tcpip.c.s
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/api/tcpip.c.s
+home/sreer/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.s
+.PHONY : home/sreer/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.s
 
-home/sreer/pico/pico-sdk/lib/lwip/src/core/altcp.o: home/sreer/pico/pico-sdk/lib/lwip/src/core/altcp.c.o
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/core/altcp.o
+home/sreer/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.o: home/sreer/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.o
+.PHONY : home/sreer/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.o
 
 # target to build an object file
-home/sreer/pico/pico-sdk/lib/lwip/src/core/altcp.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/altcp.c.o
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/core/altcp.c.o
+home/sreer/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.o
+.PHONY : home/sreer/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.o
 
-home/sreer/pico/pico-sdk/lib/lwip/src/core/altcp.i: home/sreer/pico/pico-sdk/lib/lwip/src/core/altcp.c.i
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/core/altcp.i
+home/sreer/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.i: home/sreer/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i
+.PHONY : home/sreer/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.i
 
 # target to preprocess a source file
-home/sreer/pico/pico-sdk/lib/lwip/src/core/altcp.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/altcp.c.i
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/core/altcp.c.i
+home/sreer/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i
+.PHONY : home/sreer/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i
 
-home/sreer/pico/pico-sdk/lib/lwip/src/core/altcp.s: home/sreer/pico/pico-sdk/lib/lwip/src/core/altcp.c.s
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/core/altcp.s
+home/sreer/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.s: home/sreer/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.s
+.PHONY : home/sreer/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.s
 
 # target to generate assembly for a file
-home/sreer/pico/pico-sdk/lib/lwip/src/core/altcp.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/altcp.c.s
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/core/altcp.c.s
+home/sreer/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.s
+.PHONY : home/sreer/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.s
 
-home/sreer/pico/pico-sdk/lib/lwip/src/core/altcp_alloc.o: home/sreer/pico/pico-sdk/lib/lwip/src/core/altcp_alloc.c.o
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/core/altcp_alloc.o
+home/sreer/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.o: home/sreer/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.o
+.PHONY : home/sreer/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.o
 
 # target to build an object file
-home/sreer/pico/pico-sdk/lib/lwip/src/core/altcp_alloc.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/altcp_alloc.c.o
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/core/altcp_alloc.c.o
+home/sreer/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.o
+.PHONY : home/sreer/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.o
 
-home/sreer/pico/pico-sdk/lib/lwip/src/core/altcp_alloc.i: home/sreer/pico/pico-sdk/lib/lwip/src/core/altcp_alloc.c.i
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/core/altcp_alloc.i
+home/sreer/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.i: home/sreer/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.i
+.PHONY : home/sreer/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.i
 
 # target to preprocess a source file
-home/sreer/pico/pico-sdk/lib/lwip/src/core/altcp_alloc.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/altcp_alloc.c.i
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/core/altcp_alloc.c.i
+home/sreer/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.i
+.PHONY : home/sreer/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.i
 
-home/sreer/pico/pico-sdk/lib/lwip/src/core/altcp_alloc.s: home/sreer/pico/pico-sdk/lib/lwip/src/core/altcp_alloc.c.s
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/core/altcp_alloc.s
+home/sreer/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.s: home/sreer/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.s
+.PHONY : home/sreer/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.s
 
 # target to generate assembly for a file
-home/sreer/pico/pico-sdk/lib/lwip/src/core/altcp_alloc.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/altcp_alloc.c.s
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/core/altcp_alloc.c.s
+home/sreer/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.s
+.PHONY : home/sreer/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.s
 
-home/sreer/pico/pico-sdk/lib/lwip/src/core/altcp_tcp.o: home/sreer/pico/pico-sdk/lib/lwip/src/core/altcp_tcp.c.o
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/core/altcp_tcp.o
+home/sreer/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.o: home/sreer/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.o
+.PHONY : home/sreer/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.o
 
 # target to build an object file
-home/sreer/pico/pico-sdk/lib/lwip/src/core/altcp_tcp.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/altcp_tcp.c.o
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/core/altcp_tcp.c.o
+home/sreer/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.o
+.PHONY : home/sreer/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.o
 
-home/sreer/pico/pico-sdk/lib/lwip/src/core/altcp_tcp.i: home/sreer/pico/pico-sdk/lib/lwip/src/core/altcp_tcp.c.i
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/core/altcp_tcp.i
+home/sreer/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.i: home/sreer/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.i
+.PHONY : home/sreer/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.i
 
 # target to preprocess a source file
-home/sreer/pico/pico-sdk/lib/lwip/src/core/altcp_tcp.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/altcp_tcp.c.i
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/core/altcp_tcp.c.i
+home/sreer/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.i
+.PHONY : home/sreer/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.i
 
-home/sreer/pico/pico-sdk/lib/lwip/src/core/altcp_tcp.s: home/sreer/pico/pico-sdk/lib/lwip/src/core/altcp_tcp.c.s
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/core/altcp_tcp.s
+home/sreer/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.s: home/sreer/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.s
+.PHONY : home/sreer/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.s
 
 # target to generate assembly for a file
-home/sreer/pico/pico-sdk/lib/lwip/src/core/altcp_tcp.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/altcp_tcp.c.s
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/core/altcp_tcp.c.s
+home/sreer/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.s
+.PHONY : home/sreer/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.s
 
-home/sreer/pico/pico-sdk/lib/lwip/src/core/def.o: home/sreer/pico/pico-sdk/lib/lwip/src/core/def.c.o
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/core/def.o
+home/sreer/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.o: home/sreer/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.o
+.PHONY : home/sreer/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.o
 
 # target to build an object file
-home/sreer/pico/pico-sdk/lib/lwip/src/core/def.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/def.c.o
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/core/def.c.o
+home/sreer/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.o
+.PHONY : home/sreer/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.o
 
-home/sreer/pico/pico-sdk/lib/lwip/src/core/def.i: home/sreer/pico/pico-sdk/lib/lwip/src/core/def.c.i
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/core/def.i
+home/sreer/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.i: home/sreer/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.i
+.PHONY : home/sreer/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.i
 
 # target to preprocess a source file
-home/sreer/pico/pico-sdk/lib/lwip/src/core/def.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/def.c.i
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/core/def.c.i
+home/sreer/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.i
+.PHONY : home/sreer/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.i
 
-home/sreer/pico/pico-sdk/lib/lwip/src/core/def.s: home/sreer/pico/pico-sdk/lib/lwip/src/core/def.c.s
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/core/def.s
+home/sreer/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.s: home/sreer/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.s
+.PHONY : home/sreer/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.s
 
 # target to generate assembly for a file
-home/sreer/pico/pico-sdk/lib/lwip/src/core/def.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/def.c.s
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/core/def.c.s
+home/sreer/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.s
+.PHONY : home/sreer/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.s
 
-home/sreer/pico/pico-sdk/lib/lwip/src/core/dns.o: home/sreer/pico/pico-sdk/lib/lwip/src/core/dns.c.o
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/core/dns.o
+home/sreer/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.o: home/sreer/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.o
+.PHONY : home/sreer/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.o
 
 # target to build an object file
-home/sreer/pico/pico-sdk/lib/lwip/src/core/dns.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/dns.c.o
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/core/dns.c.o
+home/sreer/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.o
+.PHONY : home/sreer/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.o
 
-home/sreer/pico/pico-sdk/lib/lwip/src/core/dns.i: home/sreer/pico/pico-sdk/lib/lwip/src/core/dns.c.i
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/core/dns.i
+home/sreer/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.i: home/sreer/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.i
+.PHONY : home/sreer/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.i
 
 # target to preprocess a source file
-home/sreer/pico/pico-sdk/lib/lwip/src/core/dns.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/dns.c.i
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/core/dns.c.i
+home/sreer/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.i
+.PHONY : home/sreer/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.i
 
-home/sreer/pico/pico-sdk/lib/lwip/src/core/dns.s: home/sreer/pico/pico-sdk/lib/lwip/src/core/dns.c.s
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/core/dns.s
+home/sreer/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.s: home/sreer/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.s
+.PHONY : home/sreer/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.s
 
 # target to generate assembly for a file
-home/sreer/pico/pico-sdk/lib/lwip/src/core/dns.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/dns.c.s
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/core/dns.c.s
+home/sreer/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.s
+.PHONY : home/sreer/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.s
 
-home/sreer/pico/pico-sdk/lib/lwip/src/core/inet_chksum.o: home/sreer/pico/pico-sdk/lib/lwip/src/core/inet_chksum.c.o
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/core/inet_chksum.o
+home/sreer/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.o: home/sreer/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.o
+.PHONY : home/sreer/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.o
 
 # target to build an object file
-home/sreer/pico/pico-sdk/lib/lwip/src/core/inet_chksum.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/inet_chksum.c.o
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/core/inet_chksum.c.o
+home/sreer/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.o
+.PHONY : home/sreer/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.o
 
-home/sreer/pico/pico-sdk/lib/lwip/src/core/inet_chksum.i: home/sreer/pico/pico-sdk/lib/lwip/src/core/inet_chksum.c.i
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/core/inet_chksum.i
+home/sreer/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.i: home/sreer/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.i
+.PHONY : home/sreer/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.i
 
 # target to preprocess a source file
-home/sreer/pico/pico-sdk/lib/lwip/src/core/inet_chksum.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/inet_chksum.c.i
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/core/inet_chksum.c.i
+home/sreer/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.i
+.PHONY : home/sreer/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.i
 
-home/sreer/pico/pico-sdk/lib/lwip/src/core/inet_chksum.s: home/sreer/pico/pico-sdk/lib/lwip/src/core/inet_chksum.c.s
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/core/inet_chksum.s
+home/sreer/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.s: home/sreer/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.s
+.PHONY : home/sreer/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.s
 
 # target to generate assembly for a file
-home/sreer/pico/pico-sdk/lib/lwip/src/core/inet_chksum.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/inet_chksum.c.s
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/core/inet_chksum.c.s
+home/sreer/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.s
+.PHONY : home/sreer/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.s
 
-home/sreer/pico/pico-sdk/lib/lwip/src/core/init.o: home/sreer/pico/pico-sdk/lib/lwip/src/core/init.c.o
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/core/init.o
+home/sreer/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.o: home/sreer/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.o
+.PHONY : home/sreer/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.o
 
 # target to build an object file
-home/sreer/pico/pico-sdk/lib/lwip/src/core/init.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/init.c.o
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/core/init.c.o
+home/sreer/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.o
+.PHONY : home/sreer/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.o
 
-home/sreer/pico/pico-sdk/lib/lwip/src/core/init.i: home/sreer/pico/pico-sdk/lib/lwip/src/core/init.c.i
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/core/init.i
+home/sreer/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.i: home/sreer/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i
+.PHONY : home/sreer/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.i
 
 # target to preprocess a source file
-home/sreer/pico/pico-sdk/lib/lwip/src/core/init.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/init.c.i
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/core/init.c.i
+home/sreer/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i
+.PHONY : home/sreer/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i
 
-home/sreer/pico/pico-sdk/lib/lwip/src/core/init.s: home/sreer/pico/pico-sdk/lib/lwip/src/core/init.c.s
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/core/init.s
+home/sreer/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.s: home/sreer/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.s
+.PHONY : home/sreer/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.s
 
 # target to generate assembly for a file
-home/sreer/pico/pico-sdk/lib/lwip/src/core/init.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/init.c.s
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/core/init.c.s
+home/sreer/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.s
+.PHONY : home/sreer/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.s
 
-home/sreer/pico/pico-sdk/lib/lwip/src/core/ip.o: home/sreer/pico/pico-sdk/lib/lwip/src/core/ip.c.o
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/core/ip.o
+home/sreer/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.o: home/sreer/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.o
+.PHONY : home/sreer/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.o
 
 # target to build an object file
-home/sreer/pico/pico-sdk/lib/lwip/src/core/ip.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ip.c.o
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/core/ip.c.o
+home/sreer/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.o
+.PHONY : home/sreer/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.o
 
-home/sreer/pico/pico-sdk/lib/lwip/src/core/ip.i: home/sreer/pico/pico-sdk/lib/lwip/src/core/ip.c.i
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/core/ip.i
+home/sreer/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.i: home/sreer/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.i
+.PHONY : home/sreer/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.i
 
 # target to preprocess a source file
-home/sreer/pico/pico-sdk/lib/lwip/src/core/ip.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ip.c.i
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/core/ip.c.i
+home/sreer/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.i
+.PHONY : home/sreer/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.i
 
-home/sreer/pico/pico-sdk/lib/lwip/src/core/ip.s: home/sreer/pico/pico-sdk/lib/lwip/src/core/ip.c.s
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/core/ip.s
+home/sreer/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.s: home/sreer/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.s
+.PHONY : home/sreer/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.s
 
 # target to generate assembly for a file
-home/sreer/pico/pico-sdk/lib/lwip/src/core/ip.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ip.c.s
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/core/ip.c.s
+home/sreer/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.s
+.PHONY : home/sreer/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.s
 
-home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/acd.o: home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/acd.c.o
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/acd.o
+home/sreer/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.o: home/sreer/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.o
+.PHONY : home/sreer/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.o
 
 # target to build an object file
-home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/acd.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/acd.c.o
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/acd.c.o
+home/sreer/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.o
+.PHONY : home/sreer/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.o
 
-home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/acd.i: home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/acd.c.i
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/acd.i
+home/sreer/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.i: home/sreer/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.i
+.PHONY : home/sreer/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.i
 
 # target to preprocess a source file
-home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/acd.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/acd.c.i
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/acd.c.i
+home/sreer/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.i
+.PHONY : home/sreer/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.i
 
-home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/acd.s: home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/acd.c.s
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/acd.s
+home/sreer/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.s: home/sreer/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.s
+.PHONY : home/sreer/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.s
 
 # target to generate assembly for a file
-home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/acd.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/acd.c.s
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/acd.c.s
+home/sreer/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.s
+.PHONY : home/sreer/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.s
 
-home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/autoip.o: home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.o
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/autoip.o
+home/sreer/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.o: home/sreer/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.o
+.PHONY : home/sreer/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.o
 
 # target to build an object file
-home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.o
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.o
+home/sreer/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.o
+.PHONY : home/sreer/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.o
 
-home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/autoip.i: home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.i
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/autoip.i
+home/sreer/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.i: home/sreer/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.i
+.PHONY : home/sreer/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.i
 
 # target to preprocess a source file
-home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.i
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.i
+home/sreer/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.i
+.PHONY : home/sreer/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.i
 
-home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/autoip.s: home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.s
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/autoip.s
+home/sreer/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.s: home/sreer/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.s
+.PHONY : home/sreer/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.s
 
 # target to generate assembly for a file
-home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.s
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.s
+home/sreer/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.s
+.PHONY : home/sreer/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.s
 
-home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/dhcp.o: home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.o
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/dhcp.o
+home/sreer/pico/pico-sdk/lib/tinyusb/src/device/usbd.o: home/sreer/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.o
+.PHONY : home/sreer/pico/pico-sdk/lib/tinyusb/src/device/usbd.o
 
 # target to build an object file
-home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.o
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.o
+home/sreer/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.o
+.PHONY : home/sreer/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.o
 
-home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/dhcp.i: home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.i
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/dhcp.i
+home/sreer/pico/pico-sdk/lib/tinyusb/src/device/usbd.i: home/sreer/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.i
+.PHONY : home/sreer/pico/pico-sdk/lib/tinyusb/src/device/usbd.i
 
 # target to preprocess a source file
-home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.i
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.i
+home/sreer/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.i
+.PHONY : home/sreer/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.i
 
-home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/dhcp.s: home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.s
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/dhcp.s
+home/sreer/pico/pico-sdk/lib/tinyusb/src/device/usbd.s: home/sreer/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.s
+.PHONY : home/sreer/pico/pico-sdk/lib/tinyusb/src/device/usbd.s
 
 # target to generate assembly for a file
-home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.s
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.s
+home/sreer/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.s
+.PHONY : home/sreer/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.s
 
-home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/etharp.o: home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.o
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/etharp.o
+home/sreer/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.o: home/sreer/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.o
+.PHONY : home/sreer/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.o
 
 # target to build an object file
-home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.o
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.o
+home/sreer/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.o
+.PHONY : home/sreer/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.o
 
-home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/etharp.i: home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.i
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/etharp.i
+home/sreer/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.i: home/sreer/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.i
+.PHONY : home/sreer/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.i
 
 # target to preprocess a source file
-home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.i
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.i
+home/sreer/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.i
+.PHONY : home/sreer/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.i
 
-home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/etharp.s: home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.s
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/etharp.s
+home/sreer/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.s: home/sreer/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.s
+.PHONY : home/sreer/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.s
 
 # target to generate assembly for a file
-home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.s
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.s
+home/sreer/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.s
+.PHONY : home/sreer/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.s
 
-home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/icmp.o: home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.o
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/icmp.o
+home/sreer/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.o: home/sreer/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.o
+.PHONY : home/sreer/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.o
 
 # target to build an object file
-home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.o
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.o
+home/sreer/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.o
+.PHONY : home/sreer/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.o
 
-home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/icmp.i: home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.i
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/icmp.i
+home/sreer/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.i: home/sreer/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i
+.PHONY : home/sreer/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.i
 
 # target to preprocess a source file
-home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.i
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.i
+home/sreer/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i
+.PHONY : home/sreer/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i
 
-home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/icmp.s: home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.s
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/icmp.s
+home/sreer/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.s: home/sreer/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.s
+.PHONY : home/sreer/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.s
 
 # target to generate assembly for a file
-home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.s
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.s
+home/sreer/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.s
+.PHONY : home/sreer/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.s
 
-home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/igmp.o: home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.o
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/igmp.o
+home/sreer/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.o: home/sreer/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.o
+.PHONY : home/sreer/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.o
 
 # target to build an object file
-home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.o
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.o
+home/sreer/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.o
+.PHONY : home/sreer/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.o
 
-home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/igmp.i: home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.i
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/igmp.i
+home/sreer/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.i: home/sreer/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i
+.PHONY : home/sreer/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.i
 
 # target to preprocess a source file
-home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.i
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.i
+home/sreer/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i
+.PHONY : home/sreer/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i
 
-home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/igmp.s: home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.s
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/igmp.s
+home/sreer/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.s: home/sreer/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.s
+.PHONY : home/sreer/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.s
 
 # target to generate assembly for a file
-home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.s
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.s
+home/sreer/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.s
+.PHONY : home/sreer/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.s
 
-home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4.o: home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.o
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4.o
+home/sreer/pico/pico-sdk/lib/tinyusb/src/tusb.o: home/sreer/pico/pico-sdk/lib/tinyusb/src/tusb.c.o
+.PHONY : home/sreer/pico/pico-sdk/lib/tinyusb/src/tusb.o
 
 # target to build an object file
-home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.o
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.o
+home/sreer/pico/pico-sdk/lib/tinyusb/src/tusb.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/tusb.c.o
+.PHONY : home/sreer/pico/pico-sdk/lib/tinyusb/src/tusb.c.o
 
-home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4.i: home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.i
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4.i
+home/sreer/pico/pico-sdk/lib/tinyusb/src/tusb.i: home/sreer/pico/pico-sdk/lib/tinyusb/src/tusb.c.i
+.PHONY : home/sreer/pico/pico-sdk/lib/tinyusb/src/tusb.i
 
 # target to preprocess a source file
-home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.i
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.i
+home/sreer/pico/pico-sdk/lib/tinyusb/src/tusb.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/tusb.c.i
+.PHONY : home/sreer/pico/pico-sdk/lib/tinyusb/src/tusb.c.i
 
-home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4.s: home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.s
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4.s
+home/sreer/pico/pico-sdk/lib/tinyusb/src/tusb.s: home/sreer/pico/pico-sdk/lib/tinyusb/src/tusb.c.s
+.PHONY : home/sreer/pico/pico-sdk/lib/tinyusb/src/tusb.s
 
 # target to generate assembly for a file
-home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.s
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.s
-
-home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.o: home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.o
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.o
-
-# target to build an object file
-home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.o
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.o
-
-home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.i: home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.i
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.i
-
-# target to preprocess a source file
-home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.i
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.i
-
-home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.s: home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.s
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.s
-
-# target to generate assembly for a file
-home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.s
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.s
-
-home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.o: home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.o
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.o
-
-# target to build an object file
-home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.o
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.o
-
-home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.i: home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.i
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.i
-
-# target to preprocess a source file
-home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.i
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.i
-
-home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.s: home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.s
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.s
-
-# target to generate assembly for a file
-home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.s
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.s
-
-home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.o: home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.o
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.o
-
-# target to build an object file
-home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.o
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.o
-
-home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.i: home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.i
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.i
-
-# target to preprocess a source file
-home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.i
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.i
-
-home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.s: home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.s
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.s
-
-# target to generate assembly for a file
-home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.s
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.s
-
-home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/ethip6.o: home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.o
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/ethip6.o
-
-# target to build an object file
-home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.o
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.o
-
-home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/ethip6.i: home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.i
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/ethip6.i
-
-# target to preprocess a source file
-home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.i
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.i
-
-home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/ethip6.s: home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.s
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/ethip6.s
-
-# target to generate assembly for a file
-home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.s
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.s
-
-home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/icmp6.o: home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.o
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/icmp6.o
-
-# target to build an object file
-home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.o
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.o
-
-home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/icmp6.i: home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.i
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/icmp6.i
-
-# target to preprocess a source file
-home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.i
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.i
-
-home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/icmp6.s: home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.s
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/icmp6.s
-
-# target to generate assembly for a file
-home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.s
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.s
-
-home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/inet6.o: home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.o
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/inet6.o
-
-# target to build an object file
-home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.o
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.o
-
-home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/inet6.i: home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.i
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/inet6.i
-
-# target to preprocess a source file
-home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.i
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.i
-
-home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/inet6.s: home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.s
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/inet6.s
-
-# target to generate assembly for a file
-home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.s
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.s
-
-home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6.o: home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.o
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6.o
-
-# target to build an object file
-home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.o
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.o
-
-home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6.i: home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.i
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6.i
-
-# target to preprocess a source file
-home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.i
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.i
-
-home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6.s: home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.s
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6.s
-
-# target to generate assembly for a file
-home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.s
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.s
-
-home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.o: home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.o
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.o
-
-# target to build an object file
-home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.o
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.o
-
-home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.i: home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.i
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.i
-
-# target to preprocess a source file
-home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.i
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.i
-
-home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.s: home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.s
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.s
-
-# target to generate assembly for a file
-home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.s
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.s
-
-home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.o: home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.o
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.o
-
-# target to build an object file
-home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.o
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.o
-
-home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.i: home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.i
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.i
-
-# target to preprocess a source file
-home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.i
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.i
-
-home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.s: home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.s
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.s
-
-# target to generate assembly for a file
-home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.s
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.s
-
-home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/mld6.o: home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.o
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/mld6.o
-
-# target to build an object file
-home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.o
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.o
-
-home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/mld6.i: home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.i
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/mld6.i
-
-# target to preprocess a source file
-home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.i
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.i
-
-home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/mld6.s: home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.s
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/mld6.s
-
-# target to generate assembly for a file
-home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.s
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.s
-
-home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/nd6.o: home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.o
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/nd6.o
-
-# target to build an object file
-home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.o
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.o
-
-home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/nd6.i: home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.i
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/nd6.i
-
-# target to preprocess a source file
-home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.i
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.i
-
-home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/nd6.s: home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.s
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/nd6.s
-
-# target to generate assembly for a file
-home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.s
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.s
-
-home/sreer/pico/pico-sdk/lib/lwip/src/core/mem.o: home/sreer/pico/pico-sdk/lib/lwip/src/core/mem.c.o
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/core/mem.o
-
-# target to build an object file
-home/sreer/pico/pico-sdk/lib/lwip/src/core/mem.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/mem.c.o
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/core/mem.c.o
-
-home/sreer/pico/pico-sdk/lib/lwip/src/core/mem.i: home/sreer/pico/pico-sdk/lib/lwip/src/core/mem.c.i
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/core/mem.i
-
-# target to preprocess a source file
-home/sreer/pico/pico-sdk/lib/lwip/src/core/mem.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/mem.c.i
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/core/mem.c.i
-
-home/sreer/pico/pico-sdk/lib/lwip/src/core/mem.s: home/sreer/pico/pico-sdk/lib/lwip/src/core/mem.c.s
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/core/mem.s
-
-# target to generate assembly for a file
-home/sreer/pico/pico-sdk/lib/lwip/src/core/mem.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/mem.c.s
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/core/mem.c.s
-
-home/sreer/pico/pico-sdk/lib/lwip/src/core/memp.o: home/sreer/pico/pico-sdk/lib/lwip/src/core/memp.c.o
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/core/memp.o
-
-# target to build an object file
-home/sreer/pico/pico-sdk/lib/lwip/src/core/memp.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/memp.c.o
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/core/memp.c.o
-
-home/sreer/pico/pico-sdk/lib/lwip/src/core/memp.i: home/sreer/pico/pico-sdk/lib/lwip/src/core/memp.c.i
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/core/memp.i
-
-# target to preprocess a source file
-home/sreer/pico/pico-sdk/lib/lwip/src/core/memp.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/memp.c.i
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/core/memp.c.i
-
-home/sreer/pico/pico-sdk/lib/lwip/src/core/memp.s: home/sreer/pico/pico-sdk/lib/lwip/src/core/memp.c.s
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/core/memp.s
-
-# target to generate assembly for a file
-home/sreer/pico/pico-sdk/lib/lwip/src/core/memp.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/memp.c.s
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/core/memp.c.s
-
-home/sreer/pico/pico-sdk/lib/lwip/src/core/netif.o: home/sreer/pico/pico-sdk/lib/lwip/src/core/netif.c.o
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/core/netif.o
-
-# target to build an object file
-home/sreer/pico/pico-sdk/lib/lwip/src/core/netif.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/netif.c.o
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/core/netif.c.o
-
-home/sreer/pico/pico-sdk/lib/lwip/src/core/netif.i: home/sreer/pico/pico-sdk/lib/lwip/src/core/netif.c.i
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/core/netif.i
-
-# target to preprocess a source file
-home/sreer/pico/pico-sdk/lib/lwip/src/core/netif.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/netif.c.i
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/core/netif.c.i
-
-home/sreer/pico/pico-sdk/lib/lwip/src/core/netif.s: home/sreer/pico/pico-sdk/lib/lwip/src/core/netif.c.s
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/core/netif.s
-
-# target to generate assembly for a file
-home/sreer/pico/pico-sdk/lib/lwip/src/core/netif.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/netif.c.s
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/core/netif.c.s
-
-home/sreer/pico/pico-sdk/lib/lwip/src/core/pbuf.o: home/sreer/pico/pico-sdk/lib/lwip/src/core/pbuf.c.o
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/core/pbuf.o
-
-# target to build an object file
-home/sreer/pico/pico-sdk/lib/lwip/src/core/pbuf.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/pbuf.c.o
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/core/pbuf.c.o
-
-home/sreer/pico/pico-sdk/lib/lwip/src/core/pbuf.i: home/sreer/pico/pico-sdk/lib/lwip/src/core/pbuf.c.i
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/core/pbuf.i
-
-# target to preprocess a source file
-home/sreer/pico/pico-sdk/lib/lwip/src/core/pbuf.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/pbuf.c.i
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/core/pbuf.c.i
-
-home/sreer/pico/pico-sdk/lib/lwip/src/core/pbuf.s: home/sreer/pico/pico-sdk/lib/lwip/src/core/pbuf.c.s
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/core/pbuf.s
-
-# target to generate assembly for a file
-home/sreer/pico/pico-sdk/lib/lwip/src/core/pbuf.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/pbuf.c.s
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/core/pbuf.c.s
-
-home/sreer/pico/pico-sdk/lib/lwip/src/core/raw.o: home/sreer/pico/pico-sdk/lib/lwip/src/core/raw.c.o
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/core/raw.o
-
-# target to build an object file
-home/sreer/pico/pico-sdk/lib/lwip/src/core/raw.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/raw.c.o
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/core/raw.c.o
-
-home/sreer/pico/pico-sdk/lib/lwip/src/core/raw.i: home/sreer/pico/pico-sdk/lib/lwip/src/core/raw.c.i
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/core/raw.i
-
-# target to preprocess a source file
-home/sreer/pico/pico-sdk/lib/lwip/src/core/raw.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/raw.c.i
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/core/raw.c.i
-
-home/sreer/pico/pico-sdk/lib/lwip/src/core/raw.s: home/sreer/pico/pico-sdk/lib/lwip/src/core/raw.c.s
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/core/raw.s
-
-# target to generate assembly for a file
-home/sreer/pico/pico-sdk/lib/lwip/src/core/raw.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/raw.c.s
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/core/raw.c.s
-
-home/sreer/pico/pico-sdk/lib/lwip/src/core/stats.o: home/sreer/pico/pico-sdk/lib/lwip/src/core/stats.c.o
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/core/stats.o
-
-# target to build an object file
-home/sreer/pico/pico-sdk/lib/lwip/src/core/stats.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/stats.c.o
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/core/stats.c.o
-
-home/sreer/pico/pico-sdk/lib/lwip/src/core/stats.i: home/sreer/pico/pico-sdk/lib/lwip/src/core/stats.c.i
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/core/stats.i
-
-# target to preprocess a source file
-home/sreer/pico/pico-sdk/lib/lwip/src/core/stats.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/stats.c.i
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/core/stats.c.i
-
-home/sreer/pico/pico-sdk/lib/lwip/src/core/stats.s: home/sreer/pico/pico-sdk/lib/lwip/src/core/stats.c.s
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/core/stats.s
-
-# target to generate assembly for a file
-home/sreer/pico/pico-sdk/lib/lwip/src/core/stats.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/stats.c.s
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/core/stats.c.s
-
-home/sreer/pico/pico-sdk/lib/lwip/src/core/sys.o: home/sreer/pico/pico-sdk/lib/lwip/src/core/sys.c.o
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/core/sys.o
-
-# target to build an object file
-home/sreer/pico/pico-sdk/lib/lwip/src/core/sys.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/sys.c.o
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/core/sys.c.o
-
-home/sreer/pico/pico-sdk/lib/lwip/src/core/sys.i: home/sreer/pico/pico-sdk/lib/lwip/src/core/sys.c.i
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/core/sys.i
-
-# target to preprocess a source file
-home/sreer/pico/pico-sdk/lib/lwip/src/core/sys.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/sys.c.i
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/core/sys.c.i
-
-home/sreer/pico/pico-sdk/lib/lwip/src/core/sys.s: home/sreer/pico/pico-sdk/lib/lwip/src/core/sys.c.s
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/core/sys.s
-
-# target to generate assembly for a file
-home/sreer/pico/pico-sdk/lib/lwip/src/core/sys.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/sys.c.s
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/core/sys.c.s
-
-home/sreer/pico/pico-sdk/lib/lwip/src/core/tcp.o: home/sreer/pico/pico-sdk/lib/lwip/src/core/tcp.c.o
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/core/tcp.o
-
-# target to build an object file
-home/sreer/pico/pico-sdk/lib/lwip/src/core/tcp.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/tcp.c.o
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/core/tcp.c.o
-
-home/sreer/pico/pico-sdk/lib/lwip/src/core/tcp.i: home/sreer/pico/pico-sdk/lib/lwip/src/core/tcp.c.i
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/core/tcp.i
-
-# target to preprocess a source file
-home/sreer/pico/pico-sdk/lib/lwip/src/core/tcp.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/tcp.c.i
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/core/tcp.c.i
-
-home/sreer/pico/pico-sdk/lib/lwip/src/core/tcp.s: home/sreer/pico/pico-sdk/lib/lwip/src/core/tcp.c.s
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/core/tcp.s
-
-# target to generate assembly for a file
-home/sreer/pico/pico-sdk/lib/lwip/src/core/tcp.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/tcp.c.s
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/core/tcp.c.s
-
-home/sreer/pico/pico-sdk/lib/lwip/src/core/tcp_in.o: home/sreer/pico/pico-sdk/lib/lwip/src/core/tcp_in.c.o
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/core/tcp_in.o
-
-# target to build an object file
-home/sreer/pico/pico-sdk/lib/lwip/src/core/tcp_in.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/tcp_in.c.o
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/core/tcp_in.c.o
-
-home/sreer/pico/pico-sdk/lib/lwip/src/core/tcp_in.i: home/sreer/pico/pico-sdk/lib/lwip/src/core/tcp_in.c.i
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/core/tcp_in.i
-
-# target to preprocess a source file
-home/sreer/pico/pico-sdk/lib/lwip/src/core/tcp_in.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/tcp_in.c.i
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/core/tcp_in.c.i
-
-home/sreer/pico/pico-sdk/lib/lwip/src/core/tcp_in.s: home/sreer/pico/pico-sdk/lib/lwip/src/core/tcp_in.c.s
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/core/tcp_in.s
-
-# target to generate assembly for a file
-home/sreer/pico/pico-sdk/lib/lwip/src/core/tcp_in.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/tcp_in.c.s
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/core/tcp_in.c.s
-
-home/sreer/pico/pico-sdk/lib/lwip/src/core/tcp_out.o: home/sreer/pico/pico-sdk/lib/lwip/src/core/tcp_out.c.o
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/core/tcp_out.o
-
-# target to build an object file
-home/sreer/pico/pico-sdk/lib/lwip/src/core/tcp_out.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/tcp_out.c.o
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/core/tcp_out.c.o
-
-home/sreer/pico/pico-sdk/lib/lwip/src/core/tcp_out.i: home/sreer/pico/pico-sdk/lib/lwip/src/core/tcp_out.c.i
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/core/tcp_out.i
-
-# target to preprocess a source file
-home/sreer/pico/pico-sdk/lib/lwip/src/core/tcp_out.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/tcp_out.c.i
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/core/tcp_out.c.i
-
-home/sreer/pico/pico-sdk/lib/lwip/src/core/tcp_out.s: home/sreer/pico/pico-sdk/lib/lwip/src/core/tcp_out.c.s
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/core/tcp_out.s
-
-# target to generate assembly for a file
-home/sreer/pico/pico-sdk/lib/lwip/src/core/tcp_out.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/tcp_out.c.s
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/core/tcp_out.c.s
-
-home/sreer/pico/pico-sdk/lib/lwip/src/core/timeouts.o: home/sreer/pico/pico-sdk/lib/lwip/src/core/timeouts.c.o
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/core/timeouts.o
-
-# target to build an object file
-home/sreer/pico/pico-sdk/lib/lwip/src/core/timeouts.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/timeouts.c.o
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/core/timeouts.c.o
-
-home/sreer/pico/pico-sdk/lib/lwip/src/core/timeouts.i: home/sreer/pico/pico-sdk/lib/lwip/src/core/timeouts.c.i
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/core/timeouts.i
-
-# target to preprocess a source file
-home/sreer/pico/pico-sdk/lib/lwip/src/core/timeouts.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/timeouts.c.i
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/core/timeouts.c.i
-
-home/sreer/pico/pico-sdk/lib/lwip/src/core/timeouts.s: home/sreer/pico/pico-sdk/lib/lwip/src/core/timeouts.c.s
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/core/timeouts.s
-
-# target to generate assembly for a file
-home/sreer/pico/pico-sdk/lib/lwip/src/core/timeouts.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/timeouts.c.s
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/core/timeouts.c.s
-
-home/sreer/pico/pico-sdk/lib/lwip/src/core/udp.o: home/sreer/pico/pico-sdk/lib/lwip/src/core/udp.c.o
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/core/udp.o
-
-# target to build an object file
-home/sreer/pico/pico-sdk/lib/lwip/src/core/udp.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/udp.c.o
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/core/udp.c.o
-
-home/sreer/pico/pico-sdk/lib/lwip/src/core/udp.i: home/sreer/pico/pico-sdk/lib/lwip/src/core/udp.c.i
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/core/udp.i
-
-# target to preprocess a source file
-home/sreer/pico/pico-sdk/lib/lwip/src/core/udp.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/udp.c.i
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/core/udp.c.i
-
-home/sreer/pico/pico-sdk/lib/lwip/src/core/udp.s: home/sreer/pico/pico-sdk/lib/lwip/src/core/udp.c.s
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/core/udp.s
-
-# target to generate assembly for a file
-home/sreer/pico/pico-sdk/lib/lwip/src/core/udp.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/core/udp.c.s
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/core/udp.c.s
-
-home/sreer/pico/pico-sdk/lib/lwip/src/netif/bridgeif.o: home/sreer/pico/pico-sdk/lib/lwip/src/netif/bridgeif.c.o
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/netif/bridgeif.o
-
-# target to build an object file
-home/sreer/pico/pico-sdk/lib/lwip/src/netif/bridgeif.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/bridgeif.c.o
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/netif/bridgeif.c.o
-
-home/sreer/pico/pico-sdk/lib/lwip/src/netif/bridgeif.i: home/sreer/pico/pico-sdk/lib/lwip/src/netif/bridgeif.c.i
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/netif/bridgeif.i
-
-# target to preprocess a source file
-home/sreer/pico/pico-sdk/lib/lwip/src/netif/bridgeif.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/bridgeif.c.i
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/netif/bridgeif.c.i
-
-home/sreer/pico/pico-sdk/lib/lwip/src/netif/bridgeif.s: home/sreer/pico/pico-sdk/lib/lwip/src/netif/bridgeif.c.s
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/netif/bridgeif.s
-
-# target to generate assembly for a file
-home/sreer/pico/pico-sdk/lib/lwip/src/netif/bridgeif.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/bridgeif.c.s
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/netif/bridgeif.c.s
-
-home/sreer/pico/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.o: home/sreer/pico/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.o
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.o
-
-# target to build an object file
-home/sreer/pico/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.o
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.o
-
-home/sreer/pico/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.i: home/sreer/pico/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.i
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.i
-
-# target to preprocess a source file
-home/sreer/pico/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.i
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.i
-
-home/sreer/pico/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.s: home/sreer/pico/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.s
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.s
-
-# target to generate assembly for a file
-home/sreer/pico/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.s
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.s
-
-home/sreer/pico/pico-sdk/lib/lwip/src/netif/ethernet.o: home/sreer/pico/pico-sdk/lib/lwip/src/netif/ethernet.c.o
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/netif/ethernet.o
-
-# target to build an object file
-home/sreer/pico/pico-sdk/lib/lwip/src/netif/ethernet.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ethernet.c.o
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/netif/ethernet.c.o
-
-home/sreer/pico/pico-sdk/lib/lwip/src/netif/ethernet.i: home/sreer/pico/pico-sdk/lib/lwip/src/netif/ethernet.c.i
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/netif/ethernet.i
-
-# target to preprocess a source file
-home/sreer/pico/pico-sdk/lib/lwip/src/netif/ethernet.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ethernet.c.i
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/netif/ethernet.c.i
-
-home/sreer/pico/pico-sdk/lib/lwip/src/netif/ethernet.s: home/sreer/pico/pico-sdk/lib/lwip/src/netif/ethernet.c.s
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/netif/ethernet.s
-
-# target to generate assembly for a file
-home/sreer/pico/pico-sdk/lib/lwip/src/netif/ethernet.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ethernet.c.s
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/netif/ethernet.c.s
-
-home/sreer/pico/pico-sdk/lib/lwip/src/netif/lowpan6.o: home/sreer/pico/pico-sdk/lib/lwip/src/netif/lowpan6.c.o
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/netif/lowpan6.o
-
-# target to build an object file
-home/sreer/pico/pico-sdk/lib/lwip/src/netif/lowpan6.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/lowpan6.c.o
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/netif/lowpan6.c.o
-
-home/sreer/pico/pico-sdk/lib/lwip/src/netif/lowpan6.i: home/sreer/pico/pico-sdk/lib/lwip/src/netif/lowpan6.c.i
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/netif/lowpan6.i
-
-# target to preprocess a source file
-home/sreer/pico/pico-sdk/lib/lwip/src/netif/lowpan6.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/lowpan6.c.i
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/netif/lowpan6.c.i
-
-home/sreer/pico/pico-sdk/lib/lwip/src/netif/lowpan6.s: home/sreer/pico/pico-sdk/lib/lwip/src/netif/lowpan6.c.s
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/netif/lowpan6.s
-
-# target to generate assembly for a file
-home/sreer/pico/pico-sdk/lib/lwip/src/netif/lowpan6.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/lowpan6.c.s
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/netif/lowpan6.c.s
-
-home/sreer/pico/pico-sdk/lib/lwip/src/netif/lowpan6_ble.o: home/sreer/pico/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.o
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/netif/lowpan6_ble.o
-
-# target to build an object file
-home/sreer/pico/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.o
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.o
-
-home/sreer/pico/pico-sdk/lib/lwip/src/netif/lowpan6_ble.i: home/sreer/pico/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.i
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/netif/lowpan6_ble.i
-
-# target to preprocess a source file
-home/sreer/pico/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.i
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.i
-
-home/sreer/pico/pico-sdk/lib/lwip/src/netif/lowpan6_ble.s: home/sreer/pico/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.s
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/netif/lowpan6_ble.s
-
-# target to generate assembly for a file
-home/sreer/pico/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.s
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.s
-
-home/sreer/pico/pico-sdk/lib/lwip/src/netif/lowpan6_common.o: home/sreer/pico/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.o
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/netif/lowpan6_common.o
-
-# target to build an object file
-home/sreer/pico/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.o
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.o
-
-home/sreer/pico/pico-sdk/lib/lwip/src/netif/lowpan6_common.i: home/sreer/pico/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.i
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/netif/lowpan6_common.i
-
-# target to preprocess a source file
-home/sreer/pico/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.i
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.i
-
-home/sreer/pico/pico-sdk/lib/lwip/src/netif/lowpan6_common.s: home/sreer/pico/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.s
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/netif/lowpan6_common.s
-
-# target to generate assembly for a file
-home/sreer/pico/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.s
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.s
-
-home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/auth.o: home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/auth.c.o
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/auth.o
-
-# target to build an object file
-home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/auth.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/auth.c.o
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/auth.c.o
-
-home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/auth.i: home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/auth.c.i
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/auth.i
-
-# target to preprocess a source file
-home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/auth.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/auth.c.i
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/auth.c.i
-
-home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/auth.s: home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/auth.c.s
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/auth.s
-
-# target to generate assembly for a file
-home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/auth.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/auth.c.s
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/auth.c.s
-
-home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/ccp.o: home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.o
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/ccp.o
-
-# target to build an object file
-home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.o
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.o
-
-home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/ccp.i: home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.i
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/ccp.i
-
-# target to preprocess a source file
-home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.i
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.i
-
-home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/ccp.s: home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.s
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/ccp.s
-
-# target to generate assembly for a file
-home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.s
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.s
-
-home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.o: home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.o
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.o
-
-# target to build an object file
-home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.o
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.o
-
-home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.i: home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.i
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.i
-
-# target to preprocess a source file
-home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.i
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.i
-
-home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.s: home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.s
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.s
-
-# target to generate assembly for a file
-home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.s
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.s
-
-home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-new.o: home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.o
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-new.o
-
-# target to build an object file
-home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.o
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.o
-
-home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-new.i: home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.i
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-new.i
-
-# target to preprocess a source file
-home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.i
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.i
-
-home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-new.s: home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.s
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-new.s
-
-# target to generate assembly for a file
-home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.s
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.s
-
-home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.o: home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.o
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.o
-
-# target to build an object file
-home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.o
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.o
-
-home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.i: home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.i
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.i
-
-# target to preprocess a source file
-home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.i
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.i
-
-home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.s: home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.s
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.s
-
-# target to generate assembly for a file
-home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.s
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.s
-
-home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/demand.o: home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/demand.c.o
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/demand.o
-
-# target to build an object file
-home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/demand.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/demand.c.o
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/demand.c.o
-
-home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/demand.i: home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/demand.c.i
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/demand.i
-
-# target to preprocess a source file
-home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/demand.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/demand.c.i
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/demand.c.i
-
-home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/demand.s: home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/demand.c.s
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/demand.s
-
-# target to generate assembly for a file
-home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/demand.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/demand.c.s
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/demand.c.s
-
-home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/eap.o: home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/eap.c.o
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/eap.o
-
-# target to build an object file
-home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/eap.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/eap.c.o
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/eap.c.o
-
-home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/eap.i: home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/eap.c.i
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/eap.i
-
-# target to preprocess a source file
-home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/eap.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/eap.c.i
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/eap.c.i
-
-home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/eap.s: home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/eap.c.s
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/eap.s
-
-# target to generate assembly for a file
-home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/eap.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/eap.c.s
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/eap.c.s
-
-home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/ecp.o: home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.o
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/ecp.o
-
-# target to build an object file
-home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.o
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.o
-
-home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/ecp.i: home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.i
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/ecp.i
-
-# target to preprocess a source file
-home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.i
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.i
-
-home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/ecp.s: home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.s
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/ecp.s
-
-# target to generate assembly for a file
-home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.s
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.s
-
-home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/eui64.o: home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.o
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/eui64.o
-
-# target to build an object file
-home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.o
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.o
-
-home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/eui64.i: home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.i
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/eui64.i
-
-# target to preprocess a source file
-home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.i
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.i
-
-home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/eui64.s: home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.s
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/eui64.s
-
-# target to generate assembly for a file
-home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.s
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.s
-
-home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/fsm.o: home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.o
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/fsm.o
-
-# target to build an object file
-home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.o
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.o
-
-home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/fsm.i: home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.i
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/fsm.i
-
-# target to preprocess a source file
-home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.i
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.i
-
-home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/fsm.s: home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.s
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/fsm.s
-
-# target to generate assembly for a file
-home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.s
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.s
-
-home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/ipcp.o: home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.o
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/ipcp.o
-
-# target to build an object file
-home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.o
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.o
-
-home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/ipcp.i: home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.i
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/ipcp.i
-
-# target to preprocess a source file
-home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.i
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.i
-
-home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/ipcp.s: home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.s
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/ipcp.s
-
-# target to generate assembly for a file
-home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.s
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.s
-
-home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.o: home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.o
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.o
-
-# target to build an object file
-home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.o
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.o
-
-home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.i: home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.i
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.i
-
-# target to preprocess a source file
-home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.i
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.i
-
-home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.s: home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.s
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.s
-
-# target to generate assembly for a file
-home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.s
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.s
-
-home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/lcp.o: home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.o
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/lcp.o
-
-# target to build an object file
-home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.o
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.o
-
-home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/lcp.i: home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.i
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/lcp.i
-
-# target to preprocess a source file
-home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.i
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.i
-
-home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/lcp.s: home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.s
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/lcp.s
-
-# target to generate assembly for a file
-home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.s
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.s
-
-home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/magic.o: home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/magic.c.o
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/magic.o
-
-# target to build an object file
-home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/magic.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/magic.c.o
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/magic.c.o
-
-home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/magic.i: home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/magic.c.i
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/magic.i
-
-# target to preprocess a source file
-home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/magic.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/magic.c.i
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/magic.c.i
-
-home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/magic.s: home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/magic.c.s
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/magic.s
-
-# target to generate assembly for a file
-home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/magic.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/magic.c.s
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/magic.c.s
-
-home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/mppe.o: home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.o
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/mppe.o
-
-# target to build an object file
-home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.o
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.o
-
-home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/mppe.i: home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.i
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/mppe.i
-
-# target to preprocess a source file
-home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.i
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.i
-
-home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/mppe.s: home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.s
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/mppe.s
-
-# target to generate assembly for a file
-home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.s
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.s
-
-home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/multilink.o: home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.o
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/multilink.o
-
-# target to build an object file
-home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.o
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.o
-
-home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/multilink.i: home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.i
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/multilink.i
-
-# target to preprocess a source file
-home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.i
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.i
-
-home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/multilink.s: home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.s
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/multilink.s
-
-# target to generate assembly for a file
-home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.s
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.s
-
-home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.o: home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.o
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.o
-
-# target to build an object file
-home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.o
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.o
-
-home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.i: home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.i
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.i
-
-# target to preprocess a source file
-home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.i
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.i
-
-home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.s: home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.s
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.s
-
-# target to generate assembly for a file
-home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.s
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.s
-
-home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.o: home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.o
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.o
-
-# target to build an object file
-home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.o
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.o
-
-home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.i: home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.i
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.i
-
-# target to preprocess a source file
-home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.i
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.i
-
-home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.s: home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.s
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.s
-
-# target to generate assembly for a file
-home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.s
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.s
-
-home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.o: home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.o
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.o
-
-# target to build an object file
-home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.o
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.o
-
-home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.i: home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.i
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.i
-
-# target to preprocess a source file
-home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.i
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.i
-
-home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.s: home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.s
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.s
-
-# target to generate assembly for a file
-home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.s
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.s
-
-home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.o: home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.o
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.o
-
-# target to build an object file
-home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.o
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.o
-
-home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.i: home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.i
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.i
-
-# target to preprocess a source file
-home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.i
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.i
-
-home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.s: home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.s
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.s
-
-# target to generate assembly for a file
-home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.s
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.s
-
-home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.o: home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.o
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.o
-
-# target to build an object file
-home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.o
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.o
-
-home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.i: home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.i
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.i
-
-# target to preprocess a source file
-home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.i
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.i
-
-home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.s: home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.s
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.s
-
-# target to generate assembly for a file
-home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.s
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.s
-
-home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/ppp.o: home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.o
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/ppp.o
-
-# target to build an object file
-home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.o
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.o
-
-home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/ppp.i: home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.i
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/ppp.i
-
-# target to preprocess a source file
-home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.i
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.i
-
-home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/ppp.s: home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.s
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/ppp.s
-
-# target to generate assembly for a file
-home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.s
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.s
-
-home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/pppapi.o: home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.o
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/pppapi.o
-
-# target to build an object file
-home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.o
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.o
-
-home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/pppapi.i: home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.i
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/pppapi.i
-
-# target to preprocess a source file
-home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.i
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.i
-
-home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/pppapi.s: home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.s
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/pppapi.s
-
-# target to generate assembly for a file
-home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.s
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.s
-
-home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.o: home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.o
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.o
-
-# target to build an object file
-home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.o
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.o
-
-home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.i: home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.i
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.i
-
-# target to preprocess a source file
-home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.i
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.i
-
-home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.s: home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.s
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.s
-
-# target to generate assembly for a file
-home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.s
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.s
-
-home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/pppoe.o: home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.o
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/pppoe.o
-
-# target to build an object file
-home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.o
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.o
-
-home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/pppoe.i: home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.i
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/pppoe.i
-
-# target to preprocess a source file
-home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.i
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.i
-
-home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/pppoe.s: home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.s
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/pppoe.s
-
-# target to generate assembly for a file
-home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.s
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.s
-
-home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.o: home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.o
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.o
-
-# target to build an object file
-home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.o
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.o
-
-home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.i: home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.i
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.i
-
-# target to preprocess a source file
-home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.i
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.i
-
-home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.s: home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.s
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.s
-
-# target to generate assembly for a file
-home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.s
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.s
-
-home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/pppos.o: home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.o
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/pppos.o
-
-# target to build an object file
-home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.o
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.o
-
-home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/pppos.i: home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.i
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/pppos.i
-
-# target to preprocess a source file
-home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.i
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.i
-
-home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/pppos.s: home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.s
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/pppos.s
-
-# target to generate assembly for a file
-home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.s
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.s
-
-home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/upap.o: home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/upap.c.o
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/upap.o
-
-# target to build an object file
-home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/upap.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/upap.c.o
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/upap.c.o
-
-home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/upap.i: home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/upap.c.i
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/upap.i
-
-# target to preprocess a source file
-home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/upap.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/upap.c.i
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/upap.c.i
-
-home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/upap.s: home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/upap.c.s
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/upap.s
-
-# target to generate assembly for a file
-home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/upap.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/upap.c.s
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/upap.c.s
-
-home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/utils.o: home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/utils.c.o
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/utils.o
-
-# target to build an object file
-home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/utils.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/utils.c.o
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/utils.c.o
-
-home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/utils.i: home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/utils.c.i
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/utils.i
-
-# target to preprocess a source file
-home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/utils.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/utils.c.i
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/utils.c.i
-
-home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/utils.s: home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/utils.c.s
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/utils.s
-
-# target to generate assembly for a file
-home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/utils.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/utils.c.s
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/utils.c.s
-
-home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/vj.o: home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/vj.c.o
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/vj.o
-
-# target to build an object file
-home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/vj.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/vj.c.o
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/vj.c.o
-
-home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/vj.i: home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/vj.c.i
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/vj.i
-
-# target to preprocess a source file
-home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/vj.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/vj.c.i
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/vj.c.i
-
-home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/vj.s: home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/vj.c.s
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/vj.s
-
-# target to generate assembly for a file
-home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/vj.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/vj.c.s
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/vj.c.s
-
-home/sreer/pico/pico-sdk/lib/lwip/src/netif/slipif.o: home/sreer/pico/pico-sdk/lib/lwip/src/netif/slipif.c.o
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/netif/slipif.o
-
-# target to build an object file
-home/sreer/pico/pico-sdk/lib/lwip/src/netif/slipif.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/slipif.c.o
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/netif/slipif.c.o
-
-home/sreer/pico/pico-sdk/lib/lwip/src/netif/slipif.i: home/sreer/pico/pico-sdk/lib/lwip/src/netif/slipif.c.i
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/netif/slipif.i
-
-# target to preprocess a source file
-home/sreer/pico/pico-sdk/lib/lwip/src/netif/slipif.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/slipif.c.i
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/netif/slipif.c.i
-
-home/sreer/pico/pico-sdk/lib/lwip/src/netif/slipif.s: home/sreer/pico/pico-sdk/lib/lwip/src/netif/slipif.c.s
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/netif/slipif.s
-
-# target to generate assembly for a file
-home/sreer/pico/pico-sdk/lib/lwip/src/netif/slipif.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/slipif.c.s
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/netif/slipif.c.s
-
-home/sreer/pico/pico-sdk/lib/lwip/src/netif/zepif.o: home/sreer/pico/pico-sdk/lib/lwip/src/netif/zepif.c.o
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/netif/zepif.o
-
-# target to build an object file
-home/sreer/pico/pico-sdk/lib/lwip/src/netif/zepif.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/zepif.c.o
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/netif/zepif.c.o
-
-home/sreer/pico/pico-sdk/lib/lwip/src/netif/zepif.i: home/sreer/pico/pico-sdk/lib/lwip/src/netif/zepif.c.i
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/netif/zepif.i
-
-# target to preprocess a source file
-home/sreer/pico/pico-sdk/lib/lwip/src/netif/zepif.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/zepif.c.i
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/netif/zepif.c.i
-
-home/sreer/pico/pico-sdk/lib/lwip/src/netif/zepif.s: home/sreer/pico/pico-sdk/lib/lwip/src/netif/zepif.c.s
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/netif/zepif.s
-
-# target to generate assembly for a file
-home/sreer/pico/pico-sdk/lib/lwip/src/netif/zepif.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/lwip/src/netif/zepif.c.s
-.PHONY : home/sreer/pico/pico-sdk/lib/lwip/src/netif/zepif.c.s
+home/sreer/pico/pico-sdk/lib/tinyusb/src/tusb.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/lib/tinyusb/src/tusb.c.s
+.PHONY : home/sreer/pico/pico-sdk/lib/tinyusb/src/tusb.c.s
 
 home/sreer/pico/pico-sdk/src/common/hardware_claim/claim.o: home/sreer/pico/pico-sdk/src/common/hardware_claim/claim.c.o
 .PHONY : home/sreer/pico/pico-sdk/src/common/hardware_claim/claim.o
@@ -2690,30 +1239,6 @@ home/sreer/pico/pico-sdk/src/rp2_common/hardware_divider/divider.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_divider/divider.c.s
 .PHONY : home/sreer/pico/pico-sdk/src/rp2_common/hardware_divider/divider.c.s
 
-home/sreer/pico/pico-sdk/src/rp2_common/hardware_dma/dma.o: home/sreer/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.o
-.PHONY : home/sreer/pico/pico-sdk/src/rp2_common/hardware_dma/dma.o
-
-# target to build an object file
-home/sreer/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.o
-.PHONY : home/sreer/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.o
-
-home/sreer/pico/pico-sdk/src/rp2_common/hardware_dma/dma.i: home/sreer/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.i
-.PHONY : home/sreer/pico/pico-sdk/src/rp2_common/hardware_dma/dma.i
-
-# target to preprocess a source file
-home/sreer/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.i
-.PHONY : home/sreer/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.i
-
-home/sreer/pico/pico-sdk/src/rp2_common/hardware_dma/dma.s: home/sreer/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.s
-.PHONY : home/sreer/pico/pico-sdk/src/rp2_common/hardware_dma/dma.s
-
-# target to generate assembly for a file
-home/sreer/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.s
-.PHONY : home/sreer/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.s
-
 home/sreer/pico/pico-sdk/src/rp2_common/hardware_exception/exception.o: home/sreer/pico/pico-sdk/src/rp2_common/hardware_exception/exception.c.o
 .PHONY : home/sreer/pico/pico-sdk/src/rp2_common/hardware_exception/exception.o
 
@@ -2786,30 +1311,6 @@ home/sreer/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s
 .PHONY : home/sreer/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s
 
-home/sreer/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.o: home/sreer/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.o
-.PHONY : home/sreer/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.o
-
-# target to build an object file
-home/sreer/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.o
-.PHONY : home/sreer/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.o
-
-home/sreer/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.i: home/sreer/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.i
-.PHONY : home/sreer/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.i
-
-# target to preprocess a source file
-home/sreer/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.i
-.PHONY : home/sreer/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.i
-
-home/sreer/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.s: home/sreer/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.s
-.PHONY : home/sreer/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.s
-
-# target to generate assembly for a file
-home/sreer/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.s
-.PHONY : home/sreer/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.s
-
 home/sreer/pico/pico-sdk/src/rp2_common/hardware_irq/irq.o: home/sreer/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.o
 .PHONY : home/sreer/pico/pico-sdk/src/rp2_common/hardware_irq/irq.o
 
@@ -2842,30 +1343,6 @@ home/sreer/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.o
 .PHONY : home/sreer/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.o
 
-home/sreer/pico/pico-sdk/src/rp2_common/hardware_pio/pio.o: home/sreer/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.o
-.PHONY : home/sreer/pico/pico-sdk/src/rp2_common/hardware_pio/pio.o
-
-# target to build an object file
-home/sreer/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.o
-.PHONY : home/sreer/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.o
-
-home/sreer/pico/pico-sdk/src/rp2_common/hardware_pio/pio.i: home/sreer/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.i
-.PHONY : home/sreer/pico/pico-sdk/src/rp2_common/hardware_pio/pio.i
-
-# target to preprocess a source file
-home/sreer/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.i
-.PHONY : home/sreer/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.i
-
-home/sreer/pico/pico-sdk/src/rp2_common/hardware_pio/pio.s: home/sreer/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.s
-.PHONY : home/sreer/pico/pico-sdk/src/rp2_common/hardware_pio/pio.s
-
-# target to generate assembly for a file
-home/sreer/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.s
-.PHONY : home/sreer/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.s
-
 home/sreer/pico/pico-sdk/src/rp2_common/hardware_pll/pll.o: home/sreer/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.o
 .PHONY : home/sreer/pico/pico-sdk/src/rp2_common/hardware_pll/pll.o
 
@@ -2889,30 +1366,6 @@ home/sreer/pico/pico-sdk/src/rp2_common/hardware_pll/pll.s: home/sreer/pico/pico
 home/sreer/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.s
 .PHONY : home/sreer/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.s
-
-home/sreer/pico/pico-sdk/src/rp2_common/hardware_spi/spi.o: home/sreer/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.o
-.PHONY : home/sreer/pico/pico-sdk/src/rp2_common/hardware_spi/spi.o
-
-# target to build an object file
-home/sreer/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.o
-.PHONY : home/sreer/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.o
-
-home/sreer/pico/pico-sdk/src/rp2_common/hardware_spi/spi.i: home/sreer/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.i
-.PHONY : home/sreer/pico/pico-sdk/src/rp2_common/hardware_spi/spi.i
-
-# target to preprocess a source file
-home/sreer/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.i
-.PHONY : home/sreer/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.i
-
-home/sreer/pico/pico-sdk/src/rp2_common/hardware_spi/spi.s: home/sreer/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.s
-.PHONY : home/sreer/pico/pico-sdk/src/rp2_common/hardware_spi/spi.s
-
-# target to generate assembly for a file
-home/sreer/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.s
-.PHONY : home/sreer/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.s
 
 home/sreer/pico/pico-sdk/src/rp2_common/hardware_sync/sync.o: home/sreer/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.o
 .PHONY : home/sreer/pico/pico-sdk/src/rp2_common/hardware_sync/sync.o
@@ -3130,54 +1583,6 @@ home/sreer/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s
 .PHONY : home/sreer/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s
 
-home/sreer/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_base.o: home/sreer/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.o
-.PHONY : home/sreer/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_base.o
-
-# target to build an object file
-home/sreer/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.o
-.PHONY : home/sreer/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.o
-
-home/sreer/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_base.i: home/sreer/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.i
-.PHONY : home/sreer/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_base.i
-
-# target to preprocess a source file
-home/sreer/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.i
-.PHONY : home/sreer/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.i
-
-home/sreer/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_base.s: home/sreer/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.s
-.PHONY : home/sreer/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_base.s
-
-# target to generate assembly for a file
-home/sreer/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.s
-.PHONY : home/sreer/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.s
-
-home/sreer/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.o: home/sreer/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.o
-.PHONY : home/sreer/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.o
-
-# target to build an object file
-home/sreer/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.o
-.PHONY : home/sreer/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.o
-
-home/sreer/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.i: home/sreer/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.i
-.PHONY : home/sreer/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.i
-
-# target to preprocess a source file
-home/sreer/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.i
-.PHONY : home/sreer/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.i
-
-home/sreer/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.s: home/sreer/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.s
-.PHONY : home/sreer/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.s
-
-# target to generate assembly for a file
-home/sreer/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.s
-.PHONY : home/sreer/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.s
-
 home/sreer/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.o: home/sreer/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.c.o
 .PHONY : home/sreer/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.o
 
@@ -3314,198 +1719,6 @@ home/sreer/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.s
 .PHONY : home/sreer/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.s
 
-home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.o: home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.o
-.PHONY : home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.o
-
-# target to build an object file
-home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.o
-.PHONY : home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.o
-
-home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.i: home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.i
-.PHONY : home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.i
-
-# target to preprocess a source file
-home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.i
-.PHONY : home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.i
-
-home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.s: home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.s
-.PHONY : home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.s
-
-# target to generate assembly for a file
-home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.s
-.PHONY : home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.s
-
-home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.o: home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.o
-.PHONY : home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.o
-
-# target to build an object file
-home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.o
-.PHONY : home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.o
-
-home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.i: home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.i
-.PHONY : home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.i
-
-# target to preprocess a source file
-home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.i
-.PHONY : home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.i
-
-home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.s: home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.s
-.PHONY : home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.s
-
-# target to generate assembly for a file
-home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.s
-.PHONY : home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.s
-
-home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.o: home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.o
-.PHONY : home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.o
-
-# target to build an object file
-home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.o
-.PHONY : home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.o
-
-home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.i: home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.i
-.PHONY : home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.i
-
-# target to preprocess a source file
-home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.i
-.PHONY : home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.i
-
-home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.s: home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.s
-.PHONY : home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.s
-
-# target to generate assembly for a file
-home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.s
-.PHONY : home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.s
-
-home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.o: home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.o
-.PHONY : home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.o
-
-# target to build an object file
-home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.o
-.PHONY : home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.o
-
-home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.i: home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.i
-.PHONY : home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.i
-
-# target to preprocess a source file
-home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.i
-.PHONY : home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.i
-
-home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.s: home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.s
-.PHONY : home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.s
-
-# target to generate assembly for a file
-home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.s
-.PHONY : home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.s
-
-home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.o: home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.o
-.PHONY : home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.o
-
-# target to build an object file
-home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.o
-.PHONY : home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.o
-
-home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.i: home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.i
-.PHONY : home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.i
-
-# target to preprocess a source file
-home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.i
-.PHONY : home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.i
-
-home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.s: home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.s
-.PHONY : home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.s
-
-# target to generate assembly for a file
-home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.s
-.PHONY : home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.s
-
-home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.o: home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.o
-.PHONY : home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.o
-
-# target to build an object file
-home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.o
-.PHONY : home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.o
-
-home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.i: home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.i
-.PHONY : home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.i
-
-# target to preprocess a source file
-home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.i
-.PHONY : home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.i
-
-home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.s: home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.s
-.PHONY : home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.s
-
-# target to generate assembly for a file
-home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.s
-.PHONY : home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.s
-
-home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.o: home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.o
-.PHONY : home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.o
-
-# target to build an object file
-home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.o
-.PHONY : home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.o
-
-home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.i: home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.i
-.PHONY : home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.i
-
-# target to preprocess a source file
-home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.i
-.PHONY : home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.i
-
-home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.s: home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.s
-.PHONY : home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.s
-
-# target to generate assembly for a file
-home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.s
-.PHONY : home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.s
-
-home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.o: home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.o
-.PHONY : home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.o
-
-# target to build an object file
-home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.o
-.PHONY : home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.o
-
-home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.i: home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.i
-.PHONY : home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.i
-
-# target to preprocess a source file
-home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.i
-.PHONY : home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.i
-
-home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.s: home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.s
-.PHONY : home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.s
-
-# target to generate assembly for a file
-home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.s
-.PHONY : home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.s
-
 home/sreer/pico/pico-sdk/src/rp2_common/pico_divider/divider_compiler.o: home/sreer/pico/pico-sdk/src/rp2_common/pico_divider/divider_compiler.c.o
 .PHONY : home/sreer/pico/pico-sdk/src/rp2_common/pico_divider/divider_compiler.o
 
@@ -3586,6 +1799,30 @@ home/sreer/pico/pico-sdk/src/rp2_common/pico_double/double_sci_m33.S.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_double/double_sci_m33.S.o
 .PHONY : home/sreer/pico/pico-sdk/src/rp2_common/pico_double/double_sci_m33.S.o
 
+home/sreer/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.o: home/sreer/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.o
+.PHONY : home/sreer/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.o
+
+# target to build an object file
+home/sreer/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.o
+.PHONY : home/sreer/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.o
+
+home/sreer/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.i: home/sreer/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i
+.PHONY : home/sreer/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.i
+
+# target to preprocess a source file
+home/sreer/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i
+.PHONY : home/sreer/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i
+
+home/sreer/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.s: home/sreer/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s
+.PHONY : home/sreer/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.s
+
+# target to generate assembly for a file
+home/sreer/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s
+.PHONY : home/sreer/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s
+
 home/sreer/pico/pico-sdk/src/rp2_common/pico_flash/flash.o: home/sreer/pico/pico-sdk/src/rp2_common/pico_flash/flash.c.o
 .PHONY : home/sreer/pico/pico-sdk/src/rp2_common/pico_flash/flash.o
 
@@ -3658,30 +1895,6 @@ home/sreer/pico/pico-sdk/src/rp2_common/pico_float/float_sci_m33_vfp.S.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_float/float_sci_m33_vfp.S.o
 .PHONY : home/sreer/pico/pico-sdk/src/rp2_common/pico_float/float_sci_m33_vfp.S.o
 
-home/sreer/pico/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.o: home/sreer/pico/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.o
-.PHONY : home/sreer/pico/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.o
-
-# target to build an object file
-home/sreer/pico/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.o
-.PHONY : home/sreer/pico/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.o
-
-home/sreer/pico/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.i: home/sreer/pico/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.i
-.PHONY : home/sreer/pico/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.i
-
-# target to preprocess a source file
-home/sreer/pico/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.i
-.PHONY : home/sreer/pico/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.i
-
-home/sreer/pico/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.s: home/sreer/pico/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.s
-.PHONY : home/sreer/pico/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.s
-
-# target to generate assembly for a file
-home/sreer/pico/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.s
-.PHONY : home/sreer/pico/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.s
-
 home/sreer/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.o: home/sreer/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.c.o
 .PHONY : home/sreer/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.o
 
@@ -3705,6 +1918,30 @@ home/sreer/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.s: home/sreer/pico/pi
 home/sreer/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.c.s
 .PHONY : home/sreer/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.c.s
+
+home/sreer/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.o: home/sreer/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.o
+.PHONY : home/sreer/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.o
+
+# target to build an object file
+home/sreer/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.o
+.PHONY : home/sreer/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.o
+
+home/sreer/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.i: home/sreer/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.i
+.PHONY : home/sreer/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.i
+
+# target to preprocess a source file
+home/sreer/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.i
+.PHONY : home/sreer/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.i
+
+home/sreer/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.s: home/sreer/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.s
+.PHONY : home/sreer/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.s
+
+# target to generate assembly for a file
+home/sreer/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.s
+.PHONY : home/sreer/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.s
 
 home/sreer/pico/pico-sdk/src/rp2_common/pico_platform_common/common.o: home/sreer/pico/pico-sdk/src/rp2_common/pico_platform_common/common.c.o
 .PHONY : home/sreer/pico/pico-sdk/src/rp2_common/pico_platform_common/common.o
@@ -3777,30 +2014,6 @@ home/sreer/pico/pico-sdk/src/rp2_common/pico_printf/printf.s: home/sreer/pico/pi
 home/sreer/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.s
 .PHONY : home/sreer/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.s
-
-home/sreer/pico/pico-sdk/src/rp2_common/pico_rand/rand.o: home/sreer/pico/pico-sdk/src/rp2_common/pico_rand/rand.c.o
-.PHONY : home/sreer/pico/pico-sdk/src/rp2_common/pico_rand/rand.o
-
-# target to build an object file
-home/sreer/pico/pico-sdk/src/rp2_common/pico_rand/rand.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_rand/rand.c.o
-.PHONY : home/sreer/pico/pico-sdk/src/rp2_common/pico_rand/rand.c.o
-
-home/sreer/pico/pico-sdk/src/rp2_common/pico_rand/rand.i: home/sreer/pico/pico-sdk/src/rp2_common/pico_rand/rand.c.i
-.PHONY : home/sreer/pico/pico-sdk/src/rp2_common/pico_rand/rand.i
-
-# target to preprocess a source file
-home/sreer/pico/pico-sdk/src/rp2_common/pico_rand/rand.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_rand/rand.c.i
-.PHONY : home/sreer/pico/pico-sdk/src/rp2_common/pico_rand/rand.c.i
-
-home/sreer/pico/pico-sdk/src/rp2_common/pico_rand/rand.s: home/sreer/pico/pico-sdk/src/rp2_common/pico_rand/rand.c.s
-.PHONY : home/sreer/pico/pico-sdk/src/rp2_common/pico_rand/rand.s
-
-# target to generate assembly for a file
-home/sreer/pico/pico-sdk/src/rp2_common/pico_rand/rand.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_rand/rand.c.s
-.PHONY : home/sreer/pico/pico-sdk/src/rp2_common/pico_rand/rand.c.s
 
 home/sreer/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.o: home/sreer/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.o
 .PHONY : home/sreer/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.o
@@ -3946,29 +2159,77 @@ home/sreer/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s
 .PHONY : home/sreer/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s
 
-home/sreer/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.o: home/sreer/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.o
-.PHONY : home/sreer/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.o
+home/sreer/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.o: home/sreer/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.o
+.PHONY : home/sreer/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.o
 
 # target to build an object file
-home/sreer/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.o
-.PHONY : home/sreer/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.o
+home/sreer/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.o
+.PHONY : home/sreer/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.o
 
-home/sreer/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.i: home/sreer/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i
-.PHONY : home/sreer/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.i
+home/sreer/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.i: home/sreer/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.i
+.PHONY : home/sreer/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.i
 
 # target to preprocess a source file
-home/sreer/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i
-.PHONY : home/sreer/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i
+home/sreer/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.i
+.PHONY : home/sreer/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.i
 
-home/sreer/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.s: home/sreer/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s
-.PHONY : home/sreer/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.s
+home/sreer/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.s: home/sreer/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.s
+.PHONY : home/sreer/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.s
 
 # target to generate assembly for a file
-home/sreer/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s
-.PHONY : home/sreer/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s
+home/sreer/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.s
+.PHONY : home/sreer/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.s
+
+home/sreer/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.o: home/sreer/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.o
+.PHONY : home/sreer/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.o
+
+# target to build an object file
+home/sreer/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.o
+.PHONY : home/sreer/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.o
+
+home/sreer/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.i: home/sreer/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.i
+.PHONY : home/sreer/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.i
+
+# target to preprocess a source file
+home/sreer/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.i
+.PHONY : home/sreer/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.i
+
+home/sreer/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.s: home/sreer/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.s
+.PHONY : home/sreer/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.s
+
+# target to generate assembly for a file
+home/sreer/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.s
+.PHONY : home/sreer/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.s
+
+home/sreer/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.o: home/sreer/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.o
+.PHONY : home/sreer/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.o
+
+# target to build an object file
+home/sreer/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.o
+.PHONY : home/sreer/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.o
+
+home/sreer/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.i: home/sreer/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.i
+.PHONY : home/sreer/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.i
+
+# target to preprocess a source file
+home/sreer/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.i
+.PHONY : home/sreer/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.i
+
+home/sreer/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.s: home/sreer/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.s
+.PHONY : home/sreer/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.s
+
+# target to generate assembly for a file
+home/sreer/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.s
+.PHONY : home/sreer/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.s
 
 home/sreer/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.o: home/sreer/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.o
 .PHONY : home/sreer/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.o
@@ -4053,276 +2314,94 @@ help:
 	@echo "... bs2_default_bin"
 	@echo "... cyw43_driver_picow_cyw43_bus_pio_spi_pio_h"
 	@echo "... pico_status_led_ws2812_pio_h"
+	@echo "... pioasmBuild"
 	@echo "... bs2_default"
 	@echo "... bs2_default_library"
 	@echo "... final_project"
-	@echo "... home/sreer/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.o"
-	@echo "... home/sreer/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.i"
-	@echo "... home/sreer/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.s"
-	@echo "... home/sreer/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.o"
-	@echo "... home/sreer/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.i"
-	@echo "... home/sreer/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.s"
-	@echo "... home/sreer/pico/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.o"
-	@echo "... home/sreer/pico/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.i"
-	@echo "... home/sreer/pico/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.s"
-	@echo "... home/sreer/pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.o"
-	@echo "... home/sreer/pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.i"
-	@echo "... home/sreer/pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.s"
-	@echo "... home/sreer/pico/pico-sdk/lib/lwip/src/api/api_lib.o"
-	@echo "... home/sreer/pico/pico-sdk/lib/lwip/src/api/api_lib.i"
-	@echo "... home/sreer/pico/pico-sdk/lib/lwip/src/api/api_lib.s"
-	@echo "... home/sreer/pico/pico-sdk/lib/lwip/src/api/api_msg.o"
-	@echo "... home/sreer/pico/pico-sdk/lib/lwip/src/api/api_msg.i"
-	@echo "... home/sreer/pico/pico-sdk/lib/lwip/src/api/api_msg.s"
-	@echo "... home/sreer/pico/pico-sdk/lib/lwip/src/api/err.o"
-	@echo "... home/sreer/pico/pico-sdk/lib/lwip/src/api/err.i"
-	@echo "... home/sreer/pico/pico-sdk/lib/lwip/src/api/err.s"
-	@echo "... home/sreer/pico/pico-sdk/lib/lwip/src/api/if_api.o"
-	@echo "... home/sreer/pico/pico-sdk/lib/lwip/src/api/if_api.i"
-	@echo "... home/sreer/pico/pico-sdk/lib/lwip/src/api/if_api.s"
-	@echo "... home/sreer/pico/pico-sdk/lib/lwip/src/api/netbuf.o"
-	@echo "... home/sreer/pico/pico-sdk/lib/lwip/src/api/netbuf.i"
-	@echo "... home/sreer/pico/pico-sdk/lib/lwip/src/api/netbuf.s"
-	@echo "... home/sreer/pico/pico-sdk/lib/lwip/src/api/netdb.o"
-	@echo "... home/sreer/pico/pico-sdk/lib/lwip/src/api/netdb.i"
-	@echo "... home/sreer/pico/pico-sdk/lib/lwip/src/api/netdb.s"
-	@echo "... home/sreer/pico/pico-sdk/lib/lwip/src/api/netifapi.o"
-	@echo "... home/sreer/pico/pico-sdk/lib/lwip/src/api/netifapi.i"
-	@echo "... home/sreer/pico/pico-sdk/lib/lwip/src/api/netifapi.s"
-	@echo "... home/sreer/pico/pico-sdk/lib/lwip/src/api/sockets.o"
-	@echo "... home/sreer/pico/pico-sdk/lib/lwip/src/api/sockets.i"
-	@echo "... home/sreer/pico/pico-sdk/lib/lwip/src/api/sockets.s"
-	@echo "... home/sreer/pico/pico-sdk/lib/lwip/src/api/tcpip.o"
-	@echo "... home/sreer/pico/pico-sdk/lib/lwip/src/api/tcpip.i"
-	@echo "... home/sreer/pico/pico-sdk/lib/lwip/src/api/tcpip.s"
-	@echo "... home/sreer/pico/pico-sdk/lib/lwip/src/core/altcp.o"
-	@echo "... home/sreer/pico/pico-sdk/lib/lwip/src/core/altcp.i"
-	@echo "... home/sreer/pico/pico-sdk/lib/lwip/src/core/altcp.s"
-	@echo "... home/sreer/pico/pico-sdk/lib/lwip/src/core/altcp_alloc.o"
-	@echo "... home/sreer/pico/pico-sdk/lib/lwip/src/core/altcp_alloc.i"
-	@echo "... home/sreer/pico/pico-sdk/lib/lwip/src/core/altcp_alloc.s"
-	@echo "... home/sreer/pico/pico-sdk/lib/lwip/src/core/altcp_tcp.o"
-	@echo "... home/sreer/pico/pico-sdk/lib/lwip/src/core/altcp_tcp.i"
-	@echo "... home/sreer/pico/pico-sdk/lib/lwip/src/core/altcp_tcp.s"
-	@echo "... home/sreer/pico/pico-sdk/lib/lwip/src/core/def.o"
-	@echo "... home/sreer/pico/pico-sdk/lib/lwip/src/core/def.i"
-	@echo "... home/sreer/pico/pico-sdk/lib/lwip/src/core/def.s"
-	@echo "... home/sreer/pico/pico-sdk/lib/lwip/src/core/dns.o"
-	@echo "... home/sreer/pico/pico-sdk/lib/lwip/src/core/dns.i"
-	@echo "... home/sreer/pico/pico-sdk/lib/lwip/src/core/dns.s"
-	@echo "... home/sreer/pico/pico-sdk/lib/lwip/src/core/inet_chksum.o"
-	@echo "... home/sreer/pico/pico-sdk/lib/lwip/src/core/inet_chksum.i"
-	@echo "... home/sreer/pico/pico-sdk/lib/lwip/src/core/inet_chksum.s"
-	@echo "... home/sreer/pico/pico-sdk/lib/lwip/src/core/init.o"
-	@echo "... home/sreer/pico/pico-sdk/lib/lwip/src/core/init.i"
-	@echo "... home/sreer/pico/pico-sdk/lib/lwip/src/core/init.s"
-	@echo "... home/sreer/pico/pico-sdk/lib/lwip/src/core/ip.o"
-	@echo "... home/sreer/pico/pico-sdk/lib/lwip/src/core/ip.i"
-	@echo "... home/sreer/pico/pico-sdk/lib/lwip/src/core/ip.s"
-	@echo "... home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/acd.o"
-	@echo "... home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/acd.i"
-	@echo "... home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/acd.s"
-	@echo "... home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/autoip.o"
-	@echo "... home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/autoip.i"
-	@echo "... home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/autoip.s"
-	@echo "... home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/dhcp.o"
-	@echo "... home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/dhcp.i"
-	@echo "... home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/dhcp.s"
-	@echo "... home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/etharp.o"
-	@echo "... home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/etharp.i"
-	@echo "... home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/etharp.s"
-	@echo "... home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/icmp.o"
-	@echo "... home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/icmp.i"
-	@echo "... home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/icmp.s"
-	@echo "... home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/igmp.o"
-	@echo "... home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/igmp.i"
-	@echo "... home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/igmp.s"
-	@echo "... home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4.o"
-	@echo "... home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4.i"
-	@echo "... home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4.s"
-	@echo "... home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.o"
-	@echo "... home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.i"
-	@echo "... home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.s"
-	@echo "... home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.o"
-	@echo "... home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.i"
-	@echo "... home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.s"
-	@echo "... home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.o"
-	@echo "... home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.i"
-	@echo "... home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.s"
-	@echo "... home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/ethip6.o"
-	@echo "... home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/ethip6.i"
-	@echo "... home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/ethip6.s"
-	@echo "... home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/icmp6.o"
-	@echo "... home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/icmp6.i"
-	@echo "... home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/icmp6.s"
-	@echo "... home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/inet6.o"
-	@echo "... home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/inet6.i"
-	@echo "... home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/inet6.s"
-	@echo "... home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6.o"
-	@echo "... home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6.i"
-	@echo "... home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6.s"
-	@echo "... home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.o"
-	@echo "... home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.i"
-	@echo "... home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.s"
-	@echo "... home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.o"
-	@echo "... home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.i"
-	@echo "... home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.s"
-	@echo "... home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/mld6.o"
-	@echo "... home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/mld6.i"
-	@echo "... home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/mld6.s"
-	@echo "... home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/nd6.o"
-	@echo "... home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/nd6.i"
-	@echo "... home/sreer/pico/pico-sdk/lib/lwip/src/core/ipv6/nd6.s"
-	@echo "... home/sreer/pico/pico-sdk/lib/lwip/src/core/mem.o"
-	@echo "... home/sreer/pico/pico-sdk/lib/lwip/src/core/mem.i"
-	@echo "... home/sreer/pico/pico-sdk/lib/lwip/src/core/mem.s"
-	@echo "... home/sreer/pico/pico-sdk/lib/lwip/src/core/memp.o"
-	@echo "... home/sreer/pico/pico-sdk/lib/lwip/src/core/memp.i"
-	@echo "... home/sreer/pico/pico-sdk/lib/lwip/src/core/memp.s"
-	@echo "... home/sreer/pico/pico-sdk/lib/lwip/src/core/netif.o"
-	@echo "... home/sreer/pico/pico-sdk/lib/lwip/src/core/netif.i"
-	@echo "... home/sreer/pico/pico-sdk/lib/lwip/src/core/netif.s"
-	@echo "... home/sreer/pico/pico-sdk/lib/lwip/src/core/pbuf.o"
-	@echo "... home/sreer/pico/pico-sdk/lib/lwip/src/core/pbuf.i"
-	@echo "... home/sreer/pico/pico-sdk/lib/lwip/src/core/pbuf.s"
-	@echo "... home/sreer/pico/pico-sdk/lib/lwip/src/core/raw.o"
-	@echo "... home/sreer/pico/pico-sdk/lib/lwip/src/core/raw.i"
-	@echo "... home/sreer/pico/pico-sdk/lib/lwip/src/core/raw.s"
-	@echo "... home/sreer/pico/pico-sdk/lib/lwip/src/core/stats.o"
-	@echo "... home/sreer/pico/pico-sdk/lib/lwip/src/core/stats.i"
-	@echo "... home/sreer/pico/pico-sdk/lib/lwip/src/core/stats.s"
-	@echo "... home/sreer/pico/pico-sdk/lib/lwip/src/core/sys.o"
-	@echo "... home/sreer/pico/pico-sdk/lib/lwip/src/core/sys.i"
-	@echo "... home/sreer/pico/pico-sdk/lib/lwip/src/core/sys.s"
-	@echo "... home/sreer/pico/pico-sdk/lib/lwip/src/core/tcp.o"
-	@echo "... home/sreer/pico/pico-sdk/lib/lwip/src/core/tcp.i"
-	@echo "... home/sreer/pico/pico-sdk/lib/lwip/src/core/tcp.s"
-	@echo "... home/sreer/pico/pico-sdk/lib/lwip/src/core/tcp_in.o"
-	@echo "... home/sreer/pico/pico-sdk/lib/lwip/src/core/tcp_in.i"
-	@echo "... home/sreer/pico/pico-sdk/lib/lwip/src/core/tcp_in.s"
-	@echo "... home/sreer/pico/pico-sdk/lib/lwip/src/core/tcp_out.o"
-	@echo "... home/sreer/pico/pico-sdk/lib/lwip/src/core/tcp_out.i"
-	@echo "... home/sreer/pico/pico-sdk/lib/lwip/src/core/tcp_out.s"
-	@echo "... home/sreer/pico/pico-sdk/lib/lwip/src/core/timeouts.o"
-	@echo "... home/sreer/pico/pico-sdk/lib/lwip/src/core/timeouts.i"
-	@echo "... home/sreer/pico/pico-sdk/lib/lwip/src/core/timeouts.s"
-	@echo "... home/sreer/pico/pico-sdk/lib/lwip/src/core/udp.o"
-	@echo "... home/sreer/pico/pico-sdk/lib/lwip/src/core/udp.i"
-	@echo "... home/sreer/pico/pico-sdk/lib/lwip/src/core/udp.s"
-	@echo "... home/sreer/pico/pico-sdk/lib/lwip/src/netif/bridgeif.o"
-	@echo "... home/sreer/pico/pico-sdk/lib/lwip/src/netif/bridgeif.i"
-	@echo "... home/sreer/pico/pico-sdk/lib/lwip/src/netif/bridgeif.s"
-	@echo "... home/sreer/pico/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.o"
-	@echo "... home/sreer/pico/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.i"
-	@echo "... home/sreer/pico/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.s"
-	@echo "... home/sreer/pico/pico-sdk/lib/lwip/src/netif/ethernet.o"
-	@echo "... home/sreer/pico/pico-sdk/lib/lwip/src/netif/ethernet.i"
-	@echo "... home/sreer/pico/pico-sdk/lib/lwip/src/netif/ethernet.s"
-	@echo "... home/sreer/pico/pico-sdk/lib/lwip/src/netif/lowpan6.o"
-	@echo "... home/sreer/pico/pico-sdk/lib/lwip/src/netif/lowpan6.i"
-	@echo "... home/sreer/pico/pico-sdk/lib/lwip/src/netif/lowpan6.s"
-	@echo "... home/sreer/pico/pico-sdk/lib/lwip/src/netif/lowpan6_ble.o"
-	@echo "... home/sreer/pico/pico-sdk/lib/lwip/src/netif/lowpan6_ble.i"
-	@echo "... home/sreer/pico/pico-sdk/lib/lwip/src/netif/lowpan6_ble.s"
-	@echo "... home/sreer/pico/pico-sdk/lib/lwip/src/netif/lowpan6_common.o"
-	@echo "... home/sreer/pico/pico-sdk/lib/lwip/src/netif/lowpan6_common.i"
-	@echo "... home/sreer/pico/pico-sdk/lib/lwip/src/netif/lowpan6_common.s"
-	@echo "... home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/auth.o"
-	@echo "... home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/auth.i"
-	@echo "... home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/auth.s"
-	@echo "... home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/ccp.o"
-	@echo "... home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/ccp.i"
-	@echo "... home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/ccp.s"
-	@echo "... home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.o"
-	@echo "... home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.i"
-	@echo "... home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.s"
-	@echo "... home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-new.o"
-	@echo "... home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-new.i"
-	@echo "... home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-new.s"
-	@echo "... home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.o"
-	@echo "... home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.i"
-	@echo "... home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.s"
-	@echo "... home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/demand.o"
-	@echo "... home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/demand.i"
-	@echo "... home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/demand.s"
-	@echo "... home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/eap.o"
-	@echo "... home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/eap.i"
-	@echo "... home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/eap.s"
-	@echo "... home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/ecp.o"
-	@echo "... home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/ecp.i"
-	@echo "... home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/ecp.s"
-	@echo "... home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/eui64.o"
-	@echo "... home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/eui64.i"
-	@echo "... home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/eui64.s"
-	@echo "... home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/fsm.o"
-	@echo "... home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/fsm.i"
-	@echo "... home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/fsm.s"
-	@echo "... home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/ipcp.o"
-	@echo "... home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/ipcp.i"
-	@echo "... home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/ipcp.s"
-	@echo "... home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.o"
-	@echo "... home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.i"
-	@echo "... home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.s"
-	@echo "... home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/lcp.o"
-	@echo "... home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/lcp.i"
-	@echo "... home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/lcp.s"
-	@echo "... home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/magic.o"
-	@echo "... home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/magic.i"
-	@echo "... home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/magic.s"
-	@echo "... home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/mppe.o"
-	@echo "... home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/mppe.i"
-	@echo "... home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/mppe.s"
-	@echo "... home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/multilink.o"
-	@echo "... home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/multilink.i"
-	@echo "... home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/multilink.s"
-	@echo "... home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.o"
-	@echo "... home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.i"
-	@echo "... home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.s"
-	@echo "... home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.o"
-	@echo "... home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.i"
-	@echo "... home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.s"
-	@echo "... home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.o"
-	@echo "... home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.i"
-	@echo "... home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.s"
-	@echo "... home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.o"
-	@echo "... home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.i"
-	@echo "... home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.s"
-	@echo "... home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.o"
-	@echo "... home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.i"
-	@echo "... home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.s"
-	@echo "... home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/ppp.o"
-	@echo "... home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/ppp.i"
-	@echo "... home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/ppp.s"
-	@echo "... home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/pppapi.o"
-	@echo "... home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/pppapi.i"
-	@echo "... home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/pppapi.s"
-	@echo "... home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.o"
-	@echo "... home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.i"
-	@echo "... home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.s"
-	@echo "... home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/pppoe.o"
-	@echo "... home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/pppoe.i"
-	@echo "... home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/pppoe.s"
-	@echo "... home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.o"
-	@echo "... home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.i"
-	@echo "... home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.s"
-	@echo "... home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/pppos.o"
-	@echo "... home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/pppos.i"
-	@echo "... home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/pppos.s"
-	@echo "... home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/upap.o"
-	@echo "... home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/upap.i"
-	@echo "... home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/upap.s"
-	@echo "... home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/utils.o"
-	@echo "... home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/utils.i"
-	@echo "... home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/utils.s"
-	@echo "... home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/vj.o"
-	@echo "... home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/vj.i"
-	@echo "... home/sreer/pico/pico-sdk/lib/lwip/src/netif/ppp/vj.s"
-	@echo "... home/sreer/pico/pico-sdk/lib/lwip/src/netif/slipif.o"
-	@echo "... home/sreer/pico/pico-sdk/lib/lwip/src/netif/slipif.i"
-	@echo "... home/sreer/pico/pico-sdk/lib/lwip/src/netif/slipif.s"
-	@echo "... home/sreer/pico/pico-sdk/lib/lwip/src/netif/zepif.o"
-	@echo "... home/sreer/pico/pico-sdk/lib/lwip/src/netif/zepif.i"
-	@echo "... home/sreer/pico/pico-sdk/lib/lwip/src/netif/zepif.s"
+	@echo "... home/sreer/pico/FreeRTOS-Kernel/croutine.o"
+	@echo "... home/sreer/pico/FreeRTOS-Kernel/croutine.i"
+	@echo "... home/sreer/pico/FreeRTOS-Kernel/croutine.s"
+	@echo "... home/sreer/pico/FreeRTOS-Kernel/event_groups.o"
+	@echo "... home/sreer/pico/FreeRTOS-Kernel/event_groups.i"
+	@echo "... home/sreer/pico/FreeRTOS-Kernel/event_groups.s"
+	@echo "... home/sreer/pico/FreeRTOS-Kernel/list.o"
+	@echo "... home/sreer/pico/FreeRTOS-Kernel/list.i"
+	@echo "... home/sreer/pico/FreeRTOS-Kernel/list.s"
+	@echo "... home/sreer/pico/FreeRTOS-Kernel/portable/MemMang/heap_4.o"
+	@echo "... home/sreer/pico/FreeRTOS-Kernel/portable/MemMang/heap_4.i"
+	@echo "... home/sreer/pico/FreeRTOS-Kernel/portable/MemMang/heap_4.s"
+	@echo "... home/sreer/pico/FreeRTOS-Kernel/portable/ThirdParty/Community-Supported-Ports/GCC/RP2350_ARM_NTZ/non_secure/port.o"
+	@echo "... home/sreer/pico/FreeRTOS-Kernel/portable/ThirdParty/Community-Supported-Ports/GCC/RP2350_ARM_NTZ/non_secure/port.i"
+	@echo "... home/sreer/pico/FreeRTOS-Kernel/portable/ThirdParty/Community-Supported-Ports/GCC/RP2350_ARM_NTZ/non_secure/port.s"
+	@echo "... home/sreer/pico/FreeRTOS-Kernel/portable/ThirdParty/Community-Supported-Ports/GCC/RP2350_ARM_NTZ/non_secure/portasm.o"
+	@echo "... home/sreer/pico/FreeRTOS-Kernel/portable/ThirdParty/Community-Supported-Ports/GCC/RP2350_ARM_NTZ/non_secure/portasm.i"
+	@echo "... home/sreer/pico/FreeRTOS-Kernel/portable/ThirdParty/Community-Supported-Ports/GCC/RP2350_ARM_NTZ/non_secure/portasm.s"
+	@echo "... home/sreer/pico/FreeRTOS-Kernel/queue.o"
+	@echo "... home/sreer/pico/FreeRTOS-Kernel/queue.i"
+	@echo "... home/sreer/pico/FreeRTOS-Kernel/queue.s"
+	@echo "... home/sreer/pico/FreeRTOS-Kernel/stream_buffer.o"
+	@echo "... home/sreer/pico/FreeRTOS-Kernel/stream_buffer.i"
+	@echo "... home/sreer/pico/FreeRTOS-Kernel/stream_buffer.s"
+	@echo "... home/sreer/pico/FreeRTOS-Kernel/tasks.o"
+	@echo "... home/sreer/pico/FreeRTOS-Kernel/tasks.i"
+	@echo "... home/sreer/pico/FreeRTOS-Kernel/tasks.s"
+	@echo "... home/sreer/pico/FreeRTOS-Kernel/timers.o"
+	@echo "... home/sreer/pico/FreeRTOS-Kernel/timers.i"
+	@echo "... home/sreer/pico/FreeRTOS-Kernel/timers.s"
+	@echo "... home/sreer/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.o"
+	@echo "... home/sreer/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.i"
+	@echo "... home/sreer/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.s"
+	@echo "... home/sreer/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.o"
+	@echo "... home/sreer/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.i"
+	@echo "... home/sreer/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.s"
+	@echo "... home/sreer/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.o"
+	@echo "... home/sreer/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.i"
+	@echo "... home/sreer/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.s"
+	@echo "... home/sreer/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.o"
+	@echo "... home/sreer/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.i"
+	@echo "... home/sreer/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.s"
+	@echo "... home/sreer/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.o"
+	@echo "... home/sreer/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.i"
+	@echo "... home/sreer/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.s"
+	@echo "... home/sreer/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.o"
+	@echo "... home/sreer/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.i"
+	@echo "... home/sreer/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.s"
+	@echo "... home/sreer/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.o"
+	@echo "... home/sreer/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.i"
+	@echo "... home/sreer/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.s"
+	@echo "... home/sreer/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.o"
+	@echo "... home/sreer/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.i"
+	@echo "... home/sreer/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.s"
+	@echo "... home/sreer/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.o"
+	@echo "... home/sreer/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.i"
+	@echo "... home/sreer/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.s"
+	@echo "... home/sreer/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.o"
+	@echo "... home/sreer/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.i"
+	@echo "... home/sreer/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.s"
+	@echo "... home/sreer/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.o"
+	@echo "... home/sreer/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.i"
+	@echo "... home/sreer/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.s"
+	@echo "... home/sreer/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.o"
+	@echo "... home/sreer/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.i"
+	@echo "... home/sreer/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.s"
+	@echo "... home/sreer/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.o"
+	@echo "... home/sreer/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.i"
+	@echo "... home/sreer/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.s"
+	@echo "... home/sreer/pico/pico-sdk/lib/tinyusb/src/device/usbd.o"
+	@echo "... home/sreer/pico/pico-sdk/lib/tinyusb/src/device/usbd.i"
+	@echo "... home/sreer/pico/pico-sdk/lib/tinyusb/src/device/usbd.s"
+	@echo "... home/sreer/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.o"
+	@echo "... home/sreer/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.i"
+	@echo "... home/sreer/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.s"
+	@echo "... home/sreer/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.o"
+	@echo "... home/sreer/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.i"
+	@echo "... home/sreer/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.s"
+	@echo "... home/sreer/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.o"
+	@echo "... home/sreer/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.i"
+	@echo "... home/sreer/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.s"
+	@echo "... home/sreer/pico/pico-sdk/lib/tinyusb/src/tusb.o"
+	@echo "... home/sreer/pico/pico-sdk/lib/tinyusb/src/tusb.i"
+	@echo "... home/sreer/pico/pico-sdk/lib/tinyusb/src/tusb.s"
 	@echo "... home/sreer/pico/pico-sdk/src/common/hardware_claim/claim.o"
 	@echo "... home/sreer/pico/pico-sdk/src/common/hardware_claim/claim.i"
 	@echo "... home/sreer/pico/pico-sdk/src/common/hardware_claim/claim.s"
@@ -4368,9 +2447,6 @@ help:
 	@echo "... home/sreer/pico/pico-sdk/src/rp2_common/hardware_divider/divider.o"
 	@echo "... home/sreer/pico/pico-sdk/src/rp2_common/hardware_divider/divider.i"
 	@echo "... home/sreer/pico/pico-sdk/src/rp2_common/hardware_divider/divider.s"
-	@echo "... home/sreer/pico/pico-sdk/src/rp2_common/hardware_dma/dma.o"
-	@echo "... home/sreer/pico/pico-sdk/src/rp2_common/hardware_dma/dma.i"
-	@echo "... home/sreer/pico/pico-sdk/src/rp2_common/hardware_dma/dma.s"
 	@echo "... home/sreer/pico/pico-sdk/src/rp2_common/hardware_exception/exception.o"
 	@echo "... home/sreer/pico/pico-sdk/src/rp2_common/hardware_exception/exception.i"
 	@echo "... home/sreer/pico/pico-sdk/src/rp2_common/hardware_exception/exception.s"
@@ -4380,22 +2456,13 @@ help:
 	@echo "... home/sreer/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.o"
 	@echo "... home/sreer/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.i"
 	@echo "... home/sreer/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.s"
-	@echo "... home/sreer/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.o"
-	@echo "... home/sreer/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.i"
-	@echo "... home/sreer/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.s"
 	@echo "... home/sreer/pico/pico-sdk/src/rp2_common/hardware_irq/irq.o"
 	@echo "... home/sreer/pico/pico-sdk/src/rp2_common/hardware_irq/irq.i"
 	@echo "... home/sreer/pico/pico-sdk/src/rp2_common/hardware_irq/irq.s"
 	@echo "... home/sreer/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.o"
-	@echo "... home/sreer/pico/pico-sdk/src/rp2_common/hardware_pio/pio.o"
-	@echo "... home/sreer/pico/pico-sdk/src/rp2_common/hardware_pio/pio.i"
-	@echo "... home/sreer/pico/pico-sdk/src/rp2_common/hardware_pio/pio.s"
 	@echo "... home/sreer/pico/pico-sdk/src/rp2_common/hardware_pll/pll.o"
 	@echo "... home/sreer/pico/pico-sdk/src/rp2_common/hardware_pll/pll.i"
 	@echo "... home/sreer/pico/pico-sdk/src/rp2_common/hardware_pll/pll.s"
-	@echo "... home/sreer/pico/pico-sdk/src/rp2_common/hardware_spi/spi.o"
-	@echo "... home/sreer/pico/pico-sdk/src/rp2_common/hardware_spi/spi.i"
-	@echo "... home/sreer/pico/pico-sdk/src/rp2_common/hardware_spi/spi.s"
 	@echo "... home/sreer/pico/pico-sdk/src/rp2_common/hardware_sync/sync.o"
 	@echo "... home/sreer/pico/pico-sdk/src/rp2_common/hardware_sync/sync.i"
 	@echo "... home/sreer/pico/pico-sdk/src/rp2_common/hardware_sync/sync.s"
@@ -4423,12 +2490,6 @@ help:
 	@echo "... home/sreer/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.o"
 	@echo "... home/sreer/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.i"
 	@echo "... home/sreer/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.s"
-	@echo "... home/sreer/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_base.o"
-	@echo "... home/sreer/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_base.i"
-	@echo "... home/sreer/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_base.s"
-	@echo "... home/sreer/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.o"
-	@echo "... home/sreer/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.i"
-	@echo "... home/sreer/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.s"
 	@echo "... home/sreer/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.o"
 	@echo "... home/sreer/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.i"
 	@echo "... home/sreer/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.s"
@@ -4446,30 +2507,6 @@ help:
 	@echo "... home/sreer/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.o"
 	@echo "... home/sreer/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.i"
 	@echo "... home/sreer/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.s"
-	@echo "... home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.o"
-	@echo "... home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.i"
-	@echo "... home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.s"
-	@echo "... home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.o"
-	@echo "... home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.i"
-	@echo "... home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.s"
-	@echo "... home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.o"
-	@echo "... home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.i"
-	@echo "... home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.s"
-	@echo "... home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.o"
-	@echo "... home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.i"
-	@echo "... home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.s"
-	@echo "... home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.o"
-	@echo "... home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.i"
-	@echo "... home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.s"
-	@echo "... home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.o"
-	@echo "... home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.i"
-	@echo "... home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.s"
-	@echo "... home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.o"
-	@echo "... home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.i"
-	@echo "... home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.s"
-	@echo "... home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.o"
-	@echo "... home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.i"
-	@echo "... home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.s"
 	@echo "... home/sreer/pico/pico-sdk/src/rp2_common/pico_divider/divider_compiler.o"
 	@echo "... home/sreer/pico/pico-sdk/src/rp2_common/pico_divider/divider_compiler.i"
 	@echo "... home/sreer/pico/pico-sdk/src/rp2_common/pico_divider/divider_compiler.s"
@@ -4480,6 +2517,9 @@ help:
 	@echo "... home/sreer/pico/pico-sdk/src/rp2_common/pico_double/double_math.i"
 	@echo "... home/sreer/pico/pico-sdk/src/rp2_common/pico_double/double_math.s"
 	@echo "... home/sreer/pico/pico-sdk/src/rp2_common/pico_double/double_sci_m33.o"
+	@echo "... home/sreer/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.o"
+	@echo "... home/sreer/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.i"
+	@echo "... home/sreer/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.s"
 	@echo "... home/sreer/pico/pico-sdk/src/rp2_common/pico_flash/flash.o"
 	@echo "... home/sreer/pico/pico-sdk/src/rp2_common/pico_flash/flash.i"
 	@echo "... home/sreer/pico/pico-sdk/src/rp2_common/pico_flash/flash.s"
@@ -4489,12 +2529,12 @@ help:
 	@echo "... home/sreer/pico/pico-sdk/src/rp2_common/pico_float/float_math.i"
 	@echo "... home/sreer/pico/pico-sdk/src/rp2_common/pico_float/float_math.s"
 	@echo "... home/sreer/pico/pico-sdk/src/rp2_common/pico_float/float_sci_m33_vfp.o"
-	@echo "... home/sreer/pico/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.o"
-	@echo "... home/sreer/pico/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.i"
-	@echo "... home/sreer/pico/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.s"
 	@echo "... home/sreer/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.o"
 	@echo "... home/sreer/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.i"
 	@echo "... home/sreer/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.s"
+	@echo "... home/sreer/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.o"
+	@echo "... home/sreer/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.i"
+	@echo "... home/sreer/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.s"
 	@echo "... home/sreer/pico/pico-sdk/src/rp2_common/pico_platform_common/common.o"
 	@echo "... home/sreer/pico/pico-sdk/src/rp2_common/pico_platform_common/common.i"
 	@echo "... home/sreer/pico/pico-sdk/src/rp2_common/pico_platform_common/common.s"
@@ -4504,9 +2544,6 @@ help:
 	@echo "... home/sreer/pico/pico-sdk/src/rp2_common/pico_printf/printf.o"
 	@echo "... home/sreer/pico/pico-sdk/src/rp2_common/pico_printf/printf.i"
 	@echo "... home/sreer/pico/pico-sdk/src/rp2_common/pico_printf/printf.s"
-	@echo "... home/sreer/pico/pico-sdk/src/rp2_common/pico_rand/rand.o"
-	@echo "... home/sreer/pico/pico-sdk/src/rp2_common/pico_rand/rand.i"
-	@echo "... home/sreer/pico/pico-sdk/src/rp2_common/pico_rand/rand.s"
 	@echo "... home/sreer/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.o"
 	@echo "... home/sreer/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.i"
 	@echo "... home/sreer/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.s"
@@ -4525,9 +2562,15 @@ help:
 	@echo "... home/sreer/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.o"
 	@echo "... home/sreer/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.i"
 	@echo "... home/sreer/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.s"
-	@echo "... home/sreer/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.o"
-	@echo "... home/sreer/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.i"
-	@echo "... home/sreer/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.s"
+	@echo "... home/sreer/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.o"
+	@echo "... home/sreer/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.i"
+	@echo "... home/sreer/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.s"
+	@echo "... home/sreer/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.o"
+	@echo "... home/sreer/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.i"
+	@echo "... home/sreer/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.s"
+	@echo "... home/sreer/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.o"
+	@echo "... home/sreer/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.i"
+	@echo "... home/sreer/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.s"
 	@echo "... home/sreer/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.o"
 	@echo "... home/sreer/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.i"
 	@echo "... home/sreer/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.s"

@@ -1,7 +1,0 @@
-/home/sreer/Junior_Design/Final_Project/Junior_Design_C/build/pioasm/CMakeFiles/pioasm.dir
-/home/sreer/Junior_Design/Final_Project/Junior_Design_C/build/pioasm/CMakeFiles/edit_cache.dir
-/home/sreer/Junior_Design/Final_Project/Junior_Design_C/build/pioasm/CMakeFiles/rebuild_cache.dir
-/home/sreer/Junior_Design/Final_Project/Junior_Design_C/build/pioasm/CMakeFiles/list_install_components.dir
-/home/sreer/Junior_Design/Final_Project/Junior_Design_C/build/pioasm/CMakeFiles/install.dir
-/home/sreer/Junior_Design/Final_Project/Junior_Design_C/build/pioasm/CMakeFiles/install/local.dir
-/home/sreer/Junior_Design/Final_Project/Junior_Design_C/build/pioasm/CMakeFiles/install/strip.dir

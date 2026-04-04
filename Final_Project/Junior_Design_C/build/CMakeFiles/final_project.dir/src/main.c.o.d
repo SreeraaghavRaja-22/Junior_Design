@@ -10,11 +10,11 @@ CMakeFiles/final_project.dir/src/main.c.o: \
  /usr/include/newlib/sys/reent.h /usr/include/newlib/_ansi.h \
  /usr/include/newlib/sys/_types.h /usr/include/newlib/machine/_types.h \
  /usr/include/newlib/sys/lock.h /usr/include/newlib/sys/stdio.h \
- /usr/lib/gcc/arm-none-eabi/13.2.1/include/stdbool.h \
  /home/sreer/pico/pico-sdk/src/common/pico_stdlib_headers/include/pico/stdlib.h \
  /home/sreer/pico/pico-sdk/src/common/pico_base_headers/include/pico.h \
  /home/sreer/pico/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
  /home/sreer/pico/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+ /usr/lib/gcc/arm-none-eabi/13.2.1/include/stdbool.h \
  /usr/include/newlib/assert.h \
  /usr/lib/gcc/arm-none-eabi/13.2.1/include/stdint.h \
  /home/sreer/Junior_Design/Final_Project/Junior_Design_C/build/generated/pico_base/pico/version.h \
@@ -22,6 +22,9 @@ CMakeFiles/final_project.dir/src/main.c.o: \
  /home/sreer/Junior_Design/Final_Project/Junior_Design_C/build/generated/pico_base/pico/config_autogen.h \
  /home/sreer/pico/pico-sdk/src/boards/include/boards/pico2_w.h \
  /home/sreer/pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+ /home/sreer/pico/FreeRTOS-Kernel/portable/ThirdParty/Community-Supported-Ports/GCC/RP2350_ARM_NTZ/non_secure/freertos_sdk_config.h \
+ /home/sreer/Junior_Design/Final_Project/Junior_Design_C/src/FreeRTOSConfig.h \
+ /home/sreer/pico/FreeRTOS-Kernel/portable/ThirdParty/Community-Supported-Ports/GCC/RP2350_ARM_NTZ/non_secure/rp2040_config.h \
  /home/sreer/pico/pico-sdk/src/rp2350/pico_platform/include/pico/platform.h \
  /home/sreer/pico/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
  /home/sreer/pico/pico-sdk/src/rp2350/hardware_regs/include/hardware/platform_defs.h \
@@ -62,67 +65,23 @@ CMakeFiles/final_project.dir/src/main.c.o: \
  /home/sreer/pico/pico-sdk/src/rp2_common/hardware_resets/include/hardware/resets.h \
  /home/sreer/pico/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/resets.h \
  /home/sreer/pico/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/resets.h \
- /home/sreer/pico/pico-sdk/src/rp2_common/pico_stdio_uart/include/pico/stdio_uart.h \
- /home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/include/pico/cyw43_arch.h \
- /home/sreer/pico/pico-sdk/lib/cyw43-driver/src/cyw43.h \
- /home/sreer/pico/pico-sdk/lib/cyw43-driver/src/cyw43_config.h \
- /home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/include/cyw43_configport.h \
- /home/sreer/pico/pico-sdk/lib/lwip/src/include/lwip/netif.h \
- /home/sreer/pico/pico-sdk/lib/lwip/src/include/lwip/opt.h \
- /home/sreer/Junior_Design/Final_Project/Junior_Design_C/src/lwipopts.h \
- /home/sreer/pico/pico-sdk/lib/lwip/src/include/lwip/debug.h \
- /home/sreer/pico/pico-sdk/lib/lwip/src/include/lwip/arch.h \
- /home/sreer/pico/pico-sdk/src/rp2_common/pico_lwip/include/arch/cc.h \
- /usr/include/newlib/sys/time.h /usr/include/newlib/sys/_timeval.h \
- /usr/include/newlib/sys/types.h /usr/include/newlib/sys/_stdint.h \
- /usr/include/newlib/machine/endian.h \
- /usr/include/newlib/machine/_endian.h /usr/include/newlib/sys/select.h \
- /usr/include/newlib/sys/_sigset.h /usr/include/newlib/sys/timespec.h \
- /usr/include/newlib/sys/_timespec.h \
- /usr/include/newlib/sys/_pthreadtypes.h /usr/include/newlib/sys/sched.h \
- /usr/include/newlib/machine/types.h /usr/include/newlib/time.h \
- /usr/include/newlib/machine/time.h /usr/include/newlib/sys/_locale.h \
- /usr/include/newlib/machine/_time.h \
- /home/sreer/pico/pico-sdk/src/rp2_common/pico_rand/include/pico/rand.h \
- /usr/include/newlib/stdlib.h /usr/include/newlib/machine/stdlib.h \
- /usr/include/newlib/alloca.h /usr/include/newlib/inttypes.h \
- /usr/include/newlib/sys/_intsup.h \
- /usr/lib/gcc/arm-none-eabi/13.2.1/include/limits.h \
- /usr/include/newlib/ctype.h \
- /home/sreer/pico/pico-sdk/lib/lwip/src/include/lwip/err.h \
- /home/sreer/pico/pico-sdk/lib/lwip/src/include/lwip/ip_addr.h \
- /home/sreer/pico/pico-sdk/lib/lwip/src/include/lwip/def.h \
- /home/sreer/pico/pico-sdk/lib/lwip/src/include/lwip/ip4_addr.h \
- /home/sreer/pico/pico-sdk/lib/lwip/src/include/lwip/ip6_addr.h \
- /home/sreer/pico/pico-sdk/lib/lwip/src/include/lwip/def.h \
- /home/sreer/pico/pico-sdk/lib/lwip/src/include/lwip/pbuf.h \
- /home/sreer/pico/pico-sdk/lib/lwip/src/include/lwip/stats.h \
- /home/sreer/pico/pico-sdk/lib/lwip/src/include/lwip/mem.h \
- /home/sreer/pico/pico-sdk/lib/lwip/src/include/lwip/memp.h \
- /home/sreer/pico/pico-sdk/lib/lwip/src/include/lwip/priv/memp_std.h \
- /home/sreer/pico/pico-sdk/lib/lwip/src/include/lwip/priv/memp_priv.h \
- /home/sreer/pico/pico-sdk/lib/lwip/src/include/lwip/priv/mem_priv.h \
- /home/sreer/pico/pico-sdk/lib/lwip/src/include/lwip/dhcp.h \
- /home/sreer/pico/pico-sdk/lib/lwip/src/include/lwip/udp.h \
- /home/sreer/pico/pico-sdk/lib/lwip/src/include/lwip/ip.h \
- /home/sreer/pico/pico-sdk/lib/lwip/src/include/lwip/ip4.h \
- /home/sreer/pico/pico-sdk/lib/lwip/src/include/lwip/prot/ip4.h \
- /home/sreer/pico/pico-sdk/lib/lwip/src/include/lwip/ip6.h \
- /home/sreer/pico/pico-sdk/lib/lwip/src/include/lwip/prot/ip.h \
- /home/sreer/pico/pico-sdk/lib/lwip/src/include/lwip/prot/udp.h \
- /home/sreer/pico/pico-sdk/lib/lwip/src/include/lwip/acd.h \
- /home/sreer/pico/pico-sdk/lib/lwip/src/include/lwip/etharp.h \
- /home/sreer/pico/pico-sdk/lib/lwip/src/include/lwip/prot/ethernet.h \
- /home/sreer/pico/pico-sdk/lib/lwip/src/include/lwip/prot/ieee.h \
- /home/sreer/pico/pico-sdk/lib/lwip/src/include/lwip/prot/etharp.h \
- /home/sreer/pico/pico-sdk/lib/lwip/src/include/lwip/prot/acd.h \
- /home/sreer/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.h \
- /usr/include/newlib/string.h /usr/include/newlib/strings.h \
- /usr/include/newlib/sys/string.h \
- /home/sreer/pico/pico-sdk/lib/cyw43-driver/src/cyw43_country.h \
- /home/sreer/pico/pico-sdk/src/rp2_common/pico_async_context/include/pico/async_context.h \
- /home/sreer/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/include/pico/cyw43_arch/arch_threadsafe_background.h \
+ /home/sreer/pico/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h \
+ /home/sreer/Junior_Design/Final_Project/Junior_Design_C/src/FreeRTOSConfig.h \
+ /home/sreer/pico/FreeRTOS-Kernel/include/FreeRTOS.h \
+ /home/sreer/pico/FreeRTOS-Kernel/include/projdefs.h \
+ /home/sreer/pico/FreeRTOS-Kernel/include/portable.h \
+ /home/sreer/pico/FreeRTOS-Kernel/include/deprecated_definitions.h \
+ /home/sreer/pico/FreeRTOS-Kernel/portable/ThirdParty/Community-Supported-Ports/GCC/RP2350_ARM_NTZ/non_secure/portmacro.h \
+ /home/sreer/pico/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h \
+ /home/sreer/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/include/hardware/sync/spin_lock.h \
+ /home/sreer/pico/FreeRTOS-Kernel/portable/ThirdParty/Community-Supported-Ports/GCC/RP2350_ARM_NTZ/non_secure/portmacrocommon.h \
+ /home/sreer/pico/FreeRTOS-Kernel/include/mpu_wrappers.h \
+ /home/sreer/pico/FreeRTOS-Kernel/include/task.h \
+ /home/sreer/pico/FreeRTOS-Kernel/include/list.h \
+ /home/sreer/Junior_Design/Final_Project/Junior_Design_C/src/includes/main_init.h \
+ /home/sreer/Junior_Design/Final_Project/Junior_Design_C/src/includes/adc_init.h \
  /home/sreer/pico/pico-sdk/src/rp2_common/hardware_adc/include/hardware/adc.h \
  /home/sreer/pico/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/adc.h \
  /home/sreer/pico/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/adc.h \
- /home/sreer/Junior_Design/Final_Project/Junior_Design_C/src/components.h
+ /home/sreer/Junior_Design/Final_Project/Junior_Design_C/src/includes/components.h \
+ /usr/include/newlib/math.h
