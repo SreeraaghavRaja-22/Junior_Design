@@ -1239,6 +1239,30 @@ home/sreer/pico/pico-sdk/src/rp2_common/hardware_divider/divider.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_divider/divider.c.s
 .PHONY : home/sreer/pico/pico-sdk/src/rp2_common/hardware_divider/divider.c.s
 
+home/sreer/pico/pico-sdk/src/rp2_common/hardware_dma/dma.o: home/sreer/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.o
+.PHONY : home/sreer/pico/pico-sdk/src/rp2_common/hardware_dma/dma.o
+
+# target to build an object file
+home/sreer/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.o
+.PHONY : home/sreer/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.o
+
+home/sreer/pico/pico-sdk/src/rp2_common/hardware_dma/dma.i: home/sreer/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.i
+.PHONY : home/sreer/pico/pico-sdk/src/rp2_common/hardware_dma/dma.i
+
+# target to preprocess a source file
+home/sreer/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.i
+.PHONY : home/sreer/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.i
+
+home/sreer/pico/pico-sdk/src/rp2_common/hardware_dma/dma.s: home/sreer/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.s
+.PHONY : home/sreer/pico/pico-sdk/src/rp2_common/hardware_dma/dma.s
+
+# target to generate assembly for a file
+home/sreer/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.s
+.PHONY : home/sreer/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.s
+
 home/sreer/pico/pico-sdk/src/rp2_common/hardware_exception/exception.o: home/sreer/pico/pico-sdk/src/rp2_common/hardware_exception/exception.c.o
 .PHONY : home/sreer/pico/pico-sdk/src/rp2_common/hardware_exception/exception.o
 
@@ -1390,6 +1414,30 @@ home/sreer/pico/pico-sdk/src/rp2_common/hardware_pll/pll.s: home/sreer/pico/pico
 home/sreer/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.s
 .PHONY : home/sreer/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.s
+
+home/sreer/pico/pico-sdk/src/rp2_common/hardware_spi/spi.o: home/sreer/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.o
+.PHONY : home/sreer/pico/pico-sdk/src/rp2_common/hardware_spi/spi.o
+
+# target to build an object file
+home/sreer/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.o
+.PHONY : home/sreer/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.o
+
+home/sreer/pico/pico-sdk/src/rp2_common/hardware_spi/spi.i: home/sreer/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.i
+.PHONY : home/sreer/pico/pico-sdk/src/rp2_common/hardware_spi/spi.i
+
+# target to preprocess a source file
+home/sreer/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.i
+.PHONY : home/sreer/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.i
+
+home/sreer/pico/pico-sdk/src/rp2_common/hardware_spi/spi.s: home/sreer/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.s
+.PHONY : home/sreer/pico/pico-sdk/src/rp2_common/hardware_spi/spi.s
+
+# target to generate assembly for a file
+home/sreer/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.s
+.PHONY : home/sreer/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.s
 
 home/sreer/pico/pico-sdk/src/rp2_common/hardware_sync/sync.o: home/sreer/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.o
 .PHONY : home/sreer/pico/pico-sdk/src/rp2_common/hardware_sync/sync.o
@@ -2327,6 +2375,30 @@ src/includes/src/adc_init.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/src/includes/src/adc_init.c.s
 .PHONY : src/includes/src/adc_init.c.s
 
+src/includes/src/chime.o: src/includes/src/chime.c.o
+.PHONY : src/includes/src/chime.o
+
+# target to build an object file
+src/includes/src/chime.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/src/includes/src/chime.c.o
+.PHONY : src/includes/src/chime.c.o
+
+src/includes/src/chime.i: src/includes/src/chime.c.i
+.PHONY : src/includes/src/chime.i
+
+# target to preprocess a source file
+src/includes/src/chime.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/src/includes/src/chime.c.i
+.PHONY : src/includes/src/chime.c.i
+
+src/includes/src/chime.s: src/includes/src/chime.c.s
+.PHONY : src/includes/src/chime.s
+
+# target to generate assembly for a file
+src/includes/src/chime.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/src/includes/src/chime.c.s
+.PHONY : src/includes/src/chime.c.s
+
 src/includes/src/components.o: src/includes/src/components.c.o
 .PHONY : src/includes/src/components.o
 
@@ -2615,6 +2687,9 @@ help:
 	@echo "... home/sreer/pico/pico-sdk/src/rp2_common/hardware_divider/divider.o"
 	@echo "... home/sreer/pico/pico-sdk/src/rp2_common/hardware_divider/divider.i"
 	@echo "... home/sreer/pico/pico-sdk/src/rp2_common/hardware_divider/divider.s"
+	@echo "... home/sreer/pico/pico-sdk/src/rp2_common/hardware_dma/dma.o"
+	@echo "... home/sreer/pico/pico-sdk/src/rp2_common/hardware_dma/dma.i"
+	@echo "... home/sreer/pico/pico-sdk/src/rp2_common/hardware_dma/dma.s"
 	@echo "... home/sreer/pico/pico-sdk/src/rp2_common/hardware_exception/exception.o"
 	@echo "... home/sreer/pico/pico-sdk/src/rp2_common/hardware_exception/exception.i"
 	@echo "... home/sreer/pico/pico-sdk/src/rp2_common/hardware_exception/exception.s"
@@ -2634,6 +2709,9 @@ help:
 	@echo "... home/sreer/pico/pico-sdk/src/rp2_common/hardware_pll/pll.o"
 	@echo "... home/sreer/pico/pico-sdk/src/rp2_common/hardware_pll/pll.i"
 	@echo "... home/sreer/pico/pico-sdk/src/rp2_common/hardware_pll/pll.s"
+	@echo "... home/sreer/pico/pico-sdk/src/rp2_common/hardware_spi/spi.o"
+	@echo "... home/sreer/pico/pico-sdk/src/rp2_common/hardware_spi/spi.i"
+	@echo "... home/sreer/pico/pico-sdk/src/rp2_common/hardware_spi/spi.s"
 	@echo "... home/sreer/pico/pico-sdk/src/rp2_common/hardware_sync/sync.o"
 	@echo "... home/sreer/pico/pico-sdk/src/rp2_common/hardware_sync/sync.i"
 	@echo "... home/sreer/pico/pico-sdk/src/rp2_common/hardware_sync/sync.s"
@@ -2751,6 +2829,9 @@ help:
 	@echo "... src/includes/src/adc_init.o"
 	@echo "... src/includes/src/adc_init.i"
 	@echo "... src/includes/src/adc_init.s"
+	@echo "... src/includes/src/chime.o"
+	@echo "... src/includes/src/chime.i"
+	@echo "... src/includes/src/chime.s"
 	@echo "... src/includes/src/components.o"
 	@echo "... src/includes/src/components.i"
 	@echo "... src/includes/src/components.s"

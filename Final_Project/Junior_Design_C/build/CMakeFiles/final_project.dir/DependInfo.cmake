@@ -92,6 +92,8 @@ set(CMAKE_TARGET_DEFINITIONS_ASM
 # The include file search paths:
 set(CMAKE_ASM_TARGET_INCLUDE_PATH
   "/home/sreer/Junior_Design/Final_Project/Junior_Design_C/src"
+  "/home/sreer/Junior_Design/Final_Project/Junior_Design_C/src/includes"
+  "/home/sreer/Junior_Design/Final_Project/Junior_Design_C/src/includes/src"
   "/home/sreer/pico/pico-sdk/src/rp2_common/pico_atomic/include"
   "/home/sreer/pico/pico-sdk/lib/tinyusb/src"
   "/home/sreer/pico/FreeRTOS-Kernel/portable/ThirdParty/Community-Supported-Ports/GCC/RP2350_ARM_NTZ/non_secure"
@@ -155,6 +157,8 @@ set(CMAKE_ASM_TARGET_INCLUDE_PATH
   "/home/sreer/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/include"
   "/home/sreer/pico/pico-sdk/src/rp2_common/hardware_adc/include"
   "/home/sreer/pico/pico-sdk/src/rp2_common/hardware_i2c/include"
+  "/home/sreer/pico/pico-sdk/src/rp2_common/hardware_spi/include"
+  "/home/sreer/pico/pico-sdk/src/rp2_common/hardware_dma/include"
   "/home/sreer/pico/pico-sdk/src/rp2_common/hardware_exception/include"
   )
 
@@ -203,12 +207,14 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/sreer/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c" "CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.o" "gcc" "CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.o.d"
   "/home/sreer/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c" "CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.o" "gcc" "CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.o.d"
   "/home/sreer/pico/pico-sdk/src/rp2_common/hardware_divider/divider.c" "CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_divider/divider.c.o" "gcc" "CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_divider/divider.c.o.d"
+  "/home/sreer/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c" "CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.o" "gcc" "CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.o.d"
   "/home/sreer/pico/pico-sdk/src/rp2_common/hardware_exception/exception.c" "CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_exception/exception.c.o" "gcc" "CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_exception/exception.c.o.d"
   "/home/sreer/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c" "CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.o" "gcc" "CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.o.d"
   "/home/sreer/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c" "CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.o" "gcc" "CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.o.d"
   "/home/sreer/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c" "CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.o" "gcc" "CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.o.d"
   "/home/sreer/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c" "CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.o" "gcc" "CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.o.d"
   "/home/sreer/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c" "CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.o" "gcc" "CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.o.d"
+  "/home/sreer/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c" "CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.o" "gcc" "CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.o.d"
   "/home/sreer/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c" "CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.o" "gcc" "CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.o.d"
   "/home/sreer/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c" "CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.o" "gcc" "CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.o.d"
   "/home/sreer/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.c" "CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.o" "gcc" "CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.o.d"
@@ -244,6 +250,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/sreer/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c" "CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.o" "gcc" "CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.o.d"
   "/home/sreer/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c" "CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.o" "gcc" "CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.o.d"
   "/home/sreer/Junior_Design/Final_Project/Junior_Design_C/src/includes/src/adc_init.c" "CMakeFiles/final_project.dir/src/includes/src/adc_init.c.o" "gcc" "CMakeFiles/final_project.dir/src/includes/src/adc_init.c.o.d"
+  "/home/sreer/Junior_Design/Final_Project/Junior_Design_C/src/includes/src/chime.c" "CMakeFiles/final_project.dir/src/includes/src/chime.c.o" "gcc" "CMakeFiles/final_project.dir/src/includes/src/chime.c.o.d"
   "/home/sreer/Junior_Design/Final_Project/Junior_Design_C/src/includes/src/components.c" "CMakeFiles/final_project.dir/src/includes/src/components.c.o" "gcc" "CMakeFiles/final_project.dir/src/includes/src/components.c.o.d"
   "/home/sreer/Junior_Design/Final_Project/Junior_Design_C/src/includes/src/lcd_init.c" "CMakeFiles/final_project.dir/src/includes/src/lcd_init.c.o" "gcc" "CMakeFiles/final_project.dir/src/includes/src/lcd_init.c.o.d"
   "/home/sreer/Junior_Design/Final_Project/Junior_Design_C/src/includes/src/main_init.c" "CMakeFiles/final_project.dir/src/includes/src/main_init.c.o" "gcc" "CMakeFiles/final_project.dir/src/includes/src/main_init.c.o.d"

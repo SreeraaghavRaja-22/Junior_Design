@@ -23,6 +23,7 @@ int main(void) {
     // initialize semaphore
     xButtonSemaphore = xSemaphoreCreateBinary();
     xLedMutex = xSemaphoreCreateMutex();
+    xChimeSemaphore = xSemaphoreCreateBinary();
 
     gpio_set_irq_enabled_with_callback(BUTTON_PIN, GPIO_IRQ_EDGE_FALL, true, &button_isr);
 
@@ -30,6 +31,7 @@ int main(void) {
     xTaskCreate(Heartbeat_Task, "HB", 512, NULL, 1, NULL);
     xTaskCreate(Button_Task, "BUTT", 512, NULL, 2, NULL);
     xTaskCreate(Switch_Task, "SWI", 512, NULL, 2, NULL);
+    xTaskCreate(Chime_Task, "CHM", 512, NULL, 3, NULL);
 
 
     // start RTOS

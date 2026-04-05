@@ -10,6 +10,8 @@ CMakeFiles/final_project.dir/src/includes/src/tasks.c.o: \
  /usr/include/newlib/sys/reent.h /usr/include/newlib/_ansi.h \
  /usr/include/newlib/sys/_types.h /usr/include/newlib/machine/_types.h \
  /usr/include/newlib/sys/lock.h /usr/include/newlib/sys/stdio.h \
+ /usr/include/newlib/stdlib.h /usr/include/newlib/machine/stdlib.h \
+ /usr/include/newlib/alloca.h \
  /home/sreer/pico/pico-sdk/src/common/pico_stdlib_headers/include/pico/stdlib.h \
  /home/sreer/pico/pico-sdk/src/common/pico_base_headers/include/pico.h \
  /home/sreer/pico/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
@@ -91,4 +93,12 @@ CMakeFiles/final_project.dir/src/includes/src/tasks.c.o: \
  /home/sreer/pico/pico-sdk/src/rp2_common/hardware_i2c/include/hardware/i2c.h \
  /home/sreer/pico/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/i2c.h \
  /home/sreer/pico/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/i2c.h \
- /usr/include/newlib/math.h
+ /usr/include/newlib/math.h \
+ /home/sreer/Junior_Design/Final_Project/Junior_Design_C/src/includes/src/../chime.h \
+ /home/sreer/pico/pico-sdk/src/rp2_common/hardware_spi/include/hardware/spi.h \
+ /home/sreer/pico/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/spi.h \
+ /home/sreer/pico/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/spi.h \
+ /home/sreer/pico/pico-sdk/src/rp2_common/hardware_dma/include/hardware/dma.h \
+ /home/sreer/pico/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/dma.h \
+ /home/sreer/pico/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/dma.h \
+ /home/sreer/pico/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/dma_debug.h

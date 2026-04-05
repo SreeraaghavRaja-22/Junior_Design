@@ -4,3 +4,4 @@
 
 SemaphoreHandle_t xButtonSemaphore;
 SemaphoreHandle_t xLedMutex;
+SemaphoreHandle_t xChimeSemaphore;

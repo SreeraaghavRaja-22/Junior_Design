@@ -17,6 +17,7 @@ add_executable(final_project
     src/includes/src/lcd_init.c
     src/includes/src/main_init.c
     src/includes/src/semaphores.c
+    src/includes/src/chime.c
     src/includes/src/tasks.c
 )
 
@@ -24,6 +25,8 @@ target_link_libraries(final_project
     pico_stdlib
     hardware_adc
     hardware_i2c
+    hardware_spi
+    hardware_dma
     FreeRTOS-Kernel
     FreeRTOS-Kernel-Heap4
 )
@@ -36,4 +39,6 @@ target_link_options(final_project PRIVATE -u _printf_float)
 
 target_include_directories(final_project PRIVATE
     src
+    src/includes
+    src/includes/src
 )

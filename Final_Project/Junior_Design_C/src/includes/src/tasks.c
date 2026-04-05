@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 #include "pico/stdlib.h"
 #include "FreeRTOSConfig.h"
 #include "FreeRTOS.h"
@@ -8,6 +9,8 @@
 #include "../semaphores.h"
 #include "../lcd_init.h"
 #include "math.h"
+#include "../chime.h"
+#include "hardware/dma.h"
 
 volatile bool start_flag = 0;
 volatile bool progress_flag = 0;
@@ -187,10 +190,31 @@ void Switch_Task(void *pvParameters){
         }
         else{
             if(rst){
+
+                // clear lcd and reset
                 lcd_clear();
-                lcd_print("Luminous Library");
+                lcd_print("Registration");
+                lcd_set_cursor(1, 0);
+                lcd_print("Complete!");
                 rst = 0;
+                // enable Chime semaphore to make ding
+                xSemaphoreGive(xChimeSemaphore);
             }
+        }
+    }
+}
+
+void Chime_Task(void *pvParameters){
+    for(;;){
+        if(xSemaphoreTake(xChimeSemaphore, portMAX_DELAY) == pdTRUE){
+            gpio_put(SPI_CS, 0);
+            // trigger the DMA read
+            dma_channel_set_read_addr(dma_channel, sine_table, true);
+            // wait for the transfer to finish
+            dma_channel_wait_for_finish_blocking(dma_channel);
+            gpio_put(SPI_CS, 1);
+            // debug
+            printf("DMA COMPLETE");
         }
     }
 }
