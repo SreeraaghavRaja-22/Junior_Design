@@ -9,6 +9,6 @@
 void Heartbeat_Task(void *pvParameters);
 void button_isr(uint gpio, uint32_t events);
 void Button_Task(void *pvParameters);
-void Switch_Task(void);
+void Switch_Task(void *pcParameters);
 
 #endif /*_TASKS_H*/

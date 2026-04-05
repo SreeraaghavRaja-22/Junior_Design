@@ -14,6 +14,7 @@ add_executable(final_project
     src/main.c
     src/includes/src/components.c
     src/includes/src/adc_init.c
+    src/includes/src/lcd_init.c
     src/includes/src/main_init.c
     src/includes/src/semaphores.c
     src/includes/src/tasks.c
