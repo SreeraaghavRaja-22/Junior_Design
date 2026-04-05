@@ -26,8 +26,8 @@ target_link_libraries(final_project
     hardware_adc
     hardware_i2c
     hardware_spi
-    hardware_dma
-    FreeRTOS-Kernel
+    hardware_timer
+FreeRTOS-Kernel
     FreeRTOS-Kernel-Heap4
 )
 

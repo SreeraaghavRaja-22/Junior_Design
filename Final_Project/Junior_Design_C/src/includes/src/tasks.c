@@ -10,7 +10,6 @@
 #include "../lcd_init.h"
 #include "math.h"
 #include "../chime.h"
-#include "hardware/dma.h"
 
 volatile bool start_flag = 0;
 volatile bool progress_flag = 0;
@@ -210,18 +209,11 @@ void Switch_Task(void *pvParameters){
 void Chime_Task(void *pvParameters){
     for(;;){
         if(xSemaphoreTake(xChimeSemaphore, portMAX_DELAY) == pdTRUE){
-            gpio_put(SPI_CS, 0);
-
+            chime_start(CHIME_SAMPLE_RATE);
             while(!start_flag){
-                // trigger the DMA read
-                dma_channel_set_read_addr(dma_channel, sine_table, true);
-                // wait for the transfer to finish
-                dma_channel_wait_for_finish_blocking(dma_channel);
+                vTaskDelay(pdMS_TO_TICKS(100));
             }
-            while(spi_is_busy(SPI_PORT));
-            gpio_put(SPI_CS, 1);
-            // debug
-            printf("DMA COMPLETE");
+            chime_stop();
         }
     }
 }

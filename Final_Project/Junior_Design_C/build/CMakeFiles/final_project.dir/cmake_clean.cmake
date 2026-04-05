@@ -85,8 +85,6 @@ file(REMOVE_RECURSE
   "CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.o.d"
   "CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_divider/divider.c.o"
   "CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_divider/divider.c.o.d"
-  "CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.o"
-  "CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.o.d"
   "CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_exception/exception.c.o"
   "CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_exception/exception.c.o.d"
   "CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.o"

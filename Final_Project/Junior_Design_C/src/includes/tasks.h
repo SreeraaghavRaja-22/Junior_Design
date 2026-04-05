@@ -5,7 +5,6 @@
 #include "pico/stdlib.h"
 #include "FreeRTOSConfig.h"
 #include "FreeRTOS.h"
-#include "hardware/dma.h"
 
 void Heartbeat_Task(void *pvParameters);
 void button_isr(uint gpio, uint32_t events);

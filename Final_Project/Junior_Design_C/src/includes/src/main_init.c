@@ -12,6 +12,5 @@ void main_init(void){
     lcd_init();
     spi_start();
     generate_sine();
-    dma_start();
 }
     

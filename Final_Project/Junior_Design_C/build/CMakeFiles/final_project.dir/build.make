@@ -1333,24 +1333,10 @@ CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_sp
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.s"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/sreer/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c -o CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.s
 
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.o: CMakeFiles/final_project.dir/flags.make
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.o: /home/sreer/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.o: CMakeFiles/final_project.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sreer/Junior_Design/Final_Project/Junior_Design_C/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_92) "Building C object CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.o"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.o -MF CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.o.d -o CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.o -c /home/sreer/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/sreer/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c > CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.i
-
-CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/sreer/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c -o CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.s
-
 CMakeFiles/final_project.dir/home/sreer/pico/FreeRTOS-Kernel/portable/ThirdParty/Community-Supported-Ports/GCC/RP2350_ARM_NTZ/non_secure/port.c.o: CMakeFiles/final_project.dir/flags.make
 CMakeFiles/final_project.dir/home/sreer/pico/FreeRTOS-Kernel/portable/ThirdParty/Community-Supported-Ports/GCC/RP2350_ARM_NTZ/non_secure/port.c.o: /home/sreer/pico/FreeRTOS-Kernel/portable/ThirdParty/Community-Supported-Ports/GCC/RP2350_ARM_NTZ/non_secure/port.c
 CMakeFiles/final_project.dir/home/sreer/pico/FreeRTOS-Kernel/portable/ThirdParty/Community-Supported-Ports/GCC/RP2350_ARM_NTZ/non_secure/port.c.o: CMakeFiles/final_project.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sreer/Junior_Design/Final_Project/Junior_Design_C/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_93) "Building C object CMakeFiles/final_project.dir/home/sreer/pico/FreeRTOS-Kernel/portable/ThirdParty/Community-Supported-Ports/GCC/RP2350_ARM_NTZ/non_secure/port.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sreer/Junior_Design/Final_Project/Junior_Design_C/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_92) "Building C object CMakeFiles/final_project.dir/home/sreer/pico/FreeRTOS-Kernel/portable/ThirdParty/Community-Supported-Ports/GCC/RP2350_ARM_NTZ/non_secure/port.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/final_project.dir/home/sreer/pico/FreeRTOS-Kernel/portable/ThirdParty/Community-Supported-Ports/GCC/RP2350_ARM_NTZ/non_secure/port.c.o -MF CMakeFiles/final_project.dir/home/sreer/pico/FreeRTOS-Kernel/portable/ThirdParty/Community-Supported-Ports/GCC/RP2350_ARM_NTZ/non_secure/port.c.o.d -o CMakeFiles/final_project.dir/home/sreer/pico/FreeRTOS-Kernel/portable/ThirdParty/Community-Supported-Ports/GCC/RP2350_ARM_NTZ/non_secure/port.c.o -c /home/sreer/pico/FreeRTOS-Kernel/portable/ThirdParty/Community-Supported-Ports/GCC/RP2350_ARM_NTZ/non_secure/port.c
 
 CMakeFiles/final_project.dir/home/sreer/pico/FreeRTOS-Kernel/portable/ThirdParty/Community-Supported-Ports/GCC/RP2350_ARM_NTZ/non_secure/port.c.i: cmake_force
@@ -1364,7 +1350,7 @@ CMakeFiles/final_project.dir/home/sreer/pico/FreeRTOS-Kernel/portable/ThirdParty
 CMakeFiles/final_project.dir/home/sreer/pico/FreeRTOS-Kernel/portable/ThirdParty/Community-Supported-Ports/GCC/RP2350_ARM_NTZ/non_secure/portasm.c.o: CMakeFiles/final_project.dir/flags.make
 CMakeFiles/final_project.dir/home/sreer/pico/FreeRTOS-Kernel/portable/ThirdParty/Community-Supported-Ports/GCC/RP2350_ARM_NTZ/non_secure/portasm.c.o: /home/sreer/pico/FreeRTOS-Kernel/portable/ThirdParty/Community-Supported-Ports/GCC/RP2350_ARM_NTZ/non_secure/portasm.c
 CMakeFiles/final_project.dir/home/sreer/pico/FreeRTOS-Kernel/portable/ThirdParty/Community-Supported-Ports/GCC/RP2350_ARM_NTZ/non_secure/portasm.c.o: CMakeFiles/final_project.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sreer/Junior_Design/Final_Project/Junior_Design_C/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_94) "Building C object CMakeFiles/final_project.dir/home/sreer/pico/FreeRTOS-Kernel/portable/ThirdParty/Community-Supported-Ports/GCC/RP2350_ARM_NTZ/non_secure/portasm.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sreer/Junior_Design/Final_Project/Junior_Design_C/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_93) "Building C object CMakeFiles/final_project.dir/home/sreer/pico/FreeRTOS-Kernel/portable/ThirdParty/Community-Supported-Ports/GCC/RP2350_ARM_NTZ/non_secure/portasm.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/final_project.dir/home/sreer/pico/FreeRTOS-Kernel/portable/ThirdParty/Community-Supported-Ports/GCC/RP2350_ARM_NTZ/non_secure/portasm.c.o -MF CMakeFiles/final_project.dir/home/sreer/pico/FreeRTOS-Kernel/portable/ThirdParty/Community-Supported-Ports/GCC/RP2350_ARM_NTZ/non_secure/portasm.c.o.d -o CMakeFiles/final_project.dir/home/sreer/pico/FreeRTOS-Kernel/portable/ThirdParty/Community-Supported-Ports/GCC/RP2350_ARM_NTZ/non_secure/portasm.c.o -c /home/sreer/pico/FreeRTOS-Kernel/portable/ThirdParty/Community-Supported-Ports/GCC/RP2350_ARM_NTZ/non_secure/portasm.c
 
 CMakeFiles/final_project.dir/home/sreer/pico/FreeRTOS-Kernel/portable/ThirdParty/Community-Supported-Ports/GCC/RP2350_ARM_NTZ/non_secure/portasm.c.i: cmake_force
@@ -1378,7 +1364,7 @@ CMakeFiles/final_project.dir/home/sreer/pico/FreeRTOS-Kernel/portable/ThirdParty
 CMakeFiles/final_project.dir/home/sreer/pico/FreeRTOS-Kernel/croutine.c.o: CMakeFiles/final_project.dir/flags.make
 CMakeFiles/final_project.dir/home/sreer/pico/FreeRTOS-Kernel/croutine.c.o: /home/sreer/pico/FreeRTOS-Kernel/croutine.c
 CMakeFiles/final_project.dir/home/sreer/pico/FreeRTOS-Kernel/croutine.c.o: CMakeFiles/final_project.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sreer/Junior_Design/Final_Project/Junior_Design_C/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_95) "Building C object CMakeFiles/final_project.dir/home/sreer/pico/FreeRTOS-Kernel/croutine.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sreer/Junior_Design/Final_Project/Junior_Design_C/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_94) "Building C object CMakeFiles/final_project.dir/home/sreer/pico/FreeRTOS-Kernel/croutine.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/final_project.dir/home/sreer/pico/FreeRTOS-Kernel/croutine.c.o -MF CMakeFiles/final_project.dir/home/sreer/pico/FreeRTOS-Kernel/croutine.c.o.d -o CMakeFiles/final_project.dir/home/sreer/pico/FreeRTOS-Kernel/croutine.c.o -c /home/sreer/pico/FreeRTOS-Kernel/croutine.c
 
 CMakeFiles/final_project.dir/home/sreer/pico/FreeRTOS-Kernel/croutine.c.i: cmake_force
@@ -1392,7 +1378,7 @@ CMakeFiles/final_project.dir/home/sreer/pico/FreeRTOS-Kernel/croutine.c.s: cmake
 CMakeFiles/final_project.dir/home/sreer/pico/FreeRTOS-Kernel/event_groups.c.o: CMakeFiles/final_project.dir/flags.make
 CMakeFiles/final_project.dir/home/sreer/pico/FreeRTOS-Kernel/event_groups.c.o: /home/sreer/pico/FreeRTOS-Kernel/event_groups.c
 CMakeFiles/final_project.dir/home/sreer/pico/FreeRTOS-Kernel/event_groups.c.o: CMakeFiles/final_project.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sreer/Junior_Design/Final_Project/Junior_Design_C/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_96) "Building C object CMakeFiles/final_project.dir/home/sreer/pico/FreeRTOS-Kernel/event_groups.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sreer/Junior_Design/Final_Project/Junior_Design_C/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_95) "Building C object CMakeFiles/final_project.dir/home/sreer/pico/FreeRTOS-Kernel/event_groups.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/final_project.dir/home/sreer/pico/FreeRTOS-Kernel/event_groups.c.o -MF CMakeFiles/final_project.dir/home/sreer/pico/FreeRTOS-Kernel/event_groups.c.o.d -o CMakeFiles/final_project.dir/home/sreer/pico/FreeRTOS-Kernel/event_groups.c.o -c /home/sreer/pico/FreeRTOS-Kernel/event_groups.c
 
 CMakeFiles/final_project.dir/home/sreer/pico/FreeRTOS-Kernel/event_groups.c.i: cmake_force
@@ -1406,7 +1392,7 @@ CMakeFiles/final_project.dir/home/sreer/pico/FreeRTOS-Kernel/event_groups.c.s: c
 CMakeFiles/final_project.dir/home/sreer/pico/FreeRTOS-Kernel/list.c.o: CMakeFiles/final_project.dir/flags.make
 CMakeFiles/final_project.dir/home/sreer/pico/FreeRTOS-Kernel/list.c.o: /home/sreer/pico/FreeRTOS-Kernel/list.c
 CMakeFiles/final_project.dir/home/sreer/pico/FreeRTOS-Kernel/list.c.o: CMakeFiles/final_project.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sreer/Junior_Design/Final_Project/Junior_Design_C/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_97) "Building C object CMakeFiles/final_project.dir/home/sreer/pico/FreeRTOS-Kernel/list.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sreer/Junior_Design/Final_Project/Junior_Design_C/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_96) "Building C object CMakeFiles/final_project.dir/home/sreer/pico/FreeRTOS-Kernel/list.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/final_project.dir/home/sreer/pico/FreeRTOS-Kernel/list.c.o -MF CMakeFiles/final_project.dir/home/sreer/pico/FreeRTOS-Kernel/list.c.o.d -o CMakeFiles/final_project.dir/home/sreer/pico/FreeRTOS-Kernel/list.c.o -c /home/sreer/pico/FreeRTOS-Kernel/list.c
 
 CMakeFiles/final_project.dir/home/sreer/pico/FreeRTOS-Kernel/list.c.i: cmake_force
@@ -1420,7 +1406,7 @@ CMakeFiles/final_project.dir/home/sreer/pico/FreeRTOS-Kernel/list.c.s: cmake_for
 CMakeFiles/final_project.dir/home/sreer/pico/FreeRTOS-Kernel/queue.c.o: CMakeFiles/final_project.dir/flags.make
 CMakeFiles/final_project.dir/home/sreer/pico/FreeRTOS-Kernel/queue.c.o: /home/sreer/pico/FreeRTOS-Kernel/queue.c
 CMakeFiles/final_project.dir/home/sreer/pico/FreeRTOS-Kernel/queue.c.o: CMakeFiles/final_project.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sreer/Junior_Design/Final_Project/Junior_Design_C/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_98) "Building C object CMakeFiles/final_project.dir/home/sreer/pico/FreeRTOS-Kernel/queue.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sreer/Junior_Design/Final_Project/Junior_Design_C/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_97) "Building C object CMakeFiles/final_project.dir/home/sreer/pico/FreeRTOS-Kernel/queue.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/final_project.dir/home/sreer/pico/FreeRTOS-Kernel/queue.c.o -MF CMakeFiles/final_project.dir/home/sreer/pico/FreeRTOS-Kernel/queue.c.o.d -o CMakeFiles/final_project.dir/home/sreer/pico/FreeRTOS-Kernel/queue.c.o -c /home/sreer/pico/FreeRTOS-Kernel/queue.c
 
 CMakeFiles/final_project.dir/home/sreer/pico/FreeRTOS-Kernel/queue.c.i: cmake_force
@@ -1434,7 +1420,7 @@ CMakeFiles/final_project.dir/home/sreer/pico/FreeRTOS-Kernel/queue.c.s: cmake_fo
 CMakeFiles/final_project.dir/home/sreer/pico/FreeRTOS-Kernel/stream_buffer.c.o: CMakeFiles/final_project.dir/flags.make
 CMakeFiles/final_project.dir/home/sreer/pico/FreeRTOS-Kernel/stream_buffer.c.o: /home/sreer/pico/FreeRTOS-Kernel/stream_buffer.c
 CMakeFiles/final_project.dir/home/sreer/pico/FreeRTOS-Kernel/stream_buffer.c.o: CMakeFiles/final_project.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sreer/Junior_Design/Final_Project/Junior_Design_C/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_99) "Building C object CMakeFiles/final_project.dir/home/sreer/pico/FreeRTOS-Kernel/stream_buffer.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sreer/Junior_Design/Final_Project/Junior_Design_C/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_98) "Building C object CMakeFiles/final_project.dir/home/sreer/pico/FreeRTOS-Kernel/stream_buffer.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/final_project.dir/home/sreer/pico/FreeRTOS-Kernel/stream_buffer.c.o -MF CMakeFiles/final_project.dir/home/sreer/pico/FreeRTOS-Kernel/stream_buffer.c.o.d -o CMakeFiles/final_project.dir/home/sreer/pico/FreeRTOS-Kernel/stream_buffer.c.o -c /home/sreer/pico/FreeRTOS-Kernel/stream_buffer.c
 
 CMakeFiles/final_project.dir/home/sreer/pico/FreeRTOS-Kernel/stream_buffer.c.i: cmake_force
@@ -1448,7 +1434,7 @@ CMakeFiles/final_project.dir/home/sreer/pico/FreeRTOS-Kernel/stream_buffer.c.s: 
 CMakeFiles/final_project.dir/home/sreer/pico/FreeRTOS-Kernel/tasks.c.o: CMakeFiles/final_project.dir/flags.make
 CMakeFiles/final_project.dir/home/sreer/pico/FreeRTOS-Kernel/tasks.c.o: /home/sreer/pico/FreeRTOS-Kernel/tasks.c
 CMakeFiles/final_project.dir/home/sreer/pico/FreeRTOS-Kernel/tasks.c.o: CMakeFiles/final_project.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sreer/Junior_Design/Final_Project/Junior_Design_C/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_100) "Building C object CMakeFiles/final_project.dir/home/sreer/pico/FreeRTOS-Kernel/tasks.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sreer/Junior_Design/Final_Project/Junior_Design_C/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_99) "Building C object CMakeFiles/final_project.dir/home/sreer/pico/FreeRTOS-Kernel/tasks.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/final_project.dir/home/sreer/pico/FreeRTOS-Kernel/tasks.c.o -MF CMakeFiles/final_project.dir/home/sreer/pico/FreeRTOS-Kernel/tasks.c.o.d -o CMakeFiles/final_project.dir/home/sreer/pico/FreeRTOS-Kernel/tasks.c.o -c /home/sreer/pico/FreeRTOS-Kernel/tasks.c
 
 CMakeFiles/final_project.dir/home/sreer/pico/FreeRTOS-Kernel/tasks.c.i: cmake_force
@@ -1462,7 +1448,7 @@ CMakeFiles/final_project.dir/home/sreer/pico/FreeRTOS-Kernel/tasks.c.s: cmake_fo
 CMakeFiles/final_project.dir/home/sreer/pico/FreeRTOS-Kernel/timers.c.o: CMakeFiles/final_project.dir/flags.make
 CMakeFiles/final_project.dir/home/sreer/pico/FreeRTOS-Kernel/timers.c.o: /home/sreer/pico/FreeRTOS-Kernel/timers.c
 CMakeFiles/final_project.dir/home/sreer/pico/FreeRTOS-Kernel/timers.c.o: CMakeFiles/final_project.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sreer/Junior_Design/Final_Project/Junior_Design_C/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_101) "Building C object CMakeFiles/final_project.dir/home/sreer/pico/FreeRTOS-Kernel/timers.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sreer/Junior_Design/Final_Project/Junior_Design_C/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_100) "Building C object CMakeFiles/final_project.dir/home/sreer/pico/FreeRTOS-Kernel/timers.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/final_project.dir/home/sreer/pico/FreeRTOS-Kernel/timers.c.o -MF CMakeFiles/final_project.dir/home/sreer/pico/FreeRTOS-Kernel/timers.c.o.d -o CMakeFiles/final_project.dir/home/sreer/pico/FreeRTOS-Kernel/timers.c.o -c /home/sreer/pico/FreeRTOS-Kernel/timers.c
 
 CMakeFiles/final_project.dir/home/sreer/pico/FreeRTOS-Kernel/timers.c.i: cmake_force
@@ -1476,7 +1462,7 @@ CMakeFiles/final_project.dir/home/sreer/pico/FreeRTOS-Kernel/timers.c.s: cmake_f
 CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_exception/exception.c.o: CMakeFiles/final_project.dir/flags.make
 CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_exception/exception.c.o: /home/sreer/pico/pico-sdk/src/rp2_common/hardware_exception/exception.c
 CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_exception/exception.c.o: CMakeFiles/final_project.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sreer/Junior_Design/Final_Project/Junior_Design_C/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_102) "Building C object CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_exception/exception.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sreer/Junior_Design/Final_Project/Junior_Design_C/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_101) "Building C object CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_exception/exception.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_exception/exception.c.o -MF CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_exception/exception.c.o.d -o CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_exception/exception.c.o -c /home/sreer/pico/pico-sdk/src/rp2_common/hardware_exception/exception.c
 
 CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_exception/exception.c.i: cmake_force
@@ -1490,7 +1476,7 @@ CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_ex
 CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.o: CMakeFiles/final_project.dir/flags.make
 CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.o: /home/sreer/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c
 CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.o: CMakeFiles/final_project.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sreer/Junior_Design/Final_Project/Junior_Design_C/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_103) "Building C object CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sreer/Junior_Design/Final_Project/Junior_Design_C/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_102) "Building C object CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.o -MF CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.o.d -o CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.o -c /home/sreer/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c
 
 CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.i: cmake_force
@@ -1504,7 +1490,7 @@ CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/pico_multic
 CMakeFiles/final_project.dir/home/sreer/pico/FreeRTOS-Kernel/portable/MemMang/heap_4.c.o: CMakeFiles/final_project.dir/flags.make
 CMakeFiles/final_project.dir/home/sreer/pico/FreeRTOS-Kernel/portable/MemMang/heap_4.c.o: /home/sreer/pico/FreeRTOS-Kernel/portable/MemMang/heap_4.c
 CMakeFiles/final_project.dir/home/sreer/pico/FreeRTOS-Kernel/portable/MemMang/heap_4.c.o: CMakeFiles/final_project.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sreer/Junior_Design/Final_Project/Junior_Design_C/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_104) "Building C object CMakeFiles/final_project.dir/home/sreer/pico/FreeRTOS-Kernel/portable/MemMang/heap_4.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sreer/Junior_Design/Final_Project/Junior_Design_C/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_103) "Building C object CMakeFiles/final_project.dir/home/sreer/pico/FreeRTOS-Kernel/portable/MemMang/heap_4.c.o"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/final_project.dir/home/sreer/pico/FreeRTOS-Kernel/portable/MemMang/heap_4.c.o -MF CMakeFiles/final_project.dir/home/sreer/pico/FreeRTOS-Kernel/portable/MemMang/heap_4.c.o.d -o CMakeFiles/final_project.dir/home/sreer/pico/FreeRTOS-Kernel/portable/MemMang/heap_4.c.o -c /home/sreer/pico/FreeRTOS-Kernel/portable/MemMang/heap_4.c
 
 CMakeFiles/final_project.dir/home/sreer/pico/FreeRTOS-Kernel/portable/MemMang/heap_4.c.i: cmake_force
@@ -1608,7 +1594,6 @@ final_project_OBJECTS = \
 "CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.o" \
 "CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.o" \
 "CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.o" \
-"CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.o" \
 "CMakeFiles/final_project.dir/home/sreer/pico/FreeRTOS-Kernel/portable/ThirdParty/Community-Supported-Ports/GCC/RP2350_ARM_NTZ/non_secure/port.c.o" \
 "CMakeFiles/final_project.dir/home/sreer/pico/FreeRTOS-Kernel/portable/ThirdParty/Community-Supported-Ports/GCC/RP2350_ARM_NTZ/non_secure/portasm.c.o" \
 "CMakeFiles/final_project.dir/home/sreer/pico/FreeRTOS-Kernel/croutine.c.o" \
@@ -1716,7 +1701,6 @@ final_project.elf: CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2
 final_project.elf: CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.o
 final_project.elf: CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.o
 final_project.elf: CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.o
-final_project.elf: CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.o
 final_project.elf: CMakeFiles/final_project.dir/home/sreer/pico/FreeRTOS-Kernel/portable/ThirdParty/Community-Supported-Ports/GCC/RP2350_ARM_NTZ/non_secure/port.c.o
 final_project.elf: CMakeFiles/final_project.dir/home/sreer/pico/FreeRTOS-Kernel/portable/ThirdParty/Community-Supported-Ports/GCC/RP2350_ARM_NTZ/non_secure/portasm.c.o
 final_project.elf: CMakeFiles/final_project.dir/home/sreer/pico/FreeRTOS-Kernel/croutine.c.o
@@ -1733,7 +1717,7 @@ final_project.elf: CMakeFiles/final_project.dir/build.make
 final_project.elf: pico-sdk/src/rp2350/boot_stage2/CMakeFiles/bs2_default_library.dir/bs2_default_padded_checksummed.S.o
 final_project.elf: /home/sreer/pico/pico-sdk/src/rp2_common/pico_crt0/rp2350/memmap_default.ld
 final_project.elf: CMakeFiles/final_project.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/sreer/Junior_Design/Final_Project/Junior_Design_C/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_105) "Linking CXX executable final_project.elf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/sreer/Junior_Design/Final_Project/Junior_Design_C/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_104) "Linking CXX executable final_project.elf"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/final_project.dir/link.txt --verbose=$(VERBOSE)
 	/usr/bin/arm-none-eabi-objdump -h /home/sreer/Junior_Design/Final_Project/Junior_Design_C/build/final_project.elf > final_project.dis
 	/usr/bin/arm-none-eabi-objdump -d /home/sreer/Junior_Design/Final_Project/Junior_Design_C/build/final_project.elf >> final_project.dis

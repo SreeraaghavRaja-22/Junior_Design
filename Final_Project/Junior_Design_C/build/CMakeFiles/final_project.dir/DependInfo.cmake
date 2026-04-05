@@ -158,7 +158,6 @@ set(CMAKE_ASM_TARGET_INCLUDE_PATH
   "/home/sreer/pico/pico-sdk/src/rp2_common/hardware_adc/include"
   "/home/sreer/pico/pico-sdk/src/rp2_common/hardware_i2c/include"
   "/home/sreer/pico/pico-sdk/src/rp2_common/hardware_spi/include"
-  "/home/sreer/pico/pico-sdk/src/rp2_common/hardware_dma/include"
   "/home/sreer/pico/pico-sdk/src/rp2_common/hardware_exception/include"
   )
 
@@ -207,7 +206,6 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/sreer/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c" "CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.o" "gcc" "CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.o.d"
   "/home/sreer/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c" "CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.o" "gcc" "CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.o.d"
   "/home/sreer/pico/pico-sdk/src/rp2_common/hardware_divider/divider.c" "CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_divider/divider.c.o" "gcc" "CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_divider/divider.c.o.d"
-  "/home/sreer/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c" "CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.o" "gcc" "CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.o.d"
   "/home/sreer/pico/pico-sdk/src/rp2_common/hardware_exception/exception.c" "CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_exception/exception.c.o" "gcc" "CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_exception/exception.c.o.d"
   "/home/sreer/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c" "CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.o" "gcc" "CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.o.d"
   "/home/sreer/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c" "CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.o" "gcc" "CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.o.d"

@@ -90,10 +90,6 @@ CMakeFiles/final_project.dir/src/main.c.o: \
  /home/sreer/Junior_Design/Final_Project/Junior_Design_C/src/includes/semaphores.h \
  /usr/include/newlib/math.h \
  /home/sreer/Junior_Design/Final_Project/Junior_Design_C/src/includes/tasks.h \
- /home/sreer/pico/pico-sdk/src/rp2_common/hardware_dma/include/hardware/dma.h \
- /home/sreer/pico/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/dma.h \
- /home/sreer/pico/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/dma.h \
- /home/sreer/pico/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/dma_debug.h \
  /home/sreer/pico/pico-sdk/src/rp2_common/hardware_i2c/include/hardware/i2c.h \
  /home/sreer/pico/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/i2c.h \
  /home/sreer/pico/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/i2c.h \

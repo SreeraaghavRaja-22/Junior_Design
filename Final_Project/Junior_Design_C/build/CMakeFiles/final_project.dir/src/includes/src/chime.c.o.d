@@ -32,19 +32,14 @@ CMakeFiles/final_project.dir/src/includes/src/chime.c.o: \
  /home/sreer/pico/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/sio.h \
  /home/sreer/pico/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
  /usr/lib/gcc/arm-none-eabi/13.2.1/include/stdarg.h \
- /home/sreer/pico/pico-sdk/src/rp2_common/hardware_dma/include/hardware/dma.h \
- /home/sreer/pico/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/dma.h \
- /home/sreer/pico/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
- /home/sreer/pico/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/accessctrl.h \
- /home/sreer/pico/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/accessctrl.h \
- /home/sreer/pico/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/dma.h \
- /home/sreer/pico/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/dma_debug.h \
- /home/sreer/pico/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/dreq.h \
- /home/sreer/pico/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/intctrl.h \
  /home/sreer/Junior_Design/Final_Project/Junior_Design_C/src/includes/src/../chime.h \
  /home/sreer/pico/pico-sdk/src/rp2_common/hardware_spi/include/hardware/spi.h \
  /home/sreer/pico/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/spi.h \
+ /home/sreer/pico/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
+ /home/sreer/pico/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/accessctrl.h \
+ /home/sreer/pico/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/accessctrl.h \
  /home/sreer/pico/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/spi.h \
+ /home/sreer/pico/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/dreq.h \
  /home/sreer/pico/pico-sdk/src/rp2_common/hardware_gpio/include/hardware/gpio.h \
  /home/sreer/pico/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/sio.h \
  /home/sreer/pico/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/interp.h \
@@ -53,12 +48,17 @@ CMakeFiles/final_project.dir/src/includes/src/chime.c.o: \
  /home/sreer/pico/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/io_bank0.h \
  /home/sreer/pico/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/io_bank0.h \
  /home/sreer/pico/pico-sdk/src/rp2_common/hardware_irq/include/hardware/irq.h \
+ /home/sreer/pico/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/intctrl.h \
  /home/sreer/pico/pico-sdk/src/rp2350/pico_platform/include/pico/platform/cpu_regs.h \
  /home/sreer/pico/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/m33.h \
  /home/sreer/pico/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/m33.h \
  /home/sreer/pico/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/nvic.h \
  /home/sreer/pico/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/scb.h \
  /home/sreer/pico/pico-sdk/src/rp2_common/hardware_gpio/include/hardware/gpio_coproc.h \
+ /home/sreer/pico/pico-sdk/src/common/pico_time/include/pico/time.h \
+ /home/sreer/pico/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h \
+ /home/sreer/pico/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/timer.h \
+ /home/sreer/pico/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/timer.h \
  /usr/include/newlib/math.h /usr/include/newlib/sys/reent.h \
  /usr/include/newlib/_ansi.h /usr/include/newlib/sys/_types.h \
  /usr/include/newlib/machine/_types.h /usr/include/newlib/sys/lock.h

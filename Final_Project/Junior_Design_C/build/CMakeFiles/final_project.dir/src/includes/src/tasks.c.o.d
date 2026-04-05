@@ -97,8 +97,4 @@ CMakeFiles/final_project.dir/src/includes/src/tasks.c.o: \
  /home/sreer/Junior_Design/Final_Project/Junior_Design_C/src/includes/src/../chime.h \
  /home/sreer/pico/pico-sdk/src/rp2_common/hardware_spi/include/hardware/spi.h \
  /home/sreer/pico/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/spi.h \
- /home/sreer/pico/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/spi.h \
- /home/sreer/pico/pico-sdk/src/rp2_common/hardware_dma/include/hardware/dma.h \
- /home/sreer/pico/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/dma.h \
- /home/sreer/pico/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/dma.h \
- /home/sreer/pico/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/dma_debug.h
+ /home/sreer/pico/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/spi.h

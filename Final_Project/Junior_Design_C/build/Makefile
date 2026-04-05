@@ -1239,30 +1239,6 @@ home/sreer/pico/pico-sdk/src/rp2_common/hardware_divider/divider.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_divider/divider.c.s
 .PHONY : home/sreer/pico/pico-sdk/src/rp2_common/hardware_divider/divider.c.s
 
-home/sreer/pico/pico-sdk/src/rp2_common/hardware_dma/dma.o: home/sreer/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.o
-.PHONY : home/sreer/pico/pico-sdk/src/rp2_common/hardware_dma/dma.o
-
-# target to build an object file
-home/sreer/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.o
-.PHONY : home/sreer/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.o
-
-home/sreer/pico/pico-sdk/src/rp2_common/hardware_dma/dma.i: home/sreer/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.i
-.PHONY : home/sreer/pico/pico-sdk/src/rp2_common/hardware_dma/dma.i
-
-# target to preprocess a source file
-home/sreer/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.i
-.PHONY : home/sreer/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.i
-
-home/sreer/pico/pico-sdk/src/rp2_common/hardware_dma/dma.s: home/sreer/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.s
-.PHONY : home/sreer/pico/pico-sdk/src/rp2_common/hardware_dma/dma.s
-
-# target to generate assembly for a file
-home/sreer/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/final_project.dir/build.make CMakeFiles/final_project.dir/home/sreer/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.s
-.PHONY : home/sreer/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.s
-
 home/sreer/pico/pico-sdk/src/rp2_common/hardware_exception/exception.o: home/sreer/pico/pico-sdk/src/rp2_common/hardware_exception/exception.c.o
 .PHONY : home/sreer/pico/pico-sdk/src/rp2_common/hardware_exception/exception.o
 
@@ -2687,9 +2663,6 @@ help:
 	@echo "... home/sreer/pico/pico-sdk/src/rp2_common/hardware_divider/divider.o"
 	@echo "... home/sreer/pico/pico-sdk/src/rp2_common/hardware_divider/divider.i"
 	@echo "... home/sreer/pico/pico-sdk/src/rp2_common/hardware_divider/divider.s"
-	@echo "... home/sreer/pico/pico-sdk/src/rp2_common/hardware_dma/dma.o"
-	@echo "... home/sreer/pico/pico-sdk/src/rp2_common/hardware_dma/dma.i"
-	@echo "... home/sreer/pico/pico-sdk/src/rp2_common/hardware_dma/dma.s"
 	@echo "... home/sreer/pico/pico-sdk/src/rp2_common/hardware_exception/exception.o"
 	@echo "... home/sreer/pico/pico-sdk/src/rp2_common/hardware_exception/exception.i"
 	@echo "... home/sreer/pico/pico-sdk/src/rp2_common/hardware_exception/exception.s"
