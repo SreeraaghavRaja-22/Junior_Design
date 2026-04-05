@@ -10,6 +10,7 @@
 #include "includes/tasks.h"
 #include "hardware/i2c.h"
 #include "includes/lcd_init.h"
+#include "includes/chime.h"
 
 int main(void) {
     stdio_init_all();

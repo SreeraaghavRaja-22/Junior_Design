@@ -97,4 +97,8 @@ CMakeFiles/final_project.dir/src/main.c.o: \
  /home/sreer/pico/pico-sdk/src/rp2_common/hardware_i2c/include/hardware/i2c.h \
  /home/sreer/pico/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/i2c.h \
  /home/sreer/pico/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/i2c.h \
- /home/sreer/Junior_Design/Final_Project/Junior_Design_C/src/includes/lcd_init.h
+ /home/sreer/Junior_Design/Final_Project/Junior_Design_C/src/includes/lcd_init.h \
+ /home/sreer/Junior_Design/Final_Project/Junior_Design_C/src/includes/chime.h \
+ /home/sreer/pico/pico-sdk/src/rp2_common/hardware_spi/include/hardware/spi.h \
+ /home/sreer/pico/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/spi.h \
+ /home/sreer/pico/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/spi.h

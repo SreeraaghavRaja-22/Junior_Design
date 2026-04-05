@@ -13,7 +13,7 @@
 #define SPI_MOSI    19
 
 
-extern uint16_t sine_table[SAMPLE_COUNT];
+extern uint8_t sine_table[SAMPLE_COUNT * 2];
 extern int dma_channel;
 
 void generate_sine(void);
