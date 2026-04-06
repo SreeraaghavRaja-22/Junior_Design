@@ -12,6 +12,7 @@
 #include "includes/lcd_init.h"
 #include "includes/chime.h"
 
+
 int main(void) {
     stdio_init_all();
     sleep_ms(2000);
@@ -29,11 +30,12 @@ int main(void) {
     gpio_set_irq_enabled_with_callback(BUTTON_PIN, GPIO_IRQ_EDGE_FALL, true, &button_isr);
 
     // initialize threads
-    xTaskCreate(Heartbeat_Task, "HB",   512, NULL, 1, NULL);
-    xTaskCreate(Button_Task,    "BUTT", 512, NULL, 2, NULL);
-    xTaskCreate(Switch_Task,    "SWI",  512, NULL, 2, NULL);
+    xTaskCreate(Progress_Task,  "HB",   512, NULL, 1, &xProgressHandle);
+    xTaskCreate(Button_Task,    "BUTT", 512, NULL, 2, &xButtonHandle);
+    xTaskCreate(Switch_Task,    "SWI",  512, NULL, 2, &xSwitchHandle);
     xTaskCreate(Chime_Task,     "CHM",  512, NULL, 3, NULL);
     xTaskCreate(Photo_Task,     "PHO",  512, NULL, 1, NULL);
+    xTaskCreate(Log_Task,       "LOG",  512, NULL, 4, NULL);
 
     // start RTOS
     vTaskStartScheduler();

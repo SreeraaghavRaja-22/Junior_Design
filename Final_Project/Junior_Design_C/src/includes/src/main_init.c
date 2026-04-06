@@ -7,6 +7,7 @@
 void main_init(void){
     for(int i = LED1_PIN; i < LED1_PIN + 5; i++){initialize_leds(i);}
     for(int i = SWITCH1_PIN; i < SWITCH1_PIN + 4; i++){set_switch(i);}
+    set_switch(LOG_SWITCH);
     set_switch(BUTTON_PIN);
     adc_start();
     lcd_init();

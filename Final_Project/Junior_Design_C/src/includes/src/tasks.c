@@ -10,17 +10,29 @@
 #include "../lcd_init.h"
 #include "math.h"
 #include "../chime.h"
+#include "../tasks.h"
+
+TaskHandle_t xProgressHandle  = NULL;
+TaskHandle_t xButtonHandle    = NULL;
+TaskHandle_t xSwitchHandle    = NULL;
 
 // ----------------------- State Flags ----------------------- //
 volatile bool start_flag       = 0;  // when program starts
 volatile bool progress_flag    = 0;  // for the progress bar
 volatile bool genre_flag       = 0;  // for genre chooing
 volatile bool book_rec_flag    = 0;  // dark mode: book recommendation
+volatile int  log_inx          = 0;  // index to track current location in datamap
+volatile bool log_mode         = false; // suppress chime while browsing logs
 
 // ----------------------- Photo State ----------------------- //
 typedef enum { PHOTO_NORMAL, PHOTO_DARK, PHOTO_BRIGHT } photo_mode_t;
 volatile photo_mode_t photo_mode    = PHOTO_NORMAL;
 volatile bool         photo_enabled = true;
+
+// ----------------------- Log into MAP ----------------------- //
+char current_genre[16] = "Mystery";
+int current_progress   = 0;
+LibraryLog DataMap[MAX_MAP_SIZE];
 
 // ----------------------- LUTs ----------------------- //
 
@@ -72,8 +84,7 @@ static const char *bright_genres[16] = {
 };
 
 // ----------------------- Tasks ----------------------- //
-
-void Heartbeat_Task(void *pvParameters) {
+void Progress_Task(void *pvParameters) {
     bool rst = 0;
     int prev_leds_on = 0;
     char buf[16];
@@ -99,6 +110,7 @@ void Heartbeat_Task(void *pvParameters) {
             if(abs(prev_leds_on - leds_on) >= 1){
                 int percent = leds_on * 20;
                 snprintf(buf, sizeof(buf), "Progress: %d%%", percent);
+                current_progress = percent;
                 lcd_clear();
                 lcd_print(buf);
             }
@@ -128,7 +140,7 @@ void Button_Task(void *pvParameters){
     for(;;){
         if(xSemaphoreTake(xButtonSemaphore, portMAX_DELAY) == pdTRUE){
             vTaskDelay(pdMS_TO_TICKS(100)); // debounce
-            if(!gpio_get(BUTTON_PIN)){
+            if(!gpio_get(BUTTON_PIN) && !log_mode){
                 if(!start_flag){
                     // --- Entry: choose path based on light condition ---
                     start_flag = 1;
@@ -160,6 +172,9 @@ void Button_Task(void *pvParameters){
                             progress_flag = 0;
                             start_flag    = 0;
                             photo_enabled = true;
+                            DataMap[log_inx].progress = current_progress;
+                            snprintf(DataMap[log_inx].genre, 16, "%s", current_genre);
+                            log_inx = (log_inx + 1) % MAX_MAP_SIZE;
                             xSemaphoreGive(xChimeSemaphore);
                         }
                     }
@@ -176,12 +191,14 @@ void Button_Task(void *pvParameters){
 }
 
 void Switch_Task(void *pvParameters){
-    uint8_t last_state = 0xFF; // 0xFF forces display refresh on first entry
+    uint8_t last_state = 0xFF; // used to only refresh LCD when necessary
+    uint8_t log_switch;
 
-    // tracks which mode we were in last iteration to detect transitions
+    // different genres
     typedef enum { SW_BOOK_REC, SW_GENRE, SW_IDLE } sw_mode_t;
-    sw_mode_t prev_mode  = SW_IDLE;
-    bool      use_bright = false; // snapshotted at SW_GENRE entry
+    sw_mode_t prev_mode = SW_IDLE;
+    bool use_bright = false; 
+    const char* genre;
 
     for(;;){
         uint8_t switches = 0;
@@ -223,22 +240,29 @@ void Switch_Task(void *pvParameters){
             if(switches != last_state){
                 last_state = switches;
                 lcd_clear();
-                lcd_print(use_bright ? bright_genres[switches] : genres[switches]);
+                genre = use_bright ? bright_genres[switches] : genres[switches];
+                lcd_print(genre);
+                snprintf(current_genre, 16, "%s", genre);
             }
         }
         else{ // SW_IDLE
         }
+
+        vTaskDelay(pdMS_TO_TICKS(50));
     }
+
 }
 
 void Chime_Task(void *pvParameters){
     for(;;){
         if(xSemaphoreTake(xChimeSemaphore, portMAX_DELAY) == pdTRUE){
-            chime_start(CHIME_SAMPLE_RATE);
-            while(!start_flag){
-                vTaskDelay(pdMS_TO_TICKS(100));
+            if(!log_mode){
+                chime_start(CHIME_SAMPLE_RATE);
+                while(!start_flag && !log_mode){
+                    vTaskDelay(pdMS_TO_TICKS(100));
+                }
+                chime_stop();
             }
-            chime_stop();
         }
     }
 }
@@ -263,5 +287,53 @@ void Photo_Task(void *pvParameters){
             }
         }
         vTaskDelay(pdMS_TO_TICKS(200));
+    }
+}
+
+
+void Log_Task(void *pvParameters) {
+    for (;;) {
+        // Wait until GP6 is high
+        if (gpio_get(LOG_SWITCH)) {
+            vTaskDelay(pdMS_TO_TICKS(50)); // Debounce
+            if (gpio_get(LOG_SWITCH)) {
+
+                log_mode = true;
+                chime_stop();
+
+                printf("GET FRICKED!");
+
+                if (log_inx == 0) {
+                    lcd_clear();
+                    lcd_print("No Logs Found");
+                    vTaskDelay(pdMS_TO_TICKS(1500));
+                } else {
+                    int i = 0;
+                    while (i < log_inx && gpio_get(LOG_SWITCH)) {
+                        lcd_clear();
+                        lcd_print(DataMap[i].genre);
+
+                        lcd_set_cursor(1, 0);
+                        char buf[16];
+                        snprintf(buf, sizeof(buf), "Prog: %d%%", DataMap[i].progress);
+                        lcd_print(buf);
+
+                        i++;
+                        vTaskDelay(pdMS_TO_TICKS(1500));
+                    }
+                }
+
+                // Wait for switch release before restoring display
+                while(gpio_get(LOG_SWITCH)){
+                    vTaskDelay(pdMS_TO_TICKS(50));
+                }
+                log_mode = false;
+                lcd_clear();
+                lcd_print("Luminous Library");
+
+            }
+        }
+        // Check every 100ms so we don't waste CPU
+        vTaskDelay(pdMS_TO_TICKS(100));
     }
 }

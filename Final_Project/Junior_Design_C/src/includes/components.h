@@ -9,6 +9,7 @@
 #define SWITCH2_PIN 1
 #define SWITCH3_PIN 2
 #define SWITCH4_PIN 3
+#define LOG_SWITCH  6
 
 #define LED1_PIN    9
 #define LED2_PIN    10
