@@ -11,5 +11,6 @@ void button_isr(uint gpio, uint32_t events);
 void Button_Task(void *pvParameters);
 void Switch_Task(void *pvParameters);
 void Chime_Task(void *pvParameters);
+void Photo_Task(void *pvParameters);
 
 #endif /*_TASKS_H*/

@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.13)
-set(PICO_BOARD pico2_w)
+set(PICO_BOARD pico2_w) # Keep this as is for the RP2350
 
 set(FREERTOS_KERNEL_PATH /home/sreer/pico/FreeRTOS-Kernel)
 set(FREERTOS_CONFIG_FILE_DIRECTORY ${CMAKE_CURRENT_LIST_DIR}/src)
@@ -27,7 +27,7 @@ target_link_libraries(final_project
     hardware_i2c
     hardware_spi
     hardware_timer
-FreeRTOS-Kernel
+    FreeRTOS-Kernel
     FreeRTOS-Kernel-Heap4
 )
 

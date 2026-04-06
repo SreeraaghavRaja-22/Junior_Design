@@ -33,8 +33,7 @@ void chime_stop(void){
 }
 
 void spi_start(void){
-    // initialize SPI0 with a clock freq of 1.8M
-    spi_init(SPI_PORT, 8000 * 1000);
+    spi_init(SPI_PORT, 2000 * 1000);
     spi_set_format(SPI_PORT, 8, SPI_CPOL_0, SPI_CPHA_0, SPI_MSB_FIRST);
     // set all the used pins
     gpio_set_function(SPI_SCK,  GPIO_FUNC_SPI);
@@ -51,8 +50,10 @@ void spi_start(void){
 void generate_sine(void){
     for(int i = 0; i < SAMPLE_COUNT; i++){
         float s = sinf(2.0f * M_PI * i / SAMPLE_COUNT);
-        uint16_t sample = (uint16_t)((s + 1.0f) / 2.0f * 4095.0f);
-        uint16_t word = 0x3000 | (sample & 0x0FFF);
+        uint16_t sample = (uint16_t)((s + 1.0f) / 2.0f * 1023.0f); // 10-bit
+        // LTC1661: [A3 A2 A1 A0 | D9..D0 | X X]
+        // 0xF000 = write+update both DACs, data in bits 11-2
+        uint16_t word = 0xF000 | ((sample & 0x3FF) << 2);
         sine_table[i * 2]     = (word >> 8) & 0xFF;
         sine_table[i * 2 + 1] = word & 0xFF;
     }

@@ -8,6 +8,7 @@
 extern SemaphoreHandle_t xButtonSemaphore;
 extern SemaphoreHandle_t xLedMutex;
 extern SemaphoreHandle_t xChimeSemaphore;
+extern SemaphoreHandle_t xADCMutex;
 
 
 #endif /*_SEMAPHORES_H */
