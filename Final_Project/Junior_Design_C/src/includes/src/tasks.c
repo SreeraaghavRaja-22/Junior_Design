@@ -301,8 +301,6 @@ void Log_Task(void *pvParameters) {
                 log_mode = true;
                 chime_stop();
 
-                printf("GET FRICKED!");
-
                 if (log_inx == 0) {
                     lcd_clear();
                     lcd_print("No Logs Found");
